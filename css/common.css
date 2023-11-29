@@ -28,7 +28,26 @@ add '-up' if you want (min-width: $point) and leave with no suffix for (max-widt
   --font-mono: "Helvetica", SFMono-Regular, Menlo, Monaco, Consolas,
       "Liberation Mono", "Courier New", monospace;
   --font-size: 16px;
-  --text-color: var(--bs-gray-800);
+  /**/
+  --content-max-width: 568px;
+  --header-height: 60px;
+  --page-max-width: 768px;
+  --side-padding: 20px;
+  /**/
+  --accent-color: var(--orange);
+  --border-color: var(--grey);
+  --header-bg-color: var(--brown);
+  --index-bg-color: var(--beige);
+  --text-color: var(--dark-grey);
+  --title-color: var(--dark);
+  /**/
+  --beige: #FFFAED;
+  --brown: #26231B;
+  --dark: #000;
+  --dark-grey: #515151;
+  --grey: #A4A4A4;
+  --orange: #F5C149;
+  /* Outdated below */
   --author-text: #c0c0c0;
   --heading-color: var(--bs-gray-600);
   --verse-number-color: #737373;
@@ -41,8 +60,7 @@ add '-up' if you want (min-width: $point) and leave with no suffix for (max-widt
   --header-top-color: #00160e;
   --main-content-padding: 32px;
   --main-content-width: calc(1200px - 2 * var(--main-content-padding));
-  --header-height: 60px;
-  --song-content-padding: 20px;
+  --song-content-padding: 16px;
   --song-bg-color: #fff;
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -175,6 +193,10 @@ add '-up' if you want (min-width: $point) and leave with no suffix for (max-widt
   }
 }
 
+* {
+  box-sizing: border-box;
+}
+
 body,
 html {
   height: 100%;
@@ -186,6 +208,7 @@ body {
   font-size: var(--font-size);
   font-weight: 400;
   line-height: 1.5;
+  letter-spacing: 0.64px;
   color: var(--text-color);
   background-color: var(--body-bg);
 }
@@ -258,10 +281,12 @@ p {
 }
 
 .Layout {
-  display: flex;
-  flex-direction: column;
   height: 100%;
   overflow: hidden;
+}
+.Layout__content {
+  height: 100%;
+  overflow: auto;
 }
 
 .Main {

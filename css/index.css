@@ -48,7 +48,26 @@ add '-up' if you want (min-width: $point) and leave with no suffix for (max-widt
   --font-mono: "Helvetica", SFMono-Regular, Menlo, Monaco, Consolas,
       "Liberation Mono", "Courier New", monospace;
   --font-size: 16px;
-  --text-color: var(--bs-gray-800);
+  /**/
+  --content-max-width: 568px;
+  --header-height: 60px;
+  --page-max-width: 768px;
+  --side-padding: 20px;
+  /**/
+  --accent-color: var(--orange);
+  --border-color: var(--grey);
+  --header-bg-color: var(--brown);
+  --index-bg-color: var(--beige);
+  --text-color: var(--dark-grey);
+  --title-color: var(--dark);
+  /**/
+  --beige: #FFFAED;
+  --brown: #26231B;
+  --dark: #000;
+  --dark-grey: #515151;
+  --grey: #A4A4A4;
+  --orange: #F5C149;
+  /* Outdated below */
   --author-text: #c0c0c0;
   --heading-color: var(--bs-gray-600);
   --verse-number-color: #737373;
@@ -61,8 +80,7 @@ add '-up' if you want (min-width: $point) and leave with no suffix for (max-widt
   --header-top-color: #00160e;
   --main-content-padding: 32px;
   --main-content-width: calc(1200px - 2 * var(--main-content-padding));
-  --header-height: 60px;
-  --song-content-padding: 20px;
+  --song-content-padding: 16px;
   --song-bg-color: #fff;
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -195,6 +213,10 @@ add '-up' if you want (min-width: $point) and leave with no suffix for (max-widt
   }
 }
 
+* {
+  box-sizing: border-box;
+}
+
 body,
 html {
   height: 100%;
@@ -206,6 +228,7 @@ body {
   font-size: var(--font-size);
   font-weight: 400;
   line-height: 1.5;
+  letter-spacing: 0.64px;
   color: var(--text-color);
   background-color: var(--body-bg);
 }
@@ -278,10 +301,12 @@ p {
 }
 
 .Layout {
-  display: flex;
-  flex-direction: column;
   height: 100%;
   overflow: hidden;
+}
+.Layout__content {
+  height: 100%;
+  overflow: auto;
 }
 
 .Main {
@@ -305,7 +330,7 @@ p {
 
 @font-face {
   font-family: "icomoon";
-  src: url("icomoon.woff?1kfyux") format("woff");
+  src: url("icomoon.woff?o4k3s1") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -325,156 +350,20 @@ p {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-add:before {
+.icon-arrow-left:before {
   content: "\e900";
 }
 
-.icon-arrow_back:before {
+.icon-chevron-right:before {
   content: "\e901";
 }
 
-.icon-arrow_forward:before {
+.icon-copy:before {
   content: "\e902";
 }
 
-.icon-article:before {
+.icon-share:before {
   content: "\e903";
-}
-
-.icon-assignment:before {
-  content: "\e904";
-}
-
-.icon-auto_stories:before {
-  content: "\e905";
-}
-
-.icon-brand_awareness:before {
-  content: "\e906";
-}
-
-.icon-brightness:before {
-  content: "\e907";
-}
-
-.icon-celebration:before {
-  content: "\e908";
-}
-
-.icon-cheer:before {
-  content: "\e909";
-}
-
-.icon-close:before {
-  content: "\e90a";
-}
-
-.icon-content_copy:before {
-  content: "\e90b";
-}
-
-.icon-description:before {
-  content: "\e90c";
-}
-
-.icon-diamond:before {
-  content: "\e90d";
-}
-
-.icon-done:before {
-  content: "\e90e";
-}
-
-.icon-eco:before {
-  content: "\e90f";
-}
-
-.icon-emoji_nature:before {
-  content: "\e910";
-}
-
-.icon-expand:before {
-  content: "\e911";
-}
-
-.icon-favorite:before {
-  content: "\e912";
-}
-
-.icon-feed:before {
-  content: "\e913";
-}
-
-.icon-filter_vintage_2:before {
-  content: "\e914";
-}
-
-.icon-filter_vintage:before {
-  content: "\e915";
-}
-
-.icon-flag:before {
-  content: "\e916";
-}
-
-.icon-flare:before {
-  content: "\e917";
-}
-
-.icon-folded_hands:before {
-  content: "\e918";
-}
-
-.icon-globe:before {
-  content: "\e919";
-}
-
-.icon-home:before {
-  content: "\e91a";
-}
-
-.icon-kid_star:before {
-  content: "\e91b";
-}
-
-.icon-menu:before {
-  content: "\e91c";
-}
-
-.icon-more_vert:before {
-  content: "\e91d";
-}
-
-.icon-nest_eco_leaf:before {
-  content: "\e91e";
-}
-
-.icon-nightlight:before {
-  content: "\e91f";
-}
-
-.icon-psychiatry:before {
-  content: "\e920";
-}
-
-.icon-search:before {
-  content: "\e921";
-}
-
-.icon-spa:before {
-  content: "\e922";
-}
-
-.icon-summarize:before {
-  content: "\e923";
-}
-
-.icon-view_timeline:before {
-  content: "\e924";
-}
-
-.icon-wb_sunny:before {
-  content: "\e925";
 }
 
 /*
@@ -507,7 +396,26 @@ add '-up' if you want (min-width: $point) and leave with no suffix for (max-widt
   --font-mono: "Helvetica", SFMono-Regular, Menlo, Monaco, Consolas,
       "Liberation Mono", "Courier New", monospace;
   --font-size: 16px;
-  --text-color: var(--bs-gray-800);
+  /**/
+  --content-max-width: 568px;
+  --header-height: 60px;
+  --page-max-width: 768px;
+  --side-padding: 20px;
+  /**/
+  --accent-color: var(--orange);
+  --border-color: var(--grey);
+  --header-bg-color: var(--brown);
+  --index-bg-color: var(--beige);
+  --text-color: var(--dark-grey);
+  --title-color: var(--dark);
+  /**/
+  --beige: #FFFAED;
+  --brown: #26231B;
+  --dark: #000;
+  --dark-grey: #515151;
+  --grey: #A4A4A4;
+  --orange: #F5C149;
+  /* Outdated below */
   --author-text: #c0c0c0;
   --heading-color: var(--bs-gray-600);
   --verse-number-color: #737373;
@@ -520,8 +428,7 @@ add '-up' if you want (min-width: $point) and leave with no suffix for (max-widt
   --header-top-color: #00160e;
   --main-content-padding: 32px;
   --main-content-width: calc(1200px - 2 * var(--main-content-padding));
-  --header-height: 60px;
-  --song-content-padding: 20px;
+  --song-content-padding: 16px;
   --song-bg-color: #fff;
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;

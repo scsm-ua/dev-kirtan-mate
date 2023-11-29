@@ -13,86 +13,32 @@
 
     <body>
         <div class="Layout">
-            <header class="HeaderDesktop">
+            <div class="Layout__content">
+                <header class="Header">
     <link
         rel="stylesheet"
-        href="../css/partials/header-desktop.css"
+        href="../css/partials/header.css"
     />
 
-    <div class="HeaderDesktop__top">
-        <div class="HeaderDesktop__fill"></div>
-        <div class="HeaderDesktop__background"></div>
-        <div class="HeaderDesktop__ribbon"></div>
-    </div>
-
-    <div class="HeaderDesktop__container">
-        <div class="HeaderDesktop__content">
-            <a href="https://scsm-ua.github.io/dev-kirtan-mate" class="HeaderDesktop__home">
-                <div class="HeaderDesktop__logo">
-                    <img
-                        src="../icons/peacock-logo-2.jpg"
-                        alt="Home"
-                    />
-                </div>
-                <div class="HeaderDesktop__title">
-                    <img
-                        src="../icons/svg/kirtan-mate.svg"
-                        alt="Home"
-                    />
-                </div>
+    <div class="Header__container">
+        <div class="Header__content">
+            <a href="https://scsm-ua.github.io/dev-kirtan-mate" class="Header__home">
+                <img
+                    alt="Home"
+                    class="Header__logo"
+                    src="../icons/svg/kirtan-mate.svg"
+                />
             </a>
-
-            <!--                    <div class="HeaderDesktop__search">-->
-            <!--                        <img src="../icons/svg/search.svg" alt="Home">-->
-            <!--                    </div>-->
         </div>
     </div>
 </header>
 
 
-            <main class="Main SongPage">
-                <header class="HeaderMobile">
-    <link
-        rel="stylesheet"
-        href="../css/partials/header-mobile.css"
-    />
-
-    <!--  <div class="HeaderMobile__top">-->
-    <!--    <div class="HeaderMobile__fill"></div>-->
-    <!--    <div class="HeaderMobile__background"></div>-->
-    <!--  </div>-->
-
-    <div class="HeaderMobile__container">
-        <div class="HeaderMobile__ribbon">
-            <div class="HeaderMobile__content">
-                <a href="https://scsm-ua.github.io/dev-kirtan-mate" class="HeaderMobile__home">
-                    <div class="HeaderMobile__logo">
-                        <img
-                            src="../icons/peacock-logo-2.jpg"
-                            alt="Home"
-                        />
-                    </div>
-                    <div class="HeaderMobile__title">
-                        <img
-                            src="../icons/svg/kirtan-mate.svg"
-                            alt="Home"
-                        />
-                    </div>
-                </a>
-
-                <!--                    <div class="HeaderMobile__search">-->
-                <!--                        <img src="../icons/svg/search.svg" alt="Home">-->
-                <!--                    </div>-->
-            </div>
-        </div>
-    </div>
-</header>
-
-
-                <div class="Main__container SongPage__container">
-                    <header class="SongPage__header">
-                        <div class="SongPage__back">
-                            <div class="ReturnHome">
+                <main class="Main SongPage">
+                    <div class="Main__container SongPage__container">
+                        <header class="SongPage__header">
+                            <div class="SongPage__back">
+                                <div class="ReturnHome">
     <link rel="stylesheet" href="../css/partials/return-home.css" />
     <a class="ReturnHome__anchor" href="https://scsm-ua.github.io/dev-kirtan-mate">
         <span class="ReturnHome__icon icon-arrow_back"></span>
@@ -100,11 +46,11 @@
     </a>
 </div>
 
-                        </div>
-                    </header>
+                            </div>
+                        </header>
 
-                    <div class="SongPage__content">
-                        
+                        <div class="SongPage__content">
+                            
     <div class="Song__header"><h1>Шрī Шрī Ґурва̄штака</h1>
 <div class="Song__author">Шрīла Вішвана̄тх Чакравартī Тха̄кур</div>
                 </div>
@@ -200,9 +146,9 @@
 <p><strong><em>Примітка:</em></strong> Брахма-мухурта - девʼяносто шість хвилин перед сходом сонця.</p>
 </div>
   
-                    </div>
+                        </div>
 
-                    <div class="SongShare">
+                        <div class="SongShare">
     <link rel="stylesheet" href="../css/partials/song-share.css" />
 
     <div class="SongShare__container">
@@ -266,7 +212,7 @@
     </div>
 </div>
 
-                    <div class="PrevNext">
+                        <div class="PrevNext">
     <link rel="stylesheet" href="../css/partials/prev-next.css" />
 
     <div class="PrevNext__container">
@@ -332,15 +278,11 @@
 
             prevBtn.addEventListener(
                 'click',
-                () =>
-                    (window.location =
-                        items[prevIndex].fileName)
+                () => (window.location = items[prevIndex].fileName)
             );
             nextBtn.addEventListener(
                 'click',
-                () =>
-                    (window.location =
-                        items[nextIndex].fileName)
+                () => (window.location = items[nextIndex].fileName)
             );
         } catch (e) {
             window.console.error(e);
@@ -348,10 +290,11 @@
     </script>
 </div>
 
-                </div>
-            </main>
+                    </div>
+                </main>
 
-            <!--        <footer class="SongPage__footer"></footer>-->
+                <!--        <footer class="SongPage__footer"></footer>-->
+            </div>
         </div>
     </body>
 </html>

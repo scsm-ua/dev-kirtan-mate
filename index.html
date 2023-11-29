@@ -10,49 +10,69 @@
     </head>
     <body>
         <div class="Layout">
-            <header class="HeaderDesktop">
+            <div class="Layout__content">
+                <header class="Header">
     <link
         rel="stylesheet"
-        href="css/partials/header-desktop.css"
+        href="css/partials/header.css"
     />
 
-    <div class="HeaderDesktop__top">
-        <div class="HeaderDesktop__fill"></div>
-        <div class="HeaderDesktop__background"></div>
-        <div class="HeaderDesktop__ribbon"></div>
-    </div>
-
-    <div class="HeaderDesktop__container">
-        <div class="HeaderDesktop__content">
-            <a href="https://scsm-ua.github.io/dev-kirtan-mate" class="HeaderDesktop__home">
-                <div class="HeaderDesktop__logo">
-                    <img
-                        src="icons/peacock-logo-2.jpg"
-                        alt="Home"
-                    />
-                </div>
-                <div class="HeaderDesktop__title">
-                    <img
-                        src="icons/svg/kirtan-mate.svg"
-                        alt="Home"
-                    />
-                </div>
+    <div class="Header__container">
+        <div class="Header__content">
+            <a href="https://scsm-ua.github.io/dev-kirtan-mate" class="Header__home">
+                <img
+                    alt="Home"
+                    class="Header__logo"
+                    src="icons/svg/kirtan-mate.svg"
+                />
             </a>
-
-            <!--                    <div class="HeaderDesktop__search">-->
-            <!--                        <img src="../icons/svg/search.svg" alt="Home">-->
-            <!--                    </div>-->
         </div>
     </div>
 </header>
 
+                <div class="Navigation">
+    <link
+        rel="stylesheet"
+        href="css/partials/navigation.css"
+    />
 
-            <main class="Main HomePage">
-                <div class="Main__container HomePage__container">
-                    <div class="HomePage__content">
-                        <ul class="HomePage__categories">
-                            
-                            <li class="CategoryItem">
+    <div class="Navigation__container">
+        <div class="Navigation__content">
+            <a href="https://scsm-ua.github.io/dev-kirtan-mate" class="Navigation__link">
+<!--            <a href="/md-parser-test/docs/index.html" class="Navigation__link">-->
+                <div class="Navigation__text">
+                    Зміст
+                </div>
+            </a>
+
+            <a href="docs/index_list.html" class="Navigation__link">
+                <div class="Navigation__text">
+                    Індекс
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <script>
+        Array.from(
+            document.getElementsByClassName('Navigation__link')
+        ).forEach((el) => {
+            console.log(el.href, location.pathname)
+            if (el.href.endsWith(location.pathname)) {
+                el.classList.add('Navigation__link--active');
+            }
+        });
+
+    </script>
+</div>
+
+
+                <main class="Main HomePage">
+                    <div class="Main__container HomePage__container">
+                        <div class="HomePage__content">
+                            <ul class="HomePage__categories">
+                                
+                                <li class="CategoryItem">
     <link
         rel="stylesheet"
         href="css/partials/category-item.css"
@@ -101,8 +121,8 @@
     </ul>
 </li>
 
-                            
-                            <li class="CategoryItem">
+                                
+                                <li class="CategoryItem">
     <link
         rel="stylesheet"
         href="css/partials/category-item.css"
@@ -207,8 +227,8 @@
     </ul>
 </li>
 
-                            
-                            <li class="CategoryItem">
+                                
+                                <li class="CategoryItem">
     <link
         rel="stylesheet"
         href="css/partials/category-item.css"
@@ -271,8 +291,8 @@
     </ul>
 </li>
 
-                            
-                            <li class="CategoryItem">
+                                
+                                <li class="CategoryItem">
     <link
         rel="stylesheet"
         href="css/partials/category-item.css"
@@ -321,8 +341,8 @@
     </ul>
 </li>
 
-                            
-                            <li class="CategoryItem">
+                                
+                                <li class="CategoryItem">
     <link
         rel="stylesheet"
         href="css/partials/category-item.css"
@@ -371,8 +391,8 @@
     </ul>
 </li>
 
-                            
-                            <li class="CategoryItem">
+                                
+                                <li class="CategoryItem">
     <link
         rel="stylesheet"
         href="css/partials/category-item.css"
@@ -421,8 +441,8 @@
     </ul>
 </li>
 
-                            
-                            <li class="CategoryItem">
+                                
+                                <li class="CategoryItem">
     <link
         rel="stylesheet"
         href="css/partials/category-item.css"
@@ -471,11 +491,12 @@
     </ul>
 </li>
 
-                            
-                        </ul>
+                                
+                            </ul>
+                        </div>
                     </div>
-                </div>
-            </main>
+                </main>
+            </div>
         </div>
     </body>
 </html>

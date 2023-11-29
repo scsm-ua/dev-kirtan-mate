@@ -28,7 +28,26 @@ add '-up' if you want (min-width: $point) and leave with no suffix for (max-widt
   --font-mono: "Helvetica", SFMono-Regular, Menlo, Monaco, Consolas,
       "Liberation Mono", "Courier New", monospace;
   --font-size: 16px;
-  --text-color: var(--bs-gray-800);
+  /**/
+  --content-max-width: 568px;
+  --header-height: 60px;
+  --page-max-width: 768px;
+  --side-padding: 20px;
+  /**/
+  --accent-color: var(--orange);
+  --border-color: var(--grey);
+  --header-bg-color: var(--brown);
+  --index-bg-color: var(--beige);
+  --text-color: var(--dark-grey);
+  --title-color: var(--dark);
+  /**/
+  --beige: #FFFAED;
+  --brown: #26231B;
+  --dark: #000;
+  --dark-grey: #515151;
+  --grey: #A4A4A4;
+  --orange: #F5C149;
+  /* Outdated below */
   --author-text: #c0c0c0;
   --heading-color: var(--bs-gray-600);
   --verse-number-color: #737373;
@@ -41,8 +60,7 @@ add '-up' if you want (min-width: $point) and leave with no suffix for (max-widt
   --header-top-color: #00160e;
   --main-content-padding: 32px;
   --main-content-width: calc(1200px - 2 * var(--main-content-padding));
-  --header-height: 60px;
-  --song-content-padding: 20px;
+  --song-content-padding: 16px;
   --song-bg-color: #fff;
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -175,46 +193,37 @@ add '-up' if you want (min-width: $point) and leave with no suffix for (max-widt
   }
 }
 
-@media screen and (min-width: 768px) {
-  .HeaderMobile {
-    display: none;
-  }
+.Navigation {
+  background-color: var(--index-bg-color);
 }
-.HeaderMobile__container {
-  height: 180px;
-  position: relative;
-  background: top/cover no-repeat url("../../icons/background.jpg");
+.Navigation__container {
+  margin: 0 auto;
+  max-width: var(--content-max-width);
 }
-.HeaderMobile__ribbon {
-  position: absolute;
-  top: 0;
-  width: 100%;
-  height: var(--header-height);
-  background-color: var(--header-top-color);
-  opacity: 0.8;
-}
-.HeaderMobile__content {
-  height: 100%;
-  padding: 0 16px;
-}
-.HeaderMobile__home {
+.Navigation__content {
   display: flex;
   align-items: center;
-  flex-direction: row;
-  height: 100%;
-  width: fit-content;
+  justify-content: space-around;
+  padding: 24px var(--side-padding);
 }
-.HeaderMobile__logo {
+.Navigation__link {
   height: 36px;
-  width: 36px;
-  border-radius: 50%;
-  overflow: hidden;
+  width: 152px;
+  border-radius: 100px;
+  color: #000;
+  font-weight: 300;
+  background-color: white;
+  box-shadow: 0px 4px 20px 0px rgba(56, 55, 142, 0.15);
 }
-.HeaderMobile__logo img {
-  width: 100%;
-  filter: brightness(1.5);
+.Navigation__link--active {
+  cursor: default;
+  color: white;
+  font-weight: 700;
+  box-shadow: none;
+  background-color: var(--header-bg-color);
 }
-.HeaderMobile__title {
-  margin-left: 8px;
-  margin-top: 5px;
+.Navigation__text {
+  line-height: 39px;
+  text-align: center;
+  text-transform: uppercase;
 }
