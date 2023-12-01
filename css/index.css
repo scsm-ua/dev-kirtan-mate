@@ -309,12 +309,14 @@ p {
   margin-bottom: 1rem;
 }
 
+/**/
 .ellipsis {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 
+/**/
 .Layout {
   height: 100%;
   overflow: hidden;
@@ -324,6 +326,7 @@ p {
   overflow: auto;
 }
 
+/**/
 .Main {
   min-height: 100%;
 }
@@ -336,7 +339,7 @@ p {
   align-items: center;
   flex-direction: column;
   justify-content: space-around;
-  padding: 24px var(--side-padding);
+  padding: 0px var(--side-padding) 24px;
 }
 
 @font-face {

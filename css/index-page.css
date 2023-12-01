@@ -1,7 +1,7 @@
-.IndexListPage {
+.IndexPage {
   background-color: var(--index-bg-color);
 }
-.IndexListPage__list {
+.IndexPage__list {
   list-style-type: none;
   margin: 0;
   padding: 0;
