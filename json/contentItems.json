@@ -1,7 +1,7 @@
 [
   {
     "name": "Вступ",
-    "icon": "",
+    "icon": null,
     "items": [
       {
         "name": "Пан̃ча-таттва мантра",
@@ -17,11 +17,11 @@
   },
   {
     "name": "Ранкове Араті і програма",
-    "icon": "brightness",
+    "icon": null,
     "items": [
       {
         "name": "Прабга̄ті Ґīті",
-        "aliasName": "    калі-куккура-кадана джаді ча̄о хе",
+        "aliasName": "калі-куккура-кадана джаді ча̄о хе",
         "fileName": "kali-kukkura-kadana-jadi-chhao-he-kaliyuga-pavana-kali-bhaya-nashiana.html"
       },
       {
@@ -53,7 +53,7 @@
   },
   {
     "name": "Вечірнє Араті",
-    "icon": "nightlight",
+    "icon": null,
     "items": [
       {
         "name": "Шрī Ґовінда Кунда Ґупта-Ґовардган А̄раті",
@@ -74,7 +74,7 @@
   },
   {
     "name": "Вчителям",
-    "icon": "",
+    "icon": null,
     "items": [
       {
         "name": "Шрī Ґуру Āраті",
@@ -90,7 +90,7 @@
   },
   {
     "name": "Нітьянанді",
-    "icon": "diamond",
+    "icon": null,
     "items": [
       {
         "name": "Акрохдха Парамананада",
@@ -106,7 +106,7 @@
   },
   {
     "name": "Шрі Чайтаньї Махапрабгу",
-    "icon": "",
+    "icon": null,
     "items": [
       {
         "name": "Авата̄ра Са̄ра",
@@ -122,7 +122,7 @@
   },
   {
     "name": "Інші бгаджани",
-    "icon": "",
+    "icon": null,
     "items": [
       {
         "name": "Бгаджаху Ре Мана",

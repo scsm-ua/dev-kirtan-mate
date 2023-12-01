@@ -1,20 +1,35 @@
-.ButtonRound {
+.RoundButton {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 56px;
-  width: 56px;
-  padding: 10px;
   border-radius: 50%;
   border: none;
-  transition: all 0.4s;
+  transition: all 0.3s;
   cursor: pointer;
-  color: white;
+  /**/
+  /**/
 }
-.ButtonRound--green {
+.RoundButton--L {
+  height: 40px;
+  min-width: 40px;
+  width: 40px;
+  padding: 8px;
+  font-size: 16px;
+}
+.RoundButton--dark {
+  color: white;
+  background: var(--brown);
+}
+.RoundButton--dark:hover {
+  color: var(--accent-color);
+}
+.RoundButton--dark:active {
+  filter: brightness(2);
+}
+.RoundButton--green {
   background-color: #008353;
 }
-.ButtonRound--green:hover {
+.RoundButton--green:hover {
   background-color: rgba(0, 131, 83, 0.8);
 }
 
@@ -310,22 +325,18 @@ p {
 }
 
 .Main {
-  flex: 1;
-  height: 100%;
-  overflow: auto;
-}
-@media screen and (min-width: 768px) {
-  .Main {
-    height: calc(100% - var(--header-height));
-  }
+  min-height: 100%;
 }
 .Main__container {
-  padding: 0;
+  margin: 0 auto;
+  max-width: var(--content-max-width);
 }
-@media screen and (min-width: 768px) {
-  .Main__container {
-    padding: 0 var(--main-content-padding);
-  }
+.Main__content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 24px var(--side-padding);
 }
 
 @font-face {

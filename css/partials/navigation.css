@@ -203,12 +203,17 @@ add '-up' if you want (min-width: $point) and leave with no suffix for (max-widt
 .Navigation__content {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   padding: 24px var(--side-padding);
+}
+@media screen and (min-width: 480px) {
+  .Navigation__content {
+    justify-content: space-around;
+  }
 }
 .Navigation__link {
   height: 36px;
-  width: 152px;
+  width: 150px;
   border-radius: 100px;
   color: #000;
   font-weight: 300;

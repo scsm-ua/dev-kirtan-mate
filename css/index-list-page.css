@@ -1,0 +1,9 @@
+.IndexListPage {
+  background-color: var(--index-bg-color);
+}
+.IndexListPage__list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
