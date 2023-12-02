@@ -1,11 +1,7 @@
 .RoundButton {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   border-radius: 50%;
   border: none;
-  transition: all 0.3s;
-  cursor: pointer;
+  /**/
   /**/
   /**/
 }
@@ -31,4 +27,14 @@
 }
 .RoundButton--green:hover {
   background-color: rgba(0, 131, 83, 0.8);
+}
+
+/**/
+.AppButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s;
+  cursor: pointer;
+  font-family: var(--font-main);
 }
