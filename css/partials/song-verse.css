@@ -46,3 +46,9 @@
   line-height: 24px;
   margin-bottom: 24px;
 }
+.SongVerse__term {
+  font-weight: 400;
+}
+.SongVerse__note {
+  font-weight: 600;
+}
