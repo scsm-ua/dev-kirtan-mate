@@ -12,49 +12,121 @@
     </url>
     
                 <url>
-                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/pancha-tattva.html</loc>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/vande-ham-shri-guroh-shri-yuta-pada-kamalam.html</loc>
                     <changefreq>weekly</changefreq>
                     <priority>0.8</priority>
                 </url>
             
                 <url>
-                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/hare-krishna.html</loc>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/vande-vaikuntha-vrytti-stham.html</loc>
                     <changefreq>weekly</changefreq>
                     <priority>0.8</priority>
                 </url>
             
                 <url>
-                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/kali-kukkura-kadana-jadi-chhao-he-kaliyuga-pavana-kali-bhaya-nashiana.html</loc>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/goswaminam-sudhirakhyam.html</loc>
                     <changefreq>weekly</changefreq>
                     <priority>0.8</priority>
                 </url>
             
                 <url>
-                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/jaya-shiachinandana-sura-muni-vandana-bhava-bhaya-khandana-jayo-he.html</loc>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/gurvabhishta-supurakam-guru-ganair.html</loc>
                     <changefreq>weekly</changefreq>
                     <priority>0.8</priority>
                 </url>
             
                 <url>
-                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/gurudeva.html</loc>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/devam-divya-tanum-suchanda-vadanam-balarka-chelanchitam.html</loc>
                     <changefreq>weekly</changefreq>
                     <priority>0.8</priority>
                 </url>
             
                 <url>
-                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/shri-kryshna-chhaitanya-prabhu-jive-daya-kori.html</loc>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/shri-siddhanta-sarasvatiti-vidito.html</loc>
                     <changefreq>weekly</changefreq>
                     <priority>0.8</priority>
                 </url>
             
                 <url>
-                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/hari-haraye-namah-kryshna-yadavaya-namah.html</loc>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/namo-gaurakishoraya-bhaktavadhuta-murtaye.html</loc>
                     <changefreq>weekly</changefreq>
                     <priority>0.8</priority>
                 </url>
             
                 <url>
-                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/jiv-jago-jiv-jago-gaurachanda-bole.html</loc>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/vande-bhaktivinodam-shri-gaura-shiakti-svarupakam.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/gaura-vrajashritashieshair-vaishnavair-vandya-vigraham.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/jayatam-suratau-pangor.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/divyad-vryndaranya-kalpa-drumadhah.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/shriman-rasa-rasarambhi.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/sakala-vaishnava-pade-mora-namaskara.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/namah-om-vishnupadaya-kryshna.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/shrimach-chaitanya-sarasvata-mathavara-udgita-kirtir.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/jaya-sa-parikara.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/shri-kryshna-chaitanya-prabhu-nityananda.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/hare-kryshna-hare-kryshna-kryshna-kryshna-hare-hare.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/hari-nama-mahamantra-sarva-mantra-sara.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/nija-pati-bhuja-danda-chchhatra-bhavam.html</loc>
                     <changefreq>weekly</changefreq>
                     <priority>0.8</priority>
                 </url>
@@ -66,13 +138,13 @@
                 </url>
             
                 <url>
-                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/jaya-jaya-gaurachhander-arotiko-shobha.html</loc>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/jaya-jaya-girirajer-arotiko-shobha.html</loc>
                     <changefreq>weekly</changefreq>
                     <priority>0.8</priority>
                 </url>
             
                 <url>
-                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/shri-guru-chharana-padma.html</loc>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/jaya-guru-maharaja-karuna-sagara.html</loc>
                     <changefreq>weekly</changefreq>
                     <priority>0.8</priority>
                 </url>
@@ -84,7 +156,175 @@
                 </url>
             
                 <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/jaya-guru-maharaja-jati-rajeshvara.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/kali-kukkura-kadana-jadi-chao-he.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/jashomati-nandana-vraja-vara-nagara.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/jaya-shiachinandana-sura-muni-vandana.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/gurudeva-krypa-bindu-diya-kara-ei-dase.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/udilo-aruna-puraba-bhage.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/jiv-jago-jiv-jago-gaurachanda-bole.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
                     <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/samsara-davanala-lidha-loka.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/shri-kryshna-chaitanya-prabhu-jive-daya-kori.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/bhaja-re-bhaja-re-amar-mana-ati-manda.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/vibhavari-shiesha-aloka-praveshia.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/thakura-vaishnava-gana-kori-ei-nivedana.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/hari-haraye-namah-kryshna-yadavaya-namah.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/bhaja-bhakata-vatsala-shri-gaurahari.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/mahaprasade-govinde-nama-brahmani.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/shorira-avidya-jal-jodendriya-tahe-kal.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/jaya-jaya-gaurachander-arotiko-shobha.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/jayare-jayare-jaya-gaura-sarasvati.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/kobe-shri-chaitanya-more-koribena-daya.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/namo-namah-tulasi-maharani.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/shri-guru-charana-padma-kevala-bhakati.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/shri-kryshna-chaitanya-prabhu-daya-kara-more.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/vaishnava-thakura-dayara-sagara.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/sujanarvuda-radhita-pada-yugam.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/deva-siddha-mukta-yukta-bhakta-vrynda.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/nadiya-godrume-nityananda-mahajana.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/nitai-pada-kamala-koti-chandra-sushitala.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/dhana-mora-nityananda-pati-mora.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/nitai-gunamani-amara-nitai-gunamani.html</loc>
                     <changefreq>weekly</changefreq>
                     <priority>0.8</priority>
                 </url>
@@ -96,7 +336,25 @@
                 </url>
             
                 <url>
-                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/nadiya-godrume-nityananda-mahajana.html</loc>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/parama-karuna-pahu-dui-jana.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/dayal-nitai-chaitanya-bole-nach-re.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/gaurangera-duti-pada-jar-dhana-sampada.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/gaura-pahu-na-bhajiya-mainu.html</loc>
                     <changefreq>weekly</changefreq>
                     <priority>0.8</priority>
                 </url>
@@ -114,13 +372,577 @@
                 </url>
             
                 <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/kobe-gaura-vane-suradhuni-tate.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/kali-ghora-timire-garasala-jagajana.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/jadi-gaura-na-hoto-tobe-ki-hoito.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/emona-gauranga-bine-nahi-ara.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/ke-jabi-ke-jabi-bhai-bhava-sindhu-para.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/vimala-hemajin-tanu-anupama-re.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/gauranga-bolite-hobe-pulaka-shorira.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/aruna-basane-sonara-suraja.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/yadi-te-hari-pada-saroja-sudha.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/thakura-vaishnava-pada-avanira.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/je-anilo-prema-dhana-karuna-prachura.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/ei-vara-karuna-kara-vaishnava-gosani.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/krypa-kara-vaishnava-thakura.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/narada-muni-bajaya-vina.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/kryshnotkirtana-gana-nartana-parau.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/ohe-harinam-tava-mahima-apara.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/ki-rupe-paibo-seva-mui-durachara.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
                     <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/bhajahu-re-mana-shri-nanda-nandana.html</loc>
                     <changefreq>weekly</changefreq>
                     <priority>0.8</priority>
                 </url>
             
                 <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/manasa-deho-geho-jo-kichu-mora.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/e-ghora-samsare-podiya-manava.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/dushta-mana-tumi-kisera-vaishnava.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/emona-durmati-samsara-bhitore.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/ki-jani-ki-bale-tomara-dhamete.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/bhuliya-tomare-samsare-asiya.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/hari-he-prapanche-podiya-agati-hoiya.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/hari-hari-biphole-janama-goyainu.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/atma-nivedana-tuya-pade-kori.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
                     <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/amara-jivana-sada-pape-rata.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/tumi-sarveshvareshvara-vrajendra-kumara.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/sarvasva-tomara-charane-sanpiya.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/tatala-saikate-vari-bindu-sama.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/hari-he-dayala-mora-jaya-radha-natha.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/atma-samarpane-gela-abhimana.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/kobe-hobe-bolo-se-dina-amar.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/gopinath-mama-nivedana-shiuno.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/gopinath-ghuchao-samsara-jvala.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/gopinath-amara-upaya-nai.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/shri-rupa-manjari-pada-sei-mora-sampada.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/durlabha-manava-janma-labhiya-samsare.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/anya-abhilasha-chadi-jniana-karma-parihari.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/pita-varana-kali-pavana-gora.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/tuhu-daya-sagara-tarayite-prani.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/shri-kryshna-kirtane-jodi-manasa-tohara.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/prabhu-tava-pada-juge-mora-nivedana.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/anadi-karama-phole.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/aparadha-phole-mama.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/gaite-gaite-nama-ki-doshia-hoilo.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/gaite-govinda-nam-upajilo-bhava-gram.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/sakhi-go-kemote-dhoribo-paran.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/bondhu-gon-shiunoho-vachana-mora.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/yoga-pithopari-sthita-ashta-sakhi-subeshtita.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/radhika-charana-padma-sakala-shreyera.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/virajar-pare-shiuddha-paravyoma-dham.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/radha-bhajane-jodi-moti-nahi-bhela.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/radhakundatata-kunjakutira.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/radhe-jaya-jaya-madhava-dayite.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/he-deva-bhavantam-vande.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/radha-madhava-kunja-bihari.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/mayura-mukuta-pitambara-dhari.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/jaya-jaya-radha-kryshna-jugala-milan.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/radha-kryshna-prana-mora-jugala-kishora.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/jaya-radhe-jaya-kryshna-jaya-vryndavan.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/janama-saphala-tara-kryshna-darashiana-jara.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/shiuno-he-rasika-jon-kryshna-guna-aganon.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/jaya-yashoda-nandana-kryshna-gopala-govinda.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/shrita-kamala-kuchha-mandala-dhryta.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/jaya-shrila-maharaja-charanaravinda.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/kryshna-hoite-chatur-mukha.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/bhayabhanjana-jayashiamsana.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/jayare-jayare-jaya-paramahamsa-mahashiaya.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/pralaya-payodhi-jale-dhrytavan-asi-vedam.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/namas-te-narasimhaya.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/namamishvaram-sachchidananda-rupam.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/nadiya-nagare-nitai-neche-neche-gay-re.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/nagare-nagare-gora-gay.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/shri-hari-vasare-hari-kirtana-vidhana.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/shiuddha-bhakata-charana-renu.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/chaudda-shiata-sata-shiake-masa-je-phalgun.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/prabhu-kohe-kohilan-ei-mahamantra.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/nagara-bhramiya-amara-gaura-elo-ghore.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/radha-kryshna-bol-bol-bolo-re-sobai.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/hari-bole-modera-gaura-elo.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/ha-ha-bhaktivinoda-thakkura-guroh.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/guror-guro-me-paramo-gurus-tvam.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/nite-yasmin-nishiante-nayana-jala-bharaih.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/shrimach-chaitanyapadau-chara.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/yo-nanto-nanta-vaktrair-niravadhi.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/guru-rupa-virajita-nanda-sutam.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/shri-svarupa-raya-rupa-jiva-bhava.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/naumi-shri-gurupadabjam.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/samudra-sambhava-gabhi-surabhi-apana.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/devadidevam-ahibhushanam-indukashiam.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/bhagyadhishia-tvadiyo-vimala-sukhamayah.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/nava-nalina-ganjitam-kusuma-dala.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/maha-bhaya-shiankula-e-bhava-tarangini.html</loc>
+                    <changefreq>weekly</changefreq>
+                    <priority>0.8</priority>
+                </url>
+            
+                <url>
+                    <loc>https://scsm-ua.github.io/dev-kirtan-mate/html/namah-om-vishnupadaya-kryshna.html</loc>
                     <changefreq>weekly</changefreq>
                     <priority>0.8</priority>
                 </url>
