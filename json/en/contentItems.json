@@ -129,8 +129,8 @@
     "items": [
       {
         "id": "jaya-jaya-girirajer-arati-vishiala",
-        "name": "Шрī Ґовінда Кунда Ґупта-Ґовардган А̄раті",
-        "aliasName": "джая джая ґіріра̄джер а̄раті вішяла",
+        "name": "Śrī Govinda Kuṇḍa Gupta-Govardhan Ārati",
+        "aliasName": "jaya jaya girirājer ārati viśāla",
         "fileName": "jaya-jaya-girirajer-arati-vishiala.html"
       },
       {
@@ -147,8 +147,8 @@
       },
       {
         "id": "jaya-jaya-gurudever-arati-ujjvala",
-        "name": "Шрī Ґуру Āраті",
-        "aliasName": "джая джая ґурудевер а̄раті уджджвала",
+        "name": "Śrī Guru Ārati - jaya jaya gurudever",
+        "aliasName": "jaya jaya gurudever ārati ujjvala govardhana-pāda-pīthe bhuvana-maṅgala",
         "fileName": "jaya-jaya-gurudever-arati-ujjvala.html"
       },
       {
@@ -189,14 +189,14 @@
       },
       {
         "id": "jiv-jago-jiv-jago-gaurachanda-bole",
-        "name": "Арунодоя-кīртан",
-        "aliasName": "джīв джа̄ґо, джīв джа̄ґо, ґаура̄ча̄нда боле",
+        "name": "Aruṇodoya-kīrtan",
+        "aliasName": "jīv jāgo, jīv jāgo, gaurāchā̐da bole kota nidrā jāo māyā-piśāchīra kole",
         "fileName": "jiv-jago-jiv-jago-gaurachanda-bole.html"
       },
       {
         "id": "samsara-davanala-lidha-loka",
-        "name": "Шрī Шрī Ґурва̄штака",
-        "aliasName": "самса̄ра-да̄ва̄нала-лīдга-лока-",
+        "name": "Śrī Śrī Gurvāṣṭaka",
+        "aliasName": "saṁsāra-dāvānala-līḍha-loka- trāṇāya kāruṇya-ghanāghanatvam prāptasya kalyāṇa-guṇārṇavasya vande guroḥ śrī-charaṇāravindam",
         "fileName": "samsara-davanala-lidha-loka.html"
       },
       {
@@ -225,8 +225,8 @@
       },
       {
         "id": "hari-haraye-namah-kryshna-yadavaya-namah",
-        "name": "Нама-Санкірттан",
-        "aliasName": "харі харає намах кришна ядава̄я намах",
+        "name": "Nām-saṅkīrtan",
+        "aliasName": "hari haraye namaḥ kṛṣṇa yādavāya namaḥ yādavāya mādhavāya keśavāya namaḥ",
         "fileName": "hari-haraye-namah-kryshna-yadavaya-namah.html"
       }
     ]
@@ -318,8 +318,8 @@
     "items": [
       {
         "id": "nadiya-godrume-nityananda-mahajana",
-        "name": "А̄ґʼя-Тахал",
-        "aliasName": "надīя-ґодруме нітьянанда маха̄джана",
+        "name": "Ājñā-Ṭahal",
+        "aliasName": "nadīyā-godrume nityānanda mahājana pātiyāche nāma-haṭṭa jivera kāraṇa",
         "fileName": "nadiya-godrume-nityananda-mahajana.html"
       },
       {
@@ -342,8 +342,8 @@
       },
       {
         "id": "akrodha-paramananda",
-        "name": "Акрохдха Парамананада",
-        "aliasName": "акродга парама̄нанда нітьянанда ра̄й",
+        "name": "Akrodha paramānanda",
+        "aliasName": "akrodha paramānanda nityānanda rāy abhimāna-śūnya nitāi nagare beḍāy",
         "fileName": "akrodha-paramananda.html"
       },
       {
@@ -377,14 +377,14 @@
       },
       {
         "id": "avatara-sara-gora-avatara",
-        "name": "Авата̄ра Са̄ра",
-        "aliasName": "авата̄ра са̄ра ґора̄ авата̄ра",
+        "name": "Avatāra Sāra",
+        "aliasName": "avatāra sāra     gorā avatāra keno nā bhajili tā̐re",
         "fileName": "avatara-sara-gora-avatara.html"
       },
       {
         "id": "gay-gora-madhur-svare",
-        "name": "Шрī На̄ма",
-        "aliasName": "ґа̄й ґора̄ мадгур сваре",
+        "name": "Śrī Nāma",
+        "aliasName": "gāy gorā madhur svare",
         "fileName": "gay-gora-madhur-svare.html"
       },
       {
@@ -496,8 +496,8 @@
       },
       {
         "id": "bhajahu-re-mana-shri-nanda-nandana",
-        "name": "Бгаджаху Ре Мана",
-        "aliasName": "бгаджаху ре мана шрī-нанда-нандана",
+        "name": "Bhajahu̐ Re Mana",
+        "aliasName": "bhajahu̐ re mana śrī-nanda-nandana abhaya-charaṇāravinda re",
         "fileName": "bhajahu-re-mana-shri-nanda-nandana.html"
       },
       {
@@ -556,8 +556,8 @@
       },
       {
         "id": "amara-jivana-sada-pape-rata",
-        "name": "Ама̄ра джīвана",
-        "aliasName": "а̄ма̄ра джīвана, сада̄ па̄пе рата,",
+        "name": "Āmāra jīvana",
+        "aliasName": "āmāra jīvana,    sadā pāpe rata, nāhiko puṇyera leśa",
         "fileName": "amara-jivana-sada-pape-rata.html"
       },
       {
