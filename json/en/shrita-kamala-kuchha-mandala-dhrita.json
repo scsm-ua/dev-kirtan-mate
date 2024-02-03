@@ -1,6 +1,9 @@
 {
   "title": "Śrita Kamalā",
-  "author": "Composed by Śrīla Jayadeva Goswāmī",
+  "author": [
+    "Composed by Śrīla Jayadeva Goswāmī"
+  ],
+  "subtitle": null,
   "verses": [
     {
       "number": "1",

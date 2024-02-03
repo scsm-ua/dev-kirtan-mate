@@ -1,6 +1,9 @@
 {
   "title": "Gurudeva",
-  "author": "by Śrīla Bhakti Vinod Ṭhākur",
+  "author": [
+    "by Śrīla Bhakti Vinod Ṭhākur"
+  ],
+  "subtitle": null,
   "verses": [
     {
       "number": "1",

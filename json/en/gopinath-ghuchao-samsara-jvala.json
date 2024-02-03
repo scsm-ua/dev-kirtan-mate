@@ -1,6 +1,9 @@
 {
   "title": "Nivedana",
-  "author": "Part 2",
+  "author": [
+    "Part 2"
+  ],
+  "subtitle": null,
   "verses": [
     {
       "number": "1",

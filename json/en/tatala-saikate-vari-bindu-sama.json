@@ -1,6 +1,9 @@
 {
   "title": "Tātala Saikate",
-  "author": "by Śrīla Vidyāpati",
+  "author": [
+    "by Śrīla Vidyāpati"
+  ],
+  "subtitle": null,
   "verses": [
     {
       "number": "1",

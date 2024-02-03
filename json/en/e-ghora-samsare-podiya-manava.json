@@ -1,6 +1,9 @@
 {
   "title": "E ghora saṁsare",
-  "author": "by Kālidās",
+  "author": [
+    "by Kālidās"
+  ],
+  "subtitle": null,
   "verses": [
     {
       "number": "1",

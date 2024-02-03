@@ -1,6 +1,9 @@
 {
   "title": "Śrī Śrī Dāmodarāṣṭakam",
-  "author": "by Śrī Satyavrat Muni",
+  "author": [
+    "by Śrī Satyavrat Muni"
+  ],
+  "subtitle": null,
   "verses": [
     {
       "number": "1",

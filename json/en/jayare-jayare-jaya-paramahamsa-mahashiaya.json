@@ -1,6 +1,9 @@
 {
   "title": "Āchārya vandana",
-  "author": "Composed by Gopāl Govinda Mahanta",
+  "author": [
+    "Composed by Gopāl Govinda Mahanta"
+  ],
+  "subtitle": null,
   "verses": [
     {
       "number": "1",

@@ -1,6 +1,9 @@
 {
   "title": "Daśa-vidha Nāmāparādha",
-  "author": "Bengali poem composed by",
+  "author": [
+    "Bengali poem composed by"
+  ],
+  "subtitle": "The Ten Offences to the Holy Name",
   "verses": [
     {
       "number": "1",

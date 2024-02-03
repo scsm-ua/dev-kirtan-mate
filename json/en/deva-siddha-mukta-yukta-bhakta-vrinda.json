@@ -1,6 +1,10 @@
 {
   "title": "Śrī Śrī Premadhāma-deva-stotram",
-  "author": "Śrīla Bhakti Rakṣak Śrīdhar Dev-Goswāmī Mahārāj Edited by Swāmī Bhakti Pāvan Janārdan",
+  "author": [
+    "Composed by",
+    "Śrīla Bhakti Rakṣak Śrīdhar Dev-Goswāmī Mahārāj Edited by Swāmī Bhakti Pāvan Janārdan"
+  ],
+  "subtitle": null,
   "verses": [
     {
       "number": "1",

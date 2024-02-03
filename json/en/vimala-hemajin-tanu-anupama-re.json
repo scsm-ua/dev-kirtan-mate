@@ -1,6 +1,9 @@
 {
   "title": "Vimala hemajini",
-  "author": "by Śrīla Vṛndāvan Dās Ṭhākur",
+  "author": [
+    "by Śrīla Vṛndāvan Dās Ṭhākur"
+  ],
+  "subtitle": null,
   "verses": [
     {
       "number": "1",
