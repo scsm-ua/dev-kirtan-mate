@@ -200,12 +200,6 @@
         </url>
     ,
         <url>
-            <loc>https://scsm-ua.github.io/dev-kirtan-mate/en/vancha-kalpatarubhyas-cha.html</loc>
-            <changefreq>weekly</changefreq>
-            <priority>0.8</priority>
-        </url>
-    ,
-        <url>
             <loc>https://scsm-ua.github.io/dev-kirtan-mate/en/jayatam-suratau-pangor.html</loc>
             <changefreq>weekly</changefreq>
             <priority>0.8</priority>
