@@ -11,13 +11,13 @@
       {
         "id": "vande-vaikuntha-vritti-stham",
         "name": "Śrīla Bhakti Bimal Avadhūt Mahārāj",
-        "aliasName": "vande vaikuṇṭha-vṛtti-stham parama-karuṇāspadam",
+        "aliasName": "vande vaikuṇṭha-vṛtti-stham",
         "fileName": "vande-vaikuntha-vritti-stham.html"
       },
       {
         "id": "goswaminam-sudhirakhyam",
         "name": "Śrīla Bhakti Sudhīr Goswāmī Mahārāj",
-        "aliasName": "goswāminaṁ sudhīrākhyam govinda-preṣṭham āśraye",
+        "aliasName": "goswāminaṁ sudhīrākhyam",
         "fileName": "goswaminam-sudhirakhyam.html"
       },
       {
@@ -41,13 +41,13 @@
       {
         "id": "namo-gaurakishoraya-bhaktavadhuta-murtaye",
         "name": "Śrīla Gaura Kiśora Dās Bābājī Mahārāj",
-        "aliasName": "namo gaurakiśorāya bhaktāvadhūta mūrtaye",
+        "aliasName": "namo gaurakiśorāya",
         "fileName": "namo-gaurakishoraya-bhaktavadhuta-murtaye.html"
       },
       {
         "id": "vande-bhaktivinodam-shri-gaura-shiakti-svarupakam",
         "name": "Śrīla Bhakti Vinod Ṭhākur",
-        "aliasName": "vande bhaktivinodaṁ śrī- gaura-śakti-svarūpakam",
+        "aliasName": "vande bhaktivinodaṁ śrī-",
         "fileName": "vande-bhaktivinodam-shri-gaura-shiakti-svarupakam.html"
       },
       {
@@ -57,15 +57,21 @@
         "fileName": "gaura-vrajashritashieshair-vaishnavair-vandya-vigraham.html"
       },
       {
+        "id": "vancha-kalpatarubhyas-cha",
+        "name": "vāñchā-kalpatarubhyas’ cha",
+        "aliasName": "vāñchā-kalpatarubhyas’ cha",
+        "fileName": "vancha-kalpatarubhyas-cha.html"
+      },
+      {
         "id": "jayatam-suratau-pangor",
-        "name": "Śrī-Śrī-Guru-Gaurāṅga-Rādhā-Madana-Mohanjīu Kolkata, Sree Chaitanya Sāraswata Krishnanushilana Sangha",
+        "name": "Śrī-Śrī-Guru-Gaurāṅga-Rādhā-Madana-Mohanjīu",
         "aliasName": "jayatāṁ suratau paṅgor",
         "fileName": "jayatam-suratau-pangor.html"
       },
       {
         "id": "divyad-vrindaranya-kalpa-drumadhah",
-        "name": "Śrī-Śrī-Guru-Gaurāṅga-Gāndharvā-Govindasundarjīu Nabadwīp, Śrī Chaitanya Sāraswat Maṭh",
-        "aliasName": "dīvyad-vṛndāraṇya-kalpa-drumādhaḥ śrīmad-ratnāgāra-siṁhāsana-sthau",
+        "name": "Śrī-Śrī-Guru-Gaurāṅga-Gāndharvā-Govindasundarjīu",
+        "aliasName": "dīvyad-vṛndāraṇya-kalpa-drumādhaḥ",
         "fileName": "divyad-vrindaranya-kalpa-drumadhah.html"
       },
       {
