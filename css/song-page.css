@@ -85,6 +85,12 @@ add '-up' if you want (min-width: $point) and leave with no suffix for (max-widt
   font-size: 14px;
   font-weight: 300;
 }
+.SongPage__subtitle {
+  color: var(--text-color);
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 16px;
+}
 .SongPage__main {
   width: 100%;
 }
