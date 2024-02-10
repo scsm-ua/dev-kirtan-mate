@@ -119,13 +119,12 @@
     <script>
         (function() {
             try {
-                const contentItems = JSON.parse('[{"name":"Вступ","items":[{"id":"pancha-tattva","name":"Панча-таттва мантра","aliasName":"шрī-кришна-чайтанья прабгу нітьянанда","fileName":"pancha-tattva.html"},{"id":"hare-krishna","name":"Харе Кришна маха̄-мантра","aliasName":"харе кришна харе кришна кришна кришна харе харе","fileName":"hare-krishna.html"}]},{"name":"Ранкове Араті і програма","items":[{"id":"kali-kukkura-kadana-jadi-chhao-he-kaliyuga-pavana-kali-bhaya-nashiana","name":"Прабга̄ті Ґīті","aliasName":"калі-куккура-кадана джаді ча̄о хе","fileName":"kali-kukkura-kadana-jadi-chhao-he-kaliyuga-pavana-kali-bhaya-nashiana.html"},{"id":"jaya-shiachinandana-sura-muni-vandana-bhava-bhaya-khandana-jayo-he","name":"Шрī Шячīнандана-вандана̄","aliasName":"джая шячīнандана сура-муні-вандана,","fileName":"jaya-shiachinandana-sura-muni-vandana-bhava-bhaya-khandana-jayo-he.html"},{"id":"gurudeva","name":"Ґурудева","aliasName":"ґурудева!","fileName":"gurudeva.html"},{"id":"shri-kryshna-chhaitanya-prabhu-jive-daya-kori","name":"Шаранагаті. Благодатне звернення","aliasName":"шрī-кришна-чайтанья прабгу джīве дая корі’","fileName":"shri-kryshna-chhaitanya-prabhu-jive-daya-kori.html"},{"id":"hari-haraye-namah-kryshna-yadavaya-namah","name":"Нама-Санкірттан","aliasName":"харі харає намах кришна ядава̄я намах","fileName":"hari-haraye-namah-kryshna-yadavaya-namah.html"},{"id":"jiv-jago-jiv-jago-gaurachanda-bole","name":"Арунодоя-кīртан","aliasName":"джīв джа̄ґо, джīв джа̄ґо, ґаура̄ча̄нда боле","fileName":"jiv-jago-jiv-jago-gaurachanda-bole.html"}]},{"name":"Вечірнє Араті","items":[{"id":"jaya-jaya-girirajer-arati-vishiala","name":"Шрī Ґовінда Кунда Ґупта-Ґовардган А̄раті","aliasName":"джая джая ґіріра̄джер а̄раті вішяла","fileName":"jaya-jaya-girirajer-arati-vishiala.html"},{"id":"jaya-jaya-gaurachhander-arotiko-shobha","name":"Ш́рі Ґаура-а̄раті","aliasName":"(кіба)  джая джая ґаура̄ча̄ндер а̄ротіко шобга̄","fileName":"jaya-jaya-gaurachhander-arotiko-shobha.html"},{"id":"shri-guru-chharana-padma","name":"Шрī Ґуру-вайшнава Ма̄ха̄тмʼя-ґīті","aliasName":"шрī ґуру чарана-падма, кевала-бгакаті-садма,","fileName":"shri-guru-chharana-padma.html"}]},{"name":"Вчителям","items":[{"id":"jaya-jaya-gurudever-arati-ujjvala","name":"Шрī Ґуру Āраті","aliasName":"джая джая ґурудевер а̄раті уджджвала","fileName":"jaya-jaya-gurudever-arati-ujjvala.html"},{"id":"samsara-davanala-lidha-loka","name":"Шрī Шрī Ґурва̄штака","aliasName":"самса̄ра-да̄ва̄нала-лīдга-лока-","fileName":"samsara-davanala-lidha-loka.html"}]},{"name":"Нітьянанді","items":[{"id":"akrodha-paramananda","name":"Акрохдха Парамананада","aliasName":"акродга парама̄нанда нітьянанда ра̄й","fileName":"akrodha-paramananda.html"},{"id":"nadiya-godrume-nityananda-mahajana","name":"А̄ґʼя-Тахал","aliasName":"надīя-ґодруме нітьянанда маха̄джана","fileName":"nadiya-godrume-nityananda-mahajana.html"}]},{"name":"Шрі Чайтаньї Махапрабгу","items":[{"id":"avatara-sara-gora-avatara","name":"Авата̄ра Са̄ра","aliasName":"авата̄ра са̄ра ґора̄ авата̄ра","fileName":"avatara-sara-gora-avatara.html"},{"id":"gay-gora-madhur-svare","name":"Шрī На̄ма","aliasName":"ґа̄й ґора̄ мадгур сваре","fileName":"gay-gora-madhur-svare.html"}]},{"name":"Інші бгаджани","items":[{"id":"bhajahu-re-mana-shri-nanda-nandana","name":"Бгаджаху Ре Мана","aliasName":"бгаджаху ре мана шрī-нанда-нандана","fileName":"bhajahu-re-mana-shri-nanda-nandana.html"},{"id":"amara-jivana-sada-pape-rata","name":"Ама̄ра джīвана","aliasName":"а̄ма̄ра джīвана, сада̄ па̄пе рата,","fileName":"amara-jivana-sada-pape-rata.html"}]}]');
+                const orderedSongs = ["pancha-tattva.html","hare-krishna.html","kali-kukkura-kadana-jadi-chhao-he-kaliyuga-pavana-kali-bhaya-nashiana.html","jaya-shiachinandana-sura-muni-vandana-bhava-bhaya-khandana-jayo-he.html","gurudeva.html","shri-kryshna-chhaitanya-prabhu-jive-daya-kori.html","hari-haraye-namah-kryshna-yadavaya-namah.html","jiv-jago-jiv-jago-gaurachanda-bole.html","jaya-jaya-girirajer-arati-vishiala.html","jaya-jaya-gaurachhander-arotiko-shobha.html","shri-guru-chharana-padma.html","jaya-jaya-gurudever-arati-ujjvala.html","samsara-davanala-lidha-loka.html","akrodha-paramananda.html","nadiya-godrume-nityananda-mahajana.html","avatara-sara-gora-avatara.html","gay-gora-madhur-svare.html","bhajahu-re-mana-shri-nanda-nandana.html","amara-jivana-sada-pape-rata.html"];
                 const prevLinks = document.getElementsByClassName('PrevNextNav__link--prev');
                 const nextLinks = document.getElementsByClassName('PrevNextNav__link--next');
 
-                const items = contentItems.flatMap((cat) => cat.items);
-                const index = items.findIndex((item) =>
-                    window.location.pathname.includes(item.fileName)
+                const index = orderedSongs.findIndex((item) =>
+                    window.location.pathname.includes(item)
                 );
 
                 Array.from(prevLinks)
@@ -134,21 +133,21 @@
                             el.removeAttribute('href');
                             el.children[0].disabled = true;
                         } else {
-                            el.setAttribute('href', items[index - 1].fileName);
+                            el.setAttribute('href', orderedSongs[index - 1]);
                             el.children[0].disabled = false;
-                            el.title = items[index - 1].name;
+                            el.title = orderedSongs[index - 1].name;
                         }
                     })
 
                 Array.from(nextLinks)
                     .forEach((el) => {
-                        if (index === items.length - 1) {
+                        if (index === orderedSongs.length - 1) {
                             el.removeAttribute('href');
                             el.children[0].disabled = true;
                         } else {
-                            el.setAttribute('href', items[index + 1].fileName);
+                            el.setAttribute('href', orderedSongs[index + 1]);
                             el.children[0].disabled = false;
-                            el.title = items[index + 1].name;
+                            el.title = orderedSongs[index + 1].name;
                         }
                     })
 
@@ -156,13 +155,13 @@
                  * Swipe events.
                  */
                 document.addEventListener('swiped-left', () => {
-                    if (index !== items.length - 1)
-                        window.location.href = items[index + 1].fileName
+                    if (index !== orderedSongs.length - 1)
+                        window.location.href = orderedSongs[index + 1]
                 });
 
                 document.addEventListener('swiped-right', () => {
                     if (index !== 0)
-                        window.location.href = items[index - 1].fileName
+                        window.location.href = orderedSongs[index - 1]
                 });
 
             } catch (e) {
@@ -224,31 +223,35 @@
         </header>
     
 
-    <ul class="SongVerse__text">
-        
-            <li class="SongVerse__line">
-                ґа̄й ґора̄ мадгур сваре
-            </li>
-        
-            <li class="SongVerse__line">
-                харе кришна харе кришна, кришна кришна харе харе
-            </li>
-        
-            <li class="SongVerse__line">
-                харе ра̄ма харе ра̄ма, ра̄ма ра̄ма харе харе
-            </li>
-        
-    </ul>
+    
+        <ul class="SongVerse__text">
+            
+                <li class="SongVerse__line">
+                    ґа̄й ґора̄ мадгур сваре
+                </li>
+            
+                <li class="SongVerse__line">
+                    харе кришна харе кришна, кришна кришна харе харе
+                </li>
+            
+                <li class="SongVerse__line">
+                    харе ра̄ма харе ра̄ма, ра̄ма ра̄ма харе харе
+                </li>
+            
+        </ul>
+    
 
-    <ul class="SongVerse__translation">
-        
-            <li class="SongVerse__paragraph">
-                <p>
-                    Господь Ґаурасундар солодко співає:<br class="SongVerse__break" />"Харе Кришна Харе Кришна, Кришна Кришна Харе Харе, Харе Ра̄ма Харе Ра̄ма, Ра̄ма Ра̄ма Харе Харе".
-                </p>
-            </li>
-        
-    </ul>
+    
+        <ul class="SongVerse__translation">
+            
+                <li class="SongVerse__paragraph">
+                    <p>
+                        Господь Ґаурасундар солодко співає:<br class="SongVerse__break" />"Харе Кришна Харе Кришна, Кришна Кришна Харе Харе, Харе Ра̄ма Харе Ра̄ма, Ра̄ма Ра̄ма Харе Харе".
+                    </p>
+                </li>
+            
+        </ul>
+    
 </li>
 
                                         
@@ -266,27 +269,31 @@
         </header>
     
 
-    <ul class="SongVerse__text">
-        
-            <li class="SongVerse__line">
-                ґрихе тха̄ко, ване тха̄ко, сада̄ ‘харі’ боле’ да̄ко,
-            </li>
-        
-            <li class="SongVerse__line">
-                сукхе духкхе бгуло на̄ко, вадане харіна̄м кара ре
-            </li>
-        
-    </ul>
+    
+        <ul class="SongVerse__text">
+            
+                <li class="SongVerse__line">
+                    ґрихе тха̄ко, ване тха̄ко, сада̄ ‘харі’ боле’ да̄ко,
+                </li>
+            
+                <li class="SongVerse__line">
+                    сукхе духкхе бгуло на̄ко, вадане харіна̄м кара ре
+                </li>
+            
+        </ul>
+    
 
-    <ul class="SongVerse__translation">
-        
-            <li class="SongVerse__paragraph">
-                <p>
-                    Чи вправний господар ти, чи відлюдник у лісі - завжди співай Святе Імʼя Господа. Чи у радості, чи в смутку - не забувай співати Святе Імʼя та наповнювати свої уста Харінамом.
-                </p>
-            </li>
-        
-    </ul>
+    
+        <ul class="SongVerse__translation">
+            
+                <li class="SongVerse__paragraph">
+                    <p>
+                        Чи вправний господар ти, чи відлюдник у лісі - завжди співай Святе Імʼя Господа. Чи у радості, чи в смутку - не забувай співати Святе Імʼя та наповнювати свої уста Харінамом.
+                    </p>
+                </li>
+            
+        </ul>
+    
 </li>
 
                                         
@@ -304,27 +311,31 @@
         </header>
     
 
-    <ul class="SongVerse__text">
-        
-            <li class="SongVerse__line">
-                ма̄я-джа̄ле баддга хо’є, а̄чхо мічхе ка̄джа ло’є,
-            </li>
-        
-            <li class="SongVerse__line">
-                екхона о четана пеє, ра̄дга̄-ма̄дгава-на̄м боло ре
-            </li>
-        
-    </ul>
+    
+        <ul class="SongVerse__text">
+            
+                <li class="SongVerse__line">
+                    ма̄я-джа̄ле баддга хо’є, а̄чхо мічхе ка̄джа ло’є,
+                </li>
+            
+                <li class="SongVerse__line">
+                    екхона о четана пеє, ра̄дга̄-ма̄дгава-на̄м боло ре
+                </li>
+            
+        </ul>
+    
 
-    <ul class="SongVerse__translation">
-        
-            <li class="SongVerse__paragraph">
-                <p>
-                    Звʼязаний путами <i class="SongVerse__term">майї</i>, ти став її рабом і трудився даремно. Але зараз, маючи людське тіло та свідомість, співай Імʼя Господа: "Ра̄дга̄-Ма̄дгави".
-                </p>
-            </li>
-        
-    </ul>
+    
+        <ul class="SongVerse__translation">
+            
+                <li class="SongVerse__paragraph">
+                    <p>
+                        Звʼязаний путами <i class="SongVerse__term">майї</i>, ти став її рабом і трудився даремно. Але зараз, маючи людське тіло та свідомість, співай Імʼя Господа: "Ра̄дга̄-Ма̄дгави".
+                    </p>
+                </li>
+            
+        </ul>
+    
 </li>
 
                                         
@@ -342,27 +353,31 @@
         </header>
     
 
-    <ul class="SongVerse__text">
-        
-            <li class="SongVerse__line">
-                джīвана хоіло шєша, на̄ бгаджіле хришикешя
-            </li>
-        
-            <li class="SongVerse__line">
-                бгактівінод-упадешя, екба̄р на̄м-расе ма̄то ре
-            </li>
-        
-    </ul>
+    
+        <ul class="SongVerse__text">
+            
+                <li class="SongVerse__line">
+                    джīвана хоіло шєша, на̄ бгаджіле хришикешя
+                </li>
+            
+                <li class="SongVerse__line">
+                    бгактівінод-упадешя, екба̄р на̄м-расе ма̄то ре
+                </li>
+            
+        </ul>
+    
 
-    <ul class="SongVerse__translation">
-        
-            <li class="SongVerse__paragraph">
-                <p>
-                    Життя це скоро мине, а ти досі не поклоняєшся <i class="SongVerse__term">Хришикеші</i>, володарю чуттів. Бгактівінод радить: "Хоча б один раз відчуй смак <i class="SongVerse__term">нама-раси</i> - нектар Святого Імені".
-                </p>
-            </li>
-        
-    </ul>
+    
+        <ul class="SongVerse__translation">
+            
+                <li class="SongVerse__paragraph">
+                    <p>
+                        Життя це скоро мине, а ти досі не поклоняєшся <i class="SongVerse__term">Хришикеші</i>, володарю чуттів. Бгактівінод радить: "Хоча б один раз відчуй смак <i class="SongVerse__term">нама-раси</i> - нектар Святого Імені".
+                    </p>
+                </li>
+            
+        </ul>
+    
 </li>
 
                                         
@@ -432,13 +447,12 @@
     <script>
         (function() {
             try {
-                const contentItems = JSON.parse('[{"name":"Вступ","items":[{"id":"pancha-tattva","name":"Панча-таттва мантра","aliasName":"шрī-кришна-чайтанья прабгу нітьянанда","fileName":"pancha-tattva.html"},{"id":"hare-krishna","name":"Харе Кришна маха̄-мантра","aliasName":"харе кришна харе кришна кришна кришна харе харе","fileName":"hare-krishna.html"}]},{"name":"Ранкове Араті і програма","items":[{"id":"kali-kukkura-kadana-jadi-chhao-he-kaliyuga-pavana-kali-bhaya-nashiana","name":"Прабга̄ті Ґīті","aliasName":"калі-куккура-кадана джаді ча̄о хе","fileName":"kali-kukkura-kadana-jadi-chhao-he-kaliyuga-pavana-kali-bhaya-nashiana.html"},{"id":"jaya-shiachinandana-sura-muni-vandana-bhava-bhaya-khandana-jayo-he","name":"Шрī Шячīнандана-вандана̄","aliasName":"джая шячīнандана сура-муні-вандана,","fileName":"jaya-shiachinandana-sura-muni-vandana-bhava-bhaya-khandana-jayo-he.html"},{"id":"gurudeva","name":"Ґурудева","aliasName":"ґурудева!","fileName":"gurudeva.html"},{"id":"shri-kryshna-chhaitanya-prabhu-jive-daya-kori","name":"Шаранагаті. Благодатне звернення","aliasName":"шрī-кришна-чайтанья прабгу джīве дая корі’","fileName":"shri-kryshna-chhaitanya-prabhu-jive-daya-kori.html"},{"id":"hari-haraye-namah-kryshna-yadavaya-namah","name":"Нама-Санкірттан","aliasName":"харі харає намах кришна ядава̄я намах","fileName":"hari-haraye-namah-kryshna-yadavaya-namah.html"},{"id":"jiv-jago-jiv-jago-gaurachanda-bole","name":"Арунодоя-кīртан","aliasName":"джīв джа̄ґо, джīв джа̄ґо, ґаура̄ча̄нда боле","fileName":"jiv-jago-jiv-jago-gaurachanda-bole.html"}]},{"name":"Вечірнє Араті","items":[{"id":"jaya-jaya-girirajer-arati-vishiala","name":"Шрī Ґовінда Кунда Ґупта-Ґовардган А̄раті","aliasName":"джая джая ґіріра̄джер а̄раті вішяла","fileName":"jaya-jaya-girirajer-arati-vishiala.html"},{"id":"jaya-jaya-gaurachhander-arotiko-shobha","name":"Ш́рі Ґаура-а̄раті","aliasName":"(кіба)  джая джая ґаура̄ча̄ндер а̄ротіко шобга̄","fileName":"jaya-jaya-gaurachhander-arotiko-shobha.html"},{"id":"shri-guru-chharana-padma","name":"Шрī Ґуру-вайшнава Ма̄ха̄тмʼя-ґīті","aliasName":"шрī ґуру чарана-падма, кевала-бгакаті-садма,","fileName":"shri-guru-chharana-padma.html"}]},{"name":"Вчителям","items":[{"id":"jaya-jaya-gurudever-arati-ujjvala","name":"Шрī Ґуру Āраті","aliasName":"джая джая ґурудевер а̄раті уджджвала","fileName":"jaya-jaya-gurudever-arati-ujjvala.html"},{"id":"samsara-davanala-lidha-loka","name":"Шрī Шрī Ґурва̄штака","aliasName":"самса̄ра-да̄ва̄нала-лīдга-лока-","fileName":"samsara-davanala-lidha-loka.html"}]},{"name":"Нітьянанді","items":[{"id":"akrodha-paramananda","name":"Акрохдха Парамананада","aliasName":"акродга парама̄нанда нітьянанда ра̄й","fileName":"akrodha-paramananda.html"},{"id":"nadiya-godrume-nityananda-mahajana","name":"А̄ґʼя-Тахал","aliasName":"надīя-ґодруме нітьянанда маха̄джана","fileName":"nadiya-godrume-nityananda-mahajana.html"}]},{"name":"Шрі Чайтаньї Махапрабгу","items":[{"id":"avatara-sara-gora-avatara","name":"Авата̄ра Са̄ра","aliasName":"авата̄ра са̄ра ґора̄ авата̄ра","fileName":"avatara-sara-gora-avatara.html"},{"id":"gay-gora-madhur-svare","name":"Шрī На̄ма","aliasName":"ґа̄й ґора̄ мадгур сваре","fileName":"gay-gora-madhur-svare.html"}]},{"name":"Інші бгаджани","items":[{"id":"bhajahu-re-mana-shri-nanda-nandana","name":"Бгаджаху Ре Мана","aliasName":"бгаджаху ре мана шрī-нанда-нандана","fileName":"bhajahu-re-mana-shri-nanda-nandana.html"},{"id":"amara-jivana-sada-pape-rata","name":"Ама̄ра джīвана","aliasName":"а̄ма̄ра джīвана, сада̄ па̄пе рата,","fileName":"amara-jivana-sada-pape-rata.html"}]}]');
+                const orderedSongs = ["pancha-tattva.html","hare-krishna.html","kali-kukkura-kadana-jadi-chhao-he-kaliyuga-pavana-kali-bhaya-nashiana.html","jaya-shiachinandana-sura-muni-vandana-bhava-bhaya-khandana-jayo-he.html","gurudeva.html","shri-kryshna-chhaitanya-prabhu-jive-daya-kori.html","hari-haraye-namah-kryshna-yadavaya-namah.html","jiv-jago-jiv-jago-gaurachanda-bole.html","jaya-jaya-girirajer-arati-vishiala.html","jaya-jaya-gaurachhander-arotiko-shobha.html","shri-guru-chharana-padma.html","jaya-jaya-gurudever-arati-ujjvala.html","samsara-davanala-lidha-loka.html","akrodha-paramananda.html","nadiya-godrume-nityananda-mahajana.html","avatara-sara-gora-avatara.html","gay-gora-madhur-svare.html","bhajahu-re-mana-shri-nanda-nandana.html","amara-jivana-sada-pape-rata.html"];
                 const prevLinks = document.getElementsByClassName('PrevNextNav__link--prev');
                 const nextLinks = document.getElementsByClassName('PrevNextNav__link--next');
 
-                const items = contentItems.flatMap((cat) => cat.items);
-                const index = items.findIndex((item) =>
-                    window.location.pathname.includes(item.fileName)
+                const index = orderedSongs.findIndex((item) =>
+                    window.location.pathname.includes(item)
                 );
 
                 Array.from(prevLinks)
@@ -447,21 +461,21 @@
                             el.removeAttribute('href');
                             el.children[0].disabled = true;
                         } else {
-                            el.setAttribute('href', items[index - 1].fileName);
+                            el.setAttribute('href', orderedSongs[index - 1]);
                             el.children[0].disabled = false;
-                            el.title = items[index - 1].name;
+                            el.title = orderedSongs[index - 1].name;
                         }
                     })
 
                 Array.from(nextLinks)
                     .forEach((el) => {
-                        if (index === items.length - 1) {
+                        if (index === orderedSongs.length - 1) {
                             el.removeAttribute('href');
                             el.children[0].disabled = true;
                         } else {
-                            el.setAttribute('href', items[index + 1].fileName);
+                            el.setAttribute('href', orderedSongs[index + 1]);
                             el.children[0].disabled = false;
-                            el.title = items[index + 1].name;
+                            el.title = orderedSongs[index + 1].name;
                         }
                     })
 
@@ -469,13 +483,13 @@
                  * Swipe events.
                  */
                 document.addEventListener('swiped-left', () => {
-                    if (index !== items.length - 1)
-                        window.location.href = items[index + 1].fileName
+                    if (index !== orderedSongs.length - 1)
+                        window.location.href = orderedSongs[index + 1]
                 });
 
                 document.addEventListener('swiped-right', () => {
                     if (index !== 0)
-                        window.location.href = items[index - 1].fileName
+                        window.location.href = orderedSongs[index - 1]
                 });
 
             } catch (e) {
