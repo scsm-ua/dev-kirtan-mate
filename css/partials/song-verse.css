@@ -34,6 +34,9 @@
   line-height: 24px;
   color: var(--title-color);
 }
+.SongVerse__light {
+  font-weight: initial;
+}
 .SongVerse__translation {
   list-style-type: none;
   margin: 0;
