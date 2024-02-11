@@ -57,17 +57,20 @@
     {
       "number": null,
       "text": [
-        "    (tuyā pade loinu śaraṇa)",
-        "    (āmi) (śaraṇilam)",
+        "(tuyā pade loinu śaraṇa)",
+        "(āmi) (śaraṇilam)",
         "(abhaya śrī pada padme śaraṇilam)",
-        "    (āmay) (dayā kara he)",
+        "(āmay) (dayā kara he)",
         "(patit-pāvan śrī gurudev dayā kara he)",
         "(adhama patita jene dayā kara he)",
-        "    (jay gurudev)"
+        "(jay gurudev)"
       ],
       "translation": [
         "I have surrendered, I have surrendered unto your fearless lotus feet. Please give your mercy. Oh Śrī Gurudeva, saviour of the fallen, please give me your mercy. You are the saviour of the lowly fallen souls. All glories to you Śrī Gurudeva."
       ]
     }
-  ]
+  ],
+  "attributes": {
+    "verse parentheses": "non bold"
+  }
 }
