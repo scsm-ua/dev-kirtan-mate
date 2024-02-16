@@ -1,5 +1,7 @@
 {
-  "title": "Prabhu kohe",
+  "title": [
+    "Prabhu kohe"
+  ],
   "author": [],
   "subtitle": null,
   "verses": [
@@ -23,5 +25,8 @@
         "<i class=\"SongVerse__term\">(Śrī Chaitanya-bhāgavat Madhya 23.77-78, 28.28)</i>"
       ]
     }
-  ]
+  ],
+  "attributes": {
+    "page": "299"
+  }
 }

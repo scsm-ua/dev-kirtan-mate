@@ -1,5 +1,7 @@
 {
-  "title": "Ke jabi ke jabi",
+  "title": [
+    "Ke jabi ke jabi"
+  ],
   "author": [
     "by Śrīla Lochan Dās Ṭhākur"
   ],
@@ -45,5 +47,8 @@
         "The favourable wind is divine love for Lord Krishna and all the fallen souls have been rescued on this boat. Only Lochan Dās is left behind due to the faults of his own misdeeds."
       ]
     }
-  ]
+  ],
+  "attributes": {
+    "page": "144"
+  }
 }

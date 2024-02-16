@@ -1,5 +1,7 @@
 {
-  "title": "Śrī Śrī Govardhana-vāsa-prārthanā-daśakam",
+  "title": [
+    "Śrī Śrī Govardhana-vāsa-prārthanā-daśakam"
+  ],
   "author": [
     "Ten prayers for a dwelling near Śrī Govardhan composed by Śrīla Raghunāth Dās Goswāmī Prabhu.",
     "The preferred prayer to Śrī Govardhan of Śrīla Bhakti Siddhānta Saraswatī Ṭhākur"
@@ -138,5 +140,8 @@
         "One who carefully studies these ten nectarean verses describing the king of mountains, Śrī Govardhan, will soon attain a dwelling at this joyous place and quickly attain the precious jewel of personal service to the Divine Couple."
       ]
     }
-  ]
+  ],
+  "attributes": {
+    "page": "32"
+  }
 }

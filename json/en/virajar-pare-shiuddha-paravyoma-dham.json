@@ -1,5 +1,7 @@
 {
-  "title": "Śrī Rādhāṣṭaka",
+  "title": [
+    "Śrī Rādhāṣṭaka"
+  ],
   "author": [
     "by Śrīla Bhakti Vinod Ṭhākur"
   ],
@@ -81,5 +83,8 @@
         "Other than the meeting of these two, Bhakti Vinod desires but nothing else."
       ]
     }
-  ]
+  ],
+  "attributes": {
+    "page": "237"
+  }
 }

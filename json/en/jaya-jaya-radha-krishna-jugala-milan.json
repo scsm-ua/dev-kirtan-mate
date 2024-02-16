@@ -1,5 +1,7 @@
 {
-  "title": "Śrī Jugala-ārati",
+  "title": [
+    "Śrī Jugala-ārati"
+  ],
   "author": [
     "by Śrīla Bhakti Vinod Ṭhākur"
   ],
@@ -65,5 +67,8 @@
         "Yearning to attain the lotus feet of Śrī Śrī Rādhā-Krishna, Bhakti Vinod floats in happiness at the gopīs’ feet."
       ]
     }
-  ]
+  ],
+  "attributes": {
+    "page": "244"
+  }
 }

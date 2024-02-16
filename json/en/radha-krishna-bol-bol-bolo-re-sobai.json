@@ -1,5 +1,7 @@
 {
-  "title": "Śrī Nagara Kīrtana 4",
+  "title": [
+    "Śrī Nagara Kīrtana 4"
+  ],
   "author": [
     "by Śrīla Bhakti Vinod Ṭhākur"
   ],
@@ -44,6 +46,7 @@
     }
   ],
   "attributes": {
-    "verse parentheses": "non bold"
+    "verse parentheses": "non bold",
+    "page": "300"
   }
 }

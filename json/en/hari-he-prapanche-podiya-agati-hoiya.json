@@ -1,5 +1,7 @@
 {
-  "title": "Bhajan-Lālasā",
+  "title": [
+    "Bhajan-Lālasā"
+  ],
   "author": [
     "by Śrīla Bhakti Vinod Ṭhākur"
   ],
@@ -54,5 +56,8 @@
         "After numerous endeavours to subdue these material demands, I have completely given up all hope. Oh Lord of the destitute! I call upon Your Holy Name, for now You are my only hope."
       ]
     }
-  ]
+  ],
+  "attributes": {
+    "page": "184"
+  }
 }

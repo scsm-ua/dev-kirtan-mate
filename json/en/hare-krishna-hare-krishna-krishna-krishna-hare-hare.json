@@ -1,5 +1,7 @@
 {
-  "title": "Hare Krishna mahāmantra",
+  "title": [
+    "Hare Krishna mahāmantra"
+  ],
   "author": [
     "Illumination by Śrīla Śrīdhar Mahārāj"
   ],
@@ -16,5 +18,8 @@
         "In that consideration, the Hare Krishna mantra does not mention the Rāma-<i class=\"SongVerse__term\">līlā</i> of Āyodhya at all. There is no connection with that in the highest conception of the Hare Krishna mantra.  The inner conception of the mantra is responsible for our spiritual attainment. The inner conception of the devotee will guide them to their destination."
       ]
     }
-  ]
+  ],
+  "attributes": {
+    "page": "28"
+  }
 }

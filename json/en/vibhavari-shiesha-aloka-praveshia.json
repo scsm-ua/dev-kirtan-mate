@@ -1,5 +1,7 @@
 {
-  "title": "Vibhāvarī Śeṣa",
+  "title": [
+    "Vibhāvarī Śeṣa"
+  ],
   "author": [
     "by Śrīla Bhakti Vinod Ṭhākur"
   ],
@@ -101,5 +103,8 @@
         "Lord Krishna is the life of the River Yamunā. He is always absorbed in amorous Pastimes, and He is the moon of the <i class=\"SongVerse__term\">gopīs</i>’ minds, which are like the chakora birds that subsist only upon moonlight. O mind, obey these words of mine and sing the glories of Śrī Krishna in the form of these Holy Names, which are full of nectarean mellows."
       ]
     }
-  ]
+  ],
+  "attributes": {
+    "page": "62"
+  }
 }

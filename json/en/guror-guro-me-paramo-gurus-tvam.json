@@ -1,5 +1,8 @@
 {
-  "title": "Śrī Śrīmad Gaura-Kiśora-namaskāra Daśakam",
+  "title": [
+    "Śrī Śrīmad Gaura-Kiśora-",
+    "namaskāra Daśakam"
+  ],
   "author": [
     "by Śrīla Bhakti Rakṣak Śrīdhar Dev-Goswāmī Mahārāj"
   ],
@@ -125,5 +128,8 @@
         "Although I remain deep in the mud of offences, I (a fallen soul) am begging you for your causeless mercy. Please be gracious and deliver this soul bereft. Oh Gaura Kiśora, again and yet again do I make my obeisance unto you."
       ]
     }
-  ]
+  ],
+  "attributes": {
+    "page": "308"
+  }
 }

@@ -1,5 +1,8 @@
 {
-  "title": "Auspicious Invocation to Śaraṇāgati",
+  "title": [
+    "Auspicious Invocation",
+    "to Śaraṇāgati"
+  ],
   "author": [
     "by Śrīla Bhakti Vinod Ṭhākur"
   ],
@@ -75,5 +78,8 @@
         "Weeping, weeping, I implore thee,<br class=\"SongVerse__break\" />&nbsp;&nbsp;&nbsp;&nbsp;‘O I am afallen!<br class=\"SongVerse__break\" />Please teach me to surrender,<br class=\"SongVerse__break\" />&nbsp;&nbsp;&nbsp;&nbsp;teach me pure devotion.’"
       ]
     }
-  ]
+  ],
+  "attributes": {
+    "page": "58"
+  }
 }

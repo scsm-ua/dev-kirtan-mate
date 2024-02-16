@@ -1,5 +1,7 @@
 {
-  "title": "Śrī Hari-vāsara-gīti",
+  "title": [
+    "Śrī Hari-vāsara-gīti"
+  ],
   "author": [
     "by Śrīla Vṛndāvan dās Ṭhākur"
   ],
@@ -131,5 +133,8 @@
         "The two brothers, Śrī Krishna Chaitanya Mahāprabhu and Nityānanda Prabhu are my beloved masters and my life and soul. Thus Vṛndāvan dās sings this song of Their glorification and devotionally offers it at Their lotus feet."
       ]
     }
-  ]
+  ],
+  "attributes": {
+    "page": "285"
+  }
 }

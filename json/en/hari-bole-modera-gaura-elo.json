@@ -1,5 +1,7 @@
 {
-  "title": "Śrī Nagara Kīrtana 8",
+  "title": [
+    "Śrī Nagara Kīrtana 8"
+  ],
   "author": [
     "by Śrīla Bhakti Vinod Ṭhākur"
   ],
@@ -87,6 +89,7 @@
     }
   ],
   "attributes": {
-    "verse parentheses": "non bold"
+    "verse parentheses": "non bold",
+    "page": "301"
   }
 }

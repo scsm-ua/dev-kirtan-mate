@@ -1,5 +1,7 @@
 {
-  "title": "The Glory of the Śrī Chaitanya Sāraswat Maṭh",
+  "title": [
+    "The Glory of the Śrī Chaitanya Sāraswat Maṭh"
+  ],
   "author": [
     "Composed by Śrīla B.R. Śrīdhar Dev-Goswāmī Mahārāj while",
     "residing in a hut on the banks of the Ganges in 1941.",
@@ -47,5 +49,8 @@
         "Indeed the hearts of all beings, moving and still,<br class=\"SongVerse__break\" />&nbsp;&nbsp;&nbsp;&nbsp;marvel in the glory of Śrī Chaitanya Sāraswat Maṭh<br class=\"SongVerse__break\" />as they take shelter in the soothing, affectionate shade<br class=\"SongVerse__break\" />&nbsp;&nbsp;&nbsp;&nbsp;of the victory flag that flies aloft<br class=\"SongVerse__break\" />and sings wholeheartedly to the world the ever-expanding<br class=\"SongVerse__break\" />&nbsp;&nbsp;&nbsp;&nbsp;renown of Śrī Chaitanya Sāraswat Maṭh;<br class=\"SongVerse__break\" />bearing that banner of all transcendental benedictions,<br class=\"SongVerse__break\" />&nbsp;&nbsp;&nbsp;&nbsp;Śrī Chaitanya Sāraswat Maṭh ever shines resplendent<br class=\"SongVerse__break\" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;in all its divine magnificence."
       ]
     }
-  ]
+  ],
+  "attributes": {
+    "page": "24"
+  }
 }

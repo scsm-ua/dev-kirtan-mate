@@ -1,5 +1,7 @@
 {
-  "title": "Nām-saṅkīrtan",
+  "title": [
+    "Nām-saṅkīrtan"
+  ],
   "author": [
     "by Śrīla Narottam Dās Ṭhākur"
   ],
@@ -105,5 +107,8 @@
         "Desiring the lotus feet of Śrī Guru and the Vaiṣṇavas, Narottam Dās sings the <i class=\"SongVerse__term\">saṅkīrtan</i> of the Holy Name."
       ]
     }
-  ]
+  ],
+  "attributes": {
+    "page": "66"
+  }
 }

@@ -1,5 +1,7 @@
 {
-  "title": "E ghora saṁsare",
+  "title": [
+    "E ghora saṁsare"
+  ],
   "author": [
     "by Kālidās"
   ],
@@ -41,5 +43,8 @@
         "Kālidās says, “Anyone who has taken shelter of the lotus feet of Lord Chaitanya and Lord Nityānanda is my shelter in life and death.”"
       ]
     }
-  ]
+  ],
+  "attributes": {
+    "page": "171"
+  }
 }

@@ -1,5 +1,7 @@
 {
-  "title": "Jaya Dhvani",
+  "title": [
+    "Jaya Dhvani"
+  ],
   "author": [],
   "subtitle": "“Kī Jaya!” Chants",
   "verses": [
@@ -53,5 +55,8 @@
         ""
       ]
     }
-  ]
+  ],
+  "attributes": {
+    "page": "26"
+  }
 }

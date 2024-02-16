@@ -1,5 +1,7 @@
 {
-  "title": "Śrīla Bhakti Rakṣak Śrīdhar Dev-Goswāmī Mahārāj",
+  "title": [
+    "Śrīla Bhakti Rakṣak Śrīdhar Dev-Goswāmī Mahārāj"
+  ],
   "author": [
     "by Śrīla Bhakti Sundar Govinda Dev-Goswāmī Mahārāj"
   ],
@@ -22,5 +24,8 @@
         "I worship his feet, Śrīla Śrīdhar-Deva.”"
       ]
     }
-  ]
+  ],
+  "attributes": {
+    "page": "13"
+  }
 }

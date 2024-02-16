@@ -1,5 +1,7 @@
 {
-  "title": "He deva bhavantaṁ vande",
+  "title": [
+    "He deva bhavantaṁ vande"
+  ],
   "author": [
     "by Śrīla Rūpa Goswāmī"
   ],
@@ -52,5 +54,8 @@
         "Oh eternal Lord, may the bumblebee of my mind, finding there the most wonderful sweetness, eternally stay in the honey of Your lotus feet, which rebuke the sweetest nectar."
       ]
     }
-  ]
+  ],
+  "attributes": {
+    "page": "242"
+  }
 }

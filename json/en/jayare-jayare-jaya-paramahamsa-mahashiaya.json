@@ -1,5 +1,7 @@
 {
-  "title": "Āchārya vandana",
+  "title": [
+    "Āchārya vandana"
+  ],
   "author": [
     "Composed by Gopāl Govinda Mahanta"
   ],
@@ -256,5 +258,8 @@
         "So please keep incessantly showering your mercy, the nectar of ecstatic love of Godhead, and let all the souls of this world be uplifted by that. May all the people of the world dance in the congregational chanting of the Lord’s Holy Name—this is the prayer of this servant of the Vaiṣṇavas."
       ]
     }
-  ]
+  ],
+  "attributes": {
+    "page": "262"
+  }
 }

@@ -1,5 +1,7 @@
 {
-  "title": "Sarvasva tomāra",
+  "title": [
+    "Sarvasva tomāra"
+  ],
   "author": [
     "by Śrīla Bhakti Vinod Ṭhākur"
   ],
@@ -65,5 +67,8 @@
         "I will never even think about arranging for my own nourishment, and will remain absorbed in ever cherishing love for my master. Bhakti Vinod now accepts You as his only maintainer."
       ]
     }
-  ]
+  ],
+  "attributes": {
+    "page": "191"
+  }
 }

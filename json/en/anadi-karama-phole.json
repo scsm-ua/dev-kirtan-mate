@@ -1,10 +1,19 @@
 {
-  "title": "Śrī Śikṣāṣṭakam",
+  "title": [
+    "Śrī Śikṣāṣṭakam"
+  ],
   "author": [
     "by Śrīla Bhakti Vinod Ṭhākur"
   ],
   "subtitle": "Song 5",
   "verses": [
+    {
+      "number": null,
+      "text": [],
+      "translation": [
+        "The fifth verse of the Śrī Śikṣāṣṭakam is as follows:"
+      ]
+    },
     {
       "number": null,
       "text": [
@@ -65,5 +74,8 @@
         "I am Your eternal servant, Oh merciful Lord. But, having forgotten this since time immemorial, I have become bound up in this network of illusion. Take this fallen servant of Yours, give him a place in the dust of Your lotus feet; give your shelter to this humble Bhakti Vinod."
       ]
     }
-  ]
+  ],
+  "attributes": {
+    "page": "224"
+  }
 }

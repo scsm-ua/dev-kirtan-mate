@@ -1,5 +1,7 @@
 {
-  "title": "Nivedana",
+  "title": [
+    "Nivedana"
+  ],
   "author": [
     "by Śrīla Bhakti Vinod Ṭhākur"
   ],
@@ -93,5 +95,8 @@
         "Oh Gopīnāth, I am so sinful that although all the demons attained Your lotus feet, Bhakti Vinod has remained in worldly existence."
       ]
     }
-  ]
+  ],
+  "attributes": {
+    "page": "200"
+  }
 }

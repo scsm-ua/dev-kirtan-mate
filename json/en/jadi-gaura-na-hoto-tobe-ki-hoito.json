@@ -1,5 +1,7 @@
 {
-  "title": "Jadi Gaura nā ho’to",
+  "title": [
+    "Jadi Gaura nā ho’to"
+  ],
   "author": [
     "by Śrīla Vāsudeva Ghoṣa"
   ],
@@ -53,5 +55,8 @@
         "Even though I am chanting ‘Gaurāṅga!’ somehow I have not melted in ecstatic love. So how have I maintained the burden of this body? How is it that the creator has given this Vāsu a stone in place of his heart?"
       ]
     }
-  ]
+  ],
+  "attributes": {
+    "page": "141"
+  }
 }

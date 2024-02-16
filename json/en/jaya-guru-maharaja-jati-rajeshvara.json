@@ -1,5 +1,7 @@
 {
-  "title": "Śrī Guru Ārati-stuti",
+  "title": [
+    "Śrī Guru Ārati-stuti"
+  ],
   "author": [
     "by Śrīla Bhakti Sundar Govinda Dev-Goswāmī Mahārāj"
   ],
@@ -165,5 +167,8 @@
         "O personification of perfect conclusions<br class=\"SongVerse__break\" />&nbsp;&nbsp;&nbsp;&nbsp;inconceivably one, yet different!<br class=\"SongVerse__break\" />I sing this prayer at your <i class=\"SongVerse__term\">ārati</i>,<br class=\"SongVerse__break\" />&nbsp;&nbsp;&nbsp;&nbsp;with joy — your humble servant."
       ]
     }
-  ]
+  ],
+  "attributes": {
+    "page": "45"
+  }
 }

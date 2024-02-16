@@ -1,5 +1,7 @@
 {
-  "title": "Śrī Prasāda-sevāya Gīti",
+  "title": [
+    "Śrī Prasāda-sevāya Gīti"
+  ],
   "author": [
     "by Śrīla Bhakti Vinod Ṭhākur"
   ],
@@ -41,5 +43,8 @@
         ""
       ]
     }
-  ]
+  ],
+  "attributes": {
+    "page": "72"
+  }
 }

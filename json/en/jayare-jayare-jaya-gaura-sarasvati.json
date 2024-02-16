@@ -1,5 +1,7 @@
 {
-  "title": "Śrī Sāraswat-ārati",
+  "title": [
+    "Śrī Sāraswat-ārati"
+  ],
   "author": [
     "by Śrīla Bhakti Rakṣak Śrīdhar Dev-Goswāmī Mahārāj",
     "Translated by Devamoyī Devī Dasī"
@@ -136,5 +138,8 @@
         "All glories to Śrī Guru, Gaurāṅga, Rādhā-Govindasundar. O devotees, always sing Their eternal glories."
       ]
     }
-  ]
+  ],
+  "attributes": {
+    "page": "75"
+  }
 }

@@ -1,5 +1,7 @@
 {
-  "title": "Śrī Rādhāṣṭaka",
+  "title": [
+    "Śrī Rādhāṣṭaka"
+  ],
   "author": [
     "by Śrīla Bhakti Vinod Ṭhākur"
   ],
@@ -85,5 +87,8 @@
         "Bhakti Vinod, whose only wealth is the service of Śrī Rādhā, humbly prays to be a serving maid at Her lotus feet."
       ]
     }
-  ]
+  ],
+  "attributes": {
+    "page": "238"
+  }
 }

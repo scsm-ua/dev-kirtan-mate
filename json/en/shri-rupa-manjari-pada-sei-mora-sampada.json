@@ -1,5 +1,7 @@
 {
-  "title": "Śrī-Rūpa-Mañjarī-pada",
+  "title": [
+    "Śrī-Rūpa-Mañjarī-pada"
+  ],
   "author": [
     "by Śrīla Narottam Dās Ṭhākur"
   ],
@@ -87,5 +89,8 @@
         "This was composed by Narottam Ṭhākur in praise of Śrīla Rūpa Goswāmī. In this way he has given us light of the higher quarter of bhajan life. This sampradāya is named as the Rūpānuga-sampradāya, and our Guru-paramparā and all these things are adjusted according to that. He wrote many songs and they are of very substantive firmament, very ecstatic, and of deep faith."
       ]
     }
-  ]
+  ],
+  "attributes": {
+    "page": "206"
+  }
 }

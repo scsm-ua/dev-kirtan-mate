@@ -1,5 +1,7 @@
 {
-  "title": "‘Gaurāṅga’ bolite habe",
+  "title": [
+    "‘Gaurāṅga’ bolite habe"
+  ],
   "author": [
     "by Śrīla Narottam Dās Ṭhākur"
   ],
@@ -55,5 +57,8 @@
         "My only aspiration is to attain the lotus feet of Śrī Rūpa and Śrī Raghunāth. Narottam Dās continually submits this prayer."
       ]
     }
-  ]
+  ],
+  "attributes": {
+    "page": "146"
+  }
 }

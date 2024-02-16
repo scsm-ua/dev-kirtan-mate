@@ -1,5 +1,8 @@
 {
-  "title": "Śrī Śrī Premadhāma-deva-stotram",
+  "title": [
+    "Śrī Śrī",
+    "Premadhāma-deva-stotram"
+  ],
   "author": [
     "Composed by Śrīla Bhakti Rakṣak Śrīdhar Dev-Goswāmī Mahārāj",
     "Edited by Swāmī Bhakti Pāvan Janārdan"
@@ -892,5 +895,8 @@
         "These prayers have been composed in the fifth century after the appearance of Śrī Chaitanya Mahāprabhu by a certain <i class=\"SongVerse__term\">sannyās</i> disciple of Śrīla Saraswatī Ṭhākur named Śrīdhar [Śrīla Bhakti Rakṣak Śrīdhar Dev-Goswāmī Mahārāj]."
       ]
     }
-  ]
+  ],
+  "attributes": {
+    "page": "90"
+  }
 }

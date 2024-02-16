@@ -1,5 +1,7 @@
 {
-  "title": "Śrī Śikṣāṣṭakam",
+  "title": [
+    "Śrī Śikṣāṣṭakam"
+  ],
   "author": [
     "by Śrīla Bhakti Vinod Ṭhākur"
   ],
@@ -40,5 +42,8 @@
         "Footnote to verse 1: <i class=\"SongVerse__term\">Śrīla Śrīdhar Mahārāja advised not to sing ‘sakhi go’ but ‘bandhu he’ instead.</i>"
       ]
     }
-  ]
+  ],
+  "attributes": {
+    "page": "231"
+  }
 }

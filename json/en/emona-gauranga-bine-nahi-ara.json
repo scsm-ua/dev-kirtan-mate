@@ -1,5 +1,7 @@
 {
-  "title": "Emona Gaurāṅga bine nāhi āra",
+  "title": [
+    "Emona Gaurāṅga bine nāhi āra"
+  ],
   "author": [
     "by Śrīla Premānanda Dās"
   ],
@@ -76,5 +78,8 @@
         "An auspicious tumult arose. The three worlds were filled with bliss. Premānanda says: “Alas! Attachment for Lord Gaurāṅga did not arise in me.”"
       ]
     }
-  ]
+  ],
+  "attributes": {
+    "page": "142"
+  }
 }

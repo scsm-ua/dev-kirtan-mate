@@ -1,5 +1,7 @@
 {
-  "title": "Śrita Kamalā",
+  "title": [
+    "Śrita Kamalā"
+  ],
   "author": [
     "Composed by Śrīla Jayadeva Goswāmī"
   ],
@@ -95,5 +97,8 @@
         "The poet Śrī Jayadeva offers this song of devotion and shining good fortune to Thee. All glories! All glories to Lord Śrī Hari!"
       ]
     }
-  ]
+  ],
+  "attributes": {
+    "page": "252"
+  }
 }

@@ -1,5 +1,7 @@
 {
-  "title": "Śrī Nṛsiṁha Praṇām",
+  "title": [
+    "Śrī Nṛsiṁha Praṇām"
+  ],
   "author": [],
   "subtitle": null,
   "verses": [
@@ -27,5 +29,8 @@
         "Lord Nṛsiṁha is here and also there. Wherever I go Lord Nṛsiṁha is there. He is in the heart and is outside as well. I surrender to Lord Nṛsiṁha, the origin of all things and the supreme refuge."
       ]
     }
-  ]
+  ],
+  "attributes": {
+    "page": "271"
+  }
 }

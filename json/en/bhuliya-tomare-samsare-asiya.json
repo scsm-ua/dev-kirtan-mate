@@ -1,5 +1,7 @@
 {
-  "title": "Dainya - bhuliyā tomāre",
+  "title": [
+    "Dainya"
+  ],
   "author": [
     "by Śrīla Bhakti Vinod Ṭhākur"
   ],
@@ -89,5 +91,8 @@
         "Now in old age, this Bhakti Vinod very sadly weeps. I failed to worship You, O Lord, and instead passed my life in vain. What will be my fate now?"
       ]
     }
-  ]
+  ],
+  "attributes": {
+    "page": "182"
+  }
 }

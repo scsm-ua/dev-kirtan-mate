@@ -1,5 +1,8 @@
 {
-  "title": "Śrī Śrī Girirāj-Govardhan Ārati",
+  "title": [
+    "Śrī Śrī Girirāj-",
+    "Govardhan Ārati"
+  ],
   "author": [
     "by Śrīla Bhakti Sundar Govinda Dev-Goswāmī Mahārāj"
   ],
@@ -115,5 +118,8 @@
         "Śrī Śrī Girirāj Jīu is eternally manifested as both the worshipable Lord and the servitor Lord. This fallen servant sees the <i class=\"SongVerse__term\">ārati</i> of Śrī Girirāj Jīu with great ecstasy."
       ]
     }
-  ]
+  ],
+  "attributes": {
+    "page": "38"
+  }
 }

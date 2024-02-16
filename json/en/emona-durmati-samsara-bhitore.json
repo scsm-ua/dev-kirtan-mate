@@ -1,5 +1,7 @@
 {
-  "title": "Dainyātmikā",
+  "title": [
+    "Dainyātmikā"
+  ],
   "author": [
     "by Śrīla Bhakti Vinod Ṭhākur"
   ],
@@ -78,5 +80,8 @@
         "O Lord, hearing those words, Bhakti Vinod has come weeping to the soles of Your lotus feet and tells the story of his life."
       ]
     }
-  ]
+  ],
+  "attributes": {
+    "page": "178"
+  }
 }

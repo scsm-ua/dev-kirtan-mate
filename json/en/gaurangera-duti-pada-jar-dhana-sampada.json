@@ -1,5 +1,7 @@
 {
-  "title": "Sāvaraṇa-Śrī-Gaura-mahimā",
+  "title": [
+    "Sāvaraṇa-Śrī-Gaura-mahimā"
+  ],
   "author": [
     "by Śrīla Narottam Dās Ṭhākur"
   ],
@@ -53,5 +55,8 @@
         "Whoever dives into the waves of the nectarean ocean of love of Lord Gaurāṅga becomes an intimate associate of Śrī Śrī Rādhā-Mādhava. Whether one lives in a house or in the forest, if they chant ‘Oh Lord Gaurāṅga!’ Narottam Dās begs to attain their association."
       ]
     }
-  ]
+  ],
+  "attributes": {
+    "page": "134"
+  }
 }

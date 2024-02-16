@@ -1,5 +1,7 @@
 {
-  "title": "Nivedana",
+  "title": [
+    "Nivedana"
+  ],
   "author": [
     "by Śrīla Bhakti Vinod Ṭhākur"
   ],
@@ -93,5 +95,8 @@
         "Oh Gopīnāth, You are indeed the wisest person. Please look for a way to bring about auspiciousness for this fool, and please do not consider this servant as an outsider."
       ]
     }
-  ]
+  ],
+  "attributes": {
+    "page": "202"
+  }
 }

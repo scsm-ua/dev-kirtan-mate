@@ -1,5 +1,7 @@
 {
-  "title": "Śrīla Gaura Kiśora Dās Bābājī Mahārāj",
+  "title": [
+    "Śrīla Gaura Kiśora Dās Bābājī Mahārāj"
+  ],
   "author": [
     "by Śrīla Bhakti Rakṣak Śrīdhar Dev-Goswāmī Mahārāj"
   ],
@@ -17,5 +19,8 @@
         "“I bow to our Guru, Śrīla Gaura Kiśora Dās,<br class=\"SongVerse__break\" />the pure devotee beyond social class;<br class=\"SongVerse__break\" />the bee in the lotus of the feet of Śrī Gaurāṅga,<br class=\"SongVerse__break\" />who deep in his heart serves Śrī Rādhā forever.”"
       ]
     }
-  ]
+  ],
+  "attributes": {
+    "page": "15"
+  }
 }

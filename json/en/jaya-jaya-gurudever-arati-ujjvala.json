@@ -1,5 +1,7 @@
 {
-  "title": "Śrī Guru Ārati",
+  "title": [
+    "Śrī Guru Ārati"
+  ],
   "author": [
     "by Śrīpād B. A. Paramahaṁsa Mahārāj",
     "translated by Devamoyī Devī Dasī"
@@ -166,5 +168,8 @@
         "O my lord, who is the manifestation of the mercy of Śrī Gaurāṅga, please be merciful to me. This insignificant servant of yours is always praying this way while worshipping you."
       ]
     }
-  ]
+  ],
+  "attributes": {
+    "page": "42"
+  }
 }

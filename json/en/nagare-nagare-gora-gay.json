@@ -1,5 +1,8 @@
 {
-  "title": "Śrī Kṛṣṇera Viṁsottara-śata-nāma",
+  "title": [
+    "Śrī Kṛṣṇera",
+    "Viṁsottara-śata-nāma"
+  ],
   "author": [
     "by Śrīla Bhakti Vinod Ṭhākur"
   ],
@@ -264,5 +267,8 @@
         "Lord Chaitanya sings these names of Krishna from village to village, and Ṭhākur Bhakti Vinod falls at His lotus feet."
       ]
     }
-  ]
+  ],
+  "attributes": {
+    "page": "280"
+  }
 }

@@ -1,5 +1,7 @@
 {
-  "title": "Sva-Niṣṭha",
+  "title": [
+    "Sva-Niṣṭha"
+  ],
   "author": [
     "by Śrīla Narottam Dās Ṭhākur"
   ],
@@ -41,5 +43,8 @@
         "My mind is firmly convinced of the spiritual benefit obtained by eating the remnants of foodstuff left by the devotees. The names of the devotees are my happiness. The land of Vṛndāvan is the enclosure within which I keep my mind. Poor-hearted Narottam Dās speaks in this way."
       ]
     }
-  ]
+  ],
+  "attributes": {
+    "page": "129"
+  }
 }

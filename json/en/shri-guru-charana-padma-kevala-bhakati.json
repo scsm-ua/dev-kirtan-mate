@@ -1,5 +1,8 @@
 {
-  "title": "Śrī Guru-vaiṣṇava Māhātmya-gīti",
+  "title": [
+    "Śrī Guru-vaiṣṇava",
+    "Māhātmya-gīti"
+  ],
   "author": [
     "by Śrīla Narottam Dās Ṭhākur"
   ],
@@ -71,6 +74,7 @@
     }
   ],
   "attributes": {
-    "verse parentheses": "non bold"
+    "verse parentheses": "non bold",
+    "page": "80"
   }
 }

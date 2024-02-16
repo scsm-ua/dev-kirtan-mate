@@ -1,5 +1,7 @@
 {
-  "title": "vṛndāyai tulasī-devyai",
+  "title": [
+    "vṛndāyai tulasī-devyai"
+  ],
   "author": [],
   "subtitle": null,
   "verses": [
@@ -36,5 +38,8 @@
         "Let the holy lotus feet of Śrī Gurudeva, Śrīman Mahāprabhu, and Śrī Śrī Gāndharvā-Govindasundar, along with Their eternal associates, be victorious over all!"
       ]
     }
-  ]
+  ],
+  "attributes": {
+    "page": "22"
+  }
 }

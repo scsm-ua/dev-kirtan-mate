@@ -1,5 +1,7 @@
 {
-  "title": "Śrī Śikṣāṣṭakam",
+  "title": [
+    "Śrī Śikṣāṣṭakam"
+  ],
   "author": [
     "by Śrīla Bhakti Vinod Ṭhākur"
   ],
@@ -29,5 +31,8 @@
         "On seeing this, my mind was stunned. I lost my senses. Unaware of time, I fainted. When I awoke after immeasurable time, the treasured couple had gone. My vision of Vraja had broken."
       ]
     }
-  ]
+  ],
+  "attributes": {
+    "page": "230"
+  }
 }

@@ -1,5 +1,7 @@
 {
-  "title": "Iṣṭa-deve Vijñapti",
+  "title": [
+    "Iṣṭa-deve Vijñapti"
+  ],
   "author": [
     "by Śrīla Narottam Dās Ṭhākur"
   ],
@@ -52,5 +54,8 @@
         "Oh Lord Krishna, son of Nanda, accompanied by the daughter of Vṛṣabhānu, please be merciful to me now. Narottam Dās says, “O Lord, please do not push me away from Your reddish lotus feet, for who is my beloved except for You?”"
       ]
     }
-  ]
+  ],
+  "attributes": {
+    "page": "185"
+  }
 }

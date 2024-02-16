@@ -1,5 +1,7 @@
 {
-  "title": "Sakhi-vṛnde Vijñaptiḥ",
+  "title": [
+    "Sakhi-vṛnde Vijñaptiḥ"
+  ],
   "author": [
     "by Śrīla Narottam Dās Ṭhākur"
   ],
@@ -65,5 +67,8 @@
         "Narottam Dās, the servant of the servant of Śrī Krishna Chaitanya Mahāprabhu, longs for this service to the Divine Couple."
       ]
     }
-  ]
+  ],
+  "attributes": {
+    "page": "245"
+  }
 }

@@ -1,5 +1,7 @@
 {
-  "title": "Śrī Gaura-ārati",
+  "title": [
+    "Śrī Gaura-ārati"
+  ],
   "author": [
     "by Śrīla Bhakti Vinod Ṭhākur"
   ],
@@ -107,6 +109,7 @@
     }
   ],
   "attributes": {
-    "verse parentheses": "non bold"
+    "verse parentheses": "non bold",
+    "page": "73"
   }
 }

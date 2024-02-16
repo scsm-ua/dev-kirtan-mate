@@ -1,10 +1,19 @@
 {
-  "title": "Śrī Śikṣāṣṭakam",
+  "title": [
+    "Śrī Śikṣāṣṭakam"
+  ],
   "author": [
     "by Śrīla Bhakti Vinod Ṭhākur"
   ],
   "subtitle": "Song 8a",
   "verses": [
+    {
+      "number": null,
+      "text": [],
+      "translation": [
+        "The eighth verse of the Śrī Śikṣāṣṭakam is as follows:"
+      ]
+    },
     {
       "number": null,
       "text": [
@@ -84,5 +93,8 @@
         "In this way, Bhakti Vinod, in both union and separation, knows that Krishna is the only Lord of his soul. Krishna’s happiness is my happiness. He is the Lord of my life; there is no other Lord for me than Him."
       ]
     }
-  ]
+  ],
+  "attributes": {
+    "page": "232"
+  }
 }

@@ -1,10 +1,19 @@
 {
-  "title": "Śrī Śikṣāṣṭakam",
+  "title": [
+    "Śrī Śikṣāṣṭakam"
+  ],
   "author": [
     "by Śrīla Bhakti Vinod Ṭhākur"
   ],
   "subtitle": "Song 6",
   "verses": [
+    {
+      "number": null,
+      "text": [],
+      "translation": [
+        "The sixth verse of the Śrī Śikṣāṣṭakam is as follows:"
+      ]
+    },
     {
       "number": null,
       "text": [
@@ -89,5 +98,8 @@
         "Bhakti Vinod, who is devoid of good intelligence cries, “When will I meet with such a day?”"
       ]
     }
-  ]
+  ],
+  "attributes": {
+    "page": "226"
+  }
 }

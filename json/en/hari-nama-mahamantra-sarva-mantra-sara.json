@@ -1,7 +1,10 @@
 {
-  "title": "Daśa-vidha Nāmāparādha",
+  "title": [
+    "Daśa-vidha Nāmāparādha"
+  ],
   "author": [
-    "Bengali poem composed by Śrīla Bhakti Sundar Govinda Dev-Goswāmī Mahārāj"
+    "Bengali poem composed by",
+    "Śrīla Bhakti Sundar Govinda Dev-Goswāmī Mahārāj"
   ],
   "subtitle": "The Ten Offences to the Holy Name",
   "verses": [
@@ -133,5 +136,8 @@
         "Casting off these ten offences, leaving no exception,<br class=\"SongVerse__break\" />Those pure souls who chant the Name in Holy Congregation —<br class=\"SongVerse__break\" />The miracle of love for Krishna they will surely savour,<br class=\"SongVerse__break\" />The Name Divine Himself will shine within their hearts forever."
       ]
     }
-  ]
+  ],
+  "attributes": {
+    "page": "29"
+  }
 }

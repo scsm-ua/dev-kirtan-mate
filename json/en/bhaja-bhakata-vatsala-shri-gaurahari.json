@@ -1,5 +1,7 @@
 {
-  "title": "Śrī Bhog Ārati Gīti",
+  "title": [
+    "Śrī Bhog Ārati Gīti"
+  ],
   "author": [
     "by Śrīla Bhakti Vinod Ṭhākur"
   ],
@@ -189,5 +191,8 @@
         ""
       ]
     }
-  ]
+  ],
+  "attributes": {
+    "page": "68"
+  }
 }

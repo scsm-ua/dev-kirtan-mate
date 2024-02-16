@@ -1,5 +1,7 @@
 {
-  "title": "Aruṇodoya-kīrtan",
+  "title": [
+    "Aruṇodoya-kīrtan"
+  ],
   "author": [
     "by Śrīla Bhakti Vinod Ṭhākur"
   ],
@@ -55,5 +57,8 @@
         "Ṭhākur Bhakti Vinod fell at the lotus feet of Lord Gaurāṅga, and after begging for the Holy Name he received that <i class=\"SongVerse__term\">mahāmantra</i>."
       ]
     }
-  ]
+  ],
+  "attributes": {
+    "page": "55"
+  }
 }

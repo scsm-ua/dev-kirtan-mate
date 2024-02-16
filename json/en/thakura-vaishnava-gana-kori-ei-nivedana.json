@@ -1,5 +1,7 @@
 {
-  "title": "Ṭhākura-vaiṣṇava-gaṇa",
+  "title": [
+    "Ṭhākura-vaiṣṇava-gaṇa"
+  ],
   "author": [
     "by Śrīla Narottam Dās Ṭhākur"
   ],
@@ -53,5 +55,8 @@
         "My mind became immersed in the impermanent satisfaction of the senses, and I could not understand the real goal of life. For this reason I did not aspire to attain Your lotus feet. Narottam Dās says, “Now that I am able to see and hear the Vaiṣṇavas, I have become free from all fear."
       ]
     }
-  ]
+  ],
+  "attributes": {
+    "page": "64"
+  }
 }

@@ -1,5 +1,8 @@
 {
-  "title": "Sāvaraṇa-Śrī-Gaura-pāda-padme Prārthanā",
+  "title": [
+    "Sāvaraṇa-Śrī-Gaura-pāda-padme",
+    "Prārthanā"
+  ],
   "author": [
     "by Śrīla Narottam Dās Ṭhākur"
   ],
@@ -85,5 +88,8 @@
         "Kindly give Your Grace, Śrīla Prabhupād Saraswatī Ṭhākur, manifestation of Śrī Gaura. This fallen servant begs the mercy of your associates."
       ]
     }
-  ]
+  ],
+  "attributes": {
+    "page": "82"
+  }
 }

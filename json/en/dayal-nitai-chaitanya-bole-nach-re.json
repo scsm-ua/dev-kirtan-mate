@@ -1,5 +1,7 @@
 {
-  "title": "Dayāl Nitāi Chaitanya",
+  "title": [
+    "Dayāl Nitāi Chaitanya"
+  ],
   "author": [
     "by Śrīla Bhakti Vinod Ṭhākur"
   ],
@@ -43,6 +45,7 @@
     }
   ],
   "attributes": {
-    "verse parentheses": "non bold"
+    "verse parentheses": "non bold",
+    "page": "133"
   }
 }

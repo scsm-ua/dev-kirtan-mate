@@ -1,5 +1,7 @@
 {
-  "title": "Akrodha paramānanda",
+  "title": [
+    "Akrodha paramānanda"
+  ],
   "author": [
     "by Śrīla Lochan Dās Ṭhākur"
   ],
@@ -55,5 +57,8 @@
         "Where attachment for such an incarnation has not arisen, Lochan Dās says that such a sinful person comes and goes in the cycle of repeated birth and death."
       ]
     }
-  ]
+  ],
+  "attributes": {
+    "page": "131"
+  }
 }

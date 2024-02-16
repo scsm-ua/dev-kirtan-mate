@@ -1,5 +1,7 @@
 {
-  "title": "Aruṇodoya-kīrtan",
+  "title": [
+    "Aruṇodoya-kīrtan"
+  ],
   "author": [
     "by Śrīla Bhakti Vinod Ṭhākur"
   ],
@@ -101,5 +103,8 @@
         "To penetrate the darkness of ignorance and bless all souls within this universe, the beautiful Name of Krishna has arisen like the shining sun."
       ]
     }
-  ]
+  ],
+  "attributes": {
+    "page": "53"
+  }
 }

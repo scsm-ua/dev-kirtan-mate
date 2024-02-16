@@ -1,5 +1,7 @@
 {
-  "title": "Jaya Yaśodā-Nandana Kṛṣṇa",
+  "title": [
+    "Jaya Yaśodā-Nandana Kṛṣṇa"
+  ],
   "author": [
     "by Śrīla Bhakti Vinod Ṭhākur"
   ],
@@ -25,5 +27,8 @@
         "All glories to the infallible Lord, husband of the goddess of fortune, the supreme enjoyer, and the moon of Vṛndāvan! All glories to Krishna, who always holds a flute to His mouth, who is the colour of a dark blue raincloud, and is the bliss of the gopīs!"
       ]
     }
-  ]
+  ],
+  "attributes": {
+    "page": "251"
+  }
 }

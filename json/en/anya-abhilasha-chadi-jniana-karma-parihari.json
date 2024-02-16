@@ -1,5 +1,7 @@
 {
-  "title": "Anya-abhilāṣa chāḍi",
+  "title": [
+    "Anya-abhilāṣa chāḍi"
+  ],
   "author": [
     "by Śrīla Narottam Dās Ṭhākur"
   ],
@@ -198,5 +200,8 @@
         "Be continuously engaged on the path of devotional worship and be attached to glorifying the Pastimes of Śrī Krishna in Vṛndāvan. This process of devotional service is known as steady devotional service. The prime example of this is Hanumān."
       ]
     }
-  ]
+  ],
+  "attributes": {
+    "page": "211"
+  }
 }

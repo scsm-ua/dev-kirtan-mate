@@ -1,5 +1,7 @@
 {
-  "title": "Māyā Duratyayā",
+  "title": [
+    "Māyā Duratyayā"
+  ],
   "author": [
     "Composed by Śrīla Bhakti Sundar Govinda Dev-Goswāmī Mahārāj"
   ],
@@ -63,5 +65,8 @@
         "Offer yourself to the lotus feet of the Lord who is the owner and controller of Māyā, taking shelter there in all humility. Do not even dream that without His lotus feet you can properly adjust with the environment or practice spiritual life (<i class=\"SongVerse__term\">dhārma</i>)."
       ]
     }
-  ]
+  ],
+  "attributes": {
+    "page": "343"
+  }
 }

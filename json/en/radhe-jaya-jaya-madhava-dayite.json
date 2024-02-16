@@ -1,5 +1,7 @@
 {
-  "title": "Śrī Rādhikā-stava",
+  "title": [
+    "Śrī Rādhikā-stava"
+  ],
   "author": [
     "by Śrīla Rūpa Goswāmī"
   ],
@@ -45,5 +47,8 @@
         "O You who are filled with compassion! O You whose divine characteristics are described by the great sages Sanaka and Sanātan! O Rādhā, please be merciful to me!"
       ]
     }
-  ]
+  ],
+  "attributes": {
+    "page": "241"
+  }
 }

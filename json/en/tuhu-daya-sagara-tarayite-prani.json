@@ -1,10 +1,19 @@
 {
-  "title": "Śrī Śikṣāṣṭakam",
+  "title": [
+    "Śrī Śikṣāṣṭakam"
+  ],
   "author": [
     "by Śrīla Bhakti Vinod Ṭhākur"
   ],
   "subtitle": "Song 2",
   "verses": [
+    {
+      "number": null,
+      "text": [],
+      "translation": [
+        "The second verse of the Śrī Śikṣāṣṭakam is as follows:"
+      ]
+    },
     {
       "number": null,
       "text": [
@@ -67,5 +76,8 @@
         "I have never known any attraction for the Holy Names. And so, the heart of Bhakti Vinod is filled with sadness."
       ]
     }
-  ]
+  ],
+  "attributes": {
+    "page": "218"
+  }
 }

@@ -1,5 +1,7 @@
 {
-  "title": "Ājñā-Ṭahal",
+  "title": [
+    "Ājñā-Ṭahal"
+  ],
   "author": [
     "by Śrīla Bhakti Vinod Ṭhākur"
   ],
@@ -48,6 +50,7 @@
     }
   ],
   "attributes": {
-    "verse parentheses": "non bold"
+    "verse parentheses": "non bold",
+    "page": "127"
   }
 }

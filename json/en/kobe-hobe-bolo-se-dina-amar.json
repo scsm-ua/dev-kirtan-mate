@@ -1,5 +1,7 @@
 {
-  "title": "Kobe ho’be bolo",
+  "title": [
+    "Kobe ho’be bolo"
+  ],
   "author": [
     "by Śrīla Bhakti Vinod Ṭhākur"
   ],
@@ -100,5 +102,8 @@
         "When will there be an awakening of compassion for all fallen souls, and when will this Bhakti Vinod, forgetting his own happines, with a meek heart set out to propagate by humble entreaty the sacred order of Śrī Chaitanya Mahāprabhu?"
       ]
     }
-  ]
+  ],
+  "attributes": {
+    "page": "198"
+  }
 }

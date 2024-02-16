@@ -1,5 +1,7 @@
 {
-  "title": "Ātma-samarpaṇe",
+  "title": [
+    "Ātma-samarpaṇe"
+  ],
   "author": [
     "by Śrīla Bhakti Vinod Ṭhākur"
   ],
@@ -105,5 +107,8 @@
         "Bhakti Vinod is now the property of Gokul, Your holy abode. Oh Keśava! Kindly protect him with gentle loving care."
       ]
     }
-  ]
+  ],
+  "attributes": {
+    "page": "196"
+  }
 }

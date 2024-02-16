@@ -1,5 +1,7 @@
 {
-  "title": "Śrī Nāma",
+  "title": [
+    "Śrī Nāma"
+  ],
   "author": [
     "by Śrīla Bhakti Vinod Ṭhākur"
   ],
@@ -46,5 +48,8 @@
         "This life must surely end soon, and you have not worshiped Hṛṣīkeśa, the master of the senses. Bhakti Vinod advises: at least once, taste the <i class=\"SongVerse__term\">nāma-rasa</i>, the nectar of the Holy Name."
       ]
     }
-  ]
+  ],
+  "attributes": {
+    "page": "138"
+  }
 }

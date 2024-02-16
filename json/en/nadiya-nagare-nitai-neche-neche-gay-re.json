@@ -1,5 +1,7 @@
 {
-  "title": "Śrīman Mahāprabhur śata-nāma",
+  "title": [
+    "Śrīman Mahāprabhur śata-nāma"
+  ],
   "author": [
     "by Śrīla Bhakti Vinod Ṭhākur"
   ],
@@ -264,5 +266,8 @@
         "In the towns and villages of Nadia, Lord Nityānanda dances ecstatically, singing these divine Names, and Ṭhākur Bhakti Vinod falls down at His reddish lotus feet."
       ]
     }
-  ]
+  ],
+  "attributes": {
+    "page": "275"
+  }
 }

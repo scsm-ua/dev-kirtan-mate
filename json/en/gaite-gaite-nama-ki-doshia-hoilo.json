@@ -1,10 +1,19 @@
 {
-  "title": "Śrī Śikṣāṣṭakam",
+  "title": [
+    "Śrī Śikṣāṣṭakam"
+  ],
   "author": [
     "by Śrīla Bhakti Vinod Ṭhākur"
   ],
   "subtitle": "Song 7a",
   "verses": [
+    {
+      "number": null,
+      "text": [],
+      "translation": [
+        "The seventh verse of the Śrī Śikṣāṣṭakam is as follows:"
+      ]
+    },
     {
       "number": null,
       "text": [
@@ -101,5 +110,8 @@
         "I am unable to further tolerate this separation from my Lord Krishna and am ready to give up my life in two days or four."
       ]
     }
-  ]
+  ],
+  "attributes": {
+    "page": "228"
+  }
 }

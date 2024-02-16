@@ -1,5 +1,7 @@
 {
-  "title": "Śrī Gaurahari-Kusuma-Stavāṣṭakam",
+  "title": [
+    "Śrī Gaurahari-Kusuma-Stavāṣṭakam"
+  ],
   "author": [
     "Composed by Śrīla Bhakti Rakṣak Śrīdhar Dev-Goswāmī Mahārāj"
   ],
@@ -101,5 +103,8 @@
         "He performed greatly maddened dancing and chanting amidst the wonderful sounds of the <i class=\"SongVerse__term\">karatāla</i> and <i class=\"SongVerse__term\">mṛdaṅga</i> as He was shown great affection and honour by the fallen souls. He is the grand abode of divine peace of relief for one and all. Serve that Lord, Gaurahari, worship Gaurahari."
       ]
     }
-  ]
+  ],
+  "attributes": {
+    "page": "329"
+  }
 }

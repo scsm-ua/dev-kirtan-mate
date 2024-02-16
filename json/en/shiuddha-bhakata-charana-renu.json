@@ -1,5 +1,7 @@
 {
-  "title": "Śuddha-bhakata",
+  "title": [
+    "Śuddha-bhakata"
+  ],
   "author": [
     "by Śrīla Bhakti Vinod Ṭhākur"
   ],
@@ -101,5 +103,8 @@
         "Whatever Bhakti Vinod obtains that is conducive for the service of Śrī Krishna, he accepts every day with the greatest of joy."
       ]
     }
-  ]
+  ],
+  "attributes": {
+    "page": "288"
+  }
 }

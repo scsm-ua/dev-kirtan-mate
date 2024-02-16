@@ -1,5 +1,7 @@
 {
-  "title": "Śrī Śikṣāṣṭakam",
+  "title": [
+    "Śrī Śikṣāṣṭakam"
+  ],
   "author": [
     "by Śrīla Bhakti Vinod Ṭhākur"
   ],
@@ -84,5 +86,8 @@
         "Footnote to Song 8b: <i class=\"SongVerse__term\">Śrīla Śrīdhar Mahārāja advised not to sing this song because it’s “too high.”</i>"
       ]
     }
-  ]
+  ],
+  "attributes": {
+    "page": "234"
+  }
 }

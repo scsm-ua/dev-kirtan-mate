@@ -1,5 +1,7 @@
 {
-  "title": "Śrī Vraja-dhāma-mahimāmṛta",
+  "title": [
+    "Śrī Vraja-dhāma-mahimāmṛta"
+  ],
   "author": [
     "by Śrīla Krishnadās Kavirāj Goswāmī"
   ],
@@ -115,5 +117,8 @@
         "Remembering the lotus feet of Lord Nityānanda’s consort, Śrī Jāhnavā Devī, this very fallen and lowly Krishnadās sings the saṅkīrtan of the Holy Name."
       ]
     }
-  ]
+  ],
+  "attributes": {
+    "page": "246"
+  }
 }

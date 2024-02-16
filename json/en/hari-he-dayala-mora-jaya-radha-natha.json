@@ -1,5 +1,7 @@
 {
-  "title": "Dainya O Prapatti",
+  "title": [
+    "Dainya O Prapatti"
+  ],
   "author": [],
   "subtitle": null,
   "verses": [
@@ -53,5 +55,8 @@
         "I have considered that in this world there is no one except You who can deliver this fallen servant."
       ]
     }
-  ]
+  ],
+  "attributes": {
+    "page": "195"
+  }
 }

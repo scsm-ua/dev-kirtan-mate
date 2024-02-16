@@ -1,10 +1,19 @@
 {
-  "title": "Śrī Śikṣāṣṭakam",
+  "title": [
+    "Śrī Śikṣāṣṭakam"
+  ],
   "author": [
     "by Śrīla Bhakti Vinod Ṭhākur"
   ],
   "subtitle": "Song 3",
   "verses": [
+    {
+      "number": null,
+      "text": [],
+      "translation": [
+        "The third verse of the Śrī Śikṣāṣṭakam is as follows:"
+      ]
+    },
     {
       "number": null,
       "text": [
@@ -97,5 +106,8 @@
         "Bhakti Vinod, crying at the Lord’s holy feet says, “O my Lord, when will You bestow upon me the qualifications for Krishna-<i class=\"SongVerse__term\">kīrtan</i>?”"
       ]
     }
-  ]
+  ],
+  "attributes": {
+    "page": "220"
+  }
 }

@@ -1,5 +1,7 @@
 {
-  "title": "Ki-rūpe pāibo sevā",
+  "title": [
+    "Ki-rūpe pāibo sevā"
+  ],
   "author": [
     "by Śrīla Narottam Dās Ṭhākur"
   ],
@@ -55,5 +57,8 @@
         "Oh master, Oh purifier of the sinful, Oh saviour of the fallen souls, you do not see the faults of others, please rescue this Narottam Dās."
       ]
     }
-  ]
+  ],
+  "attributes": {
+    "page": "168"
+  }
 }

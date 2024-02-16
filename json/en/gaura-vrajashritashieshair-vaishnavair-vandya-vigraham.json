@@ -1,5 +1,7 @@
 {
-  "title": "Śrīla Jagannāth Dās Bābājī Mahārāj",
+  "title": [
+    "Śrīla Jagannāth Dās Bābājī Mahārāj"
+  ],
   "author": [
     "by Śrīla Bhakti Rakṣak Śrīdhar Dev-Goswāmī Mahārāj"
   ],
@@ -17,5 +19,8 @@
         "“The great venerable Grandsire of pure devotion,<br class=\"SongVerse__break\" />loved by all Vaiṣṇavas of both Nabadwīp and Vṛndāvan —<br class=\"SongVerse__break\" />I worship the feet of that great Vaiṣṇava Guru,<br class=\"SongVerse__break\" />the ocean of love, Śrīla Jagannāth Prabhu.”"
       ]
     }
-  ]
+  ],
+  "attributes": {
+    "page": "17"
+  }
 }
