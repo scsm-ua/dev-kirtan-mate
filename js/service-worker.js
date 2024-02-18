@@ -19,7 +19,7 @@ const RUNTIME = 'runtime';
 
 // A list of local resources we always want to be cached.
 const PRECACHE_URLS = [
-  // TODO:
+  'https://scsm-ua.github.io/dev-kirtan-mate/ua/'
 ];
 
 // The install handler takes care of precaching the resources we always need.
