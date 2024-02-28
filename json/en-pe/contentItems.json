@@ -120,7 +120,7 @@
         "id": "namo-namah-tulasi-maharani",
         "title": "Śrī Tulasī-parikramā-gīti",
         "name": "Śrī Tulasī-parikramā-gīti",
-        "aliasName": "namo namaḥ tulasī mahārāṇī",
+        "aliasName": "namo re namo re mā̐iyā namo nārāyaṇī",
         "fileName": "namo-namah-tulasi-maharani.html",
         "page": "36"
       }
@@ -135,7 +135,7 @@
         "name": "Vandanā",
         "aliasName": "vande ’haṁ śrī-guroḥ śrī-yuta-pada-kamalaṁ",
         "fileName": "vande-ham-shri-guroh-shri-yuta-pada-kamalam.html",
-        "page": ""
+        "page": "38"
       }
     ]
   },
@@ -146,33 +146,33 @@
         "id": "samsara-davanala-lidha-loka",
         "title": "Śrī Śrī Gurvāṣṭakam",
         "name": "Śrī Śrī Gurvāṣṭakam",
-        "aliasName": "saṁsāra-dāvānala-līḍha-loka trāṇāya kāruṇya-ghanāghanatvam prāptasya kalyāṇa-guṇārṇavasya",
+        "aliasName": "saṁsāra-dāvānala-līḍha-loka",
         "fileName": "samsara-davanala-lidha-loka.html",
-        "page": ""
+        "page": "45"
       },
       {
         "id": "shri-krishna-chaitanya-prabhu-jive-daya-kori",
         "title": "Auspicious Invocation to Śaraṇāgati",
         "name": "Auspicious Invocation to Śaraṇāgati",
-        "aliasName": "śrī-kṛṣṇa-chaitanya prabhu jīve dayā kari’ svapārṣada svīya dhāma saha avatari",
+        "aliasName": "śrī-kṛṣṇa-chaitanya prabhu jīve dayā kari’",
         "fileName": "shri-krishna-chaitanya-prabhu-jive-daya-kori.html",
-        "page": ""
+        "page": "48"
       },
       {
         "id": "bhaja-re-bhaja-re-amar-mana-ati-manda",
         "title": "Bhajan-gīti",
         "name": "Bhajan-gīti",
-        "aliasName": "bhaja re bhaja re āmār mana ati manda (bhajan vinā gati nāi re)",
+        "aliasName": "bhaja re bhaja re āmār mana ati manda",
         "fileName": "bhaja-re-bhaja-re-amar-mana-ati-manda.html",
-        "page": ""
+        "page": "49"
       },
       {
         "id": "vibhavari-shiesha-aloka-praveshia",
         "title": "Vibhāvarī Śeṣa",
         "name": "Vibhāvarī Śeṣa",
-        "aliasName": "vibhāvarī śeṣa      āloka praveśa nidrā chhāḍi’ uṭha jīva",
+        "aliasName": "vibhāvarī śeṣa    āloka praveśa",
         "fileName": "vibhavari-shiesha-aloka-praveshia.html",
-        "page": ""
+        "page": "51"
       }
     ]
   },
@@ -183,17 +183,17 @@
         "id": "shri-guru-charana-padma-kevala-bhakati",
         "title": "Śrī Guru-vaiṣṇava Māhātmya-gīti",
         "name": "Śrī Guru-vaiṣṇava Māhātmya-gīti",
-        "aliasName": "śrī guru charaṇa-padma   kevala bhakati-sadma vand/ muñi sāvadhāna mate",
+        "aliasName": "śrī guru charaṇa-padma    kevala bhakati-sadma",
         "fileName": "shri-guru-charana-padma-kevala-bhakati.html",
-        "page": ""
+        "page": "54"
       },
       {
         "id": "shri-krishna-chaitanya-prabhu-daya-kara-more",
         "title": "Sāvaraṇa-Śrī-Gaura-pāda-padme Prārthanā",
         "name": "Sāvaraṇa-Śrī-Gaura-pāda-padme Prārthanā",
-        "aliasName": "śrī kṛṣṇa chaitanya prabhu dayā kara more tomā vinā ke dayālu jagata mājhāre",
+        "aliasName": "śrī kṛṣṇa chaitanya prabhu dayā kara more",
         "fileName": "shri-krishna-chaitanya-prabhu-daya-kara-more.html",
-        "page": ""
+        "page": "55"
       }
     ]
   },
@@ -204,17 +204,17 @@
         "id": "vaishnava-thakura-dayara-sagara",
         "title": "Śrī Vaiṣṇava-mahimā-gīti",
         "name": "Śrī Vaiṣṇava-mahimā-gīti",
-        "aliasName": "(ohe) vaiṣṇava ṭhākura   dayāra sāgara e dāse karuṇā kari",
+        "aliasName": "(ohe) vaiṣṇava ṭhākura    dayāra sāgara",
         "fileName": "vaishnava-thakura-dayara-sagara.html",
-        "page": ""
+        "page": "58"
       },
       {
         "id": "thakura-vaishnava-gana-kori-ei-nivedana",
         "title": "Ṭhākura-vaiṣṇava-gaṇa",
         "name": "Ṭhākura-vaiṣṇava-gaṇa",
-        "aliasName": "ṭhākura vaiṣṇava-gaṇa     kari ei nivedana mo baḍa adhama durāchāra",
+        "aliasName": "ṭhākura vaiṣṇava-gaṇa    kari ei nivedana",
         "fileName": "thakura-vaishnava-gana-kori-ei-nivedana.html",
-        "page": ""
+        "page": "59"
       },
       {
         "id": "ki-rupe-paibo-seva-mui-durachara",
@@ -222,7 +222,7 @@
         "name": "Ki-rūpe pāiba sevā",
         "aliasName": "ki-rūpe pāiba sevā muñi durāchāra",
         "fileName": "ki-rupe-paibo-seva-mui-durachara.html",
-        "page": ""
+        "page": "61"
       },
       {
         "id": "thakura-vaishnava-pada-avanira",
@@ -230,15 +230,15 @@
         "name": "Ṭhākura-vaiṣṇava-pada",
         "aliasName": "ṭhākura-vaiṣṇava-pada    avanīra susampada",
         "fileName": "thakura-vaishnava-pada-avanira.html",
-        "page": ""
+        "page": "62"
       },
       {
         "id": "ei-vara-karuna-kara-vaishnava-gosani",
         "title": "Vaiṣṇava Vijñāpti",
         "name": "Vaiṣṇava Vijñāpti",
-        "aliasName": "ei-bāra karuṇā kara vaiṣṇava gosāi patita-pāvana tomā vine keha nāi",
+        "aliasName": "ei-bāra karuṇā kara vaiṣṇava gosāi",
         "fileName": "ei-vara-karuna-kara-vaishnava-gosani.html",
-        "page": ""
+        "page": "63"
       }
     ]
   },
@@ -249,9 +249,9 @@
         "id": "nitai-pada-kamala-koti-chandra-sushitala",
         "title": "Manaḥ-Śikṣā",
         "name": "Manaḥ-Śikṣā",
-        "aliasName": "nitāi-pada-kamala     koṭī-chandra-suśītala ye chhāyāya jagata juḍāya",
+        "aliasName": "nitāi-pada-kamala    koṭī-chandra-suśītala",
         "fileName": "nitai-pada-kamala-koti-chandra-sushitala.html",
-        "page": ""
+        "page": "65"
       },
       {
         "id": "nitai-gunamani-amara-nitai-gunamani",
@@ -259,31 +259,31 @@
         "name": "Nitāi guṇamaṇi āmāra",
         "aliasName": "nitāi guṇamaṇi āmāra nitāi guṇamaṇi",
         "fileName": "nitai-gunamani-amara-nitai-gunamani.html",
-        "page": ""
+        "page": "66"
       },
       {
         "id": "akrodha-paramananda",
         "title": "Akrodha paramānanda",
         "name": "Akrodha paramānanda",
-        "aliasName": "akrodha paramānanda nityānanda rāya abhimāna-śūnya nitāi nagare beḍāya",
+        "aliasName": "akrodha paramānanda nityānanda rāya",
         "fileName": "akrodha-paramananda.html",
-        "page": ""
+        "page": "67"
       },
       {
         "id": "parama-karuna-pahu-dui-jana",
         "title": "Śrī Śrī Gaura-Nityānander Dayā",
         "name": "Śrī Śrī Gaura-Nityānander Dayā",
-        "aliasName": "parama karuṇa     pah. dui jana nitāi gaurachandra",
+        "aliasName": "parama karuṇa    pah. dui jana",
         "fileName": "parama-karuna-pahu-dui-jana.html",
-        "page": ""
+        "page": "68"
       },
       {
         "id": "dayal-nitai-chaitanya-bole-nach-re",
         "title": "Dayāl Nitāi Chaitanya",
         "name": "Dayāl Nitāi Chaitanya",
-        "aliasName": "‘dayāl nitāi chaitanya’ ba’le nāch re āmār mana nāch re āmār mana, nāch re āmār mana",
+        "aliasName": "‘dayāl nitāi chaitanya’ ba’le nāch re āmār mana",
         "fileName": "dayal-nitai-chaitanya-bole-nach-re.html",
-        "page": ""
+        "page": "70"
       }
     ]
   },
@@ -294,57 +294,57 @@
         "id": "gaurangera-duti-pada-jar-dhana-sampada",
         "title": "Sāvaraṇa-Śrī-Gaura-mahimā",
         "name": "Sāvaraṇa-Śrī-Gaura-mahimā",
-        "aliasName": "gaurāṅgera duṭi pada    yāra dhana sampada se jāne bhakati-rasa-sāra",
+        "aliasName": "gaurāṅgera duṭi pada    yāra dhana sampada",
         "fileName": "gaurangera-duti-pada-jar-dhana-sampada.html",
-        "page": ""
+        "page": "72"
       },
       {
         "id": "emona-durmati-samsara-bhitore",
         "title": "Dainyātmikā",
         "name": "Dainyātmikā",
-        "aliasName": "emana durmati     saṁsāra bhitare paḍiyā āchhinu āmi",
+        "aliasName": "(prabhu he!)",
         "fileName": "emona-durmati-samsara-bhitore.html",
-        "page": ""
+        "page": "73"
       },
       {
         "id": "gay-gora-madhur-svare",
         "title": "Śrī Nāma",
         "name": "Śrī Nāma",
-        "aliasName": "“hare kṛṣṇa hare kṛṣṇa kṛṣṇa kṛṣṇa hare hare hare rāma hare rāma rāma rāma hare hare”",
+        "aliasName": "gāya gorā madhur svare",
         "fileName": "gay-gora-madhur-svare.html",
-        "page": ""
+        "page": "75"
       },
       {
         "id": "vimala-hemajin-tanu-anupama-re",
         "title": "Vimala hema jini",
         "name": "Vimala hema jini",
-        "aliasName": "vimala hema jini        tanu anupama re! tāhe śobhe nānā phula-dāma",
+        "aliasName": "vimala hema jini    tanu anupama re!",
         "fileName": "vimala-hemajin-tanu-anupama-re.html",
-        "page": ""
+        "page": "76"
       },
       {
         "id": "emona-gauranga-bine-nahi-ara",
         "title": "Emana Gaurāṅga vine nāhi āra",
         "name": "Emana Gaurāṅga vine nāhi āra",
-        "aliasName": "emana gaurāṅga vine nāhi āra hena avatāra     habe ki hayechhe",
+        "aliasName": "emana gaurāṅga vine nāhi āra",
         "fileName": "emona-gauranga-bine-nahi-ara.html",
-        "page": ""
+        "page": "77"
       },
       {
         "id": "ke-jabi-ke-jabi-bhai-bhava-sindhu-para",
         "title": "Ke yābi ke yābi",
         "name": "Ke yābi ke yābi",
-        "aliasName": "ke yābi ke yābi bhāi bhava-sindhu pāra dhanya kali-yuge re chaitanya-avatāra",
+        "aliasName": "ke yābi ke yābi bhāi bhava-sindhu pāra",
         "fileName": "ke-jabi-ke-jabi-bhai-bhava-sindhu-para.html",
-        "page": ""
+        "page": "81"
       },
       {
         "id": "avatara-sara-gora-avatara",
         "title": "Avatāra Sāra",
         "name": "Avatāra Sāra",
-        "aliasName": "avatāra sāra        gorā avatāra kena nā bhajili tā̐re",
+        "aliasName": "avatāra sāra    gorā avatāra",
         "fileName": "avatara-sara-gora-avatara.html",
-        "page": ""
+        "page": "81"
       },
       {
         "id": "gaura-pahu-na-bhajiya-mainu",
@@ -352,15 +352,15 @@
         "name": "Gaurā Pahu̐",
         "aliasName": "gaurā pahu̐ nā bhajiyā mainu",
         "fileName": "gaura-pahu-na-bhajiya-mainu.html",
-        "page": ""
+        "page": "83"
       },
       {
         "id": "jadi-gaura-na-hoto-tobe-ki-hoito",
         "title": "Yadi Gaura nā ho’to",
         "name": "Yadi Gaura nā ho’to",
-        "aliasName": "yadi, gaura nā ha’ta    tabe ki ha-ita kemane dharitām de",
+        "aliasName": "yadi, gaura nā ha’ta    tabe ki ha-ita",
         "fileName": "jadi-gaura-na-hoto-tobe-ki-hoito.html",
-        "page": ""
+        "page": "84"
       }
     ]
   },
@@ -370,74 +370,74 @@
       {
         "id": "gopinath-mama-nivedana-shiuno",
         "title": "Nivedana, Part 1",
-        "name": "Nivedana, Part 1",
-        "aliasName": "gopīnāth, mama nivedana śuna viṣayī durjana     sadā kāma-rata",
+        "name": "Nivedana",
+        "aliasName": "gopīnāth, mama nivedana śuna",
         "fileName": "gopinath-mama-nivedana-shiuno.html",
-        "page": ""
+        "page": "87"
       },
       {
         "id": "gopinath-ghuchao-samsara-jvala",
         "title": "Nivedana, Part 2",
-        "name": "Nivedana, Part 2",
-        "aliasName": "gopīnāth, ghuchāo saṁsāra-jvālā avidyā-yātanā       āra nāhi sahe",
+        "name": "Nivedana",
+        "aliasName": "gopīnāth, ghuchāo saṁsāra-jvālā",
         "fileName": "gopinath-ghuchao-samsara-jvala.html",
-        "page": ""
+        "page": "89"
       },
       {
         "id": "gopinath-amara-upaya-nai",
         "title": "Nivedana, Part 3",
-        "name": "Nivedana, Part 3",
+        "name": "Nivedana",
         "aliasName": "gopīnāth, āmāra upāya nāi",
         "fileName": "gopinath-amara-upaya-nai.html",
-        "page": ""
+        "page": "91"
       },
       {
         "id": "hari-he-dayala-mora-jaya-radha-natha",
         "title": "Dainya O Prapatti",
         "name": "Dainya O Prapatti",
-        "aliasName": "hari he dayāla mora jaya rādhā-nātha bāra bāra ei-bāra laha nija sātha",
+        "aliasName": "hari he dayāla mora jaya rādhā-nātha",
         "fileName": "hari-he-dayala-mora-jaya-radha-natha.html",
-        "page": ""
+        "page": "93"
       },
       {
         "id": "manasa-deho-geho-jo-kichu-mora",
         "title": "Mānasa Deha Geha",
         "name": "Mānasa Deha Geha",
-        "aliasName": "mānasa, deha, geha, yo kichhu mora arpilu̐ tuyā pade nanda-kiśora!",
+        "aliasName": "mānasa, deha, geha, yo kichhu mora",
         "fileName": "manasa-deho-geho-jo-kichu-mora.html",
-        "page": ""
+        "page": "94"
       },
       {
         "id": "bhajahu-re-mana-shri-nanda-nandana",
         "title": "Bhajahu̐ Re Mana",
         "name": "Bhajahu̐ Re Mana",
-        "aliasName": "bhajahu̐ re mana   śrī-nanda-nandana abhaya-charaṇāravinda re",
+        "aliasName": "bhajahu̐ re mana    śrī-nanda-nandana",
         "fileName": "bhajahu-re-mana-shri-nanda-nandana.html",
-        "page": ""
+        "page": "96"
       },
       {
         "id": "radha-madhava-kunja-bihari",
         "title": "Jaya Rādhā-Mādhava",
         "name": "Jaya Rādhā-Mādhava",
-        "aliasName": "(jaya) rādhā-mādhava   (jaya) kuñja-vihārī (jaya) gopī-jana-vallabha  (jaya) giri-vara-dhārī",
+        "aliasName": "(jaya) rādhā-mādhava    (jaya) kuñja-vihārī",
         "fileName": "radha-madhava-kunja-bihari.html",
-        "page": ""
+        "page": "97"
       },
       {
         "id": "jaya-yashoda-nandana-krishna-gopala-govinda",
         "title": "Jaya Yaśodā-Nandana Kṛṣṇa",
         "name": "Jaya Yaśodā-Nandana Kṛṣṇa",
-        "aliasName": "(jaya) yaśodā-nandana kṛṣṇa gopāla govinda (jaya) madana-mohana hari ananta mukunda",
+        "aliasName": "(jaya) yaśodā-nandana kṛṣṇa gopāla govinda",
         "fileName": "jaya-yashoda-nandana-krishna-gopala-govinda.html",
-        "page": ""
+        "page": "97"
       },
       {
         "id": "mayura-mukuta-pitambara-dhari",
         "title": "Mayūra mukuṭa",
         "name": "Mayūra mukuṭa",
-        "aliasName": "mayūra-mukuṭa-pītāmbara-dhārī muralī-dhara govardhana-dhārī",
+        "aliasName": "mayūra-mukuṭa-pītāmbara-dhārī",
         "fileName": "mayura-mukuta-pitambara-dhari.html",
-        "page": ""
+        "page": "98"
       },
       {
         "id": "he-deva-bhavantam-vande",
@@ -445,15 +445,15 @@
         "name": "He deva bhavantaṁ vande",
         "aliasName": "he deva bhavantaṁ vande",
         "fileName": "he-deva-bhavantam-vande.html",
-        "page": ""
+        "page": "99"
       },
       {
         "id": "janama-saphala-tara-krishna-darashiana-jara",
         "title": "Rūpa-Kīrtan",
         "name": "Rūpa-Kīrtan",
-        "aliasName": "janama saphala tā’ra    kṛṣṇa-daraśana yā’ra bhāgye ha-iyāchhe eka-bāra",
+        "aliasName": "janama saphala tā’ra    kṛṣṇa-daraśana yā’ra",
         "fileName": "janama-saphala-tara-krishna-darashiana-jara.html",
-        "page": ""
+        "page": "100"
       },
       {
         "id": "jaya-jaya-radha-krishna-jugala-milan",
@@ -461,7 +461,7 @@
         "name": "Śrī Vraja-dhāma-mahimāmṛta",
         "aliasName": "jaya rādhe, jaya kṛṣṇa, jaya vṛndāvana",
         "fileName": "jaya-jaya-radha-krishna-jugala-milan.html",
-        "page": ""
+        "page": "102"
       }
     ]
   },
@@ -472,9 +472,9 @@
         "id": "amara-jivana-sada-pape-rata",
         "title": "Āmāra jīvana",
         "name": "Āmāra jīvana",
-        "aliasName": "āmāra jīvana       sadā pāpe rata nāhika puṇyera leśa",
+        "aliasName": "āmāra jīvana    sadā pāpe rata",
         "fileName": "amara-jivana-sada-pape-rata.html",
-        "page": ""
+        "page": "105"
       },
       {
         "id": "hari-hari-biphole-janama-goyainu",
@@ -482,7 +482,7 @@
         "name": "Iṣṭa-deve Vijñapti",
         "aliasName": "hari hari!",
         "fileName": "hari-hari-biphole-janama-goyainu.html",
-        "page": ""
+        "page": "107"
       },
       {
         "id": "ki-jani-ki-bale-tomara-dhamete",

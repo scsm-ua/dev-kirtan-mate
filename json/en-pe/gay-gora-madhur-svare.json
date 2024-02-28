@@ -8,7 +8,7 @@
   "subtitle": null,
   "verses": [
     {
-      "number": null,
+      "number": "1",
       "text": [
         "gāya gorā madhur svare"
       ],
@@ -17,11 +17,10 @@
       ]
     },
     {
-      "number": "1",
+      "number": null,
       "text": [
-        "“hare kṛṣṇa hare kṛṣṇa kṛṣṇa kṛṣṇa hare hare hare rāma hare rāma rāma rāma hare hare”",
-        "gṛhe thāka, vane thāka sadā ‘hari’ bale’ ḍāka sukhe duḥkhe bhulo nāka",
-        "vadane hari-nām kara re"
+        "“hare kṛṣṇa hare kṛṣṇa kṛṣṇa kṛṣṇa hare hare",
+        "hare rāma hare rāma rāma rāma hare hare”"
       ],
       "translation": [
         ""
@@ -29,7 +28,12 @@
     },
     {
       "number": "2",
-      "text": [],
+      "text": [
+        "gṛhe thāka, vane thāka",
+        "sadā ‘hari’ bale’ ḍāka",
+        "sukhe duḥkhe bhulo nāka",
+        "vadane hari-nām kara re"
+      ],
       "translation": [
         "Stay at home, or stay in a forest, regardless, always call out ‘Hari!’ In happiness and in sadness, don’t forget: chant the Lord’s Name aloud."
       ]
@@ -37,7 +41,9 @@
     {
       "number": "3",
       "text": [
-        "māyā-jāle baddha ha’ye āchha michhe kāja la’ye ekhan-o chetana peye",
+        "māyā-jāle baddha ha’ye",
+        "āchha michhe kāja la’ye",
+        "ekhan-o chetana peye",
         "rādhā-mādhav-nām bala re"
       ],
       "translation": [
@@ -47,7 +53,8 @@
     {
       "number": "4",
       "text": [
-        "jīvana ha-ila śeṣa nā bhajile hṛṣīkeśa",
+        "jīvana ha-ila śeṣa",
+        "nā bhajile hṛṣīkeśa",
         "bhaktivinod-upadeśa",
         "ek-bār nām-rase māta re"
       ],
@@ -57,6 +64,6 @@
     }
   ],
   "attributes": {
-    "page": ""
+    "page": "75"
   }
 }

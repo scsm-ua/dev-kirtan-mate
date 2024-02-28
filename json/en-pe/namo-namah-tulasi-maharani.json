@@ -8,14 +8,22 @@
   "subtitle": null,
   "verses": [
     {
-      "number": "1",
+      "number": null,
       "text": [
         "namo namaḥ tulasī mahārāṇī",
-        "vṛnde mahārāṇī namo namaḥ",
+        "vṛnde mahārāṇī namo namaḥ"
+      ],
+      "translation": [
+        "O Tulasī Mahārāṇī, O Vṛndā Devī, I offer my obeisance unto you again and again."
+      ]
+    },
+    {
+      "number": "1",
+      "text": [
         "namo re namo re mā̐iyā namo nārāyaṇī"
       ],
       "translation": [
-        "O Tulasī Mahārāṇī, O Vṛndā Devī, I offer my obeisance unto you again and again. O Nārāyaṇī, I offer my obeisance unto you again and again."
+        "O Nārāyaṇī, I offer my obeisance unto you again and again."
       ]
     },
     {

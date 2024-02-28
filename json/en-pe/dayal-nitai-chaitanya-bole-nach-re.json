@@ -10,7 +10,8 @@
     {
       "number": "1",
       "text": [
-        "‘dayāl nitāi chaitanya’ ba’le nāch re āmār mana nāch re āmār mana, nāch re āmār mana"
+        "‘dayāl nitāi chaitanya’ ba’le nāch re āmār mana",
+        "nāch re āmār mana, nāch re āmār mana"
       ],
       "translation": [
         "O my mind, dance! O my mind, dance! O my mind, dance, chanting, “Dayāl Nitāi Chaitanya!”"
@@ -28,9 +29,10 @@
     {
       "number": "2",
       "text": [
-        "(ore) aparādha dūre yābe, pābe prema-dhan (aparādhera vichāra to nāi he)",
+        "(ore) aparādha dūre yābe, pābe prema-dhan",
+        "    (aparādhera vichāra to nāi he)",
         "(takhan) kṛṣṇa-nāme ruchi habe, ghuchibe bandhana",
-        "(anurāg to habe he)"
+        "    (anurāg to habe he)"
       ],
       "translation": [
         "Then my offences will go away and I will attain the wealth of divine love. (In the Names of Nitāi and Chaitanya, there is no consideration of offences.) Then I will develop taste for Kṛṣṇa’s Name and my bondage will be destroyed. (Then I will have loving attachment.)"
@@ -39,10 +41,11 @@
     {
       "number": "3",
       "text": [
-        "(takhan) anāyāse saphal habe jīvera jīvana (naile jīvan to michhe he)",
-        "(kṛṣṇa-rati vinā jīver jīvan to michhe he)",
+        "(takhan) anāyāse saphal habe jīvera jīvana",
+        "    (naile jīvan to michhe he)",
+        "    (kṛṣṇa-rati vinā jīver jīvan to michhe he)",
         "(śeṣe) vṛndāvane rādhā-śyāmer pābe daraśana",
-        "(gaura-kṛpā hale he)"
+        "    (gaura-kṛpā hale he)"
       ],
       "translation": [
         "Then easily the life of the soul will be successful. (Without attachment to Kṛṣṇa, a soul’s life is simply false.) Then, at the end of life, a soul will see Śrī Śrī Rādhā-Śyām in Vṛndāvan (if Śrī Gaura bestows His mercy)."
@@ -50,6 +53,6 @@
     }
   ],
   "attributes": {
-    "page": ""
+    "page": "70"
   }
 }
