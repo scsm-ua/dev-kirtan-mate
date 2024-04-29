@@ -73,6 +73,12 @@
         </url>
     ,
         <url>
+            <loc>https://dev.kirtan.site/ua/namo-namah-tulasi-maharani.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>0.8</priority>
+        </url>
+    ,
+        <url>
             <loc>https://dev.kirtan.site/ua/shri-guru-chharana-padma.html</loc>
             <changefreq>weekly</changefreq>
             <priority>0.8</priority>
