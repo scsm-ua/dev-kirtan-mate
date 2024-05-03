@@ -32,3 +32,6 @@
 .Navigation__button--active:hover {
   color: white;
 }
+.Navigation__button__pages_numbers {
+  width: initial;
+}
