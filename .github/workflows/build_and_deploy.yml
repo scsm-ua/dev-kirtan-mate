@@ -2,7 +2,7 @@ name: Build and Deploy
 on:
     push:
         branches:
-            - main
+            - pages-numbers
 jobs:
     build-and-deploy:
         runs-on: ubuntu-latest
@@ -16,7 +16,7 @@ jobs:
             - name: Install and Build 🔧
               run: |
                   npm i
-                  HOME_BASE_URL="${{ vars.HOME_BASE_URL }}" G_ID="${{ vars.G_ID }}" DISABLE_ROBOTS="${{ vars.DISABLE_ROBOTS }}" npm run build
+                  HOME_BASE_URL="${{ vars.HOME_BASE_URL }}" G_ID="${{ vars.G_ID }}" DISABLE_ROBOTS="${{ vars.DISABLE_ROBOTS }}" DEV=1 npm run build
             - name: Deploy 🚀
               uses: JamesIves/github-pages-deploy-action@v4
               with:
