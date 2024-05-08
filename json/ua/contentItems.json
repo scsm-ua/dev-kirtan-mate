@@ -111,9 +111,10 @@
       {
         "id": "shri-guru-charana-padma-kevala-bhakati",
         "title": "Шрī Ґуру-вайшнава Ма̄ха̄тмʼя-ґīті",
-        "name": "Шрī Ґуру-вайшнава Ма̄ха̄тмʼя-ґīті",
+        "name": "Шрī Ґуру-вайшнава",
         "aliasName": "шрī ґуру чарана-падма, кевала-бгакаті-садма,",
-        "fileName": "shri-guru-charana-padma-kevala-bhakati.html"
+        "fileName": "shri-guru-charana-padma-kevala-bhakati.html",
+        "page": "74"
       }
     ]
   },
@@ -133,7 +134,8 @@
         "title": "Шрī Шрī Ґурва̄штака",
         "name": "Шрī Шрī Ґурва̄штака",
         "aliasName": "самса̄ра-да̄ва̄нала-лīдга-лока-",
-        "fileName": "samsara-davanala-lidha-loka.html"
+        "fileName": "samsara-davanala-lidha-loka.html",
+        "page": "48"
       }
     ]
   },
