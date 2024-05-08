@@ -999,7 +999,7 @@
     
 
         <url>
-            <loc>https://dev.kirtan.site/ru/jashomati-stanya-payi-shri-nanda-nandana.html</loc>
+            <loc>https://dev.kirtan.site/ru/nagare-nagare-gora-gay.html</loc>
             <changefreq>weekly</changefreq>
             <priority>1</priority>
         </url>
@@ -1048,7 +1048,7 @@
     
 
         <url>
-            <loc>https://dev.kirtan.site/ru/elo-re-gauranga-chanda-preme-elothelo.html</loc>
+            <loc>https://dev.kirtan.site/ru/hari-bole-modera-gaura-elo.html</loc>
             <changefreq>weekly</changefreq>
             <priority>1</priority>
         </url>
@@ -1214,42 +1214,49 @@
         </url>
     
         <url>
-            <loc>https://dev.kirtan.site/ua/pancha-tattva.html</loc>
+            <loc>https://dev.kirtan.site/ua/shri-krishna-chaitanya-prabhu-nityananda.html</loc>
             <changefreq>weekly</changefreq>
             <priority>1</priority>
         </url>
     
 
         <url>
-            <loc>https://dev.kirtan.site/ua/hare-krishna.html</loc>
+            <loc>https://dev.kirtan.site/ua/hare-krishna-hare-krishna-krishna-krishna-hare-hare.html</loc>
             <changefreq>weekly</changefreq>
             <priority>1</priority>
         </url>
     
 
         <url>
-            <loc>https://dev.kirtan.site/ua/jaya-shiachinandana-sura-muni-vandana-bhava-bhaya-khandana-jayo-he.html</loc>
+            <loc>https://dev.kirtan.site/ua/kali-kukkura-kadana-jadi-chao-he.html</loc>
             <changefreq>weekly</changefreq>
             <priority>1</priority>
         </url>
     
 
         <url>
-            <loc>https://dev.kirtan.site/ua/gurudeva.html</loc>
+            <loc>https://dev.kirtan.site/ua/jaya-shiachinandana-sura-muni-vandana.html</loc>
             <changefreq>weekly</changefreq>
             <priority>1</priority>
         </url>
     
 
         <url>
-            <loc>https://dev.kirtan.site/ua/shri-kryshna-chhaitanya-prabhu-jive-daya-kori.html</loc>
+            <loc>https://dev.kirtan.site/ua/gurudeva-kripa-bindu-diya-kara-ei-dase.html</loc>
             <changefreq>weekly</changefreq>
             <priority>1</priority>
         </url>
     
 
         <url>
-            <loc>https://dev.kirtan.site/ua/hari-haraye-namah-kryshna-yadavaya-namah.html</loc>
+            <loc>https://dev.kirtan.site/ua/shri-krishna-chaitanya-prabhu-jive-daya-kori.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua/hari-haraye-namah-krishna-yadavaya-namah.html</loc>
             <changefreq>weekly</changefreq>
             <priority>1</priority>
         </url>
@@ -1270,7 +1277,14 @@
     
 
         <url>
-            <loc>https://dev.kirtan.site/ua/jaya-jaya-gaurachhander-arotiko-shobha.html</loc>
+            <loc>https://dev.kirtan.site/ua/jaya-jaya-gaurachander-arotiko-shobha.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua/jayare-jayare-jaya-gaura-sarasvati.html</loc>
             <changefreq>weekly</changefreq>
             <priority>1</priority>
         </url>
@@ -1284,7 +1298,7 @@
     
 
         <url>
-            <loc>https://dev.kirtan.site/ua/shri-guru-chharana-padma.html</loc>
+            <loc>https://dev.kirtan.site/ua/shri-guru-charana-padma-kevala-bhakati.html</loc>
             <changefreq>weekly</changefreq>
             <priority>1</priority>
         </url>
@@ -1341,6 +1355,1124 @@
 
         <url>
             <loc>https://dev.kirtan.site/ua/amara-jivana-sada-pape-rata.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/index-list-page.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/vande-ham-shri-guroh-shri-yuta-pada-kamalam.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/vande-vaikuntha-vritti-stham.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/goswaminam-sudhirakhyam.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/pujya-sri-guru-varga-vandita.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/gurvabhishta-supurakam-guru-ganair.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/devam-divya-tanum-suchanda-vadanam-balarka-chelanchitam.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/shri-siddhanta-sarasvatiti-vidito.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/namo-gaurakishoraya-bhaktavadhuta-murtaye.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/vande-bhaktivinodam-shri-gaura-shiakti-svarupakam.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/gaura-vrajashritashieshair-vaishnavair-vandya-vigraham.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/vancha-kalpatarubhyas-cha.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/jayatam-suratau-pangor.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/divyad-vrindaranya-kalpa-drumadhah.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/shriman-rasa-rasarambhi.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/vrindayai-tulasi-devyai.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/sakala-vaishnava-pade-mora-namaskara.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/namah-om-vishnupadaya-krishna.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/shrimach-chaitanya-sarasvata-mathavara-udgita-kirtir.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/jaya-sa-parikara.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/shri-krishna-chaitanya-prabhu-nityananda.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/hare-krishna-hare-krishna-krishna-krishna-hare-hare.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/hari-nama-mahamantra-sarva-mantra-sara.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/nija-pati-bhuja-danda-chchhatra-bhavam.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/jaya-jaya-girirajer-arati-vishiala.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/jaya-jaya-girirajer-arotiko-shobha.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/jaya-guru-maharaja-karuna-sagara.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/jaya-jaya-gurudever-arati-ujjvala.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/jaya-guru-maharaja-jati-rajeshvara.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/kali-kukkura-kadana-jadi-chao-he.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/jashomati-nandana-vraja-vara-nagara.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/jaya-shiachinandana-sura-muni-vandana.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/gurudeva-kripa-bindu-diya-kara-ei-dase.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/udilo-aruna-puraba-bhage.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/jiv-jago-jiv-jago-gaurachanda-bole.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/samsara-davanala-lidha-loka.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/shri-krishna-chaitanya-prabhu-jive-daya-kori.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/bhaja-re-bhaja-re-amar-mana-ati-manda.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/vibhavari-shiesha-aloka-praveshia.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/thakura-vaishnava-gana-kori-ei-nivedana.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/hari-haraye-namah-krishna-yadavaya-namah.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/bhaja-bhakata-vatsala-shri-gaurahari.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/mahaprasade-govinde-nama-brahmani.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/shorira-avidya-jal-jodendriya-tahe-kal.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/jaya-jaya-gaurachander-arotiko-shobha.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/jayare-jayare-jaya-gaura-sarasvati.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/kobe-shri-chaitanya-more-koribena-daya.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/namo-namah-tulasi-maharani.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/shri-guru-charana-padma-kevala-bhakati.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/shri-krishna-chaitanya-prabhu-daya-kara-more.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/vaishnava-thakura-dayara-sagara.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/sujanarvuda-radhita-pada-yugam.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/deva-siddha-mukta-yukta-bhakta-vrinda.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/nadiya-godrume-nityananda-mahajana.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/nitai-pada-kamala-koti-chandra-sushitala.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/dhana-mora-nityananda-pati-mora.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/nitai-gunamani-amara-nitai-gunamani.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/akrodha-paramananda.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/parama-karuna-pahu-dui-jana.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/dayal-nitai-chaitanya-bole-nach-re.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/gaurangera-duti-pada-jar-dhana-sampada.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/gaura-pahu-na-bhajiya-mainu.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/avatara-sara-gora-avatara.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/gay-gora-madhur-svare.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/kobe-gaura-vane-suradhuni-tate.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/kali-ghora-timire-garasala-jagajana.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/jadi-gaura-na-hoto-tobe-ki-hoito.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/emona-gauranga-bine-nahi-ara.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/ke-jabi-ke-jabi-bhai-bhava-sindhu-para.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/vimala-hemajin-tanu-anupama-re.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/gauranga-bolite-hobe-pulaka-shorira.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/aruna-basane-sonara-suraja.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/yadi-te-hari-pada-saroja-sudha.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/thakura-vaishnava-pada-avanira.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/je-anilo-prema-dhana-karuna-prachura.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/ei-vara-karuna-kara-vaishnava-gosani.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/kripa-kara-vaishnava-thakura.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/narada-muni-bajaya-vina.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/krishnotkirtana-gana-nartana-parau.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/ohe-harinam-tava-mahima-apara.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/ki-rupe-paibo-seva-mui-durachara.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/bhajahu-re-mana-shri-nanda-nandana.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/manasa-deho-geho-jo-kichu-mora.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/e-ghora-samsare-podiya-manava.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/dushta-mana-tumi-kisera-vaishnava.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/emona-durmati-samsara-bhitore.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/ki-jani-ki-bale-tomara-dhamete.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/bhuliya-tomare-samsare-asiya.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/hari-he-prapanche-podiya-agati-hoiya.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/hari-hari-biphole-janama-goyainu.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/atma-nivedana-tuya-pade-kori.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/amara-jivana-sada-pape-rata.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/tumi-sarveshvareshvara-vrajendra-kumara.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/sarvasva-tomara-charane-sanpiya.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/tatala-saikate-vari-bindu-sama.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/hari-he-dayala-mora-jaya-radha-natha.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/atma-samarpane-gela-abhimana.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/kobe-hobe-bolo-se-dina-amar.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/gopinath-mama-nivedana-shiuno.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/gopinath-ghuchao-samsara-jvala.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/gopinath-amara-upaya-nai.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/shri-rupa-manjari-pada-sei-mora-sampada.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/durlabha-manava-janma-labhiya-samsare.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/anya-abhilasha-chadi-jniana-karma-parihari.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/pita-varana-kali-pavana-gora.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/tuhu-daya-sagara-tarayite-prani.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/shri-krishna-kirtane-jodi-manasa-tohara.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/prabhu-tava-pada-juge-mora-nivedana.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/anadi-karama-phole.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/aparadha-phole-mama.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/gaite-gaite-nama-ki-doshia-hoilo.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/gaite-govinda-nam-upajilo-bhava-gram.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/sakhi-go-kemote-dhoribo-paran.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/bondhu-gon-shiunoho-vachana-mora.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/yoga-pithopari-sthita-ashta-sakhi-subeshtita.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/radhika-charana-padma-sakala-shreyera.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/virajar-pare-shiuddha-paravyoma-dham.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/radha-bhajane-jodi-moti-nahi-bhela.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/radhakundatata-kunjakutira.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/radhe-jaya-jaya-madhava-dayite.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/he-deva-bhavantam-vande.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/radha-madhava-kunja-bihari.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/mayura-mukuta-pitambara-dhari.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/jaya-jaya-radha-krishna-jugala-milan.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/radha-krishna-prana-mora-jugala-kishora.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/jaya-radhe-jaya-krishna-jaya-vrindavan.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/janama-saphala-tara-krishna-darashiana-jara.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/shiuno-he-rasika-jon-krishna-guna-aganon.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/jaya-yashoda-nandana-krishna-gopala-govinda.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/shrita-kamala-kuchha-mandala-dhrita.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/jaya-shrila-maharaja-charanaravinda.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/krishna-hoite-chatur-mukha.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/bhayabhanjana-jayashiamsana.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/jayare-jayare-jaya-paramahamsa-mahashiaya.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/pralaya-payodhi-jale-dhritavan-asi-vedam.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/namas-te-narasimhaya.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/namamishvaram-sachchidananda-rupam.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/nadiya-nagare-nitai-neche-neche-gay-re.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/nagare-nagare-gora-gay.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/shri-hari-vasare-hari-kirtana-vidhana.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/shiuddha-bhakata-charana-renu.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/chaudda-shiata-sata-shiake-masa-je-phalgun.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/prabhu-kohe-kohilan-ei-mahamantra.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/nagara-bhramiya-amara-gaura-elo-ghore.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/radha-krishna-bol-bol-bolo-re-sobai.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/hari-bole-modera-gaura-elo.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/ha-ha-bhaktivinoda-thakkura-guroh.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/guror-guro-me-paramo-gurus-tvam.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/nite-yasmin-nishiante-nayana-jala-bharaih.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/shrimach-chaitanyapadau-chara.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/yo-nanto-nanta-vaktrair-niravadhi.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/guru-rupa-virajita-nanda-sutam.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/shri-svarupa-raya-rupa-jiva-bhava.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/naumi-shri-gurupadabjam.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/samudra-sambhava-gabhi-surabhi-apana.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/devadidevam-ahibhushanam-indukashiam.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/bhagyadhishia-tvadiyo-vimala-sukhamayah.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/nava-nalina-ganjitam-kusuma-dala.html</loc>
+            <changefreq>weekly</changefreq>
+            <priority>1</priority>
+        </url>
+    
+
+        <url>
+            <loc>https://dev.kirtan.site/ua-preview/maha-bhaya-shiankula-e-bhava-tarangini.html</loc>
             <changefreq>weekly</changefreq>
             <priority>1</priority>
         </url>
@@ -1653,7 +2785,7 @@
     
 
         <url>
-            <loc>https://dev.kirtan.site/en/shorira-avidya-jal-jodendriya-tahe-kal.html</loc>
+            <loc>https://dev.kirtan.site/en/bhai-re-shorira-avidya-jal-jodendriya-tahe-kal.html</loc>
             <changefreq>weekly</changefreq>
             <priority>1</priority>
         </url>
