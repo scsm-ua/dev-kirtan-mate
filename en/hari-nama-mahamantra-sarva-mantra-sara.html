@@ -1105,7 +1105,9 @@ jādera karuṇābale jagate prachāra..." />
                             var iframe = p.querySelector("iframe");
                             var player = SC.Widget(iframe);
                             player.bind(SC.Widget.Events.READY, function() {
-                                player.play();
+                                setTimeout(function() {
+                                    player.play();
+                                }, 100);
                             });
                         }
                     });
