@@ -8,5 +8,6 @@
   color: var(--text-color);
 }
 .Page404__list {
+  width: 100%;
   max-width: 100%;
 }

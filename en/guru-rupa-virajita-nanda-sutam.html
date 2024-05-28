@@ -745,7 +745,7 @@ sutanūnnata-kāñchana-bhūmi-dharam..." />
         }
 
         function areEqual(pathname, url) {
-            return url.startsWith('/')
+            return !url || url.startsWith('/')
                 ? pathname === url
                 : pathname === new URL(url).pathname;
         }
