@@ -28,6 +28,12 @@ add '-up' if you want (min-width: $point) and leave with no suffix for (max-widt
  *
  */
 /**/
+/**
+ * CSS breakpoint values.
+ */
+/**
+ *
+ */
 :root {
   --font-main: "Helvetica", system-ui, -apple-system, "Segoe UI", Roboto,
       "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif,
@@ -60,10 +66,12 @@ add '-up' if you want (min-width: $point) and leave with no suffix for (max-widt
   --grey: #C0C0C0;
   --orange: #F5C149;
 }
+@media (min-width: 768px) {
+  :root {
+    --footer-height: 82px;
+  }
+}
 
-/**
- * CSS breakpoint values.
- */
 .Header {
   background-color: var(--header-bg-color);
   height: var(--header-height);

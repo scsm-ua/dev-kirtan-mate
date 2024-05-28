@@ -602,17 +602,23 @@
             elem.classList.add('Footer__item--active');
         }
 
+        function areEqual(pathname, url) {
+            return url.startsWith('/')
+                ? pathname === url
+                : pathname === new URL(url).pathname;
+        }
+
         const pathname = location.pathname.endsWith('/')
             ? location.pathname.slice(0, -1)
             : location.pathname;
 
         if (location.pathname === '/') {
             setActive(document.getElementById('footer-link-books'));
-        } else if (pathname === 'https://dev.kirtan.site/en-pe') {
+        } else if (areEqual(pathname, 'https://dev.kirtan.site/en-pe')) {
             setActive(document.getElementById('footer-link-contents'));
-        } else if (pathname === 'https://dev.kirtan.site/en-pe/index-a-z-page.html') {
+        } else if (areEqual(pathname, 'https://dev.kirtan.site/en-pe/index-a-z-page.html')) {
             setActive(document.getElementById('footer-link-index-list'));
-        } else if (pathname === '/en-pe/search.html') {
+        } else if (areEqual(pathname, '/en-pe/search.html')) {
             setActive(document.getElementById('footer-link-search'));
         }
     })()
