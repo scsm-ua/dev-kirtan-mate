@@ -9,6 +9,10 @@ add '-up' if you want (min-width: $point) and leave with no suffix for (max-widt
 /**
  *
  */
+/**
+ *
+ */
+/**/
 /*
 Breakpoints mixin
 @param {String} $point - name of breakpoint
@@ -20,6 +24,10 @@ add '-up' if you want (min-width: $point) and leave with no suffix for (max-widt
 /**
  *
  */
+/**
+ *
+ */
+/**/
 :root {
   --font-main: "Helvetica", system-ui, -apple-system, "Segoe UI", Roboto,
       "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif,
@@ -30,79 +38,60 @@ add '-up' if you want (min-width: $point) and leave with no suffix for (max-widt
   --font-size: 16px;
   /**/
   --content-max-width: 568px;
-  --header-height: 60px;
+  --header-height: 52px;
+  --footer-height: 72px;
   --page-max-width: 768px;
   --side-padding: 20px;
   /**/
   --accent-color: var(--orange);
   --border-color: var(--grey);
-  --header-bg-color: var(--brown);
-  --index-bg-color: var(--beige);
+  --header-bg-color: var(--dark);
+  --footer-bg-color: var(--dark);
+  --main-bg-color: var(--beige);
   --song-bg-color: #fff;
   --text-color: var(--dark-grey);
   --title-color: var(--dark);
+  --shadow-color: rgba(56, 55, 142, 0.15);
   /**/
   --beige: #FFFAED;
   --brown: #26231B;
-  --dark: #000;
-  --dark-grey: #515151;
-  --grey: #A4A4A4;
+  --dark: #0B0800;
+  --dark-grey: #6c6c6c;
+  --grey: #C0C0C0;
   --orange: #F5C149;
 }
 
+/**
+ * CSS breakpoint values.
+ */
 .SongPage {
-  background-color: var(--index-bg-color);
+  background-color: var(--main-bg-color);
+  position: relative;
+}
+.SongPage__container {
   position: relative;
 }
 .SongPage__content {
-  background-color: var(--song-bg-color);
-  border-radius: 24px;
-  box-shadow: 0px 4px 20px 0px rgba(56, 55, 142, 0.15);
-  padding-top: 24px;
-}
-.SongPage__header {
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  width: 100%;
-}
-.SongPage__box {
-  margin-right: 16px;
-}
-.SongPage__title {
-  font-size: 20px;
-  line-height: 140%;
-  color: var(--title-color);
-  margin: 0 0 0 0;
-}
-@media screen and (min-width: 576px) {
-  .SongPage__title {
-    font-size: 28px;
-  }
-}
-.SongPage__title_last {
-  margin: 0 0 16px 0;
-}
-.SongPage__author {
-  color: var(--text-color);
-  font-size: 16px;
-  font-weight: 300;
-  margin-top: 4px;
-}
-.SongPage__author_first {
-  margin-top: 16px;
-}
-.SongPage__subtitle {
-  color: var(--text-color);
-  font-size: 18px;
-  font-weight: 600;
-  margin-top: 16px;
+  padding-bottom: 64px;
 }
 .SongPage__main {
   width: 100%;
+  background-color: var(--song-bg-color);
+  border-radius: 24px;
+  box-shadow: 0px 4px 20px 0px rgba(56, 55, 142, 0.15);
+  padding: var(--side-padding) var(--side-padding) 8px;
+}
+.SongPage__toggle {
+  margin-top: -4px;
+}
+.SongPage__show {
+  font-size: 14px;
 }
 .SongPage__verses {
   list-style-type: none;
-  margin: 0;
+  margin: 16px 0 0;
   padding: 0;
+}
+.SongPage__extra {
+  padding: var(--side-padding);
 }

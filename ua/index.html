@@ -45,10 +45,10 @@
                 <img
                     alt="Home"
                     class="Header__logo"
-                    src="https://dev.kirtan.site/css/svg/kirtan-mate.svg"
+                    src="https://dev.kirtan.site/css/svg/kirtan-site.svg"
                 />
             </a>
-            
+<!--            -->
         </div>
     </div>
 </header>
@@ -56,46 +56,28 @@
 
                 <main class="Main IndexPage">
                     <div class="Main__container IndexPage__container">
-                        <div class="IndexPage__navigation">
-                            <link
-    rel="stylesheet"
-    href="https://dev.kirtan.site/css/partials/navigation.css"
-/>
+                        <div class="IndexPage__title">
+                            <link rel="stylesheet" href="https://dev.kirtan.site/css/partials/song-book-title.css" />
 
-<a class="Navigation__link" href="https://dev.kirtan.site/ua">
-    <button class="AppButton Navigation__button">
-        <span>Зміст</span>
-    </button>
-</a>
+<section class="SongBookTitle">
+    <div class="SongBookTitle__content">
+        <div class="SongBookTitle__box">
+            <img
+                    alt=""
+                    class="SongBookTitle__image"
+                    srcset="
+                        https://dev.kirtan.site/css/banner/small-banner-ua.png 1x,
+                        https://dev.kirtan.site/css/banner/small-banner-ua@2.png 2x
+                    "
+                    src="https://dev.kirtan.site/css/banner/small-banner-ua.png"
+            >
+        </div>
 
-<a class="Navigation__link" href="https://dev.kirtan.site/ua/pages.html">
-    <button class="AppButton Navigation__button Navigation__button__pages_numbers ">
-        <span>#</span>
-    </button>
-</a>
-
-<a class="Navigation__link" href="https://dev.kirtan.site/ua/index-list-page.html">
-    <button class="AppButton Navigation__button">
-        <span>Індекс</span>
-    </button>
-</a>
-
-<script>
-    (function nav() {
-        const p = location.pathname;
-        const path = p.endsWith('/')
-            ? p.slice(0, -1)
-            : p;
-
-        Array.from(
-            document.getElementsByClassName('Navigation__link')
-        ).forEach((el) => {
-            if (el.href.endsWith(path)) {
-                el.children[0].classList.add('Navigation__button--active');
-            }
-        });
-    })()
-</script>
+        <h3 class="SongBookTitle__title">
+            Ґаудія Ґітанджалі
+        </h3>
+    </div>
+</section>
 
                         </div>
 
@@ -121,7 +103,15 @@
             <li class="IndexListItem__item">
                 <a href="https://dev.kirtan.site/ua/shri-krishna-chaitanya-prabhu-nityananda.html" class="IndexListItem__link">
                     <h6 class="IndexListItem__name" title="шрī-кришна-чайтанья прабгу нітьянанда">
-                        Паньча-таттва мантра&nbsp;<span title="Page in paper songbook">(24)</span>
+                        Паньча-таттва мантра
+
+                        &nbsp;
+                            <span class="IndexListItem__page" title="Page in paper songbook">
+                                24
+                            </span>
+                        
+
+                        
                     </h6>
 
                     <div class="IndexListItem__suffix">
@@ -133,7 +123,17 @@
             <li class="IndexListItem__item">
                 <a href="https://dev.kirtan.site/ua/hare-krishna-hare-krishna-krishna-krishna-hare-hare.html" class="IndexListItem__link">
                     <h6 class="IndexListItem__name" title="харе кришна харе кришна кришна кришна харе харе">
-                        Харе Кришна маха̄-мантра&nbsp;<span title="Page in paper songbook">(24)</span>&nbsp;<span title="Audio">♪</span>
+                        Харе Кришна маха̄-мантра
+
+                        &nbsp;
+                            <span class="IndexListItem__page" title="Page in paper songbook">
+                                24
+                            </span>
+                        
+
+                        &nbsp;
+                            <span class="IndexListItem__embed" title="Audio">♪</span>
+                        
                     </h6>
 
                     <div class="IndexListItem__suffix">
@@ -165,7 +165,15 @@
             <li class="IndexListItem__item">
                 <a href="https://dev.kirtan.site/ua/kali-kukkura-kadana-jadi-chao-he.html" class="IndexListItem__link">
                     <h6 class="IndexListItem__name" title="калі-куккура-кадана джаді ча̄о хе">
-                        Прабга̄ті Ґīті&nbsp;<span title="Page in paper songbook">(38)</span>
+                        Прабга̄ті Ґīті
+
+                        &nbsp;
+                            <span class="IndexListItem__page" title="Page in paper songbook">
+                                38
+                            </span>
+                        
+
+                        
                     </h6>
 
                     <div class="IndexListItem__suffix">
@@ -177,7 +185,15 @@
             <li class="IndexListItem__item">
                 <a href="https://dev.kirtan.site/ua/jaya-shiachinandana-sura-muni-vandana.html" class="IndexListItem__link">
                     <h6 class="IndexListItem__name" title="джая шячīнандана    сура-муні-вандана,">
-                        Шрī Шячīнандана-вандана̄&nbsp;<span title="Page in paper songbook">(61)</span>
+                        Шрī Шячīнандана-вандана̄
+
+                        &nbsp;
+                            <span class="IndexListItem__page" title="Page in paper songbook">
+                                61
+                            </span>
+                        
+
+                        
                     </h6>
 
                     <div class="IndexListItem__suffix">
@@ -189,7 +205,17 @@
             <li class="IndexListItem__item">
                 <a href="https://dev.kirtan.site/ua/gurudeva-kripa-bindu-diya-kara-ei-dase.html" class="IndexListItem__link">
                     <h6 class="IndexListItem__name" title="ґурудева!">
-                        Ґурудева&nbsp;<span title="Page in paper songbook">(68)</span>&nbsp;<span title="Audio">♪</span>
+                        Ґурудева
+
+                        &nbsp;
+                            <span class="IndexListItem__page" title="Page in paper songbook">
+                                68
+                            </span>
+                        
+
+                        &nbsp;
+                            <span class="IndexListItem__embed" title="Audio">♪</span>
+                        
                     </h6>
 
                     <div class="IndexListItem__suffix">
@@ -201,7 +227,15 @@
             <li class="IndexListItem__item">
                 <a href="https://dev.kirtan.site/ua/shri-krishna-chaitanya-prabhu-jive-daya-kori.html" class="IndexListItem__link">
                     <h6 class="IndexListItem__name" title="шрī-кришна-чайтанья прабгу джīве дая корі’">
-                        Шярана̄ґаті. Благодатне звернення&nbsp;<span title="Page in paper songbook">(50)</span>
+                        Шярана̄ґаті. Благодатне звернення
+
+                        &nbsp;
+                            <span class="IndexListItem__page" title="Page in paper songbook">
+                                50
+                            </span>
+                        
+
+                        
                     </h6>
 
                     <div class="IndexListItem__suffix">
@@ -213,7 +247,17 @@
             <li class="IndexListItem__item">
                 <a href="https://dev.kirtan.site/ua/hari-haraye-namah-krishna-yadavaya-namah.html" class="IndexListItem__link">
                     <h6 class="IndexListItem__name" title="харі харає намах кришна ядава̄я намах">
-                        На̄м-санкīртан&nbsp;<span title="Page in paper songbook">(55)</span>&nbsp;<span title="Audio">♪</span>
+                        На̄м-санкīртан
+
+                        &nbsp;
+                            <span class="IndexListItem__page" title="Page in paper songbook">
+                                55
+                            </span>
+                        
+
+                        &nbsp;
+                            <span class="IndexListItem__embed" title="Audio">♪</span>
+                        
                     </h6>
 
                     <div class="IndexListItem__suffix">
@@ -225,7 +269,15 @@
             <li class="IndexListItem__item">
                 <a href="https://dev.kirtan.site/ua/jiv-jago-jiv-jago-gaurachanda-bole.html" class="IndexListItem__link">
                     <h6 class="IndexListItem__name" title="джīв джа̄ґо, джīв джа̄ґо, ґаура̄ча̄нда боле">
-                        Арунодоя-кīртан&nbsp;<span title="Page in paper songbook">(43)</span>
+                        Арунодоя-кīртан
+
+                        &nbsp;
+                            <span class="IndexListItem__page" title="Page in paper songbook">
+                                43
+                            </span>
+                        
+
+                        
                     </h6>
 
                     <div class="IndexListItem__suffix">
@@ -257,7 +309,15 @@
             <li class="IndexListItem__item">
                 <a href="https://dev.kirtan.site/ua/jaya-jaya-girirajer-arati-vishiala.html" class="IndexListItem__link">
                     <h6 class="IndexListItem__name" title="джая джая ґіріра̄джер а̄раті вішяла">
-                        Шрī Ґовінда Кунда Ґупта-Ґовардган А̄раті&nbsp;<span title="Page in paper songbook">(32)</span>
+                        Шрī Ґовінда Кунда Ґупта-Ґовардган А̄раті
+
+                        &nbsp;
+                            <span class="IndexListItem__page" title="Page in paper songbook">
+                                32
+                            </span>
+                        
+
+                        
                     </h6>
 
                     <div class="IndexListItem__suffix">
@@ -269,7 +329,17 @@
             <li class="IndexListItem__item">
                 <a href="https://dev.kirtan.site/ua/jaya-jaya-gaurachander-arotiko-shobha.html" class="IndexListItem__link">
                     <h6 class="IndexListItem__name" title="(кіба) джая джая ґаура̄ча̄ндер а̄ротіко шобга̄">
-                        Шрī Ґаура-а̄раті&nbsp;<span title="Page in paper songbook">(64)</span>&nbsp;<span title="Audio">♪</span>
+                        Шрī Ґаура-а̄раті
+
+                        &nbsp;
+                            <span class="IndexListItem__page" title="Page in paper songbook">
+                                64
+                            </span>
+                        
+
+                        &nbsp;
+                            <span class="IndexListItem__embed" title="Audio">♪</span>
+                        
                     </h6>
 
                     <div class="IndexListItem__suffix">
@@ -281,7 +351,15 @@
             <li class="IndexListItem__item">
                 <a href="https://dev.kirtan.site/ua/jayare-jayare-jaya-gaura-sarasvati.html" class="IndexListItem__link">
                     <h6 class="IndexListItem__name" title="джаяре джаяре джая ґаура-сарасватī">
-                        Шрī Са̄расват-а̄раті&nbsp;<span title="Page in paper songbook">(66)</span>
+                        Шрī Са̄расват-а̄раті
+
+                        &nbsp;
+                            <span class="IndexListItem__page" title="Page in paper songbook">
+                                66
+                            </span>
+                        
+
+                        
                     </h6>
 
                     <div class="IndexListItem__suffix">
@@ -293,7 +371,17 @@
             <li class="IndexListItem__item">
                 <a href="https://dev.kirtan.site/ua/namo-namah-tulasi-maharani.html" class="IndexListItem__link">
                     <h6 class="IndexListItem__name" title="намо ре намо ре ма̄ія намо на̄ра̄яні">
-                        Шрī Туласī-парікрама̄-ґīті&nbsp;<span title="Page in paper songbook">(69)</span>&nbsp;<span title="Audio">♪</span>
+                        Шрī Туласī-парікрама̄-ґīті
+
+                        &nbsp;
+                            <span class="IndexListItem__page" title="Page in paper songbook">
+                                69
+                            </span>
+                        
+
+                        &nbsp;
+                            <span class="IndexListItem__embed" title="Audio">♪</span>
+                        
                     </h6>
 
                     <div class="IndexListItem__suffix">
@@ -305,7 +393,17 @@
             <li class="IndexListItem__item">
                 <a href="https://dev.kirtan.site/ua/shri-guru-charana-padma-kevala-bhakati.html" class="IndexListItem__link">
                     <h6 class="IndexListItem__name" title="шрī ґуру чарана-падма, кевала-бгакаті-садма,">
-                        Шрī Ґуру-вайшнава Ма̄ха̄тмʼя-ґīті&nbsp;<span title="Page in paper songbook">(74)</span>&nbsp;<span title="Audio">♪</span>
+                        Шрī Ґуру-вайшнава Ма̄ха̄тмʼя-ґīті
+
+                        &nbsp;
+                            <span class="IndexListItem__page" title="Page in paper songbook">
+                                74
+                            </span>
+                        
+
+                        &nbsp;
+                            <span class="IndexListItem__embed" title="Audio">♪</span>
+                        
                     </h6>
 
                     <div class="IndexListItem__suffix">
@@ -337,7 +435,15 @@
             <li class="IndexListItem__item">
                 <a href="https://dev.kirtan.site/ua/jaya-jaya-gurudever-arati-ujjvala.html" class="IndexListItem__link">
                     <h6 class="IndexListItem__name" title="джая джая ґурудевер а̄раті уджджвала">
-                        Шрī Ґуру А̄раті&nbsp;<span title="Page in paper songbook">(70)</span>
+                        Шрī Ґуру А̄раті
+
+                        &nbsp;
+                            <span class="IndexListItem__page" title="Page in paper songbook">
+                                70
+                            </span>
+                        
+
+                        
                     </h6>
 
                     <div class="IndexListItem__suffix">
@@ -349,7 +455,17 @@
             <li class="IndexListItem__item">
                 <a href="https://dev.kirtan.site/ua/samsara-davanala-lidha-loka.html" class="IndexListItem__link">
                     <h6 class="IndexListItem__name" title="самса̄ра-да̄ва̄нала-лīдга-лока-">
-                        Шрī Шрī Ґурва̄штака&nbsp;<span title="Page in paper songbook">(48)</span>&nbsp;<span title="Audio">♪</span>
+                        Шрī Шрī Ґурва̄штака
+
+                        &nbsp;
+                            <span class="IndexListItem__page" title="Page in paper songbook">
+                                48
+                            </span>
+                        
+
+                        &nbsp;
+                            <span class="IndexListItem__embed" title="Audio">♪</span>
+                        
                     </h6>
 
                     <div class="IndexListItem__suffix">
@@ -381,7 +497,15 @@
             <li class="IndexListItem__item">
                 <a href="https://dev.kirtan.site/ua/akrodha-paramananda.html" class="IndexListItem__link">
                     <h6 class="IndexListItem__name" title="акродга парама̄нанда нітьянанда ра̄й">
-                        Акродга парама̄нанда&nbsp;<span title="Page in paper songbook">(114)</span>
+                        Акродга парама̄нанда
+
+                        &nbsp;
+                            <span class="IndexListItem__page" title="Page in paper songbook">
+                                114
+                            </span>
+                        
+
+                        
                     </h6>
 
                     <div class="IndexListItem__suffix">
@@ -393,7 +517,15 @@
             <li class="IndexListItem__item">
                 <a href="https://dev.kirtan.site/ua/nadiya-godrume-nityananda-mahajana.html" class="IndexListItem__link">
                     <h6 class="IndexListItem__name" title="надīя-ґодруме нітьянанда маха̄джана">
-                        А̄ґʼя-Тахал&nbsp;<span title="Page in paper songbook">(110)</span>
+                        А̄ґʼя-Тахал
+
+                        &nbsp;
+                            <span class="IndexListItem__page" title="Page in paper songbook">
+                                110
+                            </span>
+                        
+
+                        
                     </h6>
 
                     <div class="IndexListItem__suffix">
@@ -425,7 +557,15 @@
             <li class="IndexListItem__item">
                 <a href="https://dev.kirtan.site/ua/avatara-sara-gora-avatara.html" class="IndexListItem__link">
                     <h6 class="IndexListItem__name" title="авата̄ра са̄ра    ґора̄ авата̄ра">
-                        Авата̄ра Са̄ра&nbsp;<span title="Page in paper songbook">(121)</span>
+                        Авата̄ра Са̄ра
+
+                        &nbsp;
+                            <span class="IndexListItem__page" title="Page in paper songbook">
+                                121
+                            </span>
+                        
+
+                        
                     </h6>
 
                     <div class="IndexListItem__suffix">
@@ -437,7 +577,15 @@
             <li class="IndexListItem__item">
                 <a href="https://dev.kirtan.site/ua/gay-gora-madhur-svare.html" class="IndexListItem__link">
                     <h6 class="IndexListItem__name" title="ґа̄й ґора̄ мадгур сваре">
-                        Шрī На̄ма&nbsp;<span title="Page in paper songbook">(122)</span>
+                        Шрī На̄ма
+
+                        &nbsp;
+                            <span class="IndexListItem__page" title="Page in paper songbook">
+                                122
+                            </span>
+                        
+
+                        
                     </h6>
 
                     <div class="IndexListItem__suffix">
@@ -469,7 +617,17 @@
             <li class="IndexListItem__item">
                 <a href="https://dev.kirtan.site/ua/bhajahu-re-mana-shri-nanda-nandana.html" class="IndexListItem__link">
                     <h6 class="IndexListItem__name" title="бгаджаху ре мана    шрī-нанда-нандана">
-                        Бгаджаху Ре Мана&nbsp;<span title="Page in paper songbook">(146)</span>&nbsp;<span title="Audio">♪</span>
+                        Бгаджаху Ре Мана
+
+                        &nbsp;
+                            <span class="IndexListItem__page" title="Page in paper songbook">
+                                146
+                            </span>
+                        
+
+                        &nbsp;
+                            <span class="IndexListItem__embed" title="Audio">♪</span>
+                        
                     </h6>
 
                     <div class="IndexListItem__suffix">
@@ -481,7 +639,17 @@
             <li class="IndexListItem__item">
                 <a href="https://dev.kirtan.site/ua/emona-durmati-samsara-bhitore.html" class="IndexListItem__link">
                     <h6 class="IndexListItem__name" title="(прабгу хе!)">
-                        Дайньятміка̄&nbsp;<span title="Page in paper songbook">(154)</span>&nbsp;<span title="Audio">♪</span>
+                        Дайньятміка̄
+
+                        &nbsp;
+                            <span class="IndexListItem__page" title="Page in paper songbook">
+                                154
+                            </span>
+                        
+
+                        &nbsp;
+                            <span class="IndexListItem__embed" title="Audio">♪</span>
+                        
                     </h6>
 
                     <div class="IndexListItem__suffix">
@@ -493,7 +661,15 @@
             <li class="IndexListItem__item">
                 <a href="https://dev.kirtan.site/ua/amara-jivana-sada-pape-rata.html" class="IndexListItem__link">
                     <h6 class="IndexListItem__name" title="а̄ма̄ра джīвана,    сада̄ па̄пе рата,">
-                        А̄ма̄ра джīвана&nbsp;<span title="Page in paper songbook">(161)</span>
+                        А̄ма̄ра джīвана
+
+                        &nbsp;
+                            <span class="IndexListItem__page" title="Page in paper songbook">
+                                161
+                            </span>
+                        
+
+                        
                     </h6>
 
                     <div class="IndexListItem__suffix">
@@ -511,6 +687,77 @@
                     </div>
                 </main>
             </div>
+
+            <link rel="stylesheet" href="https://dev.kirtan.site/css/partials/footer.css" />
+
+<footer class="Footer">
+    <div class="Footer__container">
+        <div class="Footer__content">
+            <a
+                    class="Footer__item"
+                    href="/"
+                    id="footer-link-books"
+            >
+                <div class="Footer__icon Footer__icon--regular icon-books"></div>
+                <div class="Footer__icon Footer__icon--active icon-books-bold"></div>
+                <h6 class="Footer__label">Книги</h6>
+            </a>
+
+            <a
+                    class="Footer__item"
+                    href="https://dev.kirtan.site/ua"
+                    id="footer-link-contents"
+            >
+                <div class="Footer__icon Footer__icon--regular icon-list-music"></div>
+                <div class="Footer__icon Footer__icon--active icon-list-music-bold"></div>
+                <h6 class="Footer__label">Зміст</h6>
+            </a>
+
+            <a
+                    class="Footer__item"
+                    href="https://dev.kirtan.site/ua/index-a-z-page.html"
+                    id="footer-link-index-list"
+            >
+                <div class="Footer__icon Footer__icon--regular icon-arrow-up-a-z"></div>
+                <div class="Footer__icon Footer__icon--active icon-arrow-up-a-z-old"></div>
+                <h6 class="Footer__label">Індекс</h6>
+            </a>
+
+            <a
+                    class="Footer__item"
+                    href="/ua/search.html"
+                    id="footer-link-search"
+            >
+                <div class="Footer__icon Footer__icon--regular icon-search"></div>
+                <div class="Footer__icon Footer__icon--active icon-search-bold"></div>
+                <h6 class="Footer__label">Пошук</h6>
+            </a>
+        </div>
+    </div>
+</footer>
+
+<script>
+    (function() {
+        function setActive(elem) {
+            elem.classList.add('Footer__item--active');
+        }
+
+        const pathname = location.pathname.endsWith('/')
+            ? location.pathname.slice(0, -1)
+            : location.pathname;
+
+        if (location.pathname === '/') {
+            setActive(document.getElementById('footer-link-books'));
+        } else if (pathname === 'https://dev.kirtan.site/ua') {
+            setActive(document.getElementById('footer-link-contents'));
+        } else if (pathname === 'https://dev.kirtan.site/ua/index-a-z-page.html') {
+            setActive(document.getElementById('footer-link-index-list'));
+        } else if (pathname === '/ua/search.html') {
+            setActive(document.getElementById('footer-link-search'));
+        }
+    })()
+</script>
+
         </div>
         
 <!-- Google tag (gtag.js) -->

@@ -9,8 +9,15 @@ add '-up' if you want (min-width: $point) and leave with no suffix for (max-widt
 /**
  *
  */
+/**
+ *
+ */
+/**/
 .IndexPage {
-  background-color: var(--index-bg-color);
+  background-color: var(--main-bg-color);
+}
+.IndexPage__title {
+  padding: 24px var(--side-padding) var(--side-padding);
 }
 .IndexPage__navigation {
   display: flex;
@@ -28,24 +35,4 @@ add '-up' if you want (min-width: $point) and leave with no suffix for (max-widt
   margin: 0;
   padding: 0;
   width: 100%;
-}
-
-.PageNumber {
-  float: left;
-  margin: 3px;
-}
-.PageNumber__button {
-  height: 36px;
-  padding: 5px 12px;
-  border: none;
-  border-radius: 100px;
-  background-color: white;
-  box-shadow: 0px 4px 20px 0px rgba(56, 55, 142, 0.15);
-  color: #000;
-  font-weight: 300;
-  font-size: 16px;
-  text-transform: uppercase;
-}
-.PageNumber__button:hover {
-  color: var(--accent-color);
 }
