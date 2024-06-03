@@ -663,7 +663,7 @@
 
             <a
                     class="Footer__item"
-                    href="/ua/search.html"
+                    href="/ua/search-page.html"
                     id="footer-link-search"
             >
                 <div class="Footer__icon Footer__icon--regular icon-search"></div>
@@ -696,7 +696,7 @@
             setActive(document.getElementById('footer-link-contents'));
         } else if (areEqual(pathname, 'https://dev.kirtan.site/ua/index-a-z-page.html')) {
             setActive(document.getElementById('footer-link-index-list'));
-        } else if (areEqual(pathname, '/ua/search.html')) {
+        } else if (areEqual(pathname, '/ua/search-page.html')) {
             setActive(document.getElementById('footer-link-search'));
         }
     })()
@@ -737,14 +737,6 @@
             <h4 class="SongShare__title">
                 Поділитися
             </h4>
-
-<!--            <button-->
-<!--                    class="NoBorderButton SongShare__close"-->
-<!--                    id="close-button"-->
-<!--                    title="Закрити"-->
-<!--            >-->
-<!--                <span class="icon-xmark-large"></span>-->
-<!--            </button>-->
         </header>
 
         <div class="SongShare__qr" id="qrcode-block"></div>

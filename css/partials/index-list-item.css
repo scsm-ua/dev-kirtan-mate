@@ -13,6 +13,9 @@ add '-up' if you want (min-width: $point) and leave with no suffix for (max-widt
  *
  */
 /**/
+/**
+ *
+ */
 .IndexListItem__header {
   display: flex;
   justify-content: center;

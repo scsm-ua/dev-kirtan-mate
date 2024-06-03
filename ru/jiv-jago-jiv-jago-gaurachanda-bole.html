@@ -496,7 +496,7 @@
 
             <a
                     class="Footer__item"
-                    href="/ru/search.html"
+                    href="/ru/search-page.html"
                     id="footer-link-search"
             >
                 <div class="Footer__icon Footer__icon--regular icon-search"></div>
@@ -529,7 +529,7 @@
             setActive(document.getElementById('footer-link-contents'));
         } else if (areEqual(pathname, 'https://dev.kirtan.site/ru/index-a-z-page.html')) {
             setActive(document.getElementById('footer-link-index-list'));
-        } else if (areEqual(pathname, '/ru/search.html')) {
+        } else if (areEqual(pathname, '/ru/search-page.html')) {
             setActive(document.getElementById('footer-link-search'));
         }
     })()
@@ -570,14 +570,6 @@
             <h4 class="SongShare__title">
                 Поделиться
             </h4>
-
-<!--            <button-->
-<!--                    class="NoBorderButton SongShare__close"-->
-<!--                    id="close-button"-->
-<!--                    title="Закрыть"-->
-<!--            >-->
-<!--                <span class="icon-xmark-large"></span>-->
-<!--            </button>-->
         </header>
 
         <div class="SongShare__qr" id="qrcode-block"></div>

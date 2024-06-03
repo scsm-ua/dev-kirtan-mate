@@ -1,6 +1,7 @@
 .RoundButton {
   border-radius: 50%;
   border: none;
+  transition: color 0.25s;
   /**/
   /**/
   /**/
@@ -71,6 +72,9 @@ add '-up' if you want (min-width: $point) and leave with no suffix for (max-widt
  *
  */
 /**/
+/**
+ *
+ */
 /*
 Breakpoints mixin
 @param {String} $point - name of breakpoint
@@ -86,6 +90,9 @@ add '-up' if you want (min-width: $point) and leave with no suffix for (max-widt
  *
  */
 /**/
+/**
+ *
+ */
 /**
  * CSS breakpoint values.
  */
@@ -266,6 +273,9 @@ add '-up' if you want (min-width: $point) and leave with no suffix for (max-widt
  *
  */
 /**/
+/**
+ *
+ */
 /*
 Breakpoints mixin
 @param {String} $point - name of breakpoint
@@ -281,6 +291,9 @@ add '-up' if you want (min-width: $point) and leave with no suffix for (max-widt
  *
  */
 /**/
+/**
+ *
+ */
 /**
  * CSS breakpoint values.
  */
@@ -580,6 +593,9 @@ add '-up' if you want (min-width: $point) and leave with no suffix for (max-widt
  *
  */
 /**/
+/**
+ *
+ */
 /*
 Breakpoints mixin
 @param {String} $point - name of breakpoint
@@ -595,6 +611,9 @@ add '-up' if you want (min-width: $point) and leave with no suffix for (max-widt
  *
  */
 /**/
+/**
+ *
+ */
 /**
  * CSS breakpoint values.
  */
