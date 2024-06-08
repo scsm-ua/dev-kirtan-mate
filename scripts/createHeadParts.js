@@ -1,22 +1,24 @@
+const { getNavigationPaths } = require('./utils');
 const { PATHS, ORIGIN } = require('./constants');
 
 /**
  * Note: the title and description do NOT get escaped.
- * @param title: string - this will get suffixed with ' | Kirtan Mate'.
+ * @param title: string - this will get suffixed with ' | Kirtan Site'.
  * @param description: string - no special symbols!
- * @param path: string - no leading or trailing slashes!
+ * @param url: string - no leading or trailing slashes!
  * @param is404: boolean
  */
 function createHeadParts({ title, description, path, is404 }) {
     const imgSrc = PATHS.FILES.SHARING_BANNER;
-    const _title = title + ' | Kirtan Mate';
+    const _title = title + ' | Kirtan Site';
+    const url = ORIGIN + path;
 
-    var render = `
+    let render = `
         <title>${_title}</title>`;
 
     if (!is404) {
         render += `
-        <link rel="canonical" href="${path}" />`;
+        <link rel="canonical" href="${url}" />`;
     }
 
     render += `
@@ -26,10 +28,10 @@ function createHeadParts({ title, description, path, is404 }) {
 
         <meta property="og:title" content="${title}" />
         <meta property="og:description" content="${description}" />
-        <meta property="og:url" content="${path}" />
+        <meta property="og:url" content="${url}" />
         <meta property="og:locale" content="ua_UA" />
         <meta property="og:type" content="website" />
-        <meta property="og:site_name" content="Kirtan Mate" />
+        <meta property="og:site_name" content="Kirtan Site" />
         <meta property="og:image" content="${imgSrc}" />
         <meta property="og:image:width" content="648" />
         <meta property="og:image:height" content="488" />
@@ -40,7 +42,7 @@ function createHeadParts({ title, description, path, is404 }) {
         <meta name="twitter:title" content="${title}" />
         <meta name="twitter:description" content="${description}" />
 
-        ${getSchema(path, title)}
+        ${getSchema(url, title, description)}
     `;
 
     return render;
@@ -49,7 +51,7 @@ function createHeadParts({ title, description, path, is404 }) {
 /**
  *
  */
-function getSchema(path, title) {
+function getSchema(url, title, description) {
     const content = {
         '@context': 'https://schema.org',
         '@graph': [
@@ -57,14 +59,14 @@ function getSchema(path, title) {
                 '@type': 'WebSite',
                 '@id': ORIGIN + '/#website',
                 'url': ORIGIN + '/',
-                'name': 'Kirtan Mate',
-                'description': 'Вайшнавські пісні',
-                'inLanguage': 'ua-UA'
+                'name': 'Kirtan Site',
+                'description': description,
+                'inLanguage': 'en-GB'
             },
             {
                 '@type': 'CollectionPage',
-                '@id': path,
-                'url': path,
+                '@id': url,
+                'url': url,
                 'name': title,
                 'isPartOf': {
                     '@id': ORIGIN + '/#website'
@@ -77,31 +79,48 @@ function getSchema(path, title) {
     return `<script type="application/ld+json">${sch}</script>`;
 }
 
-function getItemXML(path, priority) {
+/**
+ *
+ * @param url
+ * @param priority
+ * @param period
+ * @return {string}
+ */
+function getItemXML(url, priority, period = 'weekly') {
     return `
-        <url>
-            <loc>${encodeURI(path)}</loc>
-            <changefreq>weekly</changefreq>
-            <priority>${priority}</priority>
-        </url>
+    <url>
+        <loc>${encodeURI(url)}</loc>
+        <changefreq>${period}</changefreq>
+        <priority>${priority}</priority>
+    </url>
     `;
 }
 
 /**
  * Converts the list of categories into the list of song related XML parts.
+ * @param songbook_id
  * @param categories: TCategory[]
  * @returns {string}
  */
 function createSongXMLParts(songbook_id, categories) {
-    let indexes = getItemXML(PATHS.PAGES.getIndexPath(songbook_id), 1)
-                + getItemXML(PATHS.PAGES.getIndexAZPath(songbook_id), 1);
+    const { A_Z, BOOK_LIST, CONTENTS } = getNavigationPaths(songbook_id);
 
-    let songs = categories
+    const indexes = getItemXML(ORIGIN + BOOK_LIST, 0.9, 'monthly') +
+        getItemXML(ORIGIN + CONTENTS, 1) +
+        getItemXML(ORIGIN + A_Z, 1);
+
+    const songs = categories
         .flatMap((cat) => cat.items)
-        .map((item) => getItemXML(PATHS.RELATIVE.toSongs(songbook_id) + '/' + item.fileName, 1))
-        .join('\n');
+        .map((item) =>
+            getItemXML(
+                PATHS.RELATIVE.toSongs(songbook_id) + '/' + item.fileName,
+                0.8,
+                'monthly'
+            )
+        )
+        .join('');
 
-    return indexes + songs;
+    return indexes + songs + '\n';
 }
 
 
