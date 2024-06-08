@@ -3,7 +3,7 @@
 <html lang="en">
     <head>
         
-        <title>Шри Нагара-киртана (песнь 8). Ш́рӣла Бхактивинод Т̣ха̄кур. «Шри Нама» (из книги «Гитавали») | Kirtan Mate</title>
+        <title>Шри Нагара-киртана (песнь 8). Ш́рӣла Бхактивинод Т̣ха̄кур. «Шри Нама» (из книги «Гитавали») | Kirtan Site</title>
         <link rel="canonical" href="https://dev.kirtan.site/ru/hari-bole-modera-gaura-elo.html" />
         <meta name="description" content="‘хари’ боле’ модера гаура эло
 undefined..." />
@@ -16,7 +16,7 @@ undefined..." />
         <meta property="og:url" content="https://dev.kirtan.site/ru/hari-bole-modera-gaura-elo.html" />
         <meta property="og:locale" content="ua_UA" />
         <meta property="og:type" content="website" />
-        <meta property="og:site_name" content="Kirtan Mate" />
+        <meta property="og:site_name" content="Kirtan Site" />
         <meta property="og:image" content="https://dev.kirtan.site/images/sharing-banner.png" />
         <meta property="og:image:width" content="648" />
         <meta property="og:image:height" content="488" />
@@ -28,7 +28,7 @@ undefined..." />
         <meta name="twitter:description" content="‘хари’ боле’ модера гаура эло
 undefined..." />
 
-        <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://dev.kirtan.site/#website","url":"https://dev.kirtan.site/","name":"Kirtan Mate","description":"Вайшнавські пісні","inLanguage":"ua-UA"},{"@type":"CollectionPage","@id":"https://dev.kirtan.site/ru/hari-bole-modera-gaura-elo.html","url":"https://dev.kirtan.site/ru/hari-bole-modera-gaura-elo.html","name":"Шри Нагара-киртана (песнь 8). Ш́рӣла Бхактивинод Т̣ха̄кур. «Шри Нама» (из книги «Гитавали»)","isPartOf":{"@id":"https://dev.kirtan.site/#website"}}]}</script>
+        <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://dev.kirtan.site/#website","url":"https://dev.kirtan.site/","name":"Kirtan Site","description":"‘хари’ боле’ модера гаура эло\nundefined...","inLanguage":"en-GB"},{"@type":"CollectionPage","@id":"https://dev.kirtan.site/ru/hari-bole-modera-gaura-elo.html","url":"https://dev.kirtan.site/ru/hari-bole-modera-gaura-elo.html","name":"Шри Нагара-киртана (песнь 8). Ш́рӣла Бхактивинод Т̣ха̄кур. «Шри Нама» (из книги «Гитавали»)","isPartOf":{"@id":"https://dev.kirtan.site/#website"}}]}</script>
     
 
         <link rel="stylesheet" href="https://dev.kirtan.site/css/index.css" />
@@ -53,7 +53,7 @@ undefined..." />
 
     <div class="Header__container">
         <div class="Header__content">
-            <a href="https://dev.kirtan.site/ru" class="Header__home">
+            <a href="/ru/" class="Header__home">
                 <img
                     alt="Home"
                     class="Header__logo"
@@ -595,7 +595,7 @@ undefined..." />
         <div class="Footer__content">
             <a
                     class="Footer__item"
-                    href="/"
+                    href="/ru/"
                     id="footer-link-books"
             >
                 <div class="Footer__icon Footer__icon--regular icon-books"></div>
@@ -605,7 +605,7 @@ undefined..." />
 
             <a
                     class="Footer__item"
-                    href="https://dev.kirtan.site/ru"
+                    href="/ru/contents.html"
                     id="footer-link-contents"
             >
                 <div class="Footer__icon Footer__icon--regular icon-list-music"></div>
@@ -615,7 +615,7 @@ undefined..." />
 
             <a
                     class="Footer__item"
-                    href="https://dev.kirtan.site/ru/index-a-z-page.html"
+                    href="/ru/a-z.html"
                     id="footer-link-index-list"
             >
                 <div class="Footer__icon Footer__icon--regular icon-arrow-up-a-z"></div>
@@ -625,7 +625,7 @@ undefined..." />
 
             <a
                     class="Footer__item"
-                    href="/ru/search-page.html"
+                    href="/ru/search.html"
                     id="footer-link-search"
             >
                 <div class="Footer__icon Footer__icon--regular icon-search"></div>
@@ -638,28 +638,19 @@ undefined..." />
 
 <script>
     (function() {
-        function setActive(elem) {
-            elem.classList.add('Footer__item--active');
+        function setActive(id) {
+            document.getElementById(id).classList.add('Footer__item--active');
         }
 
-        function areEqual(pathname, url) {
-            return !url || url.startsWith('/')
-                ? pathname === url
-                : pathname === new URL(url).pathname;
-        }
-
-        const pathname = location.pathname.endsWith('/')
-            ? location.pathname.slice(0, -1)
-            : location.pathname;
-
-        if (location.pathname === '/') {
-            setActive(document.getElementById('footer-link-books'));
-        } else if (areEqual(pathname, 'https://dev.kirtan.site/ru')) {
-            setActive(document.getElementById('footer-link-contents'));
-        } else if (areEqual(pathname, 'https://dev.kirtan.site/ru/index-a-z-page.html')) {
-            setActive(document.getElementById('footer-link-index-list'));
-        } else if (areEqual(pathname, '/ru/search-page.html')) {
-            setActive(document.getElementById('footer-link-search'));
+        switch (location.pathname) {
+            case('/ru/'):
+                return setActive('footer-link-books');
+            case('/ru/contents.html'):
+                return setActive('footer-link-contents');
+            case('/ru/a-z.html'):
+                return setActive('footer-link-index-list');
+            case('/ru/search.html'):
+                return setActive('footer-link-search');
         }
     })()
 </script>

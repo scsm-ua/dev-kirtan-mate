@@ -3,7 +3,7 @@
 <html lang="en">
     <head>
         
-        <title>Śrī Tulasī-parikramā-gīti. by Śrīla Chandraśekhar Āchārya | Kirtan Mate</title>
+        <title>Śrī Tulasī-parikramā-gīti. by Śrīla Chandraśekhar Āchārya | Kirtan Site</title>
         <link rel="canonical" href="https://dev.kirtan.site/en-pe/namo-namah-tulasi-maharani.html" />
         <meta name="description" content="namo namaḥ tulasī mahārāṇī
 vṛnde mahārāṇī namo namaḥ..." />
@@ -16,7 +16,7 @@ vṛnde mahārāṇī namo namaḥ..." />
         <meta property="og:url" content="https://dev.kirtan.site/en-pe/namo-namah-tulasi-maharani.html" />
         <meta property="og:locale" content="ua_UA" />
         <meta property="og:type" content="website" />
-        <meta property="og:site_name" content="Kirtan Mate" />
+        <meta property="og:site_name" content="Kirtan Site" />
         <meta property="og:image" content="https://dev.kirtan.site/images/sharing-banner.png" />
         <meta property="og:image:width" content="648" />
         <meta property="og:image:height" content="488" />
@@ -28,7 +28,7 @@ vṛnde mahārāṇī namo namaḥ..." />
         <meta name="twitter:description" content="namo namaḥ tulasī mahārāṇī
 vṛnde mahārāṇī namo namaḥ..." />
 
-        <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://dev.kirtan.site/#website","url":"https://dev.kirtan.site/","name":"Kirtan Mate","description":"Вайшнавські пісні","inLanguage":"ua-UA"},{"@type":"CollectionPage","@id":"https://dev.kirtan.site/en-pe/namo-namah-tulasi-maharani.html","url":"https://dev.kirtan.site/en-pe/namo-namah-tulasi-maharani.html","name":"Śrī Tulasī-parikramā-gīti. by Śrīla Chandraśekhar Āchārya","isPartOf":{"@id":"https://dev.kirtan.site/#website"}}]}</script>
+        <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://dev.kirtan.site/#website","url":"https://dev.kirtan.site/","name":"Kirtan Site","description":"namo namaḥ tulasī mahārāṇī\nvṛnde mahārāṇī namo namaḥ...","inLanguage":"en-GB"},{"@type":"CollectionPage","@id":"https://dev.kirtan.site/en-pe/namo-namah-tulasi-maharani.html","url":"https://dev.kirtan.site/en-pe/namo-namah-tulasi-maharani.html","name":"Śrī Tulasī-parikramā-gīti. by Śrīla Chandraśekhar Āchārya","isPartOf":{"@id":"https://dev.kirtan.site/#website"}}]}</script>
     
 
         <link rel="stylesheet" href="https://dev.kirtan.site/css/index.css" />
@@ -55,7 +55,7 @@ vṛnde mahārāṇī namo namaḥ..." />
 
     <div class="Header__container">
         <div class="Header__content">
-            <a href="https://dev.kirtan.site/en-pe" class="Header__home">
+            <a href="/en-pe/" class="Header__home">
                 <img
                     alt="Home"
                     class="Header__logo"
@@ -657,7 +657,7 @@ vṛnde mahārāṇī namo namaḥ..." />
         <div class="Footer__content">
             <a
                     class="Footer__item"
-                    href="/"
+                    href="/en-pe/"
                     id="footer-link-books"
             >
                 <div class="Footer__icon Footer__icon--regular icon-books"></div>
@@ -667,7 +667,7 @@ vṛnde mahārāṇī namo namaḥ..." />
 
             <a
                     class="Footer__item"
-                    href="https://dev.kirtan.site/en-pe"
+                    href="/en-pe/contents.html"
                     id="footer-link-contents"
             >
                 <div class="Footer__icon Footer__icon--regular icon-list-music"></div>
@@ -677,7 +677,7 @@ vṛnde mahārāṇī namo namaḥ..." />
 
             <a
                     class="Footer__item"
-                    href="https://dev.kirtan.site/en-pe/index-a-z-page.html"
+                    href="/en-pe/a-z.html"
                     id="footer-link-index-list"
             >
                 <div class="Footer__icon Footer__icon--regular icon-arrow-up-a-z"></div>
@@ -687,7 +687,7 @@ vṛnde mahārāṇī namo namaḥ..." />
 
             <a
                     class="Footer__item"
-                    href="/en-pe/search-page.html"
+                    href="/en-pe/search.html"
                     id="footer-link-search"
             >
                 <div class="Footer__icon Footer__icon--regular icon-search"></div>
@@ -700,28 +700,19 @@ vṛnde mahārāṇī namo namaḥ..." />
 
 <script>
     (function() {
-        function setActive(elem) {
-            elem.classList.add('Footer__item--active');
+        function setActive(id) {
+            document.getElementById(id).classList.add('Footer__item--active');
         }
 
-        function areEqual(pathname, url) {
-            return !url || url.startsWith('/')
-                ? pathname === url
-                : pathname === new URL(url).pathname;
-        }
-
-        const pathname = location.pathname.endsWith('/')
-            ? location.pathname.slice(0, -1)
-            : location.pathname;
-
-        if (location.pathname === '/') {
-            setActive(document.getElementById('footer-link-books'));
-        } else if (areEqual(pathname, 'https://dev.kirtan.site/en-pe')) {
-            setActive(document.getElementById('footer-link-contents'));
-        } else if (areEqual(pathname, 'https://dev.kirtan.site/en-pe/index-a-z-page.html')) {
-            setActive(document.getElementById('footer-link-index-list'));
-        } else if (areEqual(pathname, '/en-pe/search-page.html')) {
-            setActive(document.getElementById('footer-link-search'));
+        switch (location.pathname) {
+            case('/en-pe/'):
+                return setActive('footer-link-books');
+            case('/en-pe/contents.html'):
+                return setActive('footer-link-contents');
+            case('/en-pe/a-z.html'):
+                return setActive('footer-link-index-list');
+            case('/en-pe/search.html'):
+                return setActive('footer-link-search');
         }
     })()
 </script>

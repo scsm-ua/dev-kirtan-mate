@@ -30,7 +30,7 @@ add '-up' if you want (min-width: $point) and leave with no suffix for (max-widt
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 0 0 16px;
+  padding: 0 0 var(--side-padding);
   border-bottom: solid 1px var(--grey);
 }
 .SearchPage__search {
@@ -130,8 +130,12 @@ add '-up' if you want (min-width: $point) and leave with no suffix for (max-widt
 }
 .SearchPage__pages {
   display: none;
-  margin: 0;
   padding: var(--side-padding) 0;
+}
+.SearchPage__pages ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
 }
 .SearchPage__pills {
   display: flex;
@@ -154,4 +158,7 @@ add '-up' if you want (min-width: $point) and leave with no suffix for (max-widt
 }
 .SearchPage__page:hover {
   color: var(--accent-color);
+}
+.SearchPage__pagesTitle {
+  margin-bottom: 16px;
 }

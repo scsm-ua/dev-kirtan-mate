@@ -3,7 +3,7 @@
 <html lang="en">
     <head>
         
-        <title>Śrī Govinda Kuṇḍa,Gupta-Govardhan Ārati. by Śrīla Bhakti Sundar Govinda Dev-Goswāmī Mahārāj | Kirtan Mate</title>
+        <title>Śrī Govinda Kuṇḍa,Gupta-Govardhan Ārati. by Śrīla Bhakti Sundar Govinda Dev-Goswāmī Mahārāj | Kirtan Site</title>
         <link rel="canonical" href="https://dev.kirtan.site/en/jaya-jaya-girirajer-arati-vishiala.html" />
         <meta name="description" content="jaya jaya girirājer ārati viśāla
 śrī gaura-maṇḍala-mājhe bhuvana-maṅgala..." />
@@ -16,7 +16,7 @@
         <meta property="og:url" content="https://dev.kirtan.site/en/jaya-jaya-girirajer-arati-vishiala.html" />
         <meta property="og:locale" content="ua_UA" />
         <meta property="og:type" content="website" />
-        <meta property="og:site_name" content="Kirtan Mate" />
+        <meta property="og:site_name" content="Kirtan Site" />
         <meta property="og:image" content="https://dev.kirtan.site/images/sharing-banner.png" />
         <meta property="og:image:width" content="648" />
         <meta property="og:image:height" content="488" />
@@ -28,7 +28,7 @@
         <meta name="twitter:description" content="jaya jaya girirājer ārati viśāla
 śrī gaura-maṇḍala-mājhe bhuvana-maṅgala..." />
 
-        <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://dev.kirtan.site/#website","url":"https://dev.kirtan.site/","name":"Kirtan Mate","description":"Вайшнавські пісні","inLanguage":"ua-UA"},{"@type":"CollectionPage","@id":"https://dev.kirtan.site/en/jaya-jaya-girirajer-arati-vishiala.html","url":"https://dev.kirtan.site/en/jaya-jaya-girirajer-arati-vishiala.html","name":"Śrī Govinda Kuṇḍa,Gupta-Govardhan Ārati. by Śrīla Bhakti Sundar Govinda Dev-Goswāmī Mahārāj","isPartOf":{"@id":"https://dev.kirtan.site/#website"}}]}</script>
+        <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://dev.kirtan.site/#website","url":"https://dev.kirtan.site/","name":"Kirtan Site","description":"jaya jaya girirājer ārati viśāla\nśrī gaura-maṇḍala-mājhe bhuvana-maṅgala...","inLanguage":"en-GB"},{"@type":"CollectionPage","@id":"https://dev.kirtan.site/en/jaya-jaya-girirajer-arati-vishiala.html","url":"https://dev.kirtan.site/en/jaya-jaya-girirajer-arati-vishiala.html","name":"Śrī Govinda Kuṇḍa,Gupta-Govardhan Ārati. by Śrīla Bhakti Sundar Govinda Dev-Goswāmī Mahārāj","isPartOf":{"@id":"https://dev.kirtan.site/#website"}}]}</script>
     
 
         <link rel="stylesheet" href="https://dev.kirtan.site/css/index.css" />
@@ -53,7 +53,7 @@
 
     <div class="Header__container">
         <div class="Header__content">
-            <a href="https://dev.kirtan.site/en" class="Header__home">
+            <a href="/en/" class="Header__home">
                 <img
                     alt="Home"
                     class="Header__logo"
@@ -687,7 +687,7 @@
         <div class="Footer__content">
             <a
                     class="Footer__item"
-                    href="/"
+                    href="/en/"
                     id="footer-link-books"
             >
                 <div class="Footer__icon Footer__icon--regular icon-books"></div>
@@ -697,7 +697,7 @@
 
             <a
                     class="Footer__item"
-                    href="https://dev.kirtan.site/en"
+                    href="/en/contents.html"
                     id="footer-link-contents"
             >
                 <div class="Footer__icon Footer__icon--regular icon-list-music"></div>
@@ -707,7 +707,7 @@
 
             <a
                     class="Footer__item"
-                    href="https://dev.kirtan.site/en/index-a-z-page.html"
+                    href="/en/a-z.html"
                     id="footer-link-index-list"
             >
                 <div class="Footer__icon Footer__icon--regular icon-arrow-up-a-z"></div>
@@ -717,7 +717,7 @@
 
             <a
                     class="Footer__item"
-                    href="/en/search-page.html"
+                    href="/en/search.html"
                     id="footer-link-search"
             >
                 <div class="Footer__icon Footer__icon--regular icon-search"></div>
@@ -730,28 +730,19 @@
 
 <script>
     (function() {
-        function setActive(elem) {
-            elem.classList.add('Footer__item--active');
+        function setActive(id) {
+            document.getElementById(id).classList.add('Footer__item--active');
         }
 
-        function areEqual(pathname, url) {
-            return !url || url.startsWith('/')
-                ? pathname === url
-                : pathname === new URL(url).pathname;
-        }
-
-        const pathname = location.pathname.endsWith('/')
-            ? location.pathname.slice(0, -1)
-            : location.pathname;
-
-        if (location.pathname === '/') {
-            setActive(document.getElementById('footer-link-books'));
-        } else if (areEqual(pathname, 'https://dev.kirtan.site/en')) {
-            setActive(document.getElementById('footer-link-contents'));
-        } else if (areEqual(pathname, 'https://dev.kirtan.site/en/index-a-z-page.html')) {
-            setActive(document.getElementById('footer-link-index-list'));
-        } else if (areEqual(pathname, '/en/search-page.html')) {
-            setActive(document.getElementById('footer-link-search'));
+        switch (location.pathname) {
+            case('/en/'):
+                return setActive('footer-link-books');
+            case('/en/contents.html'):
+                return setActive('footer-link-contents');
+            case('/en/a-z.html'):
+                return setActive('footer-link-index-list');
+            case('/en/search.html'):
+                return setActive('footer-link-search');
         }
     })()
 </script>
