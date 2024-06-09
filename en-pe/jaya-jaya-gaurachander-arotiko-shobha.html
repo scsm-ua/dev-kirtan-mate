@@ -42,6 +42,7 @@ jāhnavī-taṭa-vane jaga-mana lobhā..." />
 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tingle/0.16.0/tingle.min.css" integrity="sha512-b+T2i3P45i1LZM7I00Ci5QquB9szqaxu+uuk5TUSGjZQ4w4n+qujQiIuvTv2BxE7WCGQCifNMksyKILDiHzsOg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <script src="https://cdnjs.cloudflare.com/ajax/libs/tingle/0.16.0/tingle.min.js" integrity="sha512-2B9/byNV1KKRm5nQ2RLViPFD6U4dUjDGwuW1GU+ImJh8YinPU9Zlq1GzdTMO+G2ROrB5o1qasJBy1ttYz0wCug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://dev.kirtan.site/js/user-choice.js"></script>
     </head>
 
     <body>
@@ -62,7 +63,6 @@ jāhnavī-taṭa-vane jaga-mana lobhā..." />
                     src="https://dev.kirtan.site/css/svg/kirtan-site.svg"
                 />
             </a>
-<!--            -->
         </div>
     </div>
 </header>
@@ -86,10 +86,11 @@ jāhnavī-taṭa-vane jaga-mana lobhā..." />
             <div class="SongHeader__controls">
                 <button
                         class="NoBorderButton SongHeader__button"
+                        
                         id="variants-button"
                         title="See other translations"
                 >
-                    <span class="icon-book"></span>
+                    <span class="SongHeader__button--text">EN-PE</span>
                 </button>
 
                 <button
@@ -1000,6 +1001,8 @@ jāhnavī-taṭa-vane jaga-mana lobhā..." />
                             SongTranslations__item
                         
                     "
+                    data-book-id="ru"
+                    onclick="handleBookChoice(event)"
                 >
                     <a href="https://dev.kirtan.site/ru/jaya-jaya-gaurachander-arotiko-shobha.html">
                         <div class="SongTranslations__flex">
@@ -1033,6 +1036,8 @@ jāhnavī-taṭa-vane jaga-mana lobhā..." />
                             SongTranslations__item
                         
                     "
+                    data-book-id="ua"
+                    onclick="handleBookChoice(event)"
                 >
                     <a href="https://dev.kirtan.site/ua/jaya-jaya-gaurachander-arotiko-shobha.html">
                         <div class="SongTranslations__flex">
@@ -1066,6 +1071,8 @@ jāhnavī-taṭa-vane jaga-mana lobhā..." />
                             SongTranslations__item
                         
                     "
+                    data-book-id="en"
+                    onclick="handleBookChoice(event)"
                 >
                     <a href="https://dev.kirtan.site/en/jaya-jaya-gaurachander-arotiko-shobha.html">
                         <div class="SongTranslations__flex">
@@ -1099,6 +1106,8 @@ jāhnavī-taṭa-vane jaga-mana lobhā..." />
                             SongTranslations__item SongTranslations__item--selected
                         
                     "
+                    data-book-id="en-pe"
+                    onclick="handleBookChoice(event)"
                 >
                     <a href="https://dev.kirtan.site/en-pe/jaya-jaya-gaurachander-arotiko-shobha.html">
                         <div class="SongTranslations__flex">

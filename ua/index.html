@@ -29,6 +29,7 @@
 
         <link rel="stylesheet" href="https://dev.kirtan.site/css/index.css" />
         <link rel="stylesheet" href="https://dev.kirtan.site/css/book-list-page.css" />
+        <script src="https://dev.kirtan.site/js/user-choice.js"></script>
     </head>
     <body>
         <div class="Layout">
@@ -48,7 +49,6 @@
                     src="https://dev.kirtan.site/css/svg/kirtan-site.svg"
                 />
             </a>
-<!--            -->
         </div>
     </div>
 </header>
@@ -60,7 +60,11 @@
                             <ul class="BookListPage__list">
 
                                 
-                                    <li class="BookListPage__item">
+                                    <li
+                                            class="BookListPage__item"
+                                            data-book-id="ru"
+                                            onclick="handleBookChoice(event)"
+                                    >
                                         <a href="/ru/contents.html" class="BookListPage__link">
                                             <div class="BookListPage__ratio app-fixed-ratio-container">
                                                 <div class="app-fixed-ratio-content">
@@ -90,7 +94,11 @@
                                         </a>
                                     </li>
                                 
-                                    <li class="BookListPage__item">
+                                    <li
+                                            class="BookListPage__item"
+                                            data-book-id="ua"
+                                            onclick="handleBookChoice(event)"
+                                    >
                                         <a href="/ua/contents.html" class="BookListPage__link">
                                             <div class="BookListPage__ratio app-fixed-ratio-container">
                                                 <div class="app-fixed-ratio-content">
@@ -120,7 +128,11 @@
                                         </a>
                                     </li>
                                 
-                                    <li class="BookListPage__item">
+                                    <li
+                                            class="BookListPage__item"
+                                            data-book-id="en"
+                                            onclick="handleBookChoice(event)"
+                                    >
                                         <a href="/en/contents.html" class="BookListPage__link">
                                             <div class="BookListPage__ratio app-fixed-ratio-container">
                                                 <div class="app-fixed-ratio-content">
@@ -150,7 +162,11 @@
                                         </a>
                                     </li>
                                 
-                                    <li class="BookListPage__item">
+                                    <li
+                                            class="BookListPage__item"
+                                            data-book-id="en-pe"
+                                            onclick="handleBookChoice(event)"
+                                    >
                                         <a href="/en-pe/contents.html" class="BookListPage__link">
                                             <div class="BookListPage__ratio app-fixed-ratio-container">
                                                 <div class="app-fixed-ratio-content">
@@ -255,6 +271,7 @@
 </script>
 
         </div>
+
         
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZRQ94TXNJE"></script>

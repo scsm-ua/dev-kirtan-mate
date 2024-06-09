@@ -104,6 +104,12 @@ add '-up' if you want (min-width: $point) and leave with no suffix for (max-widt
   padding: 8px;
   margin-left: 8px;
 }
+.SongHeader__button:disabled {
+  opacity: 0.5;
+}
+.SongHeader__button--text {
+  text-decoration: underline;
+}
 .SongHeader__title {
   font-size: 20px;
   line-height: 140%;

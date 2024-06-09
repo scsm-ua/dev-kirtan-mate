@@ -40,6 +40,7 @@ pratihata-mada-dhṛṣṭoddaṇḍa-devendra-garva..." />
 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tingle/0.16.0/tingle.min.css" integrity="sha512-b+T2i3P45i1LZM7I00Ci5QquB9szqaxu+uuk5TUSGjZQ4w4n+qujQiIuvTv2BxE7WCGQCifNMksyKILDiHzsOg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <script src="https://cdnjs.cloudflare.com/ajax/libs/tingle/0.16.0/tingle.min.js" integrity="sha512-2B9/byNV1KKRm5nQ2RLViPFD6U4dUjDGwuW1GU+ImJh8YinPU9Zlq1GzdTMO+G2ROrB5o1qasJBy1ttYz0wCug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://dev.kirtan.site/js/user-choice.js"></script>
     </head>
 
     <body>
@@ -60,7 +61,6 @@ pratihata-mada-dhṛṣṭoddaṇḍa-devendra-garva..." />
                     src="https://dev.kirtan.site/css/svg/kirtan-site.svg"
                 />
             </a>
-<!--            -->
         </div>
     </div>
 </header>
@@ -84,10 +84,13 @@ pratihata-mada-dhṛṣṭoddaṇḍa-devendra-garva..." />
             <div class="SongHeader__controls">
                 <button
                         class="NoBorderButton SongHeader__button"
+                        
+                            disabled
+                        
                         id="variants-button"
                         title="See other translations"
                 >
-                    <span class="icon-book"></span>
+                    <span class="SongHeader__button--text">EN</span>
                 </button>
 
                 <button
@@ -1091,6 +1094,8 @@ pratihata-mada-dhṛṣṭoddaṇḍa-devendra-garva..." />
                             SongTranslations__item SongTranslations__item--selected
                         
                     "
+                    data-book-id="en"
+                    onclick="handleBookChoice(event)"
                 >
                     <a href="https://dev.kirtan.site/en/nija-pati-bhuja-danda-chchhatra-bhavam.html">
                         <div class="SongTranslations__flex">
