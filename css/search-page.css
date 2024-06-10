@@ -67,11 +67,13 @@ add '-up' if you want (min-width: $point) and leave with no suffix for (max-widt
 .SearchPage__clear {
   position: absolute;
   right: 7px;
-  top: 3px;
+  top: 4px;
   height: 40px;
   width: 40px;
   font-size: 18px;
+  padding: 10px;
   transition: color 0.25s;
+  color: var(--grey);
 }
 .SearchPage__clear:hover {
   color: var(--accent-color);
@@ -80,7 +82,7 @@ add '-up' if you want (min-width: $point) and leave with no suffix for (max-widt
   height: 40px;
   width: 40px;
   font-size: 20px;
-  padding-top: 4px;
+  padding: 4px;
   margin-left: 12px;
 }
 .SearchPage__nothing {
