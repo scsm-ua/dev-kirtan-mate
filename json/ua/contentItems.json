@@ -3,6 +3,13 @@
     "name": "Вступ",
     "items": [
       {
+        "id": "acharya-varyyam-gaura-dhama-nishtham",
+        "title": "Прана̄м Мантра - Шрīла Бгакті Ранджан Мадгусудан Маха̄ра̄дж",
+        "name": "Шрīла Бгакті Ранджан Мадгусудан Маха̄ра̄дж",
+        "aliasName": "а̄ча̄рʼя-варйям ґаура-дга̄ма-ніштхам",
+        "fileName": "acharya-varyyam-gaura-dhama-nishtham.html"
+      },
+      {
         "id": "shri-krishna-chaitanya-prabhu-nityananda",
         "title": "Паньча-таттва мантра",
         "name": "Паньча-таттва мантра",
@@ -13,7 +20,7 @@
       {
         "id": "hare-krishna-hare-krishna-krishna-krishna-hare-hare",
         "title": "Харе Кришна маха̄-мантра",
-        "name": "Харе Кришна маха̄мантра",
+        "name": "Харе Крішна маха̄мантра",
         "aliasName": "харе кришна харе кришна кришна кришна харе харе",
         "fileName": "hare-krishna-hare-krishna-krishna-krishna-hare-hare.html",
         "page": "24",
@@ -84,6 +91,29 @@
         ]
       },
       {
+        "id": "udilo-aruna-puraba-bhage",
+        "title": "Арунодоя-кīртан 1",
+        "name": "Арунодоя-кīртан",
+        "aliasName": "уділо аруна пӯраба-бга̄ґе,",
+        "fileName": "udilo-aruna-puraba-bhage.html",
+        "page": "42",
+        "embeds": [
+          "Навадвип Дхам",
+          "Шрила Авадхут Махарадж"
+        ]
+      },
+      {
+        "id": "jiv-jago-jiv-jago-gaurachanda-bole",
+        "title": "Арунодоя-кīртан 2",
+        "name": "Арунодоя-кīртан",
+        "aliasName": "джīв джа̄ґо, джīв джа̄ґо, ґаура̄ча̄нда боле",
+        "fileName": "jiv-jago-jiv-jago-gaurachanda-bole.html",
+        "page": "43",
+        "embeds": [
+          "Шрила Авадхут Махарадж"
+        ]
+      },
+      {
         "id": "shri-krishna-chaitanya-prabhu-jive-daya-kori",
         "title": "Шярана̄ґаті. Благодатне звернення",
         "name": "Шярана̄ґаті. Благодатне звернення",
@@ -103,16 +133,23 @@
           "Навадвип Дхам",
           "Шрила Авадхут Махарадж"
         ]
-      },
+      }
+    ]
+  },
+  {
+    "name": "Обіднє Араті",
+    "items": [
       {
-        "id": "jiv-jago-jiv-jago-gaurachanda-bole",
-        "title": "Арунодоя-кīртан",
-        "name": "Арунодоя-кīртан",
-        "aliasName": "джīв джа̄ґо, джīв джа̄ґо, ґаура̄ча̄нда боле",
-        "fileName": "jiv-jago-jiv-jago-gaurachanda-bole.html",
-        "page": "43",
+        "id": "bhaja-bhakata-vatsala-shri-gaurahari",
+        "title": "Шрī Бгоґ А̄раті Ґīті",
+        "name": "Шрī Бгоґ А̄раті Ґīті",
+        "aliasName": "бгаджа бгаката-ватсала шрī-ґаурахарі",
+        "fileName": "bhaja-bhakata-vatsala-shri-gaurahari.html",
+        "page": "58",
         "embeds": [
-          "Шрила Авадхут Махарадж"
+          "Шрила Говинда Махарадж",
+          "Навадвип Дхам",
+          "Каракас Дхам"
         ]
       }
     ]

@@ -44,6 +44,12 @@
     </url>
     
     <url>
+        <loc>https://dev.kirtan.site/ru/acharya-varyyam-gaura-dhama-nishtham.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
         <loc>https://dev.kirtan.site/ru/vande-vaikuntha-vritti-stham.html</loc>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
@@ -1053,6 +1059,12 @@
     </url>
     
     <url>
+        <loc>https://dev.kirtan.site/ua/acharya-varyyam-gaura-dhama-nishtham.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
         <loc>https://dev.kirtan.site/ua/shri-krishna-chaitanya-prabhu-nityananda.html</loc>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
@@ -1083,6 +1095,18 @@
     </url>
     
     <url>
+        <loc>https://dev.kirtan.site/ua/udilo-aruna-puraba-bhage.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://dev.kirtan.site/ua/jiv-jago-jiv-jago-gaurachanda-bole.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
         <loc>https://dev.kirtan.site/ua/shri-krishna-chaitanya-prabhu-jive-daya-kori.html</loc>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
@@ -1095,7 +1119,7 @@
     </url>
     
     <url>
-        <loc>https://dev.kirtan.site/ua/jiv-jago-jiv-jago-gaurachanda-bole.html</loc>
+        <loc>https://dev.kirtan.site/ua/bhaja-bhakata-vatsala-shri-gaurahari.html</loc>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -1205,6 +1229,12 @@
     
     <url>
         <loc>https://dev.kirtan.site/en/vande-ham-shri-guroh-shri-yuta-pada-kamalam.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://dev.kirtan.site/en/acharya-varyyam-gaura-dhama-nishtham.html</loc>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
