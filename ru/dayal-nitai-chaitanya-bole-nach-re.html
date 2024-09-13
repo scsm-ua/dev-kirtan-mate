@@ -491,11 +491,13 @@
 
 <script>
     (function() {
+        const origin = 'https://dev.kirtan.site';
+
         function setActive(id) {
             document.getElementById(id).classList.add('Footer__item--active');
         }
 
-        switch (location.pathname) {
+        switch (origin ? location.href : location.pathname) {
             case('https://dev.kirtan.site/ru/'):
                 return setActive('footer-link-books');
             case('https://dev.kirtan.site/ru/contents.html'):
