@@ -198,7 +198,7 @@
         "fileName": "thakura-vaishnava-gana-kori-ei-nivedana.html",
         "page": "68",
         "embeds": [
-          "Bhakti Lalita Devi"
+          "Навадвип Дхам"
         ]
       },
       {
@@ -617,10 +617,7 @@
         "name": "Vaiṣṇava mahima",
         "aliasName": "ṭhākura-vaiṣṇava-pada,        avanīra susampada,",
         "fileName": "thakura-vaishnava-pada-avanira.html",
-        "page": "148",
-        "embeds": [
-          "Навадвип Дхам"
-        ]
+        "page": "148"
       },
       {
         "id": "je-anilo-prema-dhana-karuna-prachura",
@@ -916,7 +913,7 @@
       {
         "id": "pita-varana-kali-pavana-gora",
         "title": "1. Pita-varaṇa kali",
-        "name": "Śrī Śikṣāṣṭakam, Canción 1",
+        "name": "Śrī Śikṣāṣṭakam",
         "aliasName": "pīta-baraṇa kali-pāvana gorā",
         "fileName": "pita-varana-kali-pavana-gora.html",
         "page": "217",
@@ -928,7 +925,7 @@
       {
         "id": "tuhu-daya-sagara-tarayite-prani",
         "title": "2. Tuhu̐ dayā-sāgara",
-        "name": "Śrī Śikṣāṣṭakam, Canción 2",
+        "name": "Śrī Śikṣāṣṭakam",
         "aliasName": "tuhū̐ doyā-sāgara tārayite prāṇī",
         "fileName": "tuhu-daya-sagara-tarayite-prani.html",
         "page": "219",
@@ -939,7 +936,7 @@
       {
         "id": "shri-krishna-kirtane-jodi-manasa-tohara",
         "title": "3. Śrī-Kṛṣṇa-kīrtane jodi",
-        "name": "Śrī Śikṣāṣṭakam, Canción 3",
+        "name": "Śrī Śikṣāṣṭakam",
         "aliasName": "śrī-kṛṣṇa-kīrttane jodi mānasa tohāra",
         "fileName": "shri-krishna-kirtane-jodi-manasa-tohara.html",
         "page": "220",
@@ -950,7 +947,7 @@
       {
         "id": "prabhu-tava-pada-juge-mora-nivedana",
         "title": "4. Prabhu tava pada",
-        "name": "Śrī Śikṣāṣṭakam, Canción 4",
+        "name": "Śrī Śikṣāṣṭakam",
         "aliasName": "prabhu tava pada-juge mora nivedana",
         "fileName": "prabhu-tava-pada-juge-mora-nivedana.html",
         "page": "222",
@@ -961,7 +958,7 @@
       {
         "id": "anadi-karama-phole",
         "title": "5. Anādi karama phole",
-        "name": "Śrī Śikṣāṣṭakam, Canción 5",
+        "name": "Śrī Śikṣāṣṭakam",
         "aliasName": "anādi karama-phole,        poḍi bhavārṇava-jole,",
         "fileName": "anadi-karama-phole.html",
         "page": "224",
@@ -972,7 +969,7 @@
       {
         "id": "aparadha-phole-mama",
         "title": "6. Aparādha-phole mama",
-        "name": "Śrī Śikṣāṣṭakam, Canción 6",
+        "name": "Śrī Śikṣāṣṭakam",
         "aliasName": "aparādha-phole mama        chitta bhela vajra sama",
         "fileName": "aparadha-phole-mama.html",
         "page": "225",
@@ -983,7 +980,7 @@
       {
         "id": "gaite-gaite-nama-ki-doshia-hoilo",
         "title": "7a. Gāite gāite nāma",
-        "name": "Śrī Śikṣāṣṭakam, Canción 7",
+        "name": "Śrī Śikṣāṣṭakam",
         "aliasName": "gāite gāite nāma ki dośā hoilo",
         "fileName": "gaite-gaite-nama-ki-doshia-hoilo.html",
         "page": "227",
@@ -994,7 +991,7 @@
       {
         "id": "gaite-govinda-nam-upajilo-bhava-gram",
         "title": "7b. Gāite ‘govinda’–nām",
-        "name": "Śrī Śikṣāṣṭakam, Canción 7 (b)",
+        "name": "Śrī Śikṣāṣṭakam",
         "aliasName": "gāite ‘govinda’-nām,        upajilo bhāva-grām,",
         "fileName": "gaite-govinda-nam-upajilo-bhava-gram.html",
         "page": "229",
@@ -1005,7 +1002,7 @@
       {
         "id": "sakhi-go-kemote-dhoribo-paran",
         "title": "7c. Sakhī go kemote",
-        "name": "Śrī Śikṣāṣṭakam, Canción 7 (c)",
+        "name": "Śrī Śikṣāṣṭakam",
         "aliasName": "sakhi go kemote dhoribo parāṇ",
         "fileName": "sakhi-go-kemote-dhoribo-paran.html",
         "page": "230",
@@ -1016,7 +1013,7 @@
       {
         "id": "bondhu-gon-shiunoho-vachana-mora",
         "title": "8a. Bondhu-goṇ! śunoho",
-        "name": "Śrī Śikṣāṣṭakam, Canción 8",
+        "name": "Śrī Śikṣāṣṭakam",
         "aliasName": "bandhu-gon!    śunoho vachana mora",
         "fileName": "bondhu-gon-shiunoho-vachana-mora.html",
         "page": "231",
@@ -1027,7 +1024,7 @@
       {
         "id": "yoga-pithopari-sthita-ashta-sakhi-subeshtita",
         "title": "8b. Yoga-pīṭhopari-sthita",
-        "name": "Śrī Śikṣāṣṭakam, Canción 8 (b)",
+        "name": "Śrī Śikṣāṣṭakam",
         "aliasName": "yoga-pīṭhopari-sthita,        aṣṭa-sakhī-subeṣṭita,",
         "fileName": "yoga-pithopari-sthita-ashta-sakhi-subeshtita.html",
         "page": "232"
@@ -1259,7 +1256,7 @@
         "id": "namas-te-narasimhaya",
         "title": "Śrī Nṛsiṁha Praṇām",
         "name": "Śrī Nṛsiṁha Praṇām",
-        "aliasName": "namas te narasiṁhāya / prahlādāhlāda-dāyine",
+        "aliasName": "namas te narasiṁhāya",
         "fileName": "namas-te-narasimhaya.html",
         "page": "284",
         "embeds": [

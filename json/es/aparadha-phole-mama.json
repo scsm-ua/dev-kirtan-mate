@@ -1,12 +1,12 @@
 {
   "title": [
-    "Śrī Śikṣāṣṭakam, Canción 6"
+    "Śrī Śikṣāṣṭakam"
   ],
   "author": [
     "Śrīla Bhakti Vinod Ṭhākur"
   ],
   "subtitle": [
-    "Śrī Śikṣāṣṭakam: 6"
+    "Canción 6"
   ],
   "verses": [
     {
@@ -18,9 +18,11 @@
         "tava nāma-grahaṇe bhaviṣyati"
       ],
       "translation": [
-        ""
+        "¡Oh, Señor! ¿Cuándo las lágrimas fluirán de mis ojos como olas y mi voz temblará de éxtasis? ¿Cuándo los vellos de mi cuerpo se erizarán mientras canto Tu Santo Nombre?"
       ],
-      "word_by_word": []
+      "word_by_word": [
+        "<i class=\"SongVerse__term\">nayanaṁ</i> — mis ojos; <i class=\"SongVerse__term\">galad-aśru-dhārayā</i> — por ríos de lágrimas que caen; <i class=\"SongVerse__term\">vadanaṁ</i> — mi boca; <i class=\"SongVerse__term\">gad-gada</i> — vacilante; <i class=\"SongVerse__term\">ruddhayā</i> — siendo ahogado; <i class=\"SongVerse__term\">girā</i> — mis palabras; <i class=\"SongVerse__term\">pulakaiḥ</i> — por vellos que se erizan; <i class=\"SongVerse__term\">nichitaṁ</i> — cubierto; <i class=\"SongVerse__term\">vapuḥ</i> — mi cuerpo; <i class=\"SongVerse__term\">kadā</i> — ¿cuándo?; <i class=\"SongVerse__term\">tava</i> — tu; <i class=\"SongVerse__term\">nāma-grahaṇe</i> — al cantar el Santo Nombre; <i class=\"SongVerse__term\">bhaviṣyati</i> — será."
+      ]
     },
     {
       "number": "1",

@@ -1,12 +1,12 @@
 {
   "title": [
-    "Śrī Śikṣāṣṭakam, Canción 4"
+    "Śrī Śikṣāṣṭakam"
   ],
   "author": [
     "Śrīla Bhakti Vinod Ṭhākur"
   ],
   "subtitle": [
-    "Śrī Śikṣāṣṭakam: 4"
+    "Canción 4"
   ],
   "verses": [
     {
@@ -18,9 +18,11 @@
         "bhavatād bhaktir ahaitukī tvayi"
       ],
       "translation": [
-        ""
+        "¡Oh, Señor! No tengo deseo de acumular riquezas, seguidores, mujeres bellas o salvación. Lo único que imploro es el servicio devocional inmotivado a Ti, nacimiento tras nacimiento."
       ],
-      "word_by_word": []
+      "word_by_word": [
+        "<i class=\"SongVerse__term\">na dhanaṁ</i> — no riqueza; <i class=\"SongVerse__term\">na janaṁ</i> — no seguidores; <i class=\"SongVerse__term\">na sundarīṁ</i> — no mujeres hermosas; <i class=\"SongVerse__term\">kavitāṁ</i> — actividades fruitivas descritas en lenguaje florido; <i class=\"SongVerse__term\">va</i> — o; <i class=\"SongVerse__term\">jagat-īśa</i> — ¡oh, Señor del universo!; <i class=\"SongVerse__term\">kāmaye</i> — deseo; <i class=\"SongVerse__term\">mama</i> — mi; <i class=\"SongVerse__term\">janmani janmani</i> — nacimiento tras nacimiento; <i class=\"SongVerse__term\">īśvare</i> — a la Suprema Personalidad de Dios; <i class=\"SongVerse__term\">bhavatāt</i> — que haya; <i class=\"SongVerse__term\">bhaktiḥ</i> — servicio devocional; <i class=\"SongVerse__term\">ahaitukī</i> — sin motivación; <i class=\"SongVerse__term\">tvayi</i> — a Ti."
+      ]
     },
     {
       "number": "1",

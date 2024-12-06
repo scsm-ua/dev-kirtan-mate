@@ -1,12 +1,12 @@
 {
   "title": [
-    "Śrī Śikṣāṣṭakam, Canción 5"
+    "Śrī Śikṣāṣṭakam"
   ],
   "author": [
     "Śrīla Bhakti Vinod Ṭhākur"
   ],
   "subtitle": [
-    "Śrī Śikṣāṣṭakam: 5"
+    "Canción 5"
   ],
   "verses": [
     {
@@ -18,9 +18,11 @@
         "sthita-dhūlī-sadṛśaṁ vichintaya"
       ],
       "translation": [
-        ""
+        "¡Oh, hijo de Mahārāj Nanda! Soy Tu siervo eterno. Sin embargo, debido a mi propio <i class=\"SongVerse__term\">karma</i>, he caído en este horrible océano de nacimiento y muerte. Por favor, acepta a esta alma caída y considérame una partícula de polvo a Tus sagrados pies de loto."
       ],
-      "word_by_word": []
+      "word_by_word": [
+        "<i class=\"SongVerse__term\">ayi nanda-tanuja</i> — ¡oh, hijo de Nanda Mahārāj!; <i class=\"SongVerse__term\">kiṅkaraṁ</i> — Tu sirviente; <i class=\"SongVerse__term\">patitaṁ</i> — caído; <i class=\"SongVerse__term\">mām</i> — yo; <i class=\"SongVerse__term\">viṣame</i> — horrible; <i class=\"SongVerse__term\">bhava-ambudhau</i> — en el océano de la nesciencia; <i class=\"SongVerse__term\">kṛpayā</i> — por misericordia sin causa; <i class=\"SongVerse__term\">tava</i> — tus; <i class=\"SongVerse__term\">pāda-paṅkaja</i> — pies de loto; <i class=\"SongVerse__term\">sthita</i> — situado en; <i class=\"SongVerse__term\">dhūlī</i> — el polvo; <i class=\"SongVerse__term\">sadṛśaṁ</i> — igual que; <i class=\"SongVerse__term\">vichintaya</i> — por favor considera."
+      ]
     },
     {
       "number": "1",

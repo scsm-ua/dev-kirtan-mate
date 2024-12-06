@@ -1,12 +1,12 @@
 {
   "title": [
-    "Śrī Śikṣāṣṭakam, Canción 3"
+    "Śrī Śikṣāṣṭakam"
   ],
   "author": [
     "Śrīla Bhakti Vinod Ṭhākur"
   ],
   "subtitle": [
-    "Śrī Śikṣāṣṭakam: 3"
+    "Canción 3"
   ],
   "verses": [
     {
@@ -16,9 +16,11 @@
         "amāninā mānadena kīrtanīyaḥ sadā hariḥ"
       ],
       "translation": [
-        ""
+        "Aquel que es más humilde que una brizna de hierba, más tolerante que un árbol, que le ofrece el debido honor a los demás sin desearlo para sí mismo, está capacitado para cantar siempre el Santo Nombre de Kṛṣṇa."
       ],
-      "word_by_word": []
+      "word_by_word": [
+        "<i class=\"SongVerse__term\">tṛṇād api</i> — más que la hierba pisoteada; <i class=\"SongVerse__term\">su-nīchena</i> — sintiéndose mucho más bajo; <i class=\"SongVerse__term\">taror</i> — que un árbol; <i class=\"SongVerse__term\">api</i> — más que; <i class=\"SongVerse__term\">sahiṣṇunā</i> — siendo tolerante; <i class=\"SongVerse__term\">amāninā</i> — al no aceptar respeto; <i class=\"SongVerse__term\">mānadena</i> — respetando a todos los demás; <i class=\"SongVerse__term\">kīrtanīyaḥ</i> — debe cantarse; <i class=\"SongVerse__term\">sadā</i> — siempre; <i class=\"SongVerse__term\">hariḥ</i> — el Santo Nombre de Hari."
+      ]
     },
     {
       "number": "1",

@@ -1,12 +1,12 @@
 {
   "title": [
-    "Śrī Śikṣāṣṭakam, Canción 8"
+    "Śrī Śikṣāṣṭakam"
   ],
   "author": [
     "Śrīla Bhakti Vinod Ṭhākur"
   ],
   "subtitle": [
-    "Śrī Śikṣāṣṭakam: 8"
+    "Canción 8"
   ],
   "verses": [
     {
@@ -18,9 +18,11 @@
         "mat-prāṇa-nāthas tu sa eva nāparaḥ"
       ],
       "translation": [
-        ""
+        "Kṛṣṇa puede abrazarme con amor o pisotearme bajo Sus pies. Puede romper mi corazón al esconderse de mí. Que ese libertino haga lo que quiera, pero siempre será el único Señor de mi vida."
       ],
-      "word_by_word": []
+      "word_by_word": [
+        "<i class=\"SongVerse__term\">āśliṣya</i> — abrazando con fuerza; <i class=\"SongVerse__term\">vā</i> — o; <i class=\"SongVerse__term\">pāda-ratāṁ</i> — postrado a los pies de loto; <i class=\"SongVerse__term\">pinaṣṭu</i> — déjalo pisotear; <i class=\"SongVerse__term\">mām</i> — a mí; <i class=\"SongVerse__term\">adarśanān</i> — por no ser visible; <i class=\"SongVerse__term\">marma-hatāṁ</i> — con el corazón roto; <i class=\"SongVerse__term\">karotu</i> — que Él haga; <i class=\"SongVerse__term\">vā</i> — o; <i class=\"SongVerse__term\">yathā tathā</i> — como a Él le gusta; <i class=\"SongVerse__term\">vā</i> — o; <i class=\"SongVerse__term\">vidadhātu</i> — déjalo hacer; <i class=\"SongVerse__term\">lampaṭaḥ</i> — el libertino; <i class=\"SongVerse__term\">mat-prāṇa-nāthaḥ</i> — el Señor de mi vida; <i class=\"SongVerse__term\">tu</i> — pero; <i class=\"SongVerse__term\">saḥ eva</i> — sólo Él; <i class=\"SongVerse__term\">na aparaḥ</i> — nadie más."
+      ]
     },
     {
       "number": "1",
