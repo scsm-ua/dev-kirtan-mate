@@ -97,17 +97,18 @@
 <header class="SongHeader">
     <div class="SongHeader__container">
         <div class="SongHeader__top">
-            <h6 class="SongHeader__book">
-                Гаудия Гитанджали
-            </h6>
-
-            <div class="SongHeader__controls">
+            <div class="SongHeader__left">
+                <h6 class="SongHeader__book">
+                    Гаудия Гитанджали
+                </h6>
                 
-                    <div>
-                        С. 69
+                    <div class="SongHeader__page">
+                        <a class="SongHeader__book page-number-search" href="https://dev.kirtan.site/ru/search.html?p=69">с. 69</a>
                     </div>
                 
+            </div>
 
+            <div class="SongHeader__controls">
                 <button
                         class="NoBorderButton SongHeader__button"
                         
@@ -537,7 +538,7 @@
 
     <div class="PrevNextNav__container">
         <div class="PrevNextNav__content">
-            <a class="PrevNextNav__link PrevNextNav__link--prev " href="https://dev.kirtan.site/ru/gurudeva-kripa-bindu-diya-kara-ei-dase.html?p=48">
+            <a class="PrevNextNav__link PrevNextNav__link--prev " href="https://dev.kirtan.site/ru/gurudeva-kripa-bindu-diya-kara-ei-dase.html?p=68">
                 <span class="PrevNextNav__icon PrevNextNav__icon--prev">
                     <span class="icon-chevron-right"></span>
                 </span>
@@ -547,7 +548,7 @@
                 </span>
             </a>
 
-            <a class="PrevNextNav__link PrevNextNav__link--next " href="https://dev.kirtan.site/ru/jaya-jaya-gurudever-arati-ujjvala.html?p=50">
+            <a class="PrevNextNav__link PrevNextNav__link--next " href="https://dev.kirtan.site/ru/jaya-jaya-gurudever-arati-ujjvala.html?p=70">
                 <span class="PrevNextNav__label ellipsis">
                     Шри Гуру Арати
                 </span>
@@ -563,8 +564,8 @@
 
     <script>
         (function() {
-            var prevHref = 'https://dev.kirtan.site/ru/gurudeva-kripa-bindu-diya-kara-ei-dase.html?p=48';
-            var nextHref = 'https://dev.kirtan.site/ru/jaya-jaya-gurudever-arati-ujjvala.html?p=50';
+            var prevHref = 'https://dev.kirtan.site/ru/gurudeva-kripa-bindu-diya-kara-ei-dase.html?p=68';
+            var nextHref = 'https://dev.kirtan.site/ru/jaya-jaya-gurudever-arati-ujjvala.html?p=70';
             try {
                 /**
                  * Swipe events.
@@ -627,8 +628,8 @@
             </a>
 
             <a
-                    class="Footer__item"
-                    href="https://dev.kirtan.site/ru/search.html"
+                    class="Footer__item page-number-search"
+                    href="https://dev.kirtan.site/ru/search.html?p=69"
                     id="footer-link-search"
             >
                 <div class="Footer__icon Footer__icon--regular icon-search"></div>

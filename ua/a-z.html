@@ -204,6 +204,20 @@
     
 </ul>
 
+<script>
+    (function() {
+        const queryString = window.location.search;
+        const urlParams = new URLSearchParams(queryString);
+        const idx = urlParams.get('p');
+        const buttons = document.querySelectorAll('.Pills__button');
+        buttons.forEach(button => {
+            if (idx == button.innerText.trim()) {
+                button.classList.add("Pills__button__active");
+            }
+        });
+    })();
+</script>
+
                         </div>
 
                         <ul class="IndexPage__list">
@@ -986,7 +1000,7 @@
             </a>
 
             <a
-                    class="Footer__item"
+                    class="Footer__item page-number-search"
                     href="https://dev.kirtan.site/ua/search.html"
                     id="footer-link-search"
             >

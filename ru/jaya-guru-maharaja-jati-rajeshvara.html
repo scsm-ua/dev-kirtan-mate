@@ -97,17 +97,18 @@
 <header class="SongHeader">
     <div class="SongHeader__container">
         <div class="SongHeader__top">
-            <h6 class="SongHeader__book">
-                Гаудия Гитанджали
-            </h6>
-
-            <div class="SongHeader__controls">
+            <div class="SongHeader__left">
+                <h6 class="SongHeader__book">
+                    Гаудия Гитанджали
+                </h6>
                 
-                    <div>
-                        С. 46, 72
+                    <div class="SongHeader__page">
+                        <a class="SongHeader__book page-number-search" href="https://dev.kirtan.site/ru/search.html?p=46">с. 46, 72</a>
                     </div>
                 
+            </div>
 
+            <div class="SongHeader__controls">
                 <button
                         class="NoBorderButton SongHeader__button"
                         
@@ -1079,9 +1080,9 @@
 
                             
                 var pages = {
-    "51": {
+    "72": {
         "prev": {
-            "href": "https://dev.kirtan.site/ru/jaya-jaya-gurudever-arati-ujjvala.html?p=50",
+            "href": "https://dev.kirtan.site/ru/jaya-jaya-gurudever-arati-ujjvala.html?p=70",
             "title": "Шри Гуру Арати"
         },
         "next": {
@@ -1098,6 +1099,7 @@
                 if (page) {
                     const prevLink = document.querySelector('.PrevNextNav__link--prev');
                     const nextLink = document.querySelector('.PrevNextNav__link--next');
+                    const searchLinks = document.querySelectorAll('.page-number-search');
     
                     prevHref = page.prev.href;
                     prevLink.setAttribute('href', page.prev.href);
@@ -1106,6 +1108,12 @@
                     nextHref = page.next.href;
                     nextLink.setAttribute('href', page.next.href);
                     nextLink.querySelector('.PrevNextNav__label').innerText = page.next.title;
+
+                    searchLinks.forEach(searchLink => {
+                        var searchHref = searchLink.getAttribute('href');
+                        searchHref = searchHref.replace(/p=\d+/, 'p=' + idx);
+                        searchLink.setAttribute('href', searchHref);
+                    });
                 }
 
             
@@ -1152,8 +1160,8 @@
             </a>
 
             <a
-                    class="Footer__item"
-                    href="https://dev.kirtan.site/ru/search.html"
+                    class="Footer__item page-number-search"
+                    href="https://dev.kirtan.site/ru/search.html?p=46"
                     id="footer-link-search"
             >
                 <div class="Footer__icon Footer__icon--regular icon-search"></div>

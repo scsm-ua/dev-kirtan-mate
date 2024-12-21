@@ -428,7 +428,7 @@
         </li>
     
         <li class="Pills__item">
-            <a class="Pills__anchor" href="jashomati-nandana-vraja-vara-nagara.html" title="Шри Нама-Киртан">
+            <a class="Pills__anchor" href="jashomati-nandana-vraja-vara-nagara.html?p=60" title="Шри Нама-Киртан">
                 <button class="Pills__button">
                     60
                 </button>
@@ -436,7 +436,7 @@
         </li>
     
         <li class="Pills__item">
-            <a class="Pills__anchor" href="jaya-shiachinandana-sura-muni-vandana.html" title="Шри Шачинандана-вандана">
+            <a class="Pills__anchor" href="jaya-shiachinandana-sura-muni-vandana.html?p=61" title="Шри Шачинандана-вандана">
                 <button class="Pills__button">
                     61
                 </button>
@@ -468,7 +468,7 @@
         </li>
     
         <li class="Pills__item">
-            <a class="Pills__anchor" href="gurudeva-kripa-bindu-diya-kara-ei-dase.html" title="Гурудев">
+            <a class="Pills__anchor" href="gurudeva-kripa-bindu-diya-kara-ei-dase.html?p=68" title="Гурудев">
                 <button class="Pills__button">
                     68
                 </button>
@@ -484,7 +484,7 @@
         </li>
     
         <li class="Pills__item">
-            <a class="Pills__anchor" href="jaya-jaya-gurudever-arati-ujjvala.html" title="Шри Гуру Арати">
+            <a class="Pills__anchor" href="jaya-jaya-gurudever-arati-ujjvala.html?p=70" title="Шри Гуру Арати">
                 <button class="Pills__button">
                     70
                 </button>
@@ -492,7 +492,7 @@
         </li>
     
         <li class="Pills__item">
-            <a class="Pills__anchor" href="jaya-guru-maharaja-jati-rajeshvara.html" title="Шри Гуру Арати-стути">
+            <a class="Pills__anchor" href="jaya-guru-maharaja-jati-rajeshvara.html?p=72" title="Шри Гуру Арати-стути">
                 <button class="Pills__button">
                     72
                 </button>
@@ -1389,6 +1389,20 @@
     
 </ul>
 
+<script>
+    (function() {
+        const queryString = window.location.search;
+        const urlParams = new URLSearchParams(queryString);
+        const idx = urlParams.get('p');
+        const buttons = document.querySelectorAll('.Pills__button');
+        buttons.forEach(button => {
+            if (idx == button.innerText.trim()) {
+                button.classList.add("Pills__button__active");
+            }
+        });
+    })();
+</script>
+
                         </div>
                     </div>
                 </div>
@@ -1431,7 +1445,7 @@
             </a>
 
             <a
-                    class="Footer__item"
+                    class="Footer__item page-number-search"
                     href="https://dev.kirtan.site/ru/search.html"
                     id="footer-link-search"
             >

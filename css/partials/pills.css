@@ -25,3 +25,10 @@
 .Pills__button:hover {
   color: var(--accent-color);
 }
+.Pills__button__active {
+  color: var(--beige);
+  background-color: var(--dark);
+}
+.Pills__button__active:hover {
+  color: var(--beige);
+}

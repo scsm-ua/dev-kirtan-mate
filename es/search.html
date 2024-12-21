@@ -348,7 +348,7 @@
         </li>
     
         <li class="Pills__item">
-            <a class="Pills__anchor" href="jaya-guru-maharaja-karuna-sagara.html" title="Śrī Śrī Nitāi Chaitanya ārati">
+            <a class="Pills__anchor" href="jaya-guru-maharaja-karuna-sagara.html?p=91" title="Śrī Śrī Nitāi Chaitanya ārati">
                 <button class="Pills__button">
                     91
                 </button>
@@ -1309,6 +1309,20 @@
     
 </ul>
 
+<script>
+    (function() {
+        const queryString = window.location.search;
+        const urlParams = new URLSearchParams(queryString);
+        const idx = urlParams.get('p');
+        const buttons = document.querySelectorAll('.Pills__button');
+        buttons.forEach(button => {
+            if (idx == button.innerText.trim()) {
+                button.classList.add("Pills__button__active");
+            }
+        });
+    })();
+</script>
+
                         </div>
                     </div>
                 </div>
@@ -1351,7 +1365,7 @@
             </a>
 
             <a
-                    class="Footer__item"
+                    class="Footer__item page-number-search"
                     href="https://dev.kirtan.site/es/search.html"
                     id="footer-link-search"
             >
