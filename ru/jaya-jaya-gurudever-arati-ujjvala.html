@@ -1023,6 +1023,37 @@
                 window.console.error(e);
             }
 
+                            
+                var pages = {
+    "50": {
+        "prev": {
+            "href": "https://dev.kirtan.site/ru/namo-namah-tulasi-maharani.html",
+            "title": "Шри Туласи-парикрама-гити"
+        },
+        "next": {
+            "href": "https://dev.kirtan.site/ru/jaya-guru-maharaja-jati-rajeshvara.html?p=51",
+            "title": "Шри Гуру Арати-стути"
+        }
+    }
+};
+
+                const queryString = window.location.search;
+                const urlParams = new URLSearchParams(queryString);
+                const idx = urlParams.get('p');
+                var page = idx && pages[idx];
+                if (page) {
+                    const prevLink = document.querySelector('.PrevNextNav__link--prev');
+                    const nextLink = document.querySelector('.PrevNextNav__link--next');
+    
+                    prevHref = page.prev.href;
+                    prevLink.setAttribute('href', page.prev.href);
+                    prevLink.querySelector('.PrevNextNav__label').innerText = page.prev.title;
+    
+                    nextHref = page.next.href;
+                    nextLink.setAttribute('href', page.next.href);
+                    nextLink.querySelector('.PrevNextNav__label').innerText = page.next.title;
+                }
+
             
         } ())
     </script>

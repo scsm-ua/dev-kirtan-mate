@@ -669,6 +669,37 @@
                 window.console.error(e);
             }
 
+                            
+                var pages = {
+    "42": {
+        "prev": {
+            "href": "https://dev.kirtan.site/ru/bhaja-bhakata-vatsala-shri-gaurahari.html",
+            "title": "Шри Бхога-арати Гити"
+        },
+        "next": {
+            "href": "https://dev.kirtan.site/ru/jaya-shiachinandana-sura-muni-vandana.html?p=43",
+            "title": "Шри Шачинандана-вандана"
+        }
+    }
+};
+
+                const queryString = window.location.search;
+                const urlParams = new URLSearchParams(queryString);
+                const idx = urlParams.get('p');
+                var page = idx && pages[idx];
+                if (page) {
+                    const prevLink = document.querySelector('.PrevNextNav__link--prev');
+                    const nextLink = document.querySelector('.PrevNextNav__link--next');
+    
+                    prevHref = page.prev.href;
+                    prevLink.setAttribute('href', page.prev.href);
+                    prevLink.querySelector('.PrevNextNav__label').innerText = page.prev.title;
+    
+                    nextHref = page.next.href;
+                    nextLink.setAttribute('href', page.next.href);
+                    nextLink.querySelector('.PrevNextNav__label').innerText = page.next.title;
+                }
+
             
         } ())
     </script>
