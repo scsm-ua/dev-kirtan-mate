@@ -238,14 +238,24 @@
     {
       "number": null,
       "text": [
-        "¡Ananta-koṭī Vaiṣṇava-vṛnda kī jay!",
+        "¡Ananta-koṭī Vaiṣṇava-vṛnda kī jay!"
+      ],
+      "translation": [
+        ""
+      ],
+      "word_by_word": [
+        "<i class=\"SongVerse__term\">ananta</i> — ilimitado; <i class=\"SongVerse__term\">koṭī</i> — millones; <i class=\"SongVerse__term\">vaiṣṇava</i> — devotos; <i class=\"SongVerse__term\">vṛnda</i> — reunidos; <i class=\"SongVerse__term\">kī</i> — que así sea; <i class=\"SongVerse__term\">¡jay!</i> — ¡toda gloria!"
+      ]
+    },
+    {
+      "number": null,
+      "text": [
         "¡Sapārṣad Śrī Nityānanda Prabhu kī jay!"
       ],
       "translation": [
         "¡Todas las glorias a Śrī Nityānanda Prabhu y a todos Sus asociados!"
       ],
       "word_by_word": [
-        "<i class=\"SongVerse__term\">ananta</i> — ilimitado; <i class=\"SongVerse__term\">koṭī</i> — millones; <i class=\"SongVerse__term\">vaiṣṇava</i> — devotos; <i class=\"SongVerse__term\">vṛnda</i> — reunidos; <i class=\"SongVerse__term\">kī</i> — que así sea; <i class=\"SongVerse__term\">¡jay!</i> — ¡toda gloria!",
         "<i class=\"SongVerse__term\">sa</i> — junto con; <i class=\"SongVerse__term\">pārṣada</i> — asociados; <i class=\"SongVerse__term\">śrī</i> — Su Señoría; <i class=\"SongVerse__term\">nitya-ānanda</i> — eternamente feliz; <i class=\"SongVerse__term\">prabhu</i> — maestro, amo, Nityānanda Prabhu; <i class=\"SongVerse__term\">kī</i> — que así sea; <i class=\"SongVerse__term\">¡jay!</i> — ¡toda gloria!"
       ]
     },

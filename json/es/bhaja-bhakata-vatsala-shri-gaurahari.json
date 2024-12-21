@@ -232,20 +232,60 @@
     {
       "number": null,
       "text": [
-        "(bhaja govinda govinda gopāla)",
-        "(giridhārī gopīnātha nanda-dulāla)",
-        "(bhaja govinda govinda gopāla)",
-        "(nanda-dulāla jaya jaya śachī-dulāla)",
+        "(bhaja govinda govinda gopāla)"
+      ],
+      "translation": [
+        ""
+      ],
+      "word_by_word": [
+        "<i class=\"SongVerse__term\">bhaja</i> — canta; <i class=\"SongVerse__term\">govinda</i> — quien da placer a las vacas; <i class=\"SongVerse__term\">gopāla</i> — el vaquero, Gopāl (Kṛṣṇa)."
+      ]
+    },
+    {
+      "number": null,
+      "text": [
+        "(giridhārī gopīnātha nanda-dulāla)"
+      ],
+      "translation": [
+        ""
+      ],
+      "word_by_word": [
+        "<i class=\"SongVerse__term\">giridhārī</i> — quien sostiene la montaña de Govardhan; <i class=\"SongVerse__term\">gopī-nātha</i> — el amo de las <i class=\"SongVerse__term\">gopīs</i>; <i class=\"SongVerse__term\">nanda-dulāla</i> — el querido de Nanda (Kṛṣṇa)."
+      ]
+    },
+    {
+      "number": null,
+      "text": [
+        "(bhaja govinda govinda gopāla)"
+      ],
+      "translation": [
+        ""
+      ],
+      "word_by_word": [
+        "<i class=\"SongVerse__term\">bhaja</i> — canta; <i class=\"SongVerse__term\">govinda</i> — quien da placer a las vacas; <i class=\"SongVerse__term\">gopāla</i> — el vaquero, Gopāl (Kṛṣṇa)."
+      ]
+    },
+    {
+      "number": null,
+      "text": [
+        "(nanda-dulāla jaya jaya śachī-dulāla)"
+      ],
+      "translation": [
+        ""
+      ],
+      "word_by_word": [
+        "<i class=\"SongVerse__term\">nanda-dulāla</i> — el querido de Nanda (Kṛṣṇa); <i class=\"SongVerse__term\">jaya jaya</i> — repetidas glorias; <i class=\"SongVerse__term\">śachī-dulāla</i> — el querido de Madre Śachī (Mahāprabhu)."
+      ]
+    },
+    {
+      "number": null,
+      "text": [
         "(śachī-dulāla jaya jaya gaura gopāla)"
       ],
       "translation": [
         "Sirve a Govinda, sirve a Gopāl. Sirve a Giridhārī, Gopīnāth, Nanda Dulāl. Sirve a Govinda, sirve a Gopāl. ¡Toda gloria al hijo de Nanda! ¡Toda gloria al hijo de Śachī! ¡Toda gloria al dorado Gopāl!"
       ],
       "word_by_word": [
-        "<i class=\"SongVerse__term\">bhaja</i> — canta; <i class=\"SongVerse__term\">govinda</i> — quien da placer a las vacas; <i class=\"SongVerse__term\">gopāla</i> — el vaquero, Gopāl (Kṛṣṇa).",
-        "<i class=\"SongVerse__term\">giridhārī</i> — quien sostiene la montaña de Govardhan; <i class=\"SongVerse__term\">gopī-nātha</i> — el amo de las <i class=\"SongVerse__term\">gopīs</i>; <i class=\"SongVerse__term\">nanda-dulāla</i> — el querido de Nanda (Kṛṣṇa).",
-        "<i class=\"SongVerse__term\">bhaja</i> — canta; <i class=\"SongVerse__term\">govinda</i> — quien da placer a las vacas; <i class=\"SongVerse__term\">gopāla</i> — el vaquero, Gopāl (Kṛṣṇa).",
-        "<i class=\"SongVerse__term\">nanda-dulāla</i> — el querido de Nanda (Kṛṣṇa); <i class=\"SongVerse__term\">jaya jaya</i> — repetidas glorias; <i class=\"SongVerse__term\">śachī-dulāla</i> — el querido de Madre Śachī (Mahāprabhu).",
         "<i class=\"SongVerse__term\">śachī-dulāla</i> — el querido de Madre Śachī (Mahāprabhu); <i class=\"SongVerse__term\">jaya jaya</i> — repetidas glorias; <i class=\"SongVerse__term\">gaura</i> — el Señor dorado; <i class=\"SongVerse__term\">gopāla</i> — el vaquero, Gopāl (Kṛṣṇa)."
       ]
     }
