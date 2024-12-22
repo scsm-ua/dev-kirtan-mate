@@ -55,7 +55,7 @@
 }
 .SongVerse__wordbyword {
   list-style-type: none;
-  margin: 0;
+  margin: 4px 0 0 0;
   padding: 0;
 }
 .SongVerse__paragraph p {
