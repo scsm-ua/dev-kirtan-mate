@@ -80,6 +80,46 @@
                                 
                                     <li
                                             class="BookListPage__item"
+                                            data-book-id="lv"
+                                            onclick="handleBookChoice(event)"
+                                    >
+                                        <div class="BookListPage__wrapper">
+                                            <div class="BookListPage__ratio app-fixed-ratio-container">
+                                                <div class="app-fixed-ratio-content">
+                                                    <a href="https://dev.kirtan.site/lv/contents.html" class="BookListPage__link">
+                                                        <div class="BookListPage__box">
+                                                            <img
+                                                                    alt=""
+                                                                    class="BookListPage__image"
+                                                                    srcset="
+                                                                        https://dev.kirtan.site/css/banner/banner-lv.png 1x,
+                                                                        https://dev.kirtan.site/css/banner/banner-lv@2.png 2x
+                                                                    "
+                                                                    src="https://dev.kirtan.site/css/banner/banner-lv.png"
+                                                            >
+                                                        </div>
+
+                                                        <div class="BookListPage__info">
+                                                            <h4 class="BookListPage__title">
+                                                                Gaudija Gītandžalī
+                                                            </h4>
+
+                                                            <div class="ellipsis BookListPage__subtitle">
+                                                                
+                                                            </div>
+
+                                                            <div class="BookListPage__count">
+                                                                26 пісень
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                
+                                    <li
+                                            class="BookListPage__item"
                                             data-book-id="ru"
                                             onclick="handleBookChoice(event)"
                                     >
@@ -369,7 +409,7 @@
 
 
         <script>
-            const info = JSON.parse('{"builtAt":"30/01/2025, 12:38:09 UTC","commitHash":"44442fb","version":"1.1.0"}');
+            const info = JSON.parse('{"builtAt":"30/01/2025, 12:38:28 UTC","commitHash":"dd9ed82","version":"1.1.0"}');
             const styles = [
                 'color: #957742',
                 'background-color: #77CEF1',
