@@ -36,7 +36,7 @@
         "nigūḍha-nikuñja-līlā hari-manohare"
       ],
       "translation": [
-        "Tur, mālatī un mādhavī ziedu audzēs, Kungs Harī bauda savas slepenās, valdzinošās rotaļas."
+        "Tur, <i class=\"SongVerse__term\">mālatī</i> un <i class=\"SongVerse__term\">mādhavī</i> ziedu audzēs, Kungs Harī bauda savas slepenās, valdzinošās rotaļas."
       ],
       "word_by_word": []
     },
@@ -118,5 +118,8 @@
       "word_by_word": []
     }
   ],
+  "attributes": {
+    "page": "32"
+  },
   "word_by_word": []
 }
