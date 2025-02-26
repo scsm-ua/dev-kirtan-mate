@@ -15,8 +15,7 @@
       ],
       "translation": [
         "Господь Хари, Господь Кришна, я склоняюсь перед Тобой, известным как Ядава, Хари, Мадхава и Кешава!"
-      ],
-      "word_by_word": []
+      ]
     },
     {
       "number": "2",
@@ -26,8 +25,7 @@
       ],
       "translation": [
         "Гопал, Говинда, Рама, Шри Мадхусудана, Гиридхари, Гопинатх, Мадана-мохан!"
-      ],
-      "word_by_word": []
+      ]
     },
     {
       "number": "3",
@@ -37,8 +35,7 @@
       ],
       "translation": [
         "Слава Шри Чайтанье Махапрабху и Нитьянанде Прабху! Слава луноподобному Шри Адвайте Ачарье! Слава Шри Гададхару Пандиту и всем преданным Шри Чайтаньи, возглавляемым Шривасом Тхакуром!"
-      ],
-      "word_by_word": []
+      ]
     },
     {
       "number": "4",
@@ -48,8 +45,7 @@
       ],
       "translation": [
         "Слава Шри Рупе Госвами, Санатане Госвами, Рагхунатху Бхатте Госвами, Шри Дживе Госвами, Гопале Бхатте Госвами и Рагхунатху Дасу Госвами!"
-      ],
-      "word_by_word": []
+      ]
     },
     {
       "number": "5",
@@ -59,8 +55,7 @@
       ],
       "translation": [
         "Я склоняюсь перед шестью Госвами Вриндавана. Поклонение им устраняет все препятствия на пути преданности и исполняет все духовные желания."
-      ],
-      "word_by_word": []
+      ]
     },
     {
       "number": "6",
@@ -70,8 +65,7 @@
       ],
       "translation": [
         "Я слуга того, кто служит шести Госвами. Пыль с их святых стоп — пять видов моей пищи."
-      ],
-      "word_by_word": []
+      ]
     },
     {
       "number": "7",
@@ -81,8 +75,7 @@
       ],
       "translation": [
         "Я лишь желаю в каждом рождении быть рядом с преданными, что служат лотосоподобным стопам шести Госвами."
-      ],
-      "word_by_word": []
+      ]
     },
     {
       "number": "8",
@@ -92,8 +85,7 @@
       ],
       "translation": [
         "Когда эти Госвами жили во Врадже, они раскрыли и объяснили вечные игры Шри Радхи и Шри Кришны."
-      ],
-      "word_by_word": []
+      ]
     },
     {
       "number": "9",
@@ -103,8 +95,7 @@
       ],
       "translation": [
         "Сосредоточив ум на божественных стопах духовного учителя и святых вайшнавов, воспевайте в упоении имена Господа Хари и поклоняйтесь трансцендентному миру Вриндавана!"
-      ],
-      "word_by_word": []
+      ]
     },
     {
       "number": "10",
@@ -113,27 +104,28 @@
         "(хари) на̄ма-сан̇кӣрттана кохе нароттама да̄са"
       ],
       "translation": [
-        "Желая обрести прибежище лотосоподобных стоп Шри Гуру и вайшнавов, Нароттам Дас поет <i class=\"SongVerse__term\">санкиртану</i> Святого Имени!"
-      ],
-      "word_by_word": []
+        "Желая обрести прибежище лотосоподобных стоп Шри Гуру и вайшнавов, Нароттам Дас поет *санкиртану* Святого Имени!"
+      ]
     }
   ],
   "embeds": [
     {
       "title": "Шрила Говинда Махарадж",
+      "embed_url": "https://soundcloud.com/bharatimaharaj/govinda-maharaj-hari-haraye",
       "embed_code": "<iframe width=\"100%\" height=\"20\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay\" src=\"https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fbharatimaharaj%2Fgovinda-maharaj-hari-haraye\"></iframe>"
     },
     {
       "title": "Навадвип Дхам",
+      "embed_url": "https://soundcloud.com/bharatimaharaj/navadwip-scsm-hari-haraye",
       "embed_code": "<iframe width=\"100%\" height=\"20\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay\" src=\"https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fbharatimaharaj%2Fnavadwip-scsm-hari-haraye\"></iframe>"
     },
     {
       "title": "Шрила Авадхут Махарадж",
+      "embed_url": "https://soundcloud.com/bharatimaharaj/avadxut-maxaradzh-xari-xaraje",
       "embed_code": "<iframe width=\"100%\" height=\"20\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay\" src=\"https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fbharatimaharaj%2Favadxut-maxaradzh-xari-xaraje\"></iframe>"
     }
   ],
   "attributes": {
     "page": "55"
-  },
-  "word_by_word": []
+  }
 }
