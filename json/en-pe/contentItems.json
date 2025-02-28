@@ -3,12 +3,17 @@
     "name": "Contents",
     "items": [
       {
-        "id": "jaya-sa-parikara",
+        "id": "jaya-shiachinandana-sura-muni-vandana",
         "title": "Jay Dhvani",
         "name": "Jay Dhvani",
         "aliasName": "Jay Saparikar Śrī Śrī Guru Gaurāṅga Gāndharvā Govindasundar Jīu kī jay!",
-        "fileName": "jaya-sa-parikara.html",
-        "page": "5"
+        "fileName": "jaya-shiachinandana-sura-muni-vandana.html",
+        "page": "5",
+        "embeds": [
+          "Каракас Дхам",
+          "Шрила Мадхусудан Махарадж",
+          "Шрила Авадхут Махарадж"
+        ]
       }
     ]
   },
@@ -73,17 +78,12 @@
         ]
       },
       {
-        "id": "jaya-shiachinandana-sura-muni-vandana",
+        "id": "jaya-sa-parikara",
         "title": "Śrī Śachīnandana-vandanā",
         "name": "Śrī Śachīnandana-vandanā",
         "aliasName": "jaya śachī-nandana    sura-muni-vandana",
-        "fileName": "jaya-shiachinandana-sura-muni-vandana.html",
-        "page": "17",
-        "embeds": [
-          "Каракас Дхам",
-          "Шрила Мадхусудан Махарадж",
-          "Шрила Авадхут Махарадж"
-        ]
+        "fileName": "jaya-sa-parikara.html",
+        "page": "17"
       },
       {
         "id": "bhaja-bhakata-vatsala-shri-gaurahari",
@@ -108,7 +108,6 @@
         "embeds": [
           "Шрила Говинда Махарадж",
           "Навадвип Дхам",
-          "Каракас Дхам",
           "Сударшан Прабху"
         ]
       },
@@ -223,7 +222,7 @@
         "fileName": "samsara-davanala-lidha-loka.html",
         "page": "45",
         "embeds": [
-          "Навадвип Дхам"
+          "Bhakti Lalita Devi"
         ]
       },
       {
@@ -242,9 +241,7 @@
         "fileName": "bhaja-re-bhaja-re-amar-mana-ati-manda.html",
         "page": "49",
         "embeds": [
-          "Навадвип Дхам",
-          "Каракас Дхам",
-          "Шрила Авадхут Махарадж"
+          "Bhakti Lalita Devi"
         ]
       },
       {
@@ -285,11 +282,7 @@
         "fileName": "shri-krishna-chaitanya-prabhu-daya-kara-more.html",
         "page": "55",
         "embeds": [
-          "Шрила Говинда Махарадж",
-          "Шрила Госвами Махарадж",
-          "Навадвип Дхам",
-          "Навадвип Дхам",
-          "Шрила Мадхусудан Махарадж"
+          "Bhakti Lalita Devi"
         ]
       }
     ]
@@ -318,7 +311,7 @@
         "fileName": "thakura-vaishnava-gana-kori-ei-nivedana.html",
         "page": "59",
         "embeds": [
-          "Навадвип Дхам"
+          "Bhakti Lalita Devi"
         ]
       },
       {
@@ -428,7 +421,7 @@
         "fileName": "gaurangera-duti-pada-jar-dhana-sampada.html",
         "page": "72",
         "embeds": [
-          "Каракас Дхам"
+          "Bhakti Lalita Devi"
         ]
       },
       {
@@ -584,9 +577,7 @@
         "fileName": "bhajahu-re-mana-shri-nanda-nandana.html",
         "page": "96",
         "embeds": [
-          "Шрила Говинда Махарадж",
-          "Шрила Говинда Махарадж",
-          "Каракас Дхам"
+          "Bhakti Lalita Devi"
         ]
       },
       {
@@ -635,7 +626,7 @@
         "fileName": "he-deva-bhavantam-vande.html",
         "page": "99",
         "embeds": [
-          "Шрила Говинда Махарадж"
+          "Bhakti Lalita Devi"
         ]
       },
       {
@@ -898,9 +889,7 @@
         "fileName": "radhe-jaya-jaya-madhava-dayite.html",
         "page": "163",
         "embeds": [
-          "Шрила Говинда Махарадж",
-          "Шрила Шридхар Махарадж",
-          "Шрила Госвами Махарадж"
+          "Bhakti Lalita Devi"
         ]
       },
       {
