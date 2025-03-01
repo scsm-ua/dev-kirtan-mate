@@ -1195,12 +1195,12 @@ undefined..." />
     "91": {
         "prev": {
             "href": "https://dev.kirtan.site/es/shorira-avidya-jal-jodendriya-tahe-kal.html",
-            "telegraph_href": "undefined/es/shorira-avidya-jal-jodendriya-tahe-kal.html",
+            "telegraph_href": "/Śrī-Prasāda-sevāya-Gīti-02-22-2",
             "title": "Śrī Prasāda-sevāya Gīti"
         },
         "next": {
             "href": "https://dev.kirtan.site/es/jaya-jaya-gaurachander-arotiko-shobha.html",
-            "telegraph_href": "undefined/es/jaya-jaya-gaurachander-arotiko-shobha.html",
+            "telegraph_href": "/Śrī-Gaura-Ārati-02-22-3",
             "title": "Śrī Gaura Ārati"
         }
     }
@@ -1368,6 +1368,25 @@ undefined..." />
                 </button>
             </div>
         </div>
+
+        <div class="SongShare__copy-tg">
+            <div class="SongShare__form">
+                <input
+                    class="SongShare__input"
+                    id="tg-href-input"
+                    readonly
+                    type="text"
+                />
+
+                <button
+                    class="AppButton RoundButton RoundButton--L RoundButton--dark SongShare__button"
+                    id="tg-copy-button"
+                    title="Copy"
+                >
+                    <span class="icon-copy"></span>
+                </button>
+            </div>
+        </div>
     </div>
 </div>
 `);
@@ -1376,12 +1395,34 @@ undefined..." />
                  * Share the URL.
                  */
                 const href = window.location.href;
+                const telegraph_href = 'https://telegra.ph/Śrī-Śrī-Nitāi-Chaitanya-ārati-02-22-3';
                 const input = document.getElementById('href-input');
+                const tgInput = document.getElementById('tg-href-input');
                 const copyButton = document.getElementById('copy-button');
+                const tgCopyButton = document.getElementById('tg-copy-button');
+                const tgCopyBox = document.querySelector('.SongShare__copy-tg');
+
+                if (telegraph_href) {
+                    tgCopyBox.style.display = 'block';
+                }
+                
                 input.value = href;
+                tgInput.value = telegraph_href;
+
+                input.addEventListener('click', () => {
+                    input.select();
+                });
+                tgInput.addEventListener('click', () => {
+                    tgInput.select();
+                });
 
                 copyButton.addEventListener('click', () => {
                     navigator.clipboard.writeText(href).catch(window.console.error);
+                    setTimeout(() => modal.close(), 300);
+                });
+
+                tgCopyButton.addEventListener('click', () => {
+                    navigator.clipboard.writeText(telegraph_href).catch(window.console.error);
                     setTimeout(() => modal.close(), 300);
                 });
 
