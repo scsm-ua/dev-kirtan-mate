@@ -2722,6 +2722,30 @@
         <priority>0.8</priority>
     </url>
     
+    <url>
+        <loc>https://dev.kirtan.site/lv/sri-gaura-arati.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://dev.kirtan.site/lv/sri-saraswat-arati.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://dev.kirtan.site/lv/gurudeva.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://dev.kirtan.site/lv/sri-tulasi-parikrama-giti.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
 
     <url>
         <loc>https://dev.kirtan.sitehttps://dev.kirtan.site/ua/</loc>

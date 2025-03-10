@@ -374,5 +374,42 @@
         "telegraphPath": "Mahāprasāda-02-22-2"
       }
     ]
+  },
+  {
+    "name": "Vakara dziesmas",
+    "items": [
+      {
+        "id": "sri-gaura-arati",
+        "title": "Śrī Gaura-ārati",
+        "name": "Śrī Gaura-ārati",
+        "aliasName": "(kiba) jaya jaya gorācāńder āratiko śobhā",
+        "fileName": "sri-gaura-arati.html",
+        "page": "64"
+      },
+      {
+        "id": "sri-saraswat-arati",
+        "title": "Śrī Sāraswat-ārati",
+        "name": "Śrī Sāraswat-ārati",
+        "aliasName": "jayare jayare jaya gaura-sarasvatī",
+        "fileName": "sri-saraswat-arati.html",
+        "page": "66"
+      },
+      {
+        "id": "gurudeva",
+        "title": "Gurudeva",
+        "name": "Gurudeva",
+        "aliasName": "gurudeva!",
+        "fileName": "gurudeva.html",
+        "page": "68"
+      },
+      {
+        "id": "sri-tulasi-parikrama-giti",
+        "title": "Śrī Tulasī-parikramā-gīti",
+        "name": "Śrī Tulasī-parikramā-gīti",
+        "aliasName": "namo namaḥ tulasī mahārāṇī,",
+        "fileName": "sri-tulasi-parikrama-giti.html",
+        "page": "69"
+      }
+    ]
   }
 ]
