@@ -852,6 +852,9 @@
         "aliasName": "hare kṛṣṇa hare kṛṣṇa kṛṣṇa kṛṣṇa hare hare",
         "fileName": "prabhu-kohe-kohilan-ei-mahamantra.html",
         "page": "128",
+        "embeds": [
+          "Nitai dasa"
+        ],
         "telegraphPath": "Hare-Kṛṣṇa-mahāmantra-02-22"
       },
       {
@@ -910,7 +913,8 @@
         "page": "138",
         "embeds": [
           "Шрила Мадхусудан Махарадж"
-        ]
+        ],
+        "telegraphPath": "Śrī-Śrī-Prema-dhāma-deva-Stotram-03-14-5"
       },
       {
         "id": "dhvasta-sarvvabhauma-vada-navya-tarka-shiankaram",
@@ -921,7 +925,8 @@
         "page": "139",
         "embeds": [
           "Шрила Мадхусудан Махарадж"
-        ]
+        ],
+        "telegraphPath": "Śrī-Śrī-Prema-dhāma-deva-Stotram-03-14"
       },
       {
         "id": "prema-mugdha-rudra-raja-shiaurya-virya-vikramam",
@@ -932,7 +937,8 @@
         "page": "141",
         "embeds": [
           "Шрила Мадхусудан Махарадж"
-        ]
+        ],
+        "telegraphPath": "Śrī-Śrī-Prema-dhāma-deva-Stotram-03-14-3"
       },
       {
         "id": "prema-mugdha-nritya-kirtanakularitantikam",
@@ -943,7 +949,8 @@
         "page": "143",
         "embeds": [
           "Шрила Мадхусудан Махарадж"
-        ]
+        ],
+        "telegraphPath": "Śrī-Śrī-Prema-dhāma-deva-Stotram-03-14-2"
       },
       {
         "id": "shri-sanatananu-rupa-jiva-sampradayakam",
@@ -954,7 +961,8 @@
         "page": "144",
         "embeds": [
           "Шрила Мадхусудан Махарадж"
-        ]
+        ],
+        "telegraphPath": "Śrī-Śrī-Prema-dhāma-deva-Stotram-03-14-4"
       },
       {
         "id": "yamunambu-krishna-radhikali-keli-mandalam",
@@ -965,7 +973,8 @@
         "page": "146",
         "embeds": [
           "Шрила Мадхусудан Махарадж"
-        ]
+        ],
+        "telegraphPath": "Śrī-Śrī-Prema-dhāma-deva-Stotram-03-14-6"
       }
     ]
   },

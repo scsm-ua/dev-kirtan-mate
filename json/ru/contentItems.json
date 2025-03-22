@@ -726,7 +726,8 @@
         "page": "81",
         "embeds": [
           "Шрила Мадхусудан Махарадж"
-        ]
+        ],
+        "telegraphPath": "SHri-SHri-Prema-dhama-deva-stotram-03-14"
       },
       {
         "id": "sutra-vritti-tippanishta-sukshma-vachanadbhutam",
@@ -737,7 +738,8 @@
         "page": "85",
         "embeds": [
           "Шрила Мадхусудан Махарадж"
-        ]
+        ],
+        "telegraphPath": "SHri-SHri-Prema-dhama-deva-stotram-03-14-5"
       },
       {
         "id": "dhvasta-sarvvabhauma-vada-navya-tarka-shiankaram",
@@ -748,7 +750,8 @@
         "page": "88",
         "embeds": [
           "Шрила Мадхусудан Махарадж"
-        ]
+        ],
+        "telegraphPath": "SHri-SHri-Prema-dhama-deva-stotram-03-14-2"
       },
       {
         "id": "prema-mugdha-rudra-raja-shiaurya-virya-vikramam",
@@ -759,7 +762,8 @@
         "page": "92",
         "embeds": [
           "Шрила Мадхусудан Махарадж"
-        ]
+        ],
+        "telegraphPath": "SHri-SHri-Prema-dhama-deva-stotram-03-14-3"
       },
       {
         "id": "prema-mugdha-nritya-kirtanakularitantikam",
@@ -781,7 +785,8 @@
         "page": "101",
         "embeds": [
           "Шрила Мадхусудан Махарадж"
-        ]
+        ],
+        "telegraphPath": "SHri-SHri-Prema-dhama-deva-stotram-03-14-4"
       },
       {
         "id": "yamunambu-krishna-radhikali-keli-mandalam",
@@ -792,7 +797,8 @@
         "page": "104",
         "embeds": [
           "Шрила Мадхусудан Махарадж"
-        ]
+        ],
+        "telegraphPath": "SHri-SHri-Prema-dhama-deva-stotram-03-14-6"
       }
     ]
   },
@@ -1888,6 +1894,9 @@
         "aliasName": "харе кр̣ш̣н̣а харе кр̣ш̣н̣а кр̣ш̣н̣а кр̣ш̣н̣а харе харе",
         "fileName": "prabhu-kohe-kohilan-ei-mahamantra.html",
         "page": "249",
+        "embeds": [
+          "Nitai dasa"
+        ],
         "telegraphPath": "Prabhu-kohe-02-22-2"
       },
       {

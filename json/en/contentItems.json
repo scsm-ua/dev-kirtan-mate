@@ -630,7 +630,8 @@
         "page": "90",
         "embeds": [
           "Шрила Мадхусудан Махарадж"
-        ]
+        ],
+        "telegraphPath": "Śrī-Śrī-Premadhāma-deva-stotram-03-14"
       },
       {
         "id": "sutra-vritti-tippanishta-sukshma-vachanadbhutam",
@@ -641,7 +642,8 @@
         "page": "95",
         "embeds": [
           "Шрила Мадхусудан Махарадж"
-        ]
+        ],
+        "telegraphPath": "Śrī-Śrī-Premadhāma-deva-stotram-03-14-6"
       },
       {
         "id": "dhvasta-sarvvabhauma-vada-navya-tarka-shiankaram",
@@ -652,7 +654,8 @@
         "page": "100",
         "embeds": [
           "Шрила Мадхусудан Махарадж"
-        ]
+        ],
+        "telegraphPath": "Śrī-Śrī-Premadhāma-deva-stotram-03-14-2"
       },
       {
         "id": "prema-mugdha-rudra-raja-shiaurya-virya-vikramam",
@@ -663,7 +666,8 @@
         "page": "106",
         "embeds": [
           "Шрила Мадхусудан Махарадж"
-        ]
+        ],
+        "telegraphPath": "Śrī-Śrī-Premadhāma-deva-stotram-03-14-4"
       },
       {
         "id": "prema-mugdha-nritya-kirtanakularitantikam",
@@ -674,7 +678,8 @@
         "page": "111",
         "embeds": [
           "Шрила Мадхусудан Махарадж"
-        ]
+        ],
+        "telegraphPath": "Śrī-Śrī-Premadhāma-deva-stotram-03-14-3"
       },
       {
         "id": "shri-sanatananu-rupa-jiva-sampradayakam",
@@ -685,7 +690,8 @@
         "page": "117",
         "embeds": [
           "Шрила Мадхусудан Махарадж"
-        ]
+        ],
+        "telegraphPath": "Śrī-Śrī-Premadhāma-deva-stotram-03-14-5"
       },
       {
         "id": "yamunambu-krishna-radhikali-keli-mandalam",
@@ -696,7 +702,8 @@
         "page": "122",
         "embeds": [
           "Шрила Мадхусудан Махарадж"
-        ]
+        ],
+        "telegraphPath": "Śrī-Śrī-Premadhāma-deva-stotram-03-14-7"
       }
     ]
   },
@@ -1752,6 +1759,9 @@
         "aliasName": "hare kṛṣṇa hare kṛṣṇa kṛṣṇa kṛṣṇa hare hare",
         "fileName": "prabhu-kohe-kohilan-ei-mahamantra.html",
         "page": "299",
+        "embeds": [
+          "Nitai dasa"
+        ],
         "telegraphPath": "Prabhu-kohe-02-22"
       },
       {
