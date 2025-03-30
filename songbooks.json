@@ -1,5 +1,5 @@
 [
-    "git+https://github.com/scsm-ua/gaudiya-gitanjali-lv.git",
+    "git+https://github.com/scsm-ua/gaudiya-gitanjali-lv.git#ohe-vaishnava-thakura",
     "git+https://github.com/scsm-ua/gaudiya-gitanjali-ru.git",
     "git+https://github.com/scsm-ua/gaudiya-gitanjali-ua.git",
     "git+https://github.com/scsm-ua/kirtan-guide-en.git",
