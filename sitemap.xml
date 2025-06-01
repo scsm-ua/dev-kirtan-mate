@@ -2777,6 +2777,12 @@
     </url>
     
     <url>
+        <loc>https://dev.kirtan.site/lv/jaya-guru-maharaja-jati-rajeshvara.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
         <loc>https://dev.kirtan.site/lv/kali-kukkura-kadana-jadi-chao-he.html</loc>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
@@ -2874,6 +2880,60 @@
     
     <url>
         <loc>https://dev.kirtan.site/lv/vaishnava-thakura-dayara-sagara.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://dev.kirtan.site/lv/deva-siddha-mukta-yukta-bhakta-vrinda.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://dev.kirtan.site/lv/sutra-vritti-tippanishta-sukshma-vachanadbhutam.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://dev.kirtan.site/lv/dhvasta-sarvvabhauma-vada-navya-tarka-shiankaram.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://dev.kirtan.site/lv/prema-mugdha-rudra-raja-shiaurya-virya-vikramam.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://dev.kirtan.site/lv/prema-mugdha-nritya-kirtanakularitantikam.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://dev.kirtan.site/lv/shri-sanatananu-rupa-jiva-sampradayakam.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://dev.kirtan.site/lv/yamunambu-krishna-radhikali-keli-mandalam.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://dev.kirtan.site/lv/nitai-pada-kamala-koti-chandra-sushitala.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://dev.kirtan.site/lv/sujanarvuda-radhita-pada-yugam.html</loc>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
