@@ -511,7 +511,8 @@
         "page": "81",
         "embeds": [
           "Шрила Мадхусудан Махарадж"
-        ]
+        ],
+        "telegraphPath": "Śrī-Śrī-Premadhāma-deva-stotram-06-02"
       },
       {
         "id": "sutra-vritti-tippanishta-sukshma-vachanadbhutam",
@@ -522,7 +523,8 @@
         "page": "85",
         "embeds": [
           "Шрила Мадхусудан Махарадж"
-        ]
+        ],
+        "telegraphPath": "Śrī-Śrī-Premadhāma-deva-stotram-06-02-6"
       },
       {
         "id": "dhvasta-sarvvabhauma-vada-navya-tarka-shiankaram",
@@ -533,7 +535,8 @@
         "page": "88",
         "embeds": [
           "Шрила Мадхусудан Махарадж"
-        ]
+        ],
+        "telegraphPath": "Śrī-Śrī-Premadhāma-deva-stotram-06-02-2"
       },
       {
         "id": "prema-mugdha-rudra-raja-shiaurya-virya-vikramam",
@@ -544,18 +547,20 @@
         "page": "92",
         "embeds": [
           "Шрила Мадхусудан Махарадж"
-        ]
+        ],
+        "telegraphPath": "Śrī-Śrī-Premadhāma-deva-stotram-06-02-4"
       },
       {
         "id": "prema-mugdha-nritya-kirtanakularitantikam",
-        "title": "41-50. Wednesday",
+        "title": "41-50. Trešdiena",
         "name": "Śrī Śrī",
         "aliasName": "prema-mugdha-nṛtya-kīrtanākulāriṭāntikaṁ",
         "fileName": "prema-mugdha-nritya-kirtanakularitantikam.html",
         "page": "96",
         "embeds": [
           "Шрила Мадхусудан Махарадж"
-        ]
+        ],
+        "telegraphPath": "Śrī-Śrī-Premadhāma-deva-stotram-06-02-3"
       },
       {
         "id": "shri-sanatananu-rupa-jiva-sampradayakam",
@@ -566,7 +571,8 @@
         "page": "101",
         "embeds": [
           "Шрила Мадхусудан Махарадж"
-        ]
+        ],
+        "telegraphPath": "Śrī-Śrī-Premadhāma-deva-stotram-06-02-5"
       },
       {
         "id": "yamunambu-krishna-radhikali-keli-mandalam",
@@ -577,7 +583,8 @@
         "page": "104",
         "embeds": [
           "Шрила Мадхусудан Махарадж"
-        ]
+        ],
+        "telegraphPath": "Śrī-Śrī-Premadhāma-deva-stotram-06-02-7"
       }
     ]
   },
@@ -595,7 +602,8 @@
           "Шрила Говинда Махарадж",
           "Шрила Говинда Махарадж",
           "Шрила Ачарья Махарадж"
-        ]
+        ],
+        "telegraphPath": "Manaḥ-Śikṣā-06-02"
       },
       {
         "id": "sujanarvuda-radhita-pada-yugam",
@@ -606,6 +614,63 @@
         "page": "78",
         "embeds": [
           "Шрила Говинда Махарадж",
+          "Шрила Авадхут Махарадж"
+        ],
+        "telegraphPath": "Śrī-Śrī-Prabhupāda-padma-Stavakaḥ-06-02"
+      },
+      {
+        "id": "nitai-gunamani-amara-nitai-gunamani",
+        "title": "Nitāi guṇamaṇi āmāra",
+        "name": "Nitāi guṇamaṇi āmāra",
+        "aliasName": "nitāi guṇamaṇi āmāra nitāi guṇamaṇi",
+        "fileName": "nitai-gunamani-amara-nitai-gunamani.html",
+        "page": "113",
+        "embeds": [
+          "Навадвип Дхам",
+          "Сударшан Прабху"
+        ]
+      },
+      {
+        "id": "dayal-nitai-chaitanya-bole-nach-re",
+        "title": "Dayāl Nitāi Chaitanya",
+        "name": "Dayāl Nitāi Chaitanya",
+        "aliasName": "‘dayāl nitāi chaitanya’ bo’le nāch re āmār man",
+        "fileName": "dayal-nitai-chaitanya-bole-nach-re.html",
+        "page": "116",
+        "embeds": [
+          "Каракас Дхам"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Kungam Čaitanjam veltītas dziesmas",
+    "items": [
+      {
+        "id": "avatara-sara-gora-avatara",
+        "title": "Avatāra Sāra",
+        "name": "Avatāra Sāra",
+        "aliasName": "avatāra sāra    gorā avatāra",
+        "fileName": "avatara-sara-gora-avatara.html",
+        "page": "121",
+        "embeds": [
+          "Шрила Ачарья Махарадж",
+          "Каракас Дхам"
+        ]
+      },
+      {
+        "id": "gay-gora-madhur-svare",
+        "title": "Śrī Nāma",
+        "name": "Śrī Nāma",
+        "aliasName": "gāy gorā madhur svare",
+        "fileName": "gay-gora-madhur-svare.html",
+        "page": "122",
+        "embeds": [
+          "Шрила Говинда Махарадж",
+          "Шрила Госвами Махарадж",
+          "Шрила Госвами Махарадж",
+          "Каракас Дхам",
+          "Шрила Авадхут Махарадж",
           "Шрила Авадхут Махарадж"
         ]
       }
