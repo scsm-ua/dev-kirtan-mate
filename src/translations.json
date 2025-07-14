@@ -10,7 +10,8 @@
       "HEAD": {
         "DESCRIPTION": "Autoru saraksts",
         "TITLE": "Vaišnavu dziesmu grāmata"
-      }
+      },
+      "LINK_FULL_TITLE": "Autoru saraksts"
     },
     "BOOK_LIST_PAGE": {
       "HEAD": {
@@ -76,7 +77,8 @@
       "HEAD": {
         "DESCRIPTION": "Authors list",
         "TITLE": "Vaishnava Songbook"
-      }
+      },
+      "LINK_FULL_TITLE": "Songs by author"
     },
     "BOOK_LIST_PAGE": {
       "HEAD": {
@@ -142,7 +144,8 @@
       "HEAD": {
         "DESCRIPTION": "Lista de autores",
         "TITLE": "Cancionero Vaishnava"
-      }
+      },
+      "LINK_FULL_TITLE": "Lista de autores"
     },
     "BOOK_LIST_PAGE": {
       "HEAD": {
@@ -208,7 +211,8 @@
       "HEAD": {
         "DESCRIPTION": "Список авторов",
         "TITLE": "Вайшнавский песенник"
-      }
+      },
+      "LINK_FULL_TITLE": "Песни по авторам"
     },
     "BOOK_LIST_PAGE": {
       "HEAD": {
@@ -287,7 +291,8 @@
       "HEAD": {
         "DESCRIPTION": "Перелік авторів",
         "TITLE": "Вайшнавський пісенник"
-      }
+      },
+      "LINK_FULL_TITLE": "Пісні по авторам"
     },
     "BOOK_LIST_PAGE": {
       "HEAD": {
