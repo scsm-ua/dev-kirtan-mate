@@ -50,7 +50,7 @@
   display: block;
   max-height: 0px;
   overflow: hidden;
-  transition: max-height 0.4s cubic-bezier(0, 1, 0, 1);
+  transition: max-height var(--transition-duration-m) cubic-bezier(0, 1, 0, 1);
 }
 .Collapse__show {
   max-height: 99em;
@@ -113,6 +113,8 @@ add '-up' if you want (min-width: $point) and leave with no suffix for (max-widt
   --footer-height: 72px;
   --page-max-width: 768px;
   --side-padding: 20px;
+  /**/
+  --transition-duration-m: 0.4s;
   /**/
   --accent-color: var(--orange);
   --border-color: var(--grey);
@@ -257,6 +259,8 @@ add '-up' if you want (min-width: $point) and leave with no suffix for (max-widt
   --footer-height: 72px;
   --page-max-width: 768px;
   --side-padding: 20px;
+  /**/
+  --transition-duration-m: 0.4s;
   /**/
   --accent-color: var(--orange);
   --border-color: var(--grey);
@@ -578,6 +582,8 @@ add '-up' if you want (min-width: $point) and leave with no suffix for (max-widt
   --footer-height: 72px;
   --page-max-width: 768px;
   --side-padding: 20px;
+  /**/
+  --transition-duration-m: 0.4s;
   /**/
   --accent-color: var(--orange);
   --border-color: var(--grey);
