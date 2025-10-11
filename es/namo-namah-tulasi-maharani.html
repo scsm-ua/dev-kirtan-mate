@@ -289,7 +289,7 @@ vṛnde mahārāṇī namo namaḥ..." />
     
 
     
-        <div class="Collapse Collapse__show" data-elem="verse">
+        <div class="Collapse Collapse__show" data-elem="wordByWord">
             <ul class="SongVerse__wordbyword">
                 
                     <li class="SongVerse__paragraph">
@@ -350,7 +350,7 @@ vṛnde mahārāṇī namo namaḥ..." />
     
 
     
-        <div class="Collapse Collapse__show" data-elem="verse">
+        <div class="Collapse Collapse__show" data-elem="wordByWord">
             <ul class="SongVerse__wordbyword">
                 
                     <li class="SongVerse__paragraph">
@@ -411,7 +411,7 @@ vṛnde mahārāṇī namo namaḥ..." />
     
 
     
-        <div class="Collapse Collapse__show" data-elem="verse">
+        <div class="Collapse Collapse__show" data-elem="wordByWord">
             <ul class="SongVerse__wordbyword">
                 
                     <li class="SongVerse__paragraph">
@@ -472,7 +472,7 @@ vṛnde mahārāṇī namo namaḥ..." />
     
 
     
-        <div class="Collapse Collapse__show" data-elem="verse">
+        <div class="Collapse Collapse__show" data-elem="wordByWord">
             <ul class="SongVerse__wordbyword">
                 
                     <li class="SongVerse__paragraph">
@@ -533,7 +533,7 @@ vṛnde mahārāṇī namo namaḥ..." />
     
 
     
-        <div class="Collapse Collapse__show" data-elem="verse">
+        <div class="Collapse Collapse__show" data-elem="wordByWord">
             <ul class="SongVerse__wordbyword">
                 
                     <li class="SongVerse__paragraph">
@@ -594,7 +594,7 @@ vṛnde mahārāṇī namo namaḥ..." />
     
 
     
-        <div class="Collapse Collapse__show" data-elem="verse">
+        <div class="Collapse Collapse__show" data-elem="wordByWord">
             <ul class="SongVerse__wordbyword">
                 
                     <li class="SongVerse__paragraph">
@@ -655,7 +655,7 @@ vṛnde mahārāṇī namo namaḥ..." />
     
 
     
-        <div class="Collapse Collapse__show" data-elem="verse">
+        <div class="Collapse Collapse__show" data-elem="wordByWord">
             <ul class="SongVerse__wordbyword">
                 
                     <li class="SongVerse__paragraph">
@@ -716,7 +716,7 @@ vṛnde mahārāṇī namo namaḥ..." />
     
 
     
-        <div class="Collapse Collapse__show" data-elem="verse">
+        <div class="Collapse Collapse__show" data-elem="wordByWord">
             <ul class="SongVerse__wordbyword">
                 
                     <li class="SongVerse__paragraph">
@@ -1524,6 +1524,7 @@ vṛnde mahārāṇī namo namaḥ..." />
              */
             (function () {
                 const translations = [...document.querySelectorAll('[data-elem="translation"]')];
+                const wordByWord = [...document.querySelectorAll('[data-elem="wordByWord"]')];
                 const verses = [...document.querySelectorAll('[data-elem="verse"]')];
 
                 function toggle(targets, shouldShow) {
@@ -1534,12 +1535,15 @@ vṛnde mahārāṇī namo namaḥ..." />
                 function performUpdate(mode) {
                     if (mode === 1) {
                         toggle(verses, true);
+                        toggle(wordByWord, false);
                         toggle(translations, false);
                     } else if (mode === 2) {
                         toggle(verses, false);
+                        toggle(wordByWord, false);
                         toggle(translations, true);
                     } else {
                         toggle(verses, true);
+                        toggle(wordByWord, true);
                         toggle(translations, true);
                     }
                 }

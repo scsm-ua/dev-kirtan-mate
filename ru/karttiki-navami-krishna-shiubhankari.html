@@ -1024,6 +1024,7 @@
              */
             (function () {
                 const translations = [...document.querySelectorAll('[data-elem="translation"]')];
+                const wordByWord = [...document.querySelectorAll('[data-elem="wordByWord"]')];
                 const verses = [...document.querySelectorAll('[data-elem="verse"]')];
 
                 function toggle(targets, shouldShow) {
@@ -1034,12 +1035,15 @@
                 function performUpdate(mode) {
                     if (mode === 1) {
                         toggle(verses, true);
+                        toggle(wordByWord, false);
                         toggle(translations, false);
                     } else if (mode === 2) {
                         toggle(verses, false);
+                        toggle(wordByWord, false);
                         toggle(translations, true);
                     } else {
                         toggle(verses, true);
+                        toggle(wordByWord, true);
                         toggle(translations, true);
                     }
                 }
