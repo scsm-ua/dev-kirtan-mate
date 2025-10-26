@@ -18,6 +18,7 @@
 }
 .SongPage__toggle {
   margin-top: -4px;
+  text-align: center;
 }
 .SongPage__show {
   font-size: 14px;
