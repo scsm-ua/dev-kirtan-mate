@@ -48,18 +48,19 @@
 
 .Collapse {
   display: block;
-  max-height: 0px;
   overflow: hidden;
 }
-.Collapse__show {
-  /* Warning: if verse will be larger, part of content will be hidden. */
-  max-height: 999em;
-}
 .Collapse__transition {
-  transition: max-height var(--transition-duration-m) cubic-bezier(0, 1, 0, 1);
+  transform-origin: top;
+  height: 0;
+  transform: scaleY(0);
+  opacity: 0;
+  transition: height 0.5s ease, transform 0.5s ease, opacity 0.5s ease;
 }
-.Collapse__transition.Collapse__show {
-  transition: max-height 1s ease-in-out 0s;
+.Collapse__show {
+  /* height will be set dynamically via JS */
+  transform: scaleY(1);
+  opacity: 1;
 }
 
 /*
