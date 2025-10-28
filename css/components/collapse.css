@@ -14,3 +14,16 @@
   transform: scaleY(1);
   opacity: 1;
 }
+
+.EmbedCollapse {
+  display: block;
+  max-height: 0px;
+  overflow: hidden;
+}
+.EmbedCollapse__show {
+  /* Warning: if content will be larger, part of content will be hidden. */
+  max-height: 9em;
+}
+.EmbedCollapse__transition {
+  transition: max-height 0.5s linear 0s;
+}

@@ -817,7 +817,7 @@ emana durmati    saṁsāra bhitare..." />
             </span>
         </button>
 
-        <div class="Collapse Collapse__transition">
+        <div class="EmbedCollapse EmbedCollapse__transition">
             <div class="SongEmbed__content">
                 <iframe width="100%" height="20" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fbharatimaharaj%2Fgovinda-maharaj-emona-durmati"></iframe>
             </div>
@@ -838,7 +838,7 @@ emana durmati    saṁsāra bhitare..." />
             </span>
         </button>
 
-        <div class="Collapse Collapse__transition">
+        <div class="EmbedCollapse EmbedCollapse__transition">
             <div class="SongEmbed__content">
                 <iframe width="100%" height="20" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fbharatimaharaj%2Fsridhar-maharaj-and-govinda-7"></iframe>
             </div>
@@ -859,7 +859,7 @@ emana durmati    saṁsāra bhitare..." />
             </span>
         </button>
 
-        <div class="Collapse Collapse__transition">
+        <div class="EmbedCollapse EmbedCollapse__transition">
             <div class="SongEmbed__content">
                 <iframe width="100%" height="20" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fbharatimaharaj%2Facharya-maharaj-emona-durmati"></iframe>
             </div>
@@ -880,7 +880,7 @@ emana durmati    saṁsāra bhitare..." />
             </span>
         </button>
 
-        <div class="Collapse Collapse__transition">
+        <div class="EmbedCollapse EmbedCollapse__transition">
             <div class="SongEmbed__content">
                 <iframe width="100%" height="20" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fbharatimaharaj%2Fgoswami-maharaj-emona-durmati"></iframe>
             </div>
@@ -901,7 +901,7 @@ emana durmati    saṁsāra bhitare..." />
             </span>
         </button>
 
-        <div class="Collapse Collapse__transition">
+        <div class="EmbedCollapse EmbedCollapse__transition">
             <div class="SongEmbed__content">
                 <iframe width="100%" height="20" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fbharatimaharaj%2Fnavadwip-scsm-emona-durmati"></iframe>
             </div>
@@ -922,7 +922,7 @@ emana durmati    saṁsāra bhitare..." />
             </span>
         </button>
 
-        <div class="Collapse Collapse__transition">
+        <div class="EmbedCollapse EmbedCollapse__transition">
             <div class="SongEmbed__content">
                 <iframe width="100%" height="20" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fbharatimaharaj%2Fshchsm-karakas-emona-durmati"></iframe>
             </div>
@@ -943,7 +943,7 @@ emana durmati    saṁsāra bhitare..." />
             </span>
         </button>
 
-        <div class="Collapse Collapse__transition">
+        <div class="EmbedCollapse EmbedCollapse__transition">
             <div class="SongEmbed__content">
                 <iframe width="100%" height="20" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fbharatimaharaj%2Fsudarshan-prabhu-dainyatmika"></iframe>
             </div>
@@ -964,7 +964,7 @@ emana durmati    saṁsāra bhitare..." />
             </span>
         </button>
 
-        <div class="Collapse Collapse__transition">
+        <div class="EmbedCollapse EmbedCollapse__transition">
             <div class="SongEmbed__content">
                 <iframe width="100%" height="20" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fbharatimaharaj%2Favadxut-maxaradzh-emona"></iframe>
             </div>
@@ -985,7 +985,7 @@ emana durmati    saṁsāra bhitare..." />
             </span>
         </button>
 
-        <div class="Collapse Collapse__transition">
+        <div class="EmbedCollapse EmbedCollapse__transition">
             <div class="SongEmbed__content">
                 <iframe width="100%" height="20" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fbharatimaharaj%2Favadxut-maxaradzh-emona-1"></iframe>
             </div>
@@ -1264,15 +1264,15 @@ emana durmati    saṁsāra bhitare..." />
                 const embeds = document.querySelectorAll('[data-embed]');
 
                 embeds.forEach((elem) => {
-                    const frameContainer = elem.parentNode.querySelector('.Collapse');
+                    const frameContainer = elem.parentNode.querySelector('.EmbedCollapse');
 
                     elem.addEventListener('click', () => {
-                        const isShown = frameContainer.classList.contains('Collapse__show');
+                        const isShown = frameContainer.classList.contains('EmbedCollapse__show');
                         const iFrame = elem.parentNode.querySelector('iframe');
                         const player = SC.Widget(iFrame);
 
                         elem.classList.toggle('show');
-                        frameContainer.classList.toggle('Collapse__show');
+                        frameContainer.classList.toggle('EmbedCollapse__show');
 
                         player.bind(SC.Widget.Events.READY, () =>
                             isShown ? player.pause() : player.play()

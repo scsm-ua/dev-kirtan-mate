@@ -63,6 +63,19 @@
   opacity: 1;
 }
 
+.EmbedCollapse {
+  display: block;
+  max-height: 0px;
+  overflow: hidden;
+}
+.EmbedCollapse__show {
+  /* Warning: if content will be larger, part of content will be hidden. */
+  max-height: 9em;
+}
+.EmbedCollapse__transition {
+  transition: max-height 0.5s linear 0s;
+}
+
 /*
 Breakpoints mixin
 @param {String} $point - name of breakpoint
@@ -121,8 +134,6 @@ add '-up' if you want (min-width: $point) and leave with no suffix for (max-widt
   --footer-height: 72px;
   --page-max-width: 768px;
   --side-padding: 20px;
-  /**/
-  --transition-duration-m: 0.4s;
   /**/
   --accent-color: var(--orange);
   --border-color: var(--grey);
@@ -269,8 +280,6 @@ add '-up' if you want (min-width: $point) and leave with no suffix for (max-widt
   --footer-height: 72px;
   --page-max-width: 768px;
   --side-padding: 20px;
-  /**/
-  --transition-duration-m: 0.4s;
   /**/
   --accent-color: var(--orange);
   --border-color: var(--grey);
@@ -602,8 +611,6 @@ add '-up' if you want (min-width: $point) and leave with no suffix for (max-widt
   --footer-height: 72px;
   --page-max-width: 768px;
   --side-padding: 20px;
-  /**/
-  --transition-duration-m: 0.4s;
   /**/
   --accent-color: var(--orange);
   --border-color: var(--grey);
