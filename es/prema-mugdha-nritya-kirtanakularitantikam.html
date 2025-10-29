@@ -1765,6 +1765,8 @@ snāna-dhanya-vāri-dhānya-bhūmi-kuṇḍa-deśakam..." />
                 const verses = [...document.querySelectorAll('[data-elem="verse"]')];
                 const main = [...document.querySelectorAll('.Main')];
 
+                const collapseShowClass = 'Collapse__show';
+
                 var transitionAdded = false;
 
                 function addTransitions() {
@@ -1792,18 +1794,27 @@ snāna-dhanya-vāri-dhānya-bhūmi-kuṇḍa-deśakam..." />
                 }
 
                 function toggleCollapse(el, show) {
-                    if (show) {
-                        el.style.height = el.scrollHeight + 'px'; // animate from 0 → actual height
-                        el.classList.add('Collapse__show');
+                    if (show && !el.classList.contains(collapseShowClass)) {
+                        var height;
+                        if (transitionAdded) {
+                            height = el.scrollHeight + 'px';
+                        } else {
+                            height = 'auto';
+                        }
+
+                        el.style.height = height; // animate from 0 → actual height
+                        el.classList.add(collapseShowClass);
                         requestAnimationFrame(() => {
                             // `scrollHeight` will be changed after 'Collapse__show' because of changed line-height.
-                            el.style.height = el.scrollHeight + 'px'; // animate from 0 → actual height
+                            el.style.height = height; // animate from 0 → actual height
+
+
                         });
-                    } else {
+                    } else if (!show && el.classList.contains(collapseShowClass)) {
                         el.style.height = el.scrollHeight + 'px'; // start from current height
                         requestAnimationFrame(() => {
                             el.style.height = '0px'; // animate down
-                            el.classList.remove('Collapse__show');
+                            el.classList.remove(collapseShowClass);
                         });
                     }
 
@@ -1843,7 +1854,10 @@ snāna-dhanya-vāri-dhānya-bhūmi-kuṇḍa-deśakam..." />
                     setSongDisplayMode(detail.value);
                 });
 
-                performUpdate(getSongDisplayMode());
+                const initialMode = getSongDisplayMode();
+                if (initialMode !== 3) {
+                    performUpdate(initialMode);
+                }
             })();
         </script>
 

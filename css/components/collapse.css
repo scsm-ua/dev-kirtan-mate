@@ -11,6 +11,7 @@
 }
 .Collapse__show {
   /* height will be set dynamically via JS */
+  height: auto;
   transform: scaleY(1);
   opacity: 1;
 }
