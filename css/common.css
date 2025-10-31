@@ -209,7 +209,7 @@ p {
   min-height: calc(100% - var(--header-height));
   background-color: var(--main-bg-color);
 }
-@media (min-width: 768px) {
+@media (min-width: 768px) and (min-height: 500px) {
   .Main {
     margin-top: var(--header-height);
   }
