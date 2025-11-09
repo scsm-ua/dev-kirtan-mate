@@ -28,64 +28,7 @@ heno avatāra    hobe ki hoyeche..." />
         <meta name="twitter:description" content="    emona gaurāṅga bine nāhi āra
 heno avatāra    hobe ki hoyeche..." />
 
-<link rel="alternate" hreflang="en" href="https://dev.kirtan.site/en/emona-gauranga-bine-nahi-ara.html" />
-<link rel="alternate" hreflang="ru" href="https://dev.kirtan.site/ru/emona-gauranga-bine-nahi-ara.html" />
-<link rel="alternate" hreflang="es" href="https://dev.kirtan.site/es/emona-gauranga-bine-nahi-ara.html" />
-<link rel="alternate" hreflang="pt-BR" href="https://dev.kirtan.site/pt/emona-gauranga-bine-nahi-ara.html" />
-<link rel="alternate" hreflang="en" href="https://dev.kirtan.site/en-pe/emona-gauranga-bine-nahi-ara.html" />
-<link rel="alternate" hreflang="uk" href="https://dev.kirtan.site/ua/emona-gauranga-bine-nahi-ara.html" />
-<link rel="alternate" hreflang="x-default" href="https://dev.kirtan.site/en/emona-gauranga-bine-nahi-ara.html" />
-
-
-        <script type="application/ld+json">{
-    "@context": "https://schema.org",
-    "@graph": [
-        {
-            "@type": "CollectionPage",
-            "@id": "https://dev.kirtan.site/en/emona-gauranga-bine-nahi-ara.html",
-            "url": "https://dev.kirtan.site/en/emona-gauranga-bine-nahi-ara.html",
-            "name": "Emona Gaurāṅga bine nāhi āra. by Śrīla Premānanda Dās",
-            "inLanguage": "en",
-            "isPartOf": {
-                "@id": "https://dev.kirtan.site/#website"
-            }
-        },
-        {
-            "@type": "MusicComposition",
-            "@id": "https://dev.kirtan.site/en/emona-gauranga-bine-nahi-ara.html#composition",
-            "url": "https://dev.kirtan.site/en/emona-gauranga-bine-nahi-ara.html",
-            "name": "Emona Gaurāṅga bine nāhi āra",
-            "alternateName": [
-                "emona gaurāṅga bine nāhi āra"
-            ],
-            "composer": {
-                "@type": "Person",
-                "name": "Śrīla Premānanda Dās"
-            },
-            "isPartOf": {
-                "@id": "https://dev.kirtan.site/#website"
-            },
-            "about": [
-                {
-                    "@type": "Thing",
-                    "name": "Bhakti Yoga"
-                },
-                {
-                    "@type": "Thing",
-                    "name": "Gaudiya Vaishnavism"
-                }
-            ],
-            "genre": [
-                "Devotional",
-                "Bhajan",
-                "Kirtan"
-            ],
-            "mainEntityOfPage": {
-                "@id": "https://dev.kirtan.site/en/emona-gauranga-bine-nahi-ara.html"
-            }
-        }
-    ]
-}</script>
+        <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://dev.kirtan.site/#website","url":"https://dev.kirtan.site/","name":"Kirtan Site","description":"    emona gaurāṅga bine nāhi āra\nheno avatāra    hobe ki hoyeche...","inLanguage":"en-GB"},{"@type":"CollectionPage","@id":"https://dev.kirtan.site/en/emona-gauranga-bine-nahi-ara.html","url":"https://dev.kirtan.site/en/emona-gauranga-bine-nahi-ara.html","name":"Emona Gaurāṅga bine nāhi āra. by Śrīla Premānanda Dās","isPartOf":{"@id":"https://dev.kirtan.site/#website"}}]}</script>
         
         <link rel="apple-touch-icon" sizes="57x57" href="https://dev.kirtan.site/css/favicon/apple-icon-57x57.png">
         <link rel="apple-touch-icon" sizes="60x60" href="https://dev.kirtan.site/css/favicon/apple-icon-60x60.png">
@@ -115,13 +58,7 @@ heno avatāra    hobe ki hoyeche..." />
 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tingle/0.16.0/tingle.min.css" integrity="sha512-b+T2i3P45i1LZM7I00Ci5QquB9szqaxu+uuk5TUSGjZQ4w4n+qujQiIuvTv2BxE7WCGQCifNMksyKILDiHzsOg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <script src="https://cdnjs.cloudflare.com/ajax/libs/tingle/0.16.0/tingle.min.js" integrity="sha512-2B9/byNV1KKRm5nQ2RLViPFD6U4dUjDGwuW1GU+ImJh8YinPU9Zlq1GzdTMO+G2ROrB5o1qasJBy1ttYz0wCug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-        <script>
-            var locals = {
-                pathsToImages: 'https://dev.kirtan.site/css'
-            };
-        </script>
         <script src="https://dev.kirtan.site/js/user-choice.js"></script>
-        <script src="https://dev.kirtan.site/js/three-mode-switch.js"></script>
     </head>
 
     <body>
@@ -147,7 +84,7 @@ heno avatāra    hobe ki hoyeche..." />
 </header>
 
 
-                <main class="Main SongPage transition-ready">
+                <main class="Main SongPage">
                     <div class="Main__container SongPage__container">
                         <div class="SongPage__content">
                             <link
@@ -215,9 +152,13 @@ heno avatāra    hobe ki hoyeche..." />
                             <main class="SongPage__main">
                                 
                                     <div class="SongPage__toggle">
-                                        <three-mode-switch
-                                            label="Show verses / translation"
-                                        ></three-mode-switch>
+                                        <label class="Toggle">
+                                            <input class="Toggle__checkbox" id="toggle-checkbox" type="checkbox" checked>
+                                            <div class="Toggle__switch"></div>
+                                            <span class="Toggle__label SongPage__show">
+                                                Show translation
+                                            </span>
+                                        </label>
                                     </div>
 
                                     <ul class="SongPage__verses >
@@ -234,29 +175,27 @@ heno avatāra    hobe ki hoyeche..." />
     
 
     
-        <div class="Collapse Collapse__show" data-elem="verse">
-            <ul class="SongVerse__text">
+        <ul class="SongVerse__text">
+            
                 
-                    
-                        <li class="SongVerse__line SongVerse__line_indent_1">
-                            emona gaurāṅga bine nāhi āra
-                        </li>
-                    
+                    <li class="SongVerse__line SongVerse__line_indent_1">
+                        emona gaurāṅga bine nāhi āra
+                    </li>
                 
-                    
-                        <li class="SongVerse__line ">
-                            heno avatāra<span class="SongVerse__space">&nbsp;&nbsp;&nbsp;&nbsp;</span>hobe ki hoyeche
-                        </li>
-                    
+            
                 
-                    
-                        <li class="SongVerse__line SongVerse__line_indent_1">
-                            heno prema parachāra
-                        </li>
-                    
+                    <li class="SongVerse__line ">
+                        heno avatāra<span class="SongVerse__space">&nbsp;&nbsp;&nbsp;&nbsp;</span>hobe ki hoyeche
+                    </li>
                 
-            </ul>
-        </div>
+            
+                
+                    <li class="SongVerse__line SongVerse__line_indent_1">
+                        heno prema parachāra
+                    </li>
+                
+            
+        </ul>
     
 
     
@@ -289,35 +228,33 @@ heno avatāra    hobe ki hoyeche..." />
     
 
     
-        <div class="Collapse Collapse__show" data-elem="verse">
-            <ul class="SongVerse__text">
+        <ul class="SongVerse__text">
+            
                 
-                    
-                        <li class="SongVerse__line ">
-                            duramati ati<span class="SongVerse__space">&nbsp;&nbsp;&nbsp;&nbsp;</span>patita pāṣaṇḍī
-                        </li>
-                    
+                    <li class="SongVerse__line ">
+                        duramati ati<span class="SongVerse__space">&nbsp;&nbsp;&nbsp;&nbsp;</span>patita pāṣaṇḍī
+                    </li>
                 
-                    
-                        <li class="SongVerse__line SongVerse__line_indent_1">
-                            prāṇe nā mārilo kore
-                        </li>
-                    
+            
                 
-                    
-                        <li class="SongVerse__line ">
-                            harināma diye<span class="SongVerse__space">&nbsp;&nbsp;&nbsp;&nbsp;</span>hṛdoya śodhilo
-                        </li>
-                    
+                    <li class="SongVerse__line SongVerse__line_indent_1">
+                        prāṇe nā mārilo kore
+                    </li>
                 
-                    
-                        <li class="SongVerse__line SongVerse__line_indent_1">
-                            jachi giyā ghore ghore
-                        </li>
-                    
+            
                 
-            </ul>
-        </div>
+                    <li class="SongVerse__line ">
+                        harināma diye<span class="SongVerse__space">&nbsp;&nbsp;&nbsp;&nbsp;</span>hṛdoya śodhilo
+                    </li>
+                
+            
+                
+                    <li class="SongVerse__line SongVerse__line_indent_1">
+                        jachi giyā ghore ghore
+                    </li>
+                
+            
+        </ul>
     
 
     
@@ -350,35 +287,33 @@ heno avatāra    hobe ki hoyeche..." />
     
 
     
-        <div class="Collapse Collapse__show" data-elem="verse">
-            <ul class="SongVerse__text">
+        <ul class="SongVerse__text">
+            
                 
-                    
-                        <li class="SongVerse__line ">
-                            bhava biriñchira<span class="SongVerse__space">&nbsp;&nbsp;&nbsp;&nbsp;</span>vāñchito je prema
-                        </li>
-                    
+                    <li class="SongVerse__line ">
+                        bhava biriñchira<span class="SongVerse__space">&nbsp;&nbsp;&nbsp;&nbsp;</span>vāñchito je prema
+                    </li>
                 
-                    
-                        <li class="SongVerse__line SongVerse__line_indent_1">
-                            jagata phelilo ḍhāli
-                        </li>
-                    
+            
                 
-                    
-                        <li class="SongVerse__line ">
-                            kāṅgāle pāiyā<span class="SongVerse__space">&nbsp;&nbsp;&nbsp;&nbsp;</span>khā-ilo nāchiye
-                        </li>
-                    
+                    <li class="SongVerse__line SongVerse__line_indent_1">
+                        jagata phelilo ḍhāli
+                    </li>
                 
-                    
-                        <li class="SongVerse__line SongVerse__line_indent_1">
-                            bājāiye karatāli
-                        </li>
-                    
+            
                 
-            </ul>
-        </div>
+                    <li class="SongVerse__line ">
+                        kāṅgāle pāiyā<span class="SongVerse__space">&nbsp;&nbsp;&nbsp;&nbsp;</span>khā-ilo nāchiye
+                    </li>
+                
+            
+                
+                    <li class="SongVerse__line SongVerse__line_indent_1">
+                        bājāiye karatāli
+                    </li>
+                
+            
+        </ul>
     
 
     
@@ -411,35 +346,33 @@ heno avatāra    hobe ki hoyeche..." />
     
 
     
-        <div class="Collapse Collapse__show" data-elem="verse">
-            <ul class="SongVerse__text">
+        <ul class="SongVerse__text">
+            
                 
-                    
-                        <li class="SongVerse__line ">
-                            hāsiye kā̐diye<span class="SongVerse__space">&nbsp;&nbsp;&nbsp;&nbsp;</span>preme gaḍāgaḍi
-                        </li>
-                    
+                    <li class="SongVerse__line ">
+                        hāsiye kā̐diye<span class="SongVerse__space">&nbsp;&nbsp;&nbsp;&nbsp;</span>preme gaḍāgaḍi
+                    </li>
                 
-                    
-                        <li class="SongVerse__line SongVerse__line_indent_1">
-                            pulake byāpilo aṅga
-                        </li>
-                    
+            
                 
-                    
-                        <li class="SongVerse__line ">
-                            chaṇḍāle brāhmaṇe<span class="SongVerse__space">&nbsp;&nbsp;&nbsp;&nbsp;</span>kore kolākuli
-                        </li>
-                    
+                    <li class="SongVerse__line SongVerse__line_indent_1">
+                        pulake byāpilo aṅga
+                    </li>
                 
-                    
-                        <li class="SongVerse__line SongVerse__line_indent_1">
-                            kobe bā chilo e raṅga
-                        </li>
-                    
+            
                 
-            </ul>
-        </div>
+                    <li class="SongVerse__line ">
+                        chaṇḍāle brāhmaṇe<span class="SongVerse__space">&nbsp;&nbsp;&nbsp;&nbsp;</span>kore kolākuli
+                    </li>
+                
+            
+                
+                    <li class="SongVerse__line SongVerse__line_indent_1">
+                        kobe bā chilo e raṅga
+                    </li>
+                
+            
+        </ul>
     
 
     
@@ -472,35 +405,33 @@ heno avatāra    hobe ki hoyeche..." />
     
 
     
-        <div class="Collapse Collapse__show" data-elem="verse">
-            <ul class="SongVerse__text">
+        <ul class="SongVerse__text">
+            
                 
-                    
-                        <li class="SongVerse__line ">
-                            ḍākiye hā̐kiye<span class="SongVerse__space">&nbsp;&nbsp;&nbsp;&nbsp;</span>khol karatāle
-                        </li>
-                    
+                    <li class="SongVerse__line ">
+                        ḍākiye hā̐kiye<span class="SongVerse__space">&nbsp;&nbsp;&nbsp;&nbsp;</span>khol karatāle
+                    </li>
                 
-                    
-                        <li class="SongVerse__line SongVerse__line_indent_1">
-                            gāiye dhāiye phire
-                        </li>
-                    
+            
                 
-                    
-                        <li class="SongVerse__line ">
-                            dekhiyā śamana<span class="SongVerse__space">&nbsp;&nbsp;&nbsp;&nbsp;</span>tarāsa pāiye
-                        </li>
-                    
+                    <li class="SongVerse__line SongVerse__line_indent_1">
+                        gāiye dhāiye phire
+                    </li>
                 
-                    
-                        <li class="SongVerse__line SongVerse__line_indent_1">
-                            kapāṭa hānilo dvāre
-                        </li>
-                    
+            
                 
-            </ul>
-        </div>
+                    <li class="SongVerse__line ">
+                        dekhiyā śamana<span class="SongVerse__space">&nbsp;&nbsp;&nbsp;&nbsp;</span>tarāsa pāiye
+                    </li>
+                
+            
+                
+                    <li class="SongVerse__line SongVerse__line_indent_1">
+                        kapāṭa hānilo dvāre
+                    </li>
+                
+            
+        </ul>
     
 
     
@@ -533,35 +464,33 @@ heno avatāra    hobe ki hoyeche..." />
     
 
     
-        <div class="Collapse Collapse__show" data-elem="verse">
-            <ul class="SongVerse__text">
+        <ul class="SongVerse__text">
+            
                 
-                    
-                        <li class="SongVerse__line ">
-                            e tina bhuvana<span class="SongVerse__space">&nbsp;&nbsp;&nbsp;&nbsp;</span>ānande bhorilo
-                        </li>
-                    
+                    <li class="SongVerse__line ">
+                        e tina bhuvana<span class="SongVerse__space">&nbsp;&nbsp;&nbsp;&nbsp;</span>ānande bhorilo
+                    </li>
                 
-                    
-                        <li class="SongVerse__line SongVerse__line_indent_1">
-                            uṭhilo maṅgala sora
-                        </li>
-                    
+            
                 
-                    
-                        <li class="SongVerse__line ">
-                            kohe premānanda<span class="SongVerse__space">&nbsp;&nbsp;&nbsp;&nbsp;</span>emona gaurāṅga
-                        </li>
-                    
+                    <li class="SongVerse__line SongVerse__line_indent_1">
+                        uṭhilo maṅgala sora
+                    </li>
                 
-                    
-                        <li class="SongVerse__line SongVerse__line_indent_1">
-                            rati nā janmilo mora
-                        </li>
-                    
+            
                 
-            </ul>
-        </div>
+                    <li class="SongVerse__line ">
+                        kohe premānanda<span class="SongVerse__space">&nbsp;&nbsp;&nbsp;&nbsp;</span>emona gaurāṅga
+                    </li>
+                
+            
+                
+                    <li class="SongVerse__line SongVerse__line_indent_1">
+                        rati nā janmilo mora
+                    </li>
+                
+            
+        </ul>
     
 
     
@@ -816,7 +745,7 @@ heno avatāra    hobe ki hoyeche..." />
                 if (telegraph_href) {
                     tgCopyBox.style.display = 'block';
                 }
-
+                
                 input.value = href;
                 tgInput.value = telegraph_href;
 
@@ -854,21 +783,35 @@ heno avatāra    hobe ki hoyeche..." />
                 const embeds = document.querySelectorAll('[data-embed]');
 
                 embeds.forEach((elem) => {
-                    const frameContainer = elem.parentNode.querySelector('.EmbedCollapse');
+                    const frameContainer = elem.parentNode.querySelector('.Collapse');
 
                     elem.addEventListener('click', () => {
-                        const isShown = frameContainer.classList.contains('EmbedCollapse__show');
+                        const isShown = frameContainer.classList.contains('Collapse__show');
                         const iFrame = elem.parentNode.querySelector('iframe');
                         const player = SC.Widget(iFrame);
 
                         elem.classList.toggle('show');
-                        frameContainer.classList.toggle('EmbedCollapse__show');
+                        frameContainer.classList.toggle('Collapse__show');
 
                         player.bind(SC.Widget.Events.READY, () =>
                             isShown ? player.pause() : player.play()
                         );
                     });
                 });
+            })();
+        </script>
+
+        <script>
+            /**
+             * Collapse-expand verse translations.
+             */
+            (function () {
+                const toggle = document.getElementById('toggle-checkbox');
+                const targets = [...document.querySelectorAll('[data-elem="translation"]')];
+
+                toggle.addEventListener('change', () =>
+                    targets.forEach((t) => t.classList.toggle('Collapse__show'))
+                );
             })();
         </script>
 
@@ -1007,41 +950,6 @@ heno avatāra    hobe ki hoyeche..." />
                             SongTranslations__item
                         
                     "
-                    data-book-id="pt"
-                    onclick="handleBookChoice(event)"
-                >
-                    <a href="https://dev.kirtan.site/pt/emona-gauranga-bine-nahi-ara.html">
-                        <div class="SongTranslations__flex">
-                            <div class="SongTranslations__box">
-                                <img
-                                        alt=""
-                                        class="SongTranslations__image"
-                                        srcset="
-                                            https://dev.kirtan.site/css/banner/small-banner-pt.png 1x,
-                                            https://dev.kirtan.site/css/banner/small-banner-pt@2.png 2x
-                                        "
-                                        src="https://dev.kirtan.site/css/banner/small-banner-pt.png"
-                                >
-                            </div>
-
-                            <div class="SongTranslations__info">
-                                <h5 class="SongTranslations__title">
-                                    Livro de Kirtan
-                                </h5>
-
-                                <div class="SongTranslations__subtitle ellipsis">
-                                    Seva Ashram, Campos do Jordão
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </li>
-            
-                <li class="
-                        
-                            SongTranslations__item
-                        
-                    "
                     data-book-id="en-pe"
                     onclick="handleBookChoice(event)"
                 >
@@ -1072,153 +980,12 @@ heno avatāra    hobe ki hoyeche..." />
                     </a>
                 </li>
             
-                <li class="
-                        
-                            SongTranslations__item
-                        
-                    "
-                    data-book-id="ua"
-                    onclick="handleBookChoice(event)"
-                >
-                    <a href="https://dev.kirtan.site/ua/emona-gauranga-bine-nahi-ara.html">
-                        <div class="SongTranslations__flex">
-                            <div class="SongTranslations__box">
-                                <img
-                                        alt=""
-                                        class="SongTranslations__image"
-                                        srcset="
-                                            https://dev.kirtan.site/css/banner/small-banner-ua.png 1x,
-                                            https://dev.kirtan.site/css/banner/small-banner-ua@2.png 2x
-                                        "
-                                        src="https://dev.kirtan.site/css/banner/small-banner-ua.png"
-                                >
-                            </div>
-
-                            <div class="SongTranslations__info">
-                                <h5 class="SongTranslations__title">
-                                    Ґаудія Ґітанджалі
-                                </h5>
-
-                                <div class="SongTranslations__subtitle ellipsis">
-                                    Переклад деяких бгаджанів на українську мову
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </li>
-            
 
         </ul>
     </div>
 </div>
 `);
             }) ();
-        </script>
-
-        <script>
-            /**
-             * Collapse-expand verses / translations.
-             */
-            (function () {
-                const translations = [...document.querySelectorAll('[data-elem="translation"]')];
-                const wordByWord = [...document.querySelectorAll('[data-elem="wordByWord"]')];
-                const verses = [...document.querySelectorAll('[data-elem="verse"]')];
-                const main = [...document.querySelectorAll('.Main')];
-
-                const collapseShowClass = 'Collapse__show';
-
-                var transitionAdded = false;
-
-                function addTransitions() {
-                    if (transitionAdded) return;
-
-                    transitionAdded = true;
-                    [...document.querySelectorAll('.Collapse')]
-                        .forEach((v) => v.classList.add('Collapse__transition'));
-
-                    [...document.querySelectorAll('.transition-ready')]
-                        .forEach((v) => v.classList.add('enable-transition'));
-                }
-
-                function toggle(targets, add) {
-                    targets.forEach((t) => toggleCollapse(t, add));
-                }
-
-                function toggleTranslationOnlyMode(active) {
-                    toggleClass(main, active, 'translation-only-mode');
-                }
-
-                function toggleClass(targets, add, className) {
-                    const method = add ? 'add' : 'remove';
-                    targets.forEach((t) => t.classList[method](className));
-                }
-
-                function toggleCollapse(el, show) {
-                    if (show && !el.classList.contains(collapseShowClass)) {
-                        var height;
-                        if (transitionAdded) {
-                            height = el.scrollHeight + 'px';
-                        } else {
-                            height = 'auto';
-                        }
-
-                        el.style.height = height; // animate from 0 → actual height
-                        el.classList.add(collapseShowClass);
-                        requestAnimationFrame(() => {
-                            // `scrollHeight` will be changed after 'Collapse__show' because of changed line-height.
-                            el.style.height = height; // animate from 0 → actual height
-
-
-                        });
-                    } else if (!show && el.classList.contains(collapseShowClass)) {
-                        el.style.height = el.scrollHeight + 'px'; // start from current height
-                        requestAnimationFrame(() => {
-                            el.style.height = '0px'; // animate down
-                            el.classList.remove(collapseShowClass);
-                        });
-                    }
-
-                    // Clean up inline height after transition
-                    el.addEventListener('transitionend', function handler(e) {
-                        if (show) {
-                            el.style.height = 'auto'; // keep auto after expand
-                        } else {
-                            el.style.height = '0px';
-                        }
-                        el.removeEventListener('transitionend', handler);
-                    });
-                }
-
-                function performUpdate(mode) {
-                    if (mode === 1) {
-                        toggle(verses, true);
-                        toggle(wordByWord, false);
-                        toggle(translations, false);
-                        toggleTranslationOnlyMode(false);
-                    } else if (mode === 2) {
-                        toggle(verses, false);
-                        toggle(wordByWord, false);
-                        toggle(translations, true);
-                        toggleTranslationOnlyMode(true);
-                    } else {
-                        toggle(verses, true);
-                        toggle(wordByWord, true);
-                        toggle(translations, true);
-                        toggleTranslationOnlyMode(false);
-                    }
-                }
-
-                document.addEventListener(ThreeModeSwitch.EVENT_NAME, ({ detail }) => {
-                    addTransitions();
-                    performUpdate(detail.value);
-                    setSongDisplayMode(detail.value);
-                });
-
-                const initialMode = getSongDisplayMode();
-                if (initialMode !== 3) {
-                    performUpdate(initialMode);
-                }
-            })();
         </script>
 
         
@@ -1229,12 +996,8 @@ heno avatāra    hobe ki hoyeche..." />
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'G-ZRQ94TXNJE', {
-    songbook: 'en',
-    song: 'emona-gauranga-bine-nahi-ara'
-  });
+  gtag('config', 'G-ZRQ94TXNJE');
 </script>
-
 
     </body>
 </html>
