@@ -22,10 +22,11 @@ const {
     md2jsonConvertor
 } = require('./scripts/songConvertor');
 const { getNavigationPaths, getTemplatePaths, getTelegraphTemplatePaths } = require('./scripts/utils');
-const { getSongsPath, getSongbookIdList, getSongbookInfo } = require('./scripts/songbookLoader');
+const { getSongsPath, getSongbookIdList, getSongbookInfo, getSongBookList } = require('./scripts/songbookLoader');
 const { getTranslationsBy } = require('./scripts/i18n');
 const { makeIndexList, makeAuthorsList } = require('./scripts/makeIndexList');
 const version = require('./package.json').version;
+const { writeFile } = require('./scripts/ioHelpers');
 
 const { PATHS, SEARCH_CONST, BASE_FILE_NAMES } = require('./scripts/constants');
 const { makeTelegraphElements, getAllTelegraphPages, createOrUpdateTelegraphPage } = require('./scripts/telegraph/utils');
@@ -255,6 +256,7 @@ gulp.task('generate-index', (done) => {
  */
 function getCommonPageContext(bookId) {
     const tr = getTranslationsBy(bookId);
+    const current_book_info = getSongbookInfo(bookId);
 
     const allSongbooks = getSongbookIdList({public: true}).map((songbook_id) => {
         const info = getSongbookInfo(songbook_id);
@@ -263,14 +265,15 @@ function getCommonPageContext(bookId) {
         const paths = getNavigationPaths(songbook_id);
 
         return {
-            href: paths.CONTENTS,
+            href: paths.A_Z,
             telegraph_href: paths.PUBLIC_CONTENTS,
             booklist_telegraph_href: paths.PUBLIC_BOOK_LIST,
             isSelected: bookId === songbook_id,
             slug: songbook_id,
             songsCount: songsCount,
             subtitle: info.subtitle,
-            title: info.title
+            title: info.title,
+            language: info.language || songbook_id
         };
     });
 
@@ -294,7 +297,8 @@ function getCommonPageContext(bookId) {
         i18n: tr,
         paths: paths,
         songbooks: songbooks,
-        languages: languages
+        languages: languages,
+        language: current_book_info.language || bookId
     };
 }
 
@@ -304,7 +308,6 @@ function getCommonPageContext(bookId) {
  * */
 gulp.task('songbook-list', (done) => {
     const tasks = getSongbookIdList().map((songbook_id) => {
-        const tr = getTranslationsBy(songbook_id);
         const buildInfo = {
             builtAt: new Date().toLocaleString('en-GB', { timeZone: 'UTC' }) + ' UTC',
             commitHash: shelljs.exec("git log --pretty=format:'%h' -n 1").stdout,
@@ -312,9 +315,10 @@ gulp.task('songbook-list', (done) => {
         };
 
         const headParts = createHeadParts({
-            title: tr('BOOK_LIST_PAGE.HEAD.TITLE'),
-            description: tr('BOOK_LIST_PAGE.HEAD.DESCRIPTION'),
-            path: getNavigationPaths(songbook_id).BOOK_LIST
+            songbook_id,
+            i18n_page: 'BOOK_LIST_PAGE',
+            path: getNavigationPaths(songbook_id).BOOK_LIST,
+            page_by_songbook_generator: PAGES.getBookList
         });
 
         const values = {
@@ -347,6 +351,20 @@ gulp.task('songbook-list', (done) => {
     })();
 });
 
+/**
+ *
+ * */
+gulp.task('book-list', (done) => {
+	writeFile(
+		PATHS.BUILD.ROOT,
+		'book-list.json',
+		JSON.stringify(getSongBookList(), null, 2)
+	).then(done);
+});
+
+/**
+ *
+ */
 gulp.task('telegraph-songbook-list', (done) => {
     const tasks = getSongbookIdList().map((songbook_id) => {
         const tr = getTranslationsBy(songbook_id);
@@ -386,11 +404,11 @@ gulp.task('404', (done) => {
         const tr = getTranslationsBy(songbook_id);
 
         const headParts = createHeadParts({
-            title: tr('NOT_FOUND_PAGE.HEAD.TITLE'),
-            description: tr('NOT_FOUND_PAGE.HEAD.DESCRIPTION'),
+            songbook_id,
+            i18n_page: 'NOT_FOUND_PAGE',
             path: PATHS.PAGES.NOT_FOUND,
             is404: true,
-            songbook_id
+            page_by_songbook_generator: PAGES.getNotFound
         });
 
         const values = {
@@ -432,10 +450,10 @@ gulp.task('search-page', (done) => {
         const tr = getTranslationsBy(songbook_id);
 
         const headParts = {
-            title: tr('SEARCH_PAGE.HEAD.TITLE'),
-            description: tr('SEARCH_PAGE.HEAD.DESCRIPTION'),
+            songbook_id,
+            i18n_page: 'SEARCH_PAGE',
             path: getNavigationPaths(songbook_id).SEARCH,
-            songbook_id
+            page_by_songbook_generator: PAGES.getSearch
         };
 
         const pagesDict = {};
@@ -479,7 +497,8 @@ gulp.task('search-page', (done) => {
                         search: SEARCH_CONST,
                         songbook_id: songbook_id,
                         subtitle: info.subtitle,
-                        title: info.title
+                        title: info.title,
+                        language: info.language || songbook_id
                     }).on('error', console.error)
                 )
                 .pipe(
@@ -579,10 +598,10 @@ gulp.task('songbook-contents', (done) => {
         const info = getSongbookInfo(songbook_id);
 
         const headParts = {
-            title: tr('CONTENTS_PAGE.HEAD.TITLE'),
-            description: tr('CONTENTS_PAGE.HEAD.DESCRIPTION'),
+            songbook_id,
+            i18n_page: 'CONTENTS_PAGE',
             path: getNavigationPaths(songbook_id).CONTENTS,
-            songbook_id
+            page_by_songbook_generator: PAGES.getContents
         };
 
         const task = (done) => gulp
@@ -595,7 +614,8 @@ gulp.task('songbook-contents', (done) => {
                     paths: getTemplatePaths(songbook_id),
                     songbook_id: songbook_id,
                     subtitle: info.subtitle,
-                    title: info.title
+                    title: info.title,
+                    language: info.language || songbook_id
                 }).on('error', console.error)
             )
             .pipe(
@@ -670,10 +690,11 @@ gulp.task('songbook-a-z', (done) => {
         const info = getSongbookInfo(songbook_id);
 
         const headParts = {
-            title: tr('A_Z_PAGE.HEAD.TITLE'),
-            description: tr('A_Z_PAGE.HEAD.DESCRIPTION'),
+            songbook_id,
+            i18n_page: 'A_Z_PAGE',
             path: getNavigationPaths(songbook_id).A_Z,
-            songbook_id
+            songbook_id,
+            page_by_songbook_generator: PAGES.getA_Z
         };
 
         const items = makeIndexList(songbook_id);
@@ -696,7 +717,8 @@ gulp.task('songbook-a-z', (done) => {
                     sections: sections,
                     songbook_id: songbook_id,
                     subtitle: info.subtitle,
-                    title: info.title
+                    title: info.title,
+                    language: info.language || songbook_id
                 }).on('error', console.error)
             )
             .pipe(
@@ -776,10 +798,10 @@ gulp.task('songbook-authors', (done) => {
         const info = getSongbookInfo(songbook_id);
 
         const headParts = {
-            title: tr('AUTHORS_PAGE.HEAD.TITLE'),
-            description: tr('AUTHORS_PAGE.HEAD.DESCRIPTION'),
+            songbook_id,
+            i18n_page: 'AUTHORS_PAGE',
             path: getNavigationPaths(songbook_id).AUTHORS,
-            songbook_id
+            page_by_songbook_generator: PAGES.getAuthors
         };
 
         const items = makeAuthorsList(songbook_id);
@@ -803,7 +825,8 @@ gulp.task('songbook-authors', (done) => {
                     sections: sections,
                     songbook_id: songbook_id,
                     subtitle: info.subtitle,
-                    title: info.title
+                    title: info.title,
+                    language: info.language || songbook_id
                 }).on('error', console.error)
             )
             .pipe(
@@ -958,6 +981,7 @@ gulp.task('build', (done) => {
         'songbook-contents',
         'songbook-a-z',
         'songbook-authors',
+        'book-list',
         'sitemap',
         'songbook-list',
         '404',

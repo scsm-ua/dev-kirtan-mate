@@ -1,5 +1,7 @@
 const { getNavigationPaths } = require('./utils');
 const { PATHS, ORIGIN } = require('./constants');
+const { getSongbookIdList, getSongbookInfo } = require('./songbookLoader');
+const { getTranslationsBy } = require('./i18n');
 
 /**
  * Note: the title and description do NOT get escaped.
@@ -8,7 +10,25 @@ const { PATHS, ORIGIN } = require('./constants');
  * @param url: string - no leading or trailing slashes!
  * @param is404: boolean
  */
-function createHeadParts({ title, description, path, is404, songbook_id }) {
+function createHeadParts(options) {
+
+    var { title, description, path, is404, songbook_id, translations, i18n, i18n_page, page_by_songbook_generator } = options;
+
+    if (!i18n && songbook_id) {
+        i18n = getTranslationsBy(songbook_id);
+        options.i18n = i18n;
+    }
+
+    if (!title && i18n_page && i18n) {
+        title = i18n(i18n_page + '.HEAD.TITLE');
+        options.title = title;
+    }
+
+    if (!description && i18n_page && i18n) {
+        description = i18n(i18n_page + '.HEAD.DESCRIPTION');
+        options.description = description;
+    }
+
     var imgSrc;
     if (songbook_id) {
         imgSrc = `${ PATHS.RELATIVE.IMG }/banner/banner-${ songbook_id }@2.png`;
@@ -26,12 +46,39 @@ function createHeadParts({ title, description, path, is404, songbook_id }) {
         url = path;
     }
 
+    options.url = url;
+
     let render = `
         <title>${_title}</title>`;
 
     if (!is404) {
         render += `
         <link rel="canonical" href="${url}" />`;
+    }
+
+    if (page_by_songbook_generator) {
+        translations = getSongbookIdList({public: true}).map((a_songbook_id) => {
+            const a_info = getSongbookInfo(a_songbook_id);
+            return {
+                hreflang: a_info.language || a_songbook_id,
+                href: page_by_songbook_generator(a_songbook_id)
+            };
+        });
+    }
+
+    if (!options.language && songbook_id) {
+        const book_info = getSongbookInfo(songbook_id);
+        options.language = book_info.language || songbook_id;
+    }
+
+    let translations_hrefs = '';
+    if (translations && translations.length) {
+        function hreflang(hreflang, href) {
+            return `<link rel="alternate" hreflang="${hreflang}" href="${href}" />\n`;
+        }
+        translations_hrefs = translations.map(t => hreflang(t.hreflang, t.href)).join('');
+        // Default. Use first, its order by sort_order.
+        translations_hrefs += hreflang('x-default', translations[0].href);
     }
 
     render += `
@@ -55,7 +102,9 @@ function createHeadParts({ title, description, path, is404, songbook_id }) {
         <meta name="twitter:title" content="${title}" />
         <meta name="twitter:description" content="${description}" />
 
-        ${getSchema(url, title, description)}
+${translations_hrefs}
+
+        ${getSchema(options)}
         
         <link rel="apple-touch-icon" sizes="57x57" href="${PATHS.RELATIVE.FAVICON}/apple-icon-57x57.png">
         <link rel="apple-touch-icon" sizes="60x60" href="${PATHS.RELATIVE.FAVICON}/apple-icon-60x60.png">
@@ -82,31 +131,125 @@ function createHeadParts({ title, description, path, is404, songbook_id }) {
 /**
  *
  */
-function getSchema(url, title, description) {
-    const content = {
-        '@context': 'https://schema.org',
-        '@graph': [
-            {
-                '@type': 'WebSite',
-                '@id': ORIGIN + '/#website',
-                'url': ORIGIN + '/',
-                'name': 'Kirtan Site',
-                'description': description,
-                'inLanguage': 'en-GB'
-            },
-            {
-                '@type': 'CollectionPage',
-                '@id': url,
-                'url': url,
-                'name': title,
-                'isPartOf': {
-                    '@id': ORIGIN + '/#website'
-                }
-            }
-        ]
-    };
+function getSchema({url, title, description, song, embeds, i18n_page, i18n, language}) {
 
-    const sch = JSON.stringify(content).replace('&quot;', '"');
+    var sch;
+
+    if (!song) {
+
+        if (i18n_page && i18n) {
+            title = i18n(i18n_page + '.SCHEMA.NAME');
+            description = i18n(i18n_page + '.SCHEMA.DESCRIPTION');
+        }
+
+        const content = {
+            '@context': 'https://schema.org',
+            '@graph': [
+                {
+                    "@type": "Organization",
+                    "@id": "https://scsmath.com/#organization",
+                    "name": "Sri Chaitanya Saraswat Math",
+                    "url": "https://scsmath.com/"
+                },
+                {
+                    '@type': 'WebSite',
+                    '@id': ORIGIN + '/#website',
+                    'url': ORIGIN + '/',
+                    'name': 'Kirtan Site',
+                    "description": "A digital Vaishnava songbook with lyrics, translations, and audio recordings.",
+                    "publisher": {
+                        "@id": "https://scsmath.com/#organization",
+                    }
+                },
+                {
+                    '@type': 'CollectionPage',
+                    '@id': url,
+                    'url': url,
+                    'name': title,
+                    'description': description,
+                    'inLanguage': language || 'en',
+                    'isPartOf': {
+                        '@id': ORIGIN + '/#website'
+                    }
+                }
+            ]
+        };
+        sch = JSON.stringify(content, null, 4).replace('&quot;', '"');
+        
+    } else {
+
+        const MusicComposition = {
+            "@type": "MusicComposition",
+            "@id": url + "#composition",
+            "url": url,
+            "name": song.getTitleAuthor(),
+            "alternateName": [song.first_line],
+            "composer": {
+                "@type": "Person",
+                "name": song.getUnifiedAurhor()
+            },
+            "isPartOf": {
+                "@id": ORIGIN + '/#website',
+            },
+            "about": [
+                { "@type": "Thing", "name": "Bhakti Yoga" },
+                { "@type": "Thing", "name": "Gaudiya Vaishnavism" }
+            ],
+            "genre": ["Devotional", "Bhajan", "Kirtan"],
+            "mainEntityOfPage": {
+                "@id": url
+            }
+        };
+    
+        const song_content = {
+            "@context": "https://schema.org",
+            "@graph": [
+                {
+                    "@type": "CollectionPage",
+                    "@id": url,
+                    "url": url,
+                    "name": title,
+                    "inLanguage": song.language,
+                    // TODO:
+                    // "description": "Bengali devotional song with translations.",
+                    "isPartOf": {
+                        '@id': ORIGIN + '/#website',
+                    }
+                },
+                MusicComposition
+            ]
+        };
+    
+        embeds?.forEach(item => {
+            var audio = {
+                "@type": "MusicRecording",
+                "name": song.getTitleAuthor(),
+                "url": item.embed_url,
+                "byArtist": {
+                    "@type": "Person",
+                    "name": item.title
+                },
+                "audio": {
+                    "@type": "AudioObject",
+                    "embedUrl": item.iframe_url
+                }
+            };
+    
+            if (MusicComposition.audio && !Array.isArray(MusicComposition.audio)) {
+                // Make it array.
+                MusicComposition.audio = [MusicComposition.audio];
+            }
+    
+            if (Array.isArray(MusicComposition.audio)) {
+                MusicComposition.audio.push(audio);
+            } else {
+                MusicComposition.audio = audio;
+            }
+        });
+    
+        sch = JSON.stringify(song_content, null, 4).replace('&quot;', '"');
+    }
+
     return `<script type="application/ld+json">${sch}</script>`;
 }
 
@@ -134,11 +277,12 @@ function getItemXML(url, priority, period = 'weekly') {
  * @returns {string}
  */
 function createSongXMLParts(songbook_id, categories) {
-    const { A_Z, BOOK_LIST, CONTENTS } = getNavigationPaths(songbook_id);
+    const { A_Z, BOOK_LIST, CONTENTS, AUTHORS } = getNavigationPaths(songbook_id);
 
     const indexes = getItemXML(BOOK_LIST, 0.9, 'monthly') +
         getItemXML(CONTENTS, 1) +
-        getItemXML(A_Z, 1);
+        getItemXML(A_Z, 1) + 
+        getItemXML(AUTHORS, 1);
 
     const songs = categories
         .flatMap((cat) => cat.items)

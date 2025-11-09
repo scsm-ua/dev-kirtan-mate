@@ -2,23 +2,25 @@ Live site: https://kirtan.site
 
 ## Run
 
-    pnpm i
+    npm i
 
-    gulp build
+    npm run build
 
-    gulp watch
+    npm run dev
 
-## Update songbook version
+## Update songbooks list
 
-Update required commit hash to `dependencies` section in [package.json](package.json) and push coomit:
+Update file `./songbooks.json`:
 
-    "gaudiya-gitanjali-ua": "github:scsm-ua/gaudiya-gitanjali-ua#<REQUIRED COMMIT HASH>",
+```
+[
+    "git+https://github.com/scsm-ua/kirtan-guide-en.git#branch",
+]
+```
 
-Example:
+Use npm package dependencies syntax.
 
-    "gaudiya-gitanjali-ua": "github:scsm-ua/gaudiya-gitanjali-ua#369e9f1b5b758080f31edd690e33721402a1443e",
-
-In case when no commit specified, use `pnpm update` in CLI to refresh lock file.
+Run `npm i` after changes.
 
 ## GH Pages deploy setup
 
@@ -59,3 +61,13 @@ Setup github pages for repository.
 Copy `.env.sample` to `.env` with your local root path for `HOME_BASE_URL`.
 
 To use with local filesystem use `EXPLICIT_INDEX=1` to build home path with  `.../index.html`.
+
+## Debug local songbooks
+
+    pnpm link ../gaudiya-gitanjali-lv
+    pnpm link ../gaudiya-gitanjali-ru
+    pnpm link ../gaudiya-gitanjali-ua
+    pnpm link ../kirtan-guide-en
+    pnpm link ../kirtan-guide-es
+    pnpm link ../kirtan-guide-pt
+    pnpm link ../kirtan-guide-pocket-edition

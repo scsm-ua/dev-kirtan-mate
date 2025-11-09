@@ -25,6 +25,16 @@ class Song {
         return pageTitle;
     }
 
+    getTitleAuthor() {
+        let pageTitle = this.json.title.join(' ');
+
+        if (this.json.subtitle?.length) {
+            pageTitle += '. ' + this.json.subtitle.join(' ');
+        }
+
+        return pageTitle;
+    }
+
     getPageDescription() {
         // Get first verse with text.
         var verse = this.json.verses.find(v => v.text && v.text.length);
@@ -367,13 +377,14 @@ function convertSongToJSON(text) {
                 break;
             case 'embed_link':
                 var embed_url = line_match[2];
-                var embed_code = getEmbedCode(embed_url);
-                if (embed_code) {
+                var embed = getEmbedCode(embed_url);
+                if (embed) {
                     song.embeds = song.embeds || [];
                     song.embeds.push({
                         title: line_value,
                         embed_url: embed_url,
-                        embed_code: embed_code
+                        iframe_url: embed.embed_url,
+                        embed_code: embed.embed_code
                     });
                 } else {
                     console.warn('Unrecognized embed link', line)
@@ -429,6 +440,24 @@ function convertSongToJSON(text) {
             }
             song.meta = song.meta || {};
             song.meta.author = author;
+        }
+    }
+
+    if (song.meta?.page) {
+        var attr_key = 'page';
+        var attr_value = song.meta?.page;
+
+        // Copy from `case 'attribute':`.
+        song.attributes = song.attributes || {};
+        if (song.attributes[attr_key] && !Array.isArray(song.attributes[attr_key])) {
+            // Convert to array.
+            song.attributes[attr_key] = [song.attributes[attr_key]];
+        }
+
+        if (Array.isArray(song.attributes[attr_key])) {
+            song.attributes[attr_key].push(attr_value);
+        } else {
+            song.attributes[attr_key] = attr_value;
         }
     }
 
