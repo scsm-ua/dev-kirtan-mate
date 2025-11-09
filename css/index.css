@@ -48,13 +48,33 @@
 
 .Collapse {
   display: block;
-  max-height: 0px;
   overflow: hidden;
-  transition: max-height 0.4s cubic-bezier(0, 1, 0, 1);
+}
+.Collapse__transition {
+  transform-origin: top;
+  height: 0;
+  transform: scaleY(0);
+  opacity: 0;
+  transition: height 0.5s ease, transform 0.5s ease, opacity 0.5s ease;
 }
 .Collapse__show {
-  max-height: 99em;
-  transition: max-height 1s ease-in-out 0s;
+  /* height will be set dynamically via JS */
+  height: auto;
+  transform: scaleY(1);
+  opacity: 1;
+}
+
+.EmbedCollapse {
+  display: block;
+  max-height: 0px;
+  overflow: hidden;
+}
+.EmbedCollapse__show {
+  /* Warning: if content will be larger, part of content will be hidden. */
+  max-height: 9em;
+}
+.EmbedCollapse__transition {
+  transition: max-height 0.5s linear 0s;
 }
 
 /*
@@ -97,6 +117,9 @@ add '-up' if you want (min-width: $point) and leave with no suffix for (max-widt
  * CSS breakpoint values.
  */
 /**
+ * CSS breakpoint height values.
+ */
+/**
  *
  */
 :root {
@@ -109,6 +132,7 @@ add '-up' if you want (min-width: $point) and leave with no suffix for (max-widt
   --font-size: 16px;
   /**/
   --content-max-width: 568px;
+  --desktop-content-max-width: 900px;
   --header-height: 52px;
   --footer-height: 72px;
   --page-max-width: 768px;
@@ -131,7 +155,7 @@ add '-up' if you want (min-width: $point) and leave with no suffix for (max-widt
   --grey: #C0C0C0;
   --orange: #F5C149;
 }
-@media (min-width: 768px) {
+@media (min-width: 768px) and (min-height: 500px) {
   :root {
     --footer-height: 82px;
   }
@@ -201,63 +225,6 @@ add '-up' if you want (min-width: $point) and leave with no suffix for (max-widt
   background-color: var(--song-bg-color) !important;
 }
 
-.Toggle {
-  cursor: pointer;
-  display: inline-block;
-}
-
-.Toggle__switch {
-  display: inline-block;
-  background: var(--grey);
-  border-radius: 8px;
-  width: 26px;
-  height: 16px;
-  position: relative;
-  vertical-align: middle;
-  transition: background 0.25s;
-}
-
-.Toggle__switch:before, .Toggle__switch:after {
-  content: "";
-}
-
-.Toggle__switch:before {
-  display: block;
-  background: #FFF;
-  border-radius: 50%;
-  /*box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.25);*/
-  width: 12px;
-  height: 12px;
-  position: absolute;
-  top: 2px;
-  left: 2px;
-  transition: left 0.25s;
-}
-
-.Toggle:hover .Toggle__switch:before {
-  background: #FFF;
-  /*box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.5);*/
-}
-
-.Toggle__checkbox:checked + .Toggle__switch {
-  background: var(--accent-color);
-}
-
-.Toggle__checkbox:checked + .Toggle__switch:before {
-  left: 12px;
-}
-
-.Toggle__checkbox {
-  position: absolute;
-  visibility: hidden;
-}
-
-.Toggle__label {
-  margin-left: 5px;
-  position: relative;
-  top: 2px;
-}
-
 /*
 Breakpoints mixin
 @param {String} $point - name of breakpoint
@@ -298,6 +265,9 @@ add '-up' if you want (min-width: $point) and leave with no suffix for (max-widt
  * CSS breakpoint values.
  */
 /**
+ * CSS breakpoint height values.
+ */
+/**
  *
  */
 :root {
@@ -310,6 +280,7 @@ add '-up' if you want (min-width: $point) and leave with no suffix for (max-widt
   --font-size: 16px;
   /**/
   --content-max-width: 568px;
+  --desktop-content-max-width: 900px;
   --header-height: 52px;
   --footer-height: 72px;
   --page-max-width: 768px;
@@ -332,7 +303,7 @@ add '-up' if you want (min-width: $point) and leave with no suffix for (max-widt
   --grey: #C0C0C0;
   --orange: #F5C149;
 }
-@media (min-width: 768px) {
+@media (min-width: 768px) and (min-height: 500px) {
   :root {
     --footer-height: 82px;
   }
@@ -345,6 +316,8 @@ add '-up' if you want (min-width: $point) and leave with no suffix for (max-widt
 body,
 html {
   height: 100%;
+  height: 100dvh;
+  max-height: 100%;
 }
 
 body {
@@ -463,7 +436,7 @@ p {
   min-height: calc(100% - var(--header-height));
   background-color: var(--main-bg-color);
 }
-@media (min-width: 768px) {
+@media (min-width: 768px) and (min-height: 500px) {
   .Main {
     margin-top: var(--header-height);
   }
@@ -471,6 +444,12 @@ p {
 .Main__container {
   margin: 0 auto;
   max-width: var(--content-max-width);
+}
+.enable-transition .Main__container {
+  transition: max-width 0.5s ease;
+}
+.translation-only-mode .Main__container {
+  max-width: var(--desktop-content-max-width);
 }
 .Main__content {
   display: flex;
@@ -619,6 +598,9 @@ add '-up' if you want (min-width: $point) and leave with no suffix for (max-widt
  * CSS breakpoint values.
  */
 /**
+ * CSS breakpoint height values.
+ */
+/**
  *
  */
 :root {
@@ -631,6 +613,7 @@ add '-up' if you want (min-width: $point) and leave with no suffix for (max-widt
   --font-size: 16px;
   /**/
   --content-max-width: 568px;
+  --desktop-content-max-width: 900px;
   --header-height: 52px;
   --footer-height: 72px;
   --page-max-width: 768px;
@@ -653,7 +636,7 @@ add '-up' if you want (min-width: $point) and leave with no suffix for (max-widt
   --grey: #C0C0C0;
   --orange: #F5C149;
 }
-@media (min-width: 768px) {
+@media (min-width: 768px) and (min-height: 500px) {
   :root {
     --footer-height: 82px;
   }

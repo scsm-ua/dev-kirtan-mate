@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
 <head>
     
         <title>Cancionero Vaishnava | Kirtan Site</title>
@@ -24,7 +24,48 @@
         <meta name="twitter:title" content="Cancionero Vaishnava" />
         <meta name="twitter:description" content="Lista de autores" />
 
-        <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://dev.kirtan.site/#website","url":"https://dev.kirtan.site/","name":"Kirtan Site","description":"Lista de autores","inLanguage":"en-GB"},{"@type":"CollectionPage","@id":"https://dev.kirtan.site/es/authors.html","url":"https://dev.kirtan.site/es/authors.html","name":"Cancionero Vaishnava","isPartOf":{"@id":"https://dev.kirtan.site/#website"}}]}</script>
+<link rel="alternate" hreflang="en" href="https://dev.kirtan.site/en/authors.html" />
+<link rel="alternate" hreflang="ru" href="https://dev.kirtan.site/ru/authors.html" />
+<link rel="alternate" hreflang="es" href="https://dev.kirtan.site/es/authors.html" />
+<link rel="alternate" hreflang="pt-BR" href="https://dev.kirtan.site/pt/authors.html" />
+<link rel="alternate" hreflang="en" href="https://dev.kirtan.site/en-pe/authors.html" />
+<link rel="alternate" hreflang="lv" href="https://dev.kirtan.site/lv/authors.html" />
+<link rel="alternate" hreflang="uk" href="https://dev.kirtan.site/ua/authors.html" />
+<link rel="alternate" hreflang="x-default" href="https://dev.kirtan.site/en/authors.html" />
+
+
+        <script type="application/ld+json">{
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@type": "Organization",
+            "@id": "https://scsmath.com/#organization",
+            "name": "Sri Chaitanya Saraswat Math",
+            "url": "https://scsmath.com/"
+        },
+        {
+            "@type": "WebSite",
+            "@id": "https://dev.kirtan.site/#website",
+            "url": "https://dev.kirtan.site/",
+            "name": "Kirtan Site",
+            "description": "A digital Vaishnava songbook with lyrics, translations, and audio recordings.",
+            "publisher": {
+                "@id": "https://scsmath.com/#organization"
+            }
+        },
+        {
+            "@type": "CollectionPage",
+            "@id": "https://dev.kirtan.site/es/authors.html",
+            "url": "https://dev.kirtan.site/es/authors.html",
+            "name": "Cancionero Vaishnava – Autores",
+            "description": "Descubra a los autores de bhajans y kirtans vaisnavas.",
+            "inLanguage": "es",
+            "isPartOf": {
+                "@id": "https://dev.kirtan.site/#website"
+            }
+        }
+    ]
+}</script>
         
         <link rel="apple-touch-icon" sizes="57x57" href="https://dev.kirtan.site/css/favicon/apple-icon-57x57.png">
         <link rel="apple-touch-icon" sizes="60x60" href="https://dev.kirtan.site/css/favicon/apple-icon-60x60.png">
@@ -4461,8 +4502,12 @@
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'G-ZRQ94TXNJE');
+  gtag('config', 'G-ZRQ94TXNJE', {
+    songbook: 'es',
+    song: null
+  });
 </script>
+
 
 </body>
 </html>

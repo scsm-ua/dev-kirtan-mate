@@ -1,6 +1,6 @@
 <!doctype html>
 
-<html lang="en">
+<html lang="es">
     <head>
         
         <title>Prasāda-sevāya 2-3. Śrīla Bhakti Vinod Ṭhākur | Kirtan Site</title>
@@ -28,7 +28,59 @@ eka-dina śāntipure,        prabhu advaitera ghare,..." />
         <meta name="twitter:description" content="bhāi-re!
 eka-dina śāntipure,        prabhu advaitera ghare,..." />
 
-        <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://dev.kirtan.site/#website","url":"https://dev.kirtan.site/","name":"Kirtan Site","description":"bhāi-re!\neka-dina śāntipure,        prabhu advaitera ghare,...","inLanguage":"en-GB"},{"@type":"CollectionPage","@id":"https://dev.kirtan.site/es/eka-dina-shiantipure.html","url":"https://dev.kirtan.site/es/eka-dina-shiantipure.html","name":"Prasāda-sevāya 2-3. Śrīla Bhakti Vinod Ṭhākur","isPartOf":{"@id":"https://dev.kirtan.site/#website"}}]}</script>
+<link rel="alternate" hreflang="es" href="https://dev.kirtan.site/es/eka-dina-shiantipure.html" />
+<link rel="alternate" hreflang="x-default" href="https://dev.kirtan.site/es/eka-dina-shiantipure.html" />
+
+
+        <script type="application/ld+json">{
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@type": "CollectionPage",
+            "@id": "https://dev.kirtan.site/es/eka-dina-shiantipure.html",
+            "url": "https://dev.kirtan.site/es/eka-dina-shiantipure.html",
+            "name": "Prasāda-sevāya 2-3. Śrīla Bhakti Vinod Ṭhākur",
+            "inLanguage": "es",
+            "isPartOf": {
+                "@id": "https://dev.kirtan.site/#website"
+            }
+        },
+        {
+            "@type": "MusicComposition",
+            "@id": "https://dev.kirtan.site/es/eka-dina-shiantipure.html#composition",
+            "url": "https://dev.kirtan.site/es/eka-dina-shiantipure.html",
+            "name": "Prasāda-sevāya 2-3",
+            "alternateName": [
+                "bhāi-re!"
+            ],
+            "composer": {
+                "@type": "Person",
+                "name": "Śrīla Bhakti Vinod Ṭhākur"
+            },
+            "isPartOf": {
+                "@id": "https://dev.kirtan.site/#website"
+            },
+            "about": [
+                {
+                    "@type": "Thing",
+                    "name": "Bhakti Yoga"
+                },
+                {
+                    "@type": "Thing",
+                    "name": "Gaudiya Vaishnavism"
+                }
+            ],
+            "genre": [
+                "Devotional",
+                "Bhajan",
+                "Kirtan"
+            ],
+            "mainEntityOfPage": {
+                "@id": "https://dev.kirtan.site/es/eka-dina-shiantipure.html"
+            }
+        }
+    ]
+}</script>
         
         <link rel="apple-touch-icon" sizes="57x57" href="https://dev.kirtan.site/css/favicon/apple-icon-57x57.png">
         <link rel="apple-touch-icon" sizes="60x60" href="https://dev.kirtan.site/css/favicon/apple-icon-60x60.png">
@@ -58,7 +110,13 @@ eka-dina śāntipure,        prabhu advaitera ghare,..." />
 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tingle/0.16.0/tingle.min.css" integrity="sha512-b+T2i3P45i1LZM7I00Ci5QquB9szqaxu+uuk5TUSGjZQ4w4n+qujQiIuvTv2BxE7WCGQCifNMksyKILDiHzsOg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <script src="https://cdnjs.cloudflare.com/ajax/libs/tingle/0.16.0/tingle.min.js" integrity="sha512-2B9/byNV1KKRm5nQ2RLViPFD6U4dUjDGwuW1GU+ImJh8YinPU9Zlq1GzdTMO+G2ROrB5o1qasJBy1ttYz0wCug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script>
+            var locals = {
+                pathsToImages: 'https://dev.kirtan.site/css'
+            };
+        </script>
         <script src="https://dev.kirtan.site/js/user-choice.js"></script>
+        <script src="https://dev.kirtan.site/js/three-mode-switch.js"></script>
     </head>
 
     <body>
@@ -84,7 +142,7 @@ eka-dina śāntipure,        prabhu advaitera ghare,..." />
 </header>
 
 
-                <main class="Main SongPage">
+                <main class="Main SongPage transition-ready">
                     <div class="Main__container SongPage__container">
                         <div class="SongPage__content">
                             <link
@@ -158,13 +216,9 @@ eka-dina śāntipure,        prabhu advaitera ghare,..." />
                             <main class="SongPage__main">
                                 
                                     <div class="SongPage__toggle">
-                                        <label class="Toggle">
-                                            <input class="Toggle__checkbox" id="toggle-checkbox" type="checkbox" checked>
-                                            <div class="Toggle__switch"></div>
-                                            <span class="Toggle__label SongPage__show">
-                                                Mostrar traducción
-                                            </span>
-                                        </label>
+                                        <three-mode-switch
+                                            label="Mostrar traducción"
+                                        ></three-mode-switch>
                                     </div>
 
                                     <ul class="SongPage__verses word-by-word-mode">
@@ -181,43 +235,45 @@ eka-dina śāntipure,        prabhu advaitera ghare,..." />
     
 
     
-        <ul class="SongVerse__text">
-            
+        <div class="Collapse Collapse__show" data-elem="verse">
+            <ul class="SongVerse__text">
                 
-                    <li class="SongVerse__line ">
-                        bhāi-re!
-                    </li>
+                    
+                        <li class="SongVerse__line ">
+                            bhāi-re!
+                        </li>
+                    
                 
-            
+                    
+                        <li class="SongVerse__line ">
+                            eka-dina śāntipure,<span class="SongVerse__space">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="SongVerse__space">&nbsp;&nbsp;&nbsp;&nbsp;</span>prabhu advaitera ghare,
+                        </li>
+                    
                 
-                    <li class="SongVerse__line ">
-                        eka-dina śāntipure,<span class="SongVerse__space">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="SongVerse__space">&nbsp;&nbsp;&nbsp;&nbsp;</span>prabhu advaitera ghare,
-                    </li>
+                    
+                        <li class="SongVerse__line SongVerse__line_indent_2">
+                            dui prabhu bhojane bosilo
+                        </li>
+                    
                 
-            
+                    
+                        <li class="SongVerse__line ">
+                            śāk kori’ āsvādana,<span class="SongVerse__space">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="SongVerse__space">&nbsp;&nbsp;&nbsp;&nbsp;</span>prabhu bole bhakta-gaṇa,
+                        </li>
+                    
                 
-                    <li class="SongVerse__line SongVerse__line_indent_2">
-                        dui prabhu bhojane bosilo
-                    </li>
+                    
+                        <li class="SongVerse__line SongVerse__line_indent_2">
+                            ei śāk kṛṣṇa āsvādilo
+                        </li>
+                    
                 
-            
-                
-                    <li class="SongVerse__line ">
-                        śāk kori’ āsvādana,<span class="SongVerse__space">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="SongVerse__space">&nbsp;&nbsp;&nbsp;&nbsp;</span>prabhu bole bhakta-gaṇa,
-                    </li>
-                
-            
-                
-                    <li class="SongVerse__line SongVerse__line_indent_2">
-                        ei śāk kṛṣṇa āsvādilo
-                    </li>
-                
-            
-        </ul>
+            </ul>
+        </div>
     
 
     
-        <div class="Collapse Collapse__show" data-elem="translation">
+        <div class="Collapse Collapse__show" data-elem="wordByWord">
             <ul class="SongVerse__wordbyword">
                 
                     <li class="SongVerse__paragraph">
@@ -258,37 +314,39 @@ eka-dina śāntipure,        prabhu advaitera ghare,..." />
     
 
     
-        <ul class="SongVerse__text">
-            
+        <div class="Collapse Collapse__show" data-elem="verse">
+            <ul class="SongVerse__text">
                 
-                    <li class="SongVerse__line ">
-                        heno śāk-āsvādane,<span class="SongVerse__space">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="SongVerse__space">&nbsp;&nbsp;&nbsp;&nbsp;</span>kṛṣṇa-prema aise mane,
-                    </li>
+                    
+                        <li class="SongVerse__line ">
+                            heno śāk-āsvādane,<span class="SongVerse__space">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="SongVerse__space">&nbsp;&nbsp;&nbsp;&nbsp;</span>kṛṣṇa-prema aise mane,
+                        </li>
+                    
                 
-            
+                    
+                        <li class="SongVerse__line SongVerse__line_indent_2">
+                            sei preme koro āsvādana
+                        </li>
+                    
                 
-                    <li class="SongVerse__line SongVerse__line_indent_2">
-                        sei preme koro āsvādana
-                    </li>
+                    
+                        <li class="SongVerse__line ">
+                            jaḍa-buddhi parihari’,<span class="SongVerse__space">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="SongVerse__space">&nbsp;&nbsp;&nbsp;&nbsp;</span>prasāda bhojana kori’,
+                        </li>
+                    
                 
-            
+                    
+                        <li class="SongVerse__line SongVerse__line_indent_2">
+                            ‘hari hari’ bolo sarva jana
+                        </li>
+                    
                 
-                    <li class="SongVerse__line ">
-                        jaḍa-buddhi parihari’,<span class="SongVerse__space">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="SongVerse__space">&nbsp;&nbsp;&nbsp;&nbsp;</span>prasāda bhojana kori’,
-                    </li>
-                
-            
-                
-                    <li class="SongVerse__line SongVerse__line_indent_2">
-                        ‘hari hari’ bolo sarva jana
-                    </li>
-                
-            
-        </ul>
+            </ul>
+        </div>
     
 
     
-        <div class="Collapse Collapse__show" data-elem="translation">
+        <div class="Collapse Collapse__show" data-elem="wordByWord">
             <ul class="SongVerse__wordbyword">
                 
                     <li class="SongVerse__paragraph">
@@ -329,37 +387,39 @@ eka-dina śāntipure,        prabhu advaitera ghare,..." />
     
 
     
-        <ul class="SongVerse__text">
-            
+        <div class="Collapse Collapse__show" data-elem="verse">
+            <ul class="SongVerse__text">
                 
-                    <li class="SongVerse__line ">
-                        śachīra aṅgane kabhu,<span class="SongVerse__space">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="SongVerse__space">&nbsp;&nbsp;&nbsp;&nbsp;</span>mādhavendra-purī prabhu,
-                    </li>
+                    
+                        <li class="SongVerse__line ">
+                            śachīra aṅgane kabhu,<span class="SongVerse__space">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="SongVerse__space">&nbsp;&nbsp;&nbsp;&nbsp;</span>mādhavendra-purī prabhu,
+                        </li>
+                    
                 
-            
+                    
+                        <li class="SongVerse__line SongVerse__line_indent_2">
+                            prasādānna korena bhojana
+                        </li>
+                    
                 
-                    <li class="SongVerse__line SongVerse__line_indent_2">
-                        prasādānna korena bhojana
-                    </li>
+                    
+                        <li class="SongVerse__line ">
+                            khāite khāite tā’ra,<span class="SongVerse__space">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="SongVerse__space">&nbsp;&nbsp;&nbsp;&nbsp;</span>āilo prema sudurbāra,
+                        </li>
+                    
                 
-            
+                    
+                        <li class="SongVerse__line SongVerse__line_indent_2">
+                            bole, śuno sannyāsīra gaṇa
+                        </li>
+                    
                 
-                    <li class="SongVerse__line ">
-                        khāite khāite tā’ra,<span class="SongVerse__space">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="SongVerse__space">&nbsp;&nbsp;&nbsp;&nbsp;</span>āilo prema sudurbāra,
-                    </li>
-                
-            
-                
-                    <li class="SongVerse__line SongVerse__line_indent_2">
-                        bole, śuno sannyāsīra gaṇa
-                    </li>
-                
-            
-        </ul>
+            </ul>
+        </div>
     
 
     
-        <div class="Collapse Collapse__show" data-elem="translation">
+        <div class="Collapse Collapse__show" data-elem="wordByWord">
             <ul class="SongVerse__wordbyword">
                 
                     <li class="SongVerse__paragraph">
@@ -400,37 +460,39 @@ eka-dina śāntipure,        prabhu advaitera ghare,..." />
     
 
     
-        <ul class="SongVerse__text">
-            
+        <div class="Collapse Collapse__show" data-elem="verse">
+            <ul class="SongVerse__text">
                 
-                    <li class="SongVerse__line ">
-                        mochā-ghanṭa phula-baḍi,<span class="SongVerse__space">&nbsp;&nbsp;&nbsp;&nbsp;</span>dāli-dālnā-chacchaḍi,
-                    </li>
+                    
+                        <li class="SongVerse__line ">
+                            mochā-ghanṭa phula-baḍi,<span class="SongVerse__space">&nbsp;&nbsp;&nbsp;&nbsp;</span>dāli-dālnā-chacchaḍi,
+                        </li>
+                    
                 
-            
+                    
+                        <li class="SongVerse__line SongVerse__line_indent_2">
+                            śachī-mātā korilo randhana
+                        </li>
+                    
                 
-                    <li class="SongVerse__line SongVerse__line_indent_2">
-                        śachī-mātā korilo randhana
-                    </li>
+                    
+                        <li class="SongVerse__line ">
+                            tā’ra śuddhā bhakti heri’,<span class="SongVerse__space">&nbsp;&nbsp;&nbsp;&nbsp;</span>bhojana korilo hari,
+                        </li>
+                    
                 
-            
+                    
+                        <li class="SongVerse__line SongVerse__line_indent_2">
+                            sudhā-sama e anna-byañjana
+                        </li>
+                    
                 
-                    <li class="SongVerse__line ">
-                        tā’ra śuddhā bhakti heri’,<span class="SongVerse__space">&nbsp;&nbsp;&nbsp;&nbsp;</span>bhojana korilo hari,
-                    </li>
-                
-            
-                
-                    <li class="SongVerse__line SongVerse__line_indent_2">
-                        sudhā-sama e anna-byañjana
-                    </li>
-                
-            
-        </ul>
+            </ul>
+        </div>
     
 
     
-        <div class="Collapse Collapse__show" data-elem="translation">
+        <div class="Collapse Collapse__show" data-elem="wordByWord">
             <ul class="SongVerse__wordbyword">
                 
                     <li class="SongVerse__paragraph">
@@ -471,37 +533,39 @@ eka-dina śāntipure,        prabhu advaitera ghare,..." />
     
 
     
-        <ul class="SongVerse__text">
-            
+        <div class="Collapse Collapse__show" data-elem="verse">
+            <ul class="SongVerse__text">
                 
-                    <li class="SongVerse__line ">
-                        yoge yogī pāya jāhā,<span class="SongVerse__space">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="SongVerse__space">&nbsp;&nbsp;&nbsp;&nbsp;</span>bhoge āja ha’be tāhā,
-                    </li>
+                    
+                        <li class="SongVerse__line ">
+                            yoge yogī pāya jāhā,<span class="SongVerse__space">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="SongVerse__space">&nbsp;&nbsp;&nbsp;&nbsp;</span>bhoge āja ha’be tāhā,
+                        </li>
+                    
                 
-            
+                    
+                        <li class="SongVerse__line SongVerse__line_indent_2">
+                            ‘hari’ boli’ khāo sabe bhāi
+                        </li>
+                    
                 
-                    <li class="SongVerse__line SongVerse__line_indent_2">
-                        ‘hari’ boli’ khāo sabe bhāi
-                    </li>
+                    
+                        <li class="SongVerse__line ">
+                            kṛṣṇera prasād-anna,<span class="SongVerse__space">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="SongVerse__space">&nbsp;&nbsp;&nbsp;&nbsp;</span>tri-jagat kore dhanya,
+                        </li>
+                    
                 
-            
+                    
+                        <li class="SongVerse__line SongVerse__line_indent_2">
+                            tripurāri nāche jāhā pāi’
+                        </li>
+                    
                 
-                    <li class="SongVerse__line ">
-                        kṛṣṇera prasād-anna,<span class="SongVerse__space">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="SongVerse__space">&nbsp;&nbsp;&nbsp;&nbsp;</span>tri-jagat kore dhanya,
-                    </li>
-                
-            
-                
-                    <li class="SongVerse__line SongVerse__line_indent_2">
-                        tripurāri nāche jāhā pāi’
-                    </li>
-                
-            
-        </ul>
+            </ul>
+        </div>
     
 
     
-        <div class="Collapse Collapse__show" data-elem="translation">
+        <div class="Collapse Collapse__show" data-elem="wordByWord">
             <ul class="SongVerse__wordbyword">
                 
                     <li class="SongVerse__paragraph">
@@ -764,7 +828,7 @@ eka-dina śāntipure,        prabhu advaitera ghare,..." />
                 if (telegraph_href) {
                     tgCopyBox.style.display = 'block';
                 }
-                
+
                 input.value = href;
                 tgInput.value = telegraph_href;
 
@@ -802,35 +866,21 @@ eka-dina śāntipure,        prabhu advaitera ghare,..." />
                 const embeds = document.querySelectorAll('[data-embed]');
 
                 embeds.forEach((elem) => {
-                    const frameContainer = elem.parentNode.querySelector('.Collapse');
+                    const frameContainer = elem.parentNode.querySelector('.EmbedCollapse');
 
                     elem.addEventListener('click', () => {
-                        const isShown = frameContainer.classList.contains('Collapse__show');
+                        const isShown = frameContainer.classList.contains('EmbedCollapse__show');
                         const iFrame = elem.parentNode.querySelector('iframe');
                         const player = SC.Widget(iFrame);
 
                         elem.classList.toggle('show');
-                        frameContainer.classList.toggle('Collapse__show');
+                        frameContainer.classList.toggle('EmbedCollapse__show');
 
                         player.bind(SC.Widget.Events.READY, () =>
                             isShown ? player.pause() : player.play()
                         );
                     });
                 });
-            })();
-        </script>
-
-        <script>
-            /**
-             * Collapse-expand verse translations.
-             */
-            (function () {
-                const toggle = document.getElementById('toggle-checkbox');
-                const targets = [...document.querySelectorAll('[data-elem="translation"]')];
-
-                toggle.addEventListener('change', () =>
-                    targets.forEach((t) => t.classList.toggle('Collapse__show'))
-                );
             })();
         </script>
 
@@ -902,6 +952,112 @@ eka-dina śāntipure,        prabhu advaitera ghare,..." />
             }) ();
         </script>
 
+        <script>
+            /**
+             * Collapse-expand verses / translations.
+             */
+            (function () {
+                const translations = [...document.querySelectorAll('[data-elem="translation"]')];
+                const wordByWord = [...document.querySelectorAll('[data-elem="wordByWord"]')];
+                const verses = [...document.querySelectorAll('[data-elem="verse"]')];
+                const main = [...document.querySelectorAll('.Main')];
+
+                const collapseShowClass = 'Collapse__show';
+
+                var transitionAdded = false;
+
+                function addTransitions() {
+                    if (transitionAdded) return;
+
+                    transitionAdded = true;
+                    [...document.querySelectorAll('.Collapse')]
+                        .forEach((v) => v.classList.add('Collapse__transition'));
+
+                    [...document.querySelectorAll('.transition-ready')]
+                        .forEach((v) => v.classList.add('enable-transition'));
+                }
+
+                function toggle(targets, add) {
+                    targets.forEach((t) => toggleCollapse(t, add));
+                }
+
+                function toggleTranslationOnlyMode(active) {
+                    toggleClass(main, active, 'translation-only-mode');
+                }
+
+                function toggleClass(targets, add, className) {
+                    const method = add ? 'add' : 'remove';
+                    targets.forEach((t) => t.classList[method](className));
+                }
+
+                function toggleCollapse(el, show) {
+                    if (show && !el.classList.contains(collapseShowClass)) {
+                        var height;
+                        if (transitionAdded) {
+                            height = el.scrollHeight + 'px';
+                        } else {
+                            height = 'auto';
+                        }
+
+                        el.style.height = height; // animate from 0 → actual height
+                        el.classList.add(collapseShowClass);
+                        requestAnimationFrame(() => {
+                            // `scrollHeight` will be changed after 'Collapse__show' because of changed line-height.
+                            el.style.height = height; // animate from 0 → actual height
+
+
+                        });
+                    } else if (!show && el.classList.contains(collapseShowClass)) {
+                        el.style.height = el.scrollHeight + 'px'; // start from current height
+                        requestAnimationFrame(() => {
+                            el.style.height = '0px'; // animate down
+                            el.classList.remove(collapseShowClass);
+                        });
+                    }
+
+                    // Clean up inline height after transition
+                    el.addEventListener('transitionend', function handler(e) {
+                        if (show) {
+                            el.style.height = 'auto'; // keep auto after expand
+                        } else {
+                            el.style.height = '0px';
+                        }
+                        el.removeEventListener('transitionend', handler);
+                    });
+                }
+
+                function performUpdate(mode) {
+                    if (mode === 1) {
+                        toggle(verses, true);
+                        toggle(wordByWord, false);
+                        toggle(translations, false);
+                        toggleTranslationOnlyMode(false);
+                    } else if (mode === 2) {
+                        toggle(verses, false);
+                        toggle(wordByWord, false);
+                        toggle(translations, true);
+                        toggleTranslationOnlyMode(true);
+                    } else {
+                        toggle(verses, true);
+                        toggle(wordByWord, true);
+                        toggle(translations, true);
+                        toggleTranslationOnlyMode(false);
+                    }
+                }
+
+                document.addEventListener(ThreeModeSwitch.EVENT_NAME, ({ detail }) => {
+                    addTransitions();
+                    performUpdate(detail.value);
+                    setSongDisplayMode(detail.value);
+                });
+
+                const initialMode = getSongDisplayMode();
+                if (initialMode !== 3) {
+                    performUpdate(initialMode);
+                }
+            })();
+        </script>
+
         
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZRQ94TXNJE"></script>
@@ -910,8 +1066,12 @@ eka-dina śāntipure,        prabhu advaitera ghare,..." />
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'G-ZRQ94TXNJE');
+  gtag('config', 'G-ZRQ94TXNJE', {
+    songbook: 'es',
+    song: 'eka-dina-shiantipure'
+  });
 </script>
+
 
     </body>
 </html>

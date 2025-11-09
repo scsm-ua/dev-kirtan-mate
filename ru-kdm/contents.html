@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="ru">
     <head>
         
         <title>Вайшнавский песенник | Kirtan Site</title>
@@ -24,7 +24,48 @@
         <meta name="twitter:title" content="Вайшнавский песенник" />
         <meta name="twitter:description" content="Содержание" />
 
-        <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://dev.kirtan.site/#website","url":"https://dev.kirtan.site/","name":"Kirtan Site","description":"Содержание","inLanguage":"en-GB"},{"@type":"CollectionPage","@id":"https://dev.kirtan.site/ru-kdm/contents.html","url":"https://dev.kirtan.site/ru-kdm/contents.html","name":"Вайшнавский песенник","isPartOf":{"@id":"https://dev.kirtan.site/#website"}}]}</script>
+<link rel="alternate" hreflang="en" href="https://dev.kirtan.site/en/contents.html" />
+<link rel="alternate" hreflang="ru" href="https://dev.kirtan.site/ru/contents.html" />
+<link rel="alternate" hreflang="es" href="https://dev.kirtan.site/es/contents.html" />
+<link rel="alternate" hreflang="pt-BR" href="https://dev.kirtan.site/pt/contents.html" />
+<link rel="alternate" hreflang="en" href="https://dev.kirtan.site/en-pe/contents.html" />
+<link rel="alternate" hreflang="lv" href="https://dev.kirtan.site/lv/contents.html" />
+<link rel="alternate" hreflang="uk" href="https://dev.kirtan.site/ua/contents.html" />
+<link rel="alternate" hreflang="x-default" href="https://dev.kirtan.site/en/contents.html" />
+
+
+        <script type="application/ld+json">{
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@type": "Organization",
+            "@id": "https://scsmath.com/#organization",
+            "name": "Sri Chaitanya Saraswat Math",
+            "url": "https://scsmath.com/"
+        },
+        {
+            "@type": "WebSite",
+            "@id": "https://dev.kirtan.site/#website",
+            "url": "https://dev.kirtan.site/",
+            "name": "Kirtan Site",
+            "description": "A digital Vaishnava songbook with lyrics, translations, and audio recordings.",
+            "publisher": {
+                "@id": "https://scsmath.com/#organization"
+            }
+        },
+        {
+            "@type": "CollectionPage",
+            "@id": "https://dev.kirtan.site/ru-kdm/contents.html",
+            "url": "https://dev.kirtan.site/ru-kdm/contents.html",
+            "name": "Вайшнавский песенник – Содержание",
+            "description": "Содержание вайшнавского песенника.",
+            "inLanguage": "ru",
+            "isPartOf": {
+                "@id": "https://dev.kirtan.site/#website"
+            }
+        }
+    ]
+}</script>
         
         <link rel="apple-touch-icon" sizes="57x57" href="https://dev.kirtan.site/css/favicon/apple-icon-57x57.png">
         <link rel="apple-touch-icon" sizes="60x60" href="https://dev.kirtan.site/css/favicon/apple-icon-60x60.png">
@@ -873,8 +914,12 @@
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'G-ZRQ94TXNJE');
+  gtag('config', 'G-ZRQ94TXNJE', {
+    songbook: 'ru-kdm',
+    song: null
+  });
 </script>
+
 
 
         <script>

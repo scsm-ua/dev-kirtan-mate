@@ -25,7 +25,60 @@
         <meta name="twitter:title" content="Śrī Nagara Kīrtana 8. by Śrīla Bhakti Vinod Ṭhākur. Śrī Nāma (from Gītāvalī)" />
         <meta name="twitter:description" content="‘hari’ bole’ modera gaura elo..." />
 
-        <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://dev.kirtan.site/#website","url":"https://dev.kirtan.site/","name":"Kirtan Site","description":"‘hari’ bole’ modera gaura elo...","inLanguage":"en-GB"},{"@type":"CollectionPage","@id":"https://dev.kirtan.site/en/hari-bole-modera-gaura-elo.html","url":"https://dev.kirtan.site/en/hari-bole-modera-gaura-elo.html","name":"Śrī Nagara Kīrtana 8. by Śrīla Bhakti Vinod Ṭhākur. Śrī Nāma (from Gītāvalī)","isPartOf":{"@id":"https://dev.kirtan.site/#website"}}]}</script>
+<link rel="alternate" hreflang="en" href="https://dev.kirtan.site/en/hari-bole-modera-gaura-elo.html" />
+<link rel="alternate" hreflang="ru" href="https://dev.kirtan.site/ru/hari-bole-modera-gaura-elo.html" />
+<link rel="alternate" hreflang="x-default" href="https://dev.kirtan.site/en/hari-bole-modera-gaura-elo.html" />
+
+
+        <script type="application/ld+json">{
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@type": "CollectionPage",
+            "@id": "https://dev.kirtan.site/en/hari-bole-modera-gaura-elo.html",
+            "url": "https://dev.kirtan.site/en/hari-bole-modera-gaura-elo.html",
+            "name": "Śrī Nagara Kīrtana 8. by Śrīla Bhakti Vinod Ṭhākur. Śrī Nāma (from Gītāvalī)",
+            "inLanguage": "en",
+            "isPartOf": {
+                "@id": "https://dev.kirtan.site/#website"
+            }
+        },
+        {
+            "@type": "MusicComposition",
+            "@id": "https://dev.kirtan.site/en/hari-bole-modera-gaura-elo.html#composition",
+            "url": "https://dev.kirtan.site/en/hari-bole-modera-gaura-elo.html",
+            "name": "Śrī Nagara Kīrtana 8. Śrī Nāma (from Gītāvalī)",
+            "alternateName": [
+                "elo re gaurāṅga-chānd preme"
+            ],
+            "composer": {
+                "@type": "Person",
+                "name": "Śrīla Bhakti Vinod Ṭhākur"
+            },
+            "isPartOf": {
+                "@id": "https://dev.kirtan.site/#website"
+            },
+            "about": [
+                {
+                    "@type": "Thing",
+                    "name": "Bhakti Yoga"
+                },
+                {
+                    "@type": "Thing",
+                    "name": "Gaudiya Vaishnavism"
+                }
+            ],
+            "genre": [
+                "Devotional",
+                "Bhajan",
+                "Kirtan"
+            ],
+            "mainEntityOfPage": {
+                "@id": "https://dev.kirtan.site/en/hari-bole-modera-gaura-elo.html"
+            }
+        }
+    ]
+}</script>
         
         <link rel="apple-touch-icon" sizes="57x57" href="https://dev.kirtan.site/css/favicon/apple-icon-57x57.png">
         <link rel="apple-touch-icon" sizes="60x60" href="https://dev.kirtan.site/css/favicon/apple-icon-60x60.png">
@@ -55,7 +108,13 @@
 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tingle/0.16.0/tingle.min.css" integrity="sha512-b+T2i3P45i1LZM7I00Ci5QquB9szqaxu+uuk5TUSGjZQ4w4n+qujQiIuvTv2BxE7WCGQCifNMksyKILDiHzsOg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <script src="https://cdnjs.cloudflare.com/ajax/libs/tingle/0.16.0/tingle.min.js" integrity="sha512-2B9/byNV1KKRm5nQ2RLViPFD6U4dUjDGwuW1GU+ImJh8YinPU9Zlq1GzdTMO+G2ROrB5o1qasJBy1ttYz0wCug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script>
+            var locals = {
+                pathsToImages: 'https://dev.kirtan.site/css'
+            };
+        </script>
         <script src="https://dev.kirtan.site/js/user-choice.js"></script>
+        <script src="https://dev.kirtan.site/js/three-mode-switch.js"></script>
     </head>
 
     <body>
@@ -81,7 +140,7 @@
 </header>
 
 
-                <main class="Main SongPage">
+                <main class="Main SongPage transition-ready">
                     <div class="Main__container SongPage__container">
                         <div class="SongPage__content">
                             <link
@@ -153,13 +212,9 @@
                             <main class="SongPage__main">
                                 
                                     <div class="SongPage__toggle">
-                                        <label class="Toggle">
-                                            <input class="Toggle__checkbox" id="toggle-checkbox" type="checkbox" checked>
-                                            <div class="Toggle__switch"></div>
-                                            <span class="Toggle__label SongPage__show">
-                                                Show translation
-                                            </span>
-                                        </label>
+                                        <three-mode-switch
+                                            label="Show verses / translation"
+                                        ></three-mode-switch>
                                     </div>
 
                                     <ul class="SongPage__verses >
@@ -170,15 +225,17 @@
     
 
     
-        <ul class="SongVerse__text">
-            
+        <div class="Collapse Collapse__show" data-elem="verse">
+            <ul class="SongVerse__text">
                 
-                    <li class="SongVerse__line ">
-                        ‘hari’ bole’ modera gaura elo
-                    </li>
+                    
+                        <li class="SongVerse__line ">
+                            ‘hari’ bole’ modera gaura elo
+                        </li>
+                    
                 
-            
-        </ul>
+            </ul>
+        </div>
     
 
     
@@ -211,21 +268,23 @@
     
 
     
-        <ul class="SongVerse__text">
-            
+        <div class="Collapse Collapse__show" data-elem="verse">
+            <ul class="SongVerse__text">
                 
-                    <li class="SongVerse__line ">
-                        elo re gaurāṅga-chānd preme
-                    </li>
+                    
+                        <li class="SongVerse__line ">
+                            elo re gaurāṅga-chānd preme
+                        </li>
+                    
                 
-            
+                    
+                        <li class="SongVerse__line ">
+                            elothelo nitāi-advaita-saṅge godrume paśilo
+                        </li>
+                    
                 
-                    <li class="SongVerse__line ">
-                        elothelo nitāi-advaita-saṅge godrume paśilo
-                    </li>
-                
-            
-        </ul>
+            </ul>
+        </div>
     
 
     
@@ -258,21 +317,23 @@
     
 
     
-        <ul class="SongVerse__text">
-            
+        <div class="Collapse Collapse__show" data-elem="verse">
+            <ul class="SongVerse__text">
                 
-                    <li class="SongVerse__line ">
-                        saṅkīrtana-rase mete nam bilāilo
-                    </li>
+                    
+                        <li class="SongVerse__line ">
+                            saṅkīrtana-rase mete nam bilāilo
+                        </li>
+                    
                 
-            
+                    
+                        <li class="SongVerse__line ">
+                            nāmera hāṭe ese preme jagat bhāsāilo
+                        </li>
+                    
                 
-                    <li class="SongVerse__line ">
-                        nāmera hāṭe ese preme jagat bhāsāilo
-                    </li>
-                
-            
-        </ul>
+            </ul>
+        </div>
     
 
     
@@ -305,21 +366,23 @@
     
 
     
-        <ul class="SongVerse__text">
-            
+        <div class="Collapse Collapse__show" data-elem="verse">
+            <ul class="SongVerse__text">
                 
-                    <li class="SongVerse__line ">
-                        godruma-vāsīr āj duḥkha dūre gelo
-                    </li>
+                    
+                        <li class="SongVerse__line ">
+                            godruma-vāsīr āj duḥkha dūre gelo
+                        </li>
+                    
                 
-            
+                    
+                        <li class="SongVerse__line ">
+                            bhakta-vṛnda-saṅge āsi’ hāṭa jāgāilo
+                        </li>
+                    
                 
-                    <li class="SongVerse__line ">
-                        bhakta-vṛnda-saṅge āsi’ hāṭa jāgāilo
-                    </li>
-                
-            
-        </ul>
+            </ul>
+        </div>
     
 
     
@@ -352,21 +415,23 @@
     
 
     
-        <ul class="SongVerse__text">
-            
+        <div class="Collapse Collapse__show" data-elem="verse">
+            <ul class="SongVerse__text">
                 
-                    <li class="SongVerse__line ">
-                        nādīya bhramite gorā elo nāmer hāṭe
-                    </li>
+                    
+                        <li class="SongVerse__line ">
+                            nādīya bhramite gorā elo nāmer hāṭe
+                        </li>
+                    
                 
-            
+                    
+                        <li class="SongVerse__line ">
+                            gaura elo hāṭe, saṅge nitāi elo hāṭe
+                        </li>
+                    
                 
-                    <li class="SongVerse__line ">
-                        gaura elo hāṭe, saṅge nitāi elo hāṭe
-                    </li>
-                
-            
-        </ul>
+            </ul>
+        </div>
     
 
     
@@ -399,21 +464,23 @@
     
 
     
-        <ul class="SongVerse__text">
-            
+        <div class="Collapse Collapse__show" data-elem="verse">
+            <ul class="SongVerse__text">
                 
-                    <li class="SongVerse__line ">
-                        nāche mātoyārā nitāi godrumera māṭhe
-                    </li>
+                    
+                        <li class="SongVerse__line ">
+                            nāche mātoyārā nitāi godrumera māṭhe
+                        </li>
+                    
                 
-            
+                    
+                        <li class="SongVerse__line ">
+                            jagat mātāy nitāi premera mālasāṭe
+                        </li>
+                    
                 
-                    <li class="SongVerse__line ">
-                        jagat mātāy nitāi premera mālasāṭe
-                    </li>
-                
-            
-        </ul>
+            </ul>
+        </div>
     
 
     
@@ -446,27 +513,29 @@
     
 
     
-        <ul class="SongVerse__text">
-            
+        <div class="Collapse Collapse__show" data-elem="verse">
+            <ul class="SongVerse__text">
                 
-                    <li class="SongVerse__line ">
-                        <span class="SongVerse__light"><span class="SongVerse__light">(torā dekhe’ jā’ re)</span></span>
-                    </li>
+                    
+                        <li class="SongVerse__line ">
+                            <span class="SongVerse__light"><span class="SongVerse__light">(torā dekhe’ jā’ re)</span></span>
+                        </li>
+                    
                 
-            
+                    
+                        <li class="SongVerse__line ">
+                            advaitādi bhakta-vṛnda nāche ghāṭe ghāṭe
+                        </li>
+                    
                 
-                    <li class="SongVerse__line ">
-                        advaitādi bhakta-vṛnda nāche ghāṭe ghāṭe
-                    </li>
+                    
+                        <li class="SongVerse__line ">
+                            palāya duranta kali poḍiyā bibhrāṭe
+                        </li>
+                    
                 
-            
-                
-                    <li class="SongVerse__line ">
-                        palāya duranta kali poḍiyā bibhrāṭe
-                    </li>
-                
-            
-        </ul>
+            </ul>
+        </div>
     
 
     
@@ -499,21 +568,23 @@
     
 
     
-        <ul class="SongVerse__text">
-            
+        <div class="Collapse Collapse__show" data-elem="verse">
+            <ul class="SongVerse__text">
                 
-                    <li class="SongVerse__line ">
-                        ki sukhe bhāsilo jīva gorāchānder nāṭe
-                    </li>
+                    
+                        <li class="SongVerse__line ">
+                            ki sukhe bhāsilo jīva gorāchānder nāṭe
+                        </li>
+                    
                 
-            
+                    
+                        <li class="SongVerse__line ">
+                            dekhiyā śuniyā pāṣanḍīr buka phāṭe
+                        </li>
+                    
                 
-                    <li class="SongVerse__line ">
-                        dekhiyā śuniyā pāṣanḍīr buka phāṭe
-                    </li>
-                
-            
-        </ul>
+            </ul>
+        </div>
     
 
     
@@ -768,7 +839,7 @@
                 if (telegraph_href) {
                     tgCopyBox.style.display = 'block';
                 }
-                
+
                 input.value = href;
                 tgInput.value = telegraph_href;
 
@@ -806,35 +877,21 @@
                 const embeds = document.querySelectorAll('[data-embed]');
 
                 embeds.forEach((elem) => {
-                    const frameContainer = elem.parentNode.querySelector('.Collapse');
+                    const frameContainer = elem.parentNode.querySelector('.EmbedCollapse');
 
                     elem.addEventListener('click', () => {
-                        const isShown = frameContainer.classList.contains('Collapse__show');
+                        const isShown = frameContainer.classList.contains('EmbedCollapse__show');
                         const iFrame = elem.parentNode.querySelector('iframe');
                         const player = SC.Widget(iFrame);
 
                         elem.classList.toggle('show');
-                        frameContainer.classList.toggle('Collapse__show');
+                        frameContainer.classList.toggle('EmbedCollapse__show');
 
                         player.bind(SC.Widget.Events.READY, () =>
                             isShown ? player.pause() : player.play()
                         );
                     });
                 });
-            })();
-        </script>
-
-        <script>
-            /**
-             * Collapse-expand verse translations.
-             */
-            (function () {
-                const toggle = document.getElementById('toggle-checkbox');
-                const targets = [...document.querySelectorAll('[data-elem="translation"]')];
-
-                toggle.addEventListener('change', () =>
-                    targets.forEach((t) => t.classList.toggle('Collapse__show'))
-                );
             })();
         </script>
 
@@ -941,6 +998,112 @@
             }) ();
         </script>
 
+        <script>
+            /**
+             * Collapse-expand verses / translations.
+             */
+            (function () {
+                const translations = [...document.querySelectorAll('[data-elem="translation"]')];
+                const wordByWord = [...document.querySelectorAll('[data-elem="wordByWord"]')];
+                const verses = [...document.querySelectorAll('[data-elem="verse"]')];
+                const main = [...document.querySelectorAll('.Main')];
+
+                const collapseShowClass = 'Collapse__show';
+
+                var transitionAdded = false;
+
+                function addTransitions() {
+                    if (transitionAdded) return;
+
+                    transitionAdded = true;
+                    [...document.querySelectorAll('.Collapse')]
+                        .forEach((v) => v.classList.add('Collapse__transition'));
+
+                    [...document.querySelectorAll('.transition-ready')]
+                        .forEach((v) => v.classList.add('enable-transition'));
+                }
+
+                function toggle(targets, add) {
+                    targets.forEach((t) => toggleCollapse(t, add));
+                }
+
+                function toggleTranslationOnlyMode(active) {
+                    toggleClass(main, active, 'translation-only-mode');
+                }
+
+                function toggleClass(targets, add, className) {
+                    const method = add ? 'add' : 'remove';
+                    targets.forEach((t) => t.classList[method](className));
+                }
+
+                function toggleCollapse(el, show) {
+                    if (show && !el.classList.contains(collapseShowClass)) {
+                        var height;
+                        if (transitionAdded) {
+                            height = el.scrollHeight + 'px';
+                        } else {
+                            height = 'auto';
+                        }
+
+                        el.style.height = height; // animate from 0 → actual height
+                        el.classList.add(collapseShowClass);
+                        requestAnimationFrame(() => {
+                            // `scrollHeight` will be changed after 'Collapse__show' because of changed line-height.
+                            el.style.height = height; // animate from 0 → actual height
+
+
+                        });
+                    } else if (!show && el.classList.contains(collapseShowClass)) {
+                        el.style.height = el.scrollHeight + 'px'; // start from current height
+                        requestAnimationFrame(() => {
+                            el.style.height = '0px'; // animate down
+                            el.classList.remove(collapseShowClass);
+                        });
+                    }
+
+                    // Clean up inline height after transition
+                    el.addEventListener('transitionend', function handler(e) {
+                        if (show) {
+                            el.style.height = 'auto'; // keep auto after expand
+                        } else {
+                            el.style.height = '0px';
+                        }
+                        el.removeEventListener('transitionend', handler);
+                    });
+                }
+
+                function performUpdate(mode) {
+                    if (mode === 1) {
+                        toggle(verses, true);
+                        toggle(wordByWord, false);
+                        toggle(translations, false);
+                        toggleTranslationOnlyMode(false);
+                    } else if (mode === 2) {
+                        toggle(verses, false);
+                        toggle(wordByWord, false);
+                        toggle(translations, true);
+                        toggleTranslationOnlyMode(true);
+                    } else {
+                        toggle(verses, true);
+                        toggle(wordByWord, true);
+                        toggle(translations, true);
+                        toggleTranslationOnlyMode(false);
+                    }
+                }
+
+                document.addEventListener(ThreeModeSwitch.EVENT_NAME, ({ detail }) => {
+                    addTransitions();
+                    performUpdate(detail.value);
+                    setSongDisplayMode(detail.value);
+                });
+
+                const initialMode = getSongDisplayMode();
+                if (initialMode !== 3) {
+                    performUpdate(initialMode);
+                }
+            })();
+        </script>
+
         
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZRQ94TXNJE"></script>
@@ -949,8 +1112,12 @@
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'G-ZRQ94TXNJE');
+  gtag('config', 'G-ZRQ94TXNJE', {
+    songbook: 'en',
+    song: 'hari-bole-modera-gaura-elo'
+  });
 </script>
+
 
     </body>
 </html>

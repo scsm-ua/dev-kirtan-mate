@@ -14,17 +14,58 @@
         <meta property="og:locale" content="ua_UA" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Kirtan Site" />
-        <meta property="og:image" content="https://dev.kirtan.site/css/sharing-banner.png" />
+        <meta property="og:image" content="https://dev.kirtan.site/css/banner/banner-en@2.png" />
         <meta property="og:image:width" content="648" />
         <meta property="og:image:height" content="488" />
         <meta property="og:image:type" content="image/png" />
 
         <meta name="twitter:card" content="summary" />
-        <meta name="twitter:image" content="https://dev.kirtan.site/css/sharing-banner.png" />
+        <meta name="twitter:image" content="https://dev.kirtan.site/css/banner/banner-en@2.png" />
         <meta name="twitter:title" content="Vaishnava Songbook" />
         <meta name="twitter:description" content="List of available songbooks" />
 
-        <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://dev.kirtan.site/#website","url":"https://dev.kirtan.site/","name":"Kirtan Site","description":"List of available songbooks","inLanguage":"en-GB"},{"@type":"CollectionPage","@id":"https://dev.kirtan.site/en/","url":"https://dev.kirtan.site/en/","name":"Vaishnava Songbook","isPartOf":{"@id":"https://dev.kirtan.site/#website"}}]}</script>
+<link rel="alternate" hreflang="en" href="https://dev.kirtan.site/en/" />
+<link rel="alternate" hreflang="ru" href="https://dev.kirtan.site/ru/" />
+<link rel="alternate" hreflang="es" href="https://dev.kirtan.site/es/" />
+<link rel="alternate" hreflang="pt-BR" href="https://dev.kirtan.site/pt/" />
+<link rel="alternate" hreflang="en" href="https://dev.kirtan.site/en-pe/" />
+<link rel="alternate" hreflang="lv" href="https://dev.kirtan.site/lv/" />
+<link rel="alternate" hreflang="uk" href="https://dev.kirtan.site/ua/" />
+<link rel="alternate" hreflang="x-default" href="https://dev.kirtan.site/en/" />
+
+
+        <script type="application/ld+json">{
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@type": "Organization",
+            "@id": "https://scsmath.com/#organization",
+            "name": "Sri Chaitanya Saraswat Math",
+            "url": "https://scsmath.com/"
+        },
+        {
+            "@type": "WebSite",
+            "@id": "https://dev.kirtan.site/#website",
+            "url": "https://dev.kirtan.site/",
+            "name": "Kirtan Site",
+            "description": "A digital Vaishnava songbook with lyrics, translations, and audio recordings.",
+            "publisher": {
+                "@id": "https://scsmath.com/#organization"
+            }
+        },
+        {
+            "@type": "CollectionPage",
+            "@id": "https://dev.kirtan.site/en/",
+            "url": "https://dev.kirtan.site/en/",
+            "name": "Vaishnava Songbooks",
+            "description": "List of available Vaishnava songbooks with lyrics and translations.",
+            "inLanguage": "en",
+            "isPartOf": {
+                "@id": "https://dev.kirtan.site/#website"
+            }
+        }
+    ]
+}</script>
         
         <link rel="apple-touch-icon" sizes="57x57" href="https://dev.kirtan.site/css/favicon/apple-icon-57x57.png">
         <link rel="apple-touch-icon" sizes="60x60" href="https://dev.kirtan.site/css/favicon/apple-icon-60x60.png">
@@ -86,7 +127,7 @@
                                         <div class="BookListPage__wrapper">
                                             <div class="BookListPage__ratio app-fixed-ratio-container">
                                                 <div class="app-fixed-ratio-content">
-                                                    <a href="https://dev.kirtan.site/en/contents.html" class="BookListPage__link">
+                                                    <a href="https://dev.kirtan.site/en/a-z.html" class="BookListPage__link">
                                                         <div class="BookListPage__box">
                                                             <img
                                                                     alt=""
@@ -126,7 +167,7 @@
                                         <div class="BookListPage__wrapper">
                                             <div class="BookListPage__ratio app-fixed-ratio-container">
                                                 <div class="app-fixed-ratio-content">
-                                                    <a href="https://dev.kirtan.site/ru/contents.html" class="BookListPage__link">
+                                                    <a href="https://dev.kirtan.site/ru/a-z.html" class="BookListPage__link">
                                                         <div class="BookListPage__box">
                                                             <img
                                                                     alt=""
@@ -166,7 +207,7 @@
                                         <div class="BookListPage__wrapper">
                                             <div class="BookListPage__ratio app-fixed-ratio-container">
                                                 <div class="app-fixed-ratio-content">
-                                                    <a href="https://dev.kirtan.site/es/contents.html" class="BookListPage__link">
+                                                    <a href="https://dev.kirtan.site/es/a-z.html" class="BookListPage__link">
                                                         <div class="BookListPage__box">
                                                             <img
                                                                     alt=""
@@ -200,13 +241,53 @@
                                 
                                     <li
                                             class="BookListPage__item"
+                                            data-book-id="pt"
+                                            onclick="handleBookChoice(event)"
+                                    >
+                                        <div class="BookListPage__wrapper">
+                                            <div class="BookListPage__ratio app-fixed-ratio-container">
+                                                <div class="app-fixed-ratio-content">
+                                                    <a href="https://dev.kirtan.site/pt/a-z.html" class="BookListPage__link">
+                                                        <div class="BookListPage__box">
+                                                            <img
+                                                                    alt=""
+                                                                    class="BookListPage__image"
+                                                                    srcset="
+                                                                        https://dev.kirtan.site/css/banner/banner-pt.png 1x,
+                                                                        https://dev.kirtan.site/css/banner/banner-pt@2.png 2x
+                                                                    "
+                                                                    src="https://dev.kirtan.site/css/banner/banner-pt.png"
+                                                            >
+                                                        </div>
+
+                                                        <div class="BookListPage__info">
+                                                            <h4 class="BookListPage__title">
+                                                                Livro de Kirtan
+                                                            </h4>
+
+                                                            <div class="ellipsis BookListPage__subtitle">
+                                                                Seva Ashram, Campos do Jordão
+                                                            </div>
+
+                                                            <div class="BookListPage__count">
+                                                                112 songs
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                
+                                    <li
+                                            class="BookListPage__item"
                                             data-book-id="en-pe"
                                             onclick="handleBookChoice(event)"
                                     >
                                         <div class="BookListPage__wrapper">
                                             <div class="BookListPage__ratio app-fixed-ratio-container">
                                                 <div class="app-fixed-ratio-content">
-                                                    <a href="https://dev.kirtan.site/en-pe/contents.html" class="BookListPage__link">
+                                                    <a href="https://dev.kirtan.site/en-pe/a-z.html" class="BookListPage__link">
                                                         <div class="BookListPage__box">
                                                             <img
                                                                     alt=""
@@ -246,7 +327,7 @@
                                         <div class="BookListPage__wrapper">
                                             <div class="BookListPage__ratio app-fixed-ratio-container">
                                                 <div class="app-fixed-ratio-content">
-                                                    <a href="https://dev.kirtan.site/lv/contents.html" class="BookListPage__link">
+                                                    <a href="https://dev.kirtan.site/lv/a-z.html" class="BookListPage__link">
                                                         <div class="BookListPage__box">
                                                             <img
                                                                     alt=""
@@ -286,7 +367,7 @@
                                         <div class="BookListPage__wrapper">
                                             <div class="BookListPage__ratio app-fixed-ratio-container">
                                                 <div class="app-fixed-ratio-content">
-                                                    <a href="https://dev.kirtan.site/ua/contents.html" class="BookListPage__link">
+                                                    <a href="https://dev.kirtan.site/ua/a-z.html" class="BookListPage__link">
                                                         <div class="BookListPage__box">
                                                             <img
                                                                     alt=""
@@ -404,12 +485,16 @@
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'G-ZRQ94TXNJE');
+  gtag('config', 'G-ZRQ94TXNJE', {
+    songbook: null,
+    song: null
+  });
 </script>
 
 
+
         <script>
-            const info = JSON.parse('{"builtAt":"09/11/2025, 21:52:14 UTC","commitHash":"1c95df2","version":"1.1.0"}');
+            const info = JSON.parse('{"builtAt":"09/11/2025, 21:52:37 UTC","commitHash":"21231d6","version":"1.1.0"}');
             const styles = [
                 'color: #957742',
                 'background-color: #77CEF1',

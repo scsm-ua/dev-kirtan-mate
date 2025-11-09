@@ -28,7 +28,61 @@
         <meta name="twitter:description" content="śuno, he rasika jon    kṛṣṇa guṇa agaṇon
     ananta kohite nāhi pāre..." />
 
-        <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://dev.kirtan.site/#website","url":"https://dev.kirtan.site/","name":"Kirtan Site","description":"śuno, he rasika jon    kṛṣṇa guṇa agaṇon\n    ananta kohite nāhi pāre...","inLanguage":"en-GB"},{"@type":"CollectionPage","@id":"https://dev.kirtan.site/en/shiuno-he-rasika-jon-krishna-guna-aganon.html","url":"https://dev.kirtan.site/en/shiuno-he-rasika-jon-krishna-guna-aganon.html","name":"Guṇa-Kīrtan. by Śrīla Bhakti Vinod Ṭhākur","isPartOf":{"@id":"https://dev.kirtan.site/#website"}}]}</script>
+<link rel="alternate" hreflang="en" href="https://dev.kirtan.site/en/shiuno-he-rasika-jon-krishna-guna-aganon.html" />
+<link rel="alternate" hreflang="ru" href="https://dev.kirtan.site/ru/shiuno-he-rasika-jon-krishna-guna-aganon.html" />
+<link rel="alternate" hreflang="es" href="https://dev.kirtan.site/es/shiuno-he-rasika-jon-krishna-guna-aganon.html" />
+<link rel="alternate" hreflang="x-default" href="https://dev.kirtan.site/en/shiuno-he-rasika-jon-krishna-guna-aganon.html" />
+
+
+        <script type="application/ld+json">{
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@type": "CollectionPage",
+            "@id": "https://dev.kirtan.site/en/shiuno-he-rasika-jon-krishna-guna-aganon.html",
+            "url": "https://dev.kirtan.site/en/shiuno-he-rasika-jon-krishna-guna-aganon.html",
+            "name": "Guṇa-Kīrtan. by Śrīla Bhakti Vinod Ṭhākur",
+            "inLanguage": "en",
+            "isPartOf": {
+                "@id": "https://dev.kirtan.site/#website"
+            }
+        },
+        {
+            "@type": "MusicComposition",
+            "@id": "https://dev.kirtan.site/en/shiuno-he-rasika-jon-krishna-guna-aganon.html#composition",
+            "url": "https://dev.kirtan.site/en/shiuno-he-rasika-jon-krishna-guna-aganon.html",
+            "name": "Guṇa-Kīrtan",
+            "alternateName": [
+                "śuno, he rasika jon    kṛṣṇa guṇa agaṇon"
+            ],
+            "composer": {
+                "@type": "Person",
+                "name": "Śrīla Bhakti Vinod Ṭhākur"
+            },
+            "isPartOf": {
+                "@id": "https://dev.kirtan.site/#website"
+            },
+            "about": [
+                {
+                    "@type": "Thing",
+                    "name": "Bhakti Yoga"
+                },
+                {
+                    "@type": "Thing",
+                    "name": "Gaudiya Vaishnavism"
+                }
+            ],
+            "genre": [
+                "Devotional",
+                "Bhajan",
+                "Kirtan"
+            ],
+            "mainEntityOfPage": {
+                "@id": "https://dev.kirtan.site/en/shiuno-he-rasika-jon-krishna-guna-aganon.html"
+            }
+        }
+    ]
+}</script>
         
         <link rel="apple-touch-icon" sizes="57x57" href="https://dev.kirtan.site/css/favicon/apple-icon-57x57.png">
         <link rel="apple-touch-icon" sizes="60x60" href="https://dev.kirtan.site/css/favicon/apple-icon-60x60.png">
@@ -58,7 +112,13 @@
 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tingle/0.16.0/tingle.min.css" integrity="sha512-b+T2i3P45i1LZM7I00Ci5QquB9szqaxu+uuk5TUSGjZQ4w4n+qujQiIuvTv2BxE7WCGQCifNMksyKILDiHzsOg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <script src="https://cdnjs.cloudflare.com/ajax/libs/tingle/0.16.0/tingle.min.js" integrity="sha512-2B9/byNV1KKRm5nQ2RLViPFD6U4dUjDGwuW1GU+ImJh8YinPU9Zlq1GzdTMO+G2ROrB5o1qasJBy1ttYz0wCug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script>
+            var locals = {
+                pathsToImages: 'https://dev.kirtan.site/css'
+            };
+        </script>
         <script src="https://dev.kirtan.site/js/user-choice.js"></script>
+        <script src="https://dev.kirtan.site/js/three-mode-switch.js"></script>
     </head>
 
     <body>
@@ -84,7 +144,7 @@
 </header>
 
 
-                <main class="Main SongPage">
+                <main class="Main SongPage transition-ready">
                     <div class="Main__container SongPage__container">
                         <div class="SongPage__content">
                             <link
@@ -152,13 +212,9 @@
                             <main class="SongPage__main">
                                 
                                     <div class="SongPage__toggle">
-                                        <label class="Toggle">
-                                            <input class="Toggle__checkbox" id="toggle-checkbox" type="checkbox" checked>
-                                            <div class="Toggle__switch"></div>
-                                            <span class="Toggle__label SongPage__show">
-                                                Show translation
-                                            </span>
-                                        </label>
+                                        <three-mode-switch
+                                            label="Show verses / translation"
+                                        ></three-mode-switch>
                                     </div>
 
                                     <ul class="SongPage__verses >
@@ -175,33 +231,35 @@
     
 
     
-        <ul class="SongVerse__text">
-            
+        <div class="Collapse Collapse__show" data-elem="verse">
+            <ul class="SongVerse__text">
                 
-                    <li class="SongVerse__line ">
-                        śuno, he rasika jon<span class="SongVerse__space">&nbsp;&nbsp;&nbsp;&nbsp;</span>kṛṣṇa guṇa agaṇon
-                    </li>
+                    
+                        <li class="SongVerse__line ">
+                            śuno, he rasika jon<span class="SongVerse__space">&nbsp;&nbsp;&nbsp;&nbsp;</span>kṛṣṇa guṇa agaṇon
+                        </li>
+                    
                 
-            
+                    
+                        <li class="SongVerse__line SongVerse__line_indent_1">
+                            ananta kohite nāhi pāre
+                        </li>
+                    
                 
-                    <li class="SongVerse__line SongVerse__line_indent_1">
-                        ananta kohite nāhi pāre
-                    </li>
+                    
+                        <li class="SongVerse__line ">
+                            kṛṣṇa jagatera guru<span class="SongVerse__space">&nbsp;&nbsp;&nbsp;&nbsp;</span>kṛṣṇa vāñchākalpataru
+                        </li>
+                    
                 
-            
+                    
+                        <li class="SongVerse__line SongVerse__line_indent_1">
+                            nāviko se bhava-pārābāre
+                        </li>
+                    
                 
-                    <li class="SongVerse__line ">
-                        kṛṣṇa jagatera guru<span class="SongVerse__space">&nbsp;&nbsp;&nbsp;&nbsp;</span>kṛṣṇa vāñchākalpataru
-                    </li>
-                
-            
-                
-                    <li class="SongVerse__line SongVerse__line_indent_1">
-                        nāviko se bhava-pārābāre
-                    </li>
-                
-            
-        </ul>
+            </ul>
+        </div>
     
 
     
@@ -234,33 +292,35 @@
     
 
     
-        <ul class="SongVerse__text">
-            
+        <div class="Collapse Collapse__show" data-elem="verse">
+            <ul class="SongVerse__text">
                 
-                    <li class="SongVerse__line ">
-                        hṛdoya pīḍita jā’ra<span class="SongVerse__space">&nbsp;&nbsp;&nbsp;&nbsp;</span>kṛṣṇa chikitsaka tā’ra
-                    </li>
+                    
+                        <li class="SongVerse__line ">
+                            hṛdoya pīḍita jā’ra<span class="SongVerse__space">&nbsp;&nbsp;&nbsp;&nbsp;</span>kṛṣṇa chikitsaka tā’ra
+                        </li>
+                    
                 
-            
+                    
+                        <li class="SongVerse__line SongVerse__line_indent_1">
+                            bhava roga nāśite chatura
+                        </li>
+                    
                 
-                    <li class="SongVerse__line SongVerse__line_indent_1">
-                        bhava roga nāśite chatura
-                    </li>
+                    
+                        <li class="SongVerse__line ">
+                            kṛṣṇa bahirmukha jone<span class="SongVerse__space">&nbsp;&nbsp;&nbsp;&nbsp;</span>premāmṛta vitaraṇe
+                        </li>
+                    
                 
-            
+                    
+                        <li class="SongVerse__line SongVerse__line_indent_1">
+                            krame loya nija antaḥpura
+                        </li>
+                    
                 
-                    <li class="SongVerse__line ">
-                        kṛṣṇa bahirmukha jone<span class="SongVerse__space">&nbsp;&nbsp;&nbsp;&nbsp;</span>premāmṛta vitaraṇe
-                    </li>
-                
-            
-                
-                    <li class="SongVerse__line SongVerse__line_indent_1">
-                        krame loya nija antaḥpura
-                    </li>
-                
-            
-        </ul>
+            </ul>
+        </div>
     
 
     
@@ -293,33 +353,35 @@
     
 
     
-        <ul class="SongVerse__text">
-            
+        <div class="Collapse Collapse__show" data-elem="verse">
+            <ul class="SongVerse__text">
                 
-                    <li class="SongVerse__line ">
-                        karma-bandha jñāna-bandha, āveśe mānava andha
-                    </li>
+                    
+                        <li class="SongVerse__line ">
+                            karma-bandha jñāna-bandha, āveśe mānava andha
+                        </li>
+                    
                 
-            
+                    
+                        <li class="SongVerse__line SongVerse__line_indent_1">
+                            tāre kṛṣṇa karuṇā sāgara
+                        </li>
+                    
                 
-                    <li class="SongVerse__line SongVerse__line_indent_1">
-                        tāre kṛṣṇa karuṇā sāgara
-                    </li>
+                    
+                        <li class="SongVerse__line ">
+                            pādapadma madhu diyā, andha-bhāva ghuchāiyā
+                        </li>
+                    
                 
-            
+                    
+                        <li class="SongVerse__line SongVerse__line_indent_1">
+                            charaṇe korena anuchara
+                        </li>
+                    
                 
-                    <li class="SongVerse__line ">
-                        pādapadma madhu diyā, andha-bhāva ghuchāiyā
-                    </li>
-                
-            
-                
-                    <li class="SongVerse__line SongVerse__line_indent_1">
-                        charaṇe korena anuchara
-                    </li>
-                
-            
-        </ul>
+            </ul>
+        </div>
     
 
     
@@ -352,33 +414,35 @@
     
 
     
-        <ul class="SongVerse__text">
-            
+        <div class="Collapse Collapse__show" data-elem="verse">
+            <ul class="SongVerse__text">
                 
-                    <li class="SongVerse__line ">
-                        vidhi-mārga rata jone<span class="SongVerse__space">&nbsp;&nbsp;&nbsp;&nbsp;</span>svādhīnatā ratna dāne
-                    </li>
+                    
+                        <li class="SongVerse__line ">
+                            vidhi-mārga rata jone<span class="SongVerse__space">&nbsp;&nbsp;&nbsp;&nbsp;</span>svādhīnatā ratna dāne
+                        </li>
+                    
                 
-            
+                    
+                        <li class="SongVerse__line SongVerse__line_indent_1">
+                            rāgamārge karāna praveśa
+                        </li>
+                    
                 
-                    <li class="SongVerse__line SongVerse__line_indent_1">
-                        rāgamārge karāna praveśa
-                    </li>
+                    
+                        <li class="SongVerse__line ">
+                            rāga-vaśavarti ho’ye<span class="SongVerse__space">&nbsp;&nbsp;&nbsp;&nbsp;</span>pārakīya-bhāvāśroye
+                        </li>
+                    
                 
-            
+                    
+                        <li class="SongVerse__line SongVerse__line_indent_1">
+                            lobhe jīva kṛṣṇa-premāveśa
+                        </li>
+                    
                 
-                    <li class="SongVerse__line ">
-                        rāga-vaśavarti ho’ye<span class="SongVerse__space">&nbsp;&nbsp;&nbsp;&nbsp;</span>pārakīya-bhāvāśroye
-                    </li>
-                
-            
-                
-                    <li class="SongVerse__line SongVerse__line_indent_1">
-                        lobhe jīva kṛṣṇa-premāveśa
-                    </li>
-                
-            
-        </ul>
+            </ul>
+        </div>
     
 
     
@@ -411,33 +475,35 @@
     
 
     
-        <ul class="SongVerse__text">
-            
+        <div class="Collapse Collapse__show" data-elem="verse">
+            <ul class="SongVerse__text">
                 
-                    <li class="SongVerse__line ">
-                        premāmṛta-vāri-dhārā<span class="SongVerse__space">&nbsp;&nbsp;&nbsp;&nbsp;</span>sadā pānarata tā̐’rā
-                    </li>
+                    
+                        <li class="SongVerse__line ">
+                            premāmṛta-vāri-dhārā<span class="SongVerse__space">&nbsp;&nbsp;&nbsp;&nbsp;</span>sadā pānarata tā̐’rā
+                        </li>
+                    
                 
-            
+                    
+                        <li class="SongVerse__line SongVerse__line_indent_1">
+                            kṛṣṇa tā̐hādera bandhu pati
+                        </li>
+                    
                 
-                    <li class="SongVerse__line SongVerse__line_indent_1">
-                        kṛṣṇa tā̐hādera bandhu pati
-                    </li>
+                    
+                        <li class="SongVerse__line ">
+                            sei saba vraja-jana<span class="SongVerse__space">&nbsp;&nbsp;&nbsp;&nbsp;</span>sukalyāṇa-niketana
+                        </li>
+                    
                 
-            
+                    
+                        <li class="SongVerse__line SongVerse__line_indent_1">
+                            dīnahīna vinodera gati
+                        </li>
+                    
                 
-                    <li class="SongVerse__line ">
-                        sei saba vraja-jana<span class="SongVerse__space">&nbsp;&nbsp;&nbsp;&nbsp;</span>sukalyāṇa-niketana
-                    </li>
-                
-            
-                
-                    <li class="SongVerse__line SongVerse__line_indent_1">
-                        dīnahīna vinodera gati
-                    </li>
-                
-            
-        </ul>
+            </ul>
+        </div>
     
 
     
@@ -692,7 +758,7 @@
                 if (telegraph_href) {
                     tgCopyBox.style.display = 'block';
                 }
-                
+
                 input.value = href;
                 tgInput.value = telegraph_href;
 
@@ -730,35 +796,21 @@
                 const embeds = document.querySelectorAll('[data-embed]');
 
                 embeds.forEach((elem) => {
-                    const frameContainer = elem.parentNode.querySelector('.Collapse');
+                    const frameContainer = elem.parentNode.querySelector('.EmbedCollapse');
 
                     elem.addEventListener('click', () => {
-                        const isShown = frameContainer.classList.contains('Collapse__show');
+                        const isShown = frameContainer.classList.contains('EmbedCollapse__show');
                         const iFrame = elem.parentNode.querySelector('iframe');
                         const player = SC.Widget(iFrame);
 
                         elem.classList.toggle('show');
-                        frameContainer.classList.toggle('Collapse__show');
+                        frameContainer.classList.toggle('EmbedCollapse__show');
 
                         player.bind(SC.Widget.Events.READY, () =>
                             isShown ? player.pause() : player.play()
                         );
                     });
                 });
-            })();
-        </script>
-
-        <script>
-            /**
-             * Collapse-expand verse translations.
-             */
-            (function () {
-                const toggle = document.getElementById('toggle-checkbox');
-                const targets = [...document.querySelectorAll('[data-elem="translation"]')];
-
-                toggle.addEventListener('change', () =>
-                    targets.forEach((t) => t.classList.toggle('Collapse__show'))
-                );
             })();
         </script>
 
@@ -900,6 +952,112 @@
             }) ();
         </script>
 
+        <script>
+            /**
+             * Collapse-expand verses / translations.
+             */
+            (function () {
+                const translations = [...document.querySelectorAll('[data-elem="translation"]')];
+                const wordByWord = [...document.querySelectorAll('[data-elem="wordByWord"]')];
+                const verses = [...document.querySelectorAll('[data-elem="verse"]')];
+                const main = [...document.querySelectorAll('.Main')];
+
+                const collapseShowClass = 'Collapse__show';
+
+                var transitionAdded = false;
+
+                function addTransitions() {
+                    if (transitionAdded) return;
+
+                    transitionAdded = true;
+                    [...document.querySelectorAll('.Collapse')]
+                        .forEach((v) => v.classList.add('Collapse__transition'));
+
+                    [...document.querySelectorAll('.transition-ready')]
+                        .forEach((v) => v.classList.add('enable-transition'));
+                }
+
+                function toggle(targets, add) {
+                    targets.forEach((t) => toggleCollapse(t, add));
+                }
+
+                function toggleTranslationOnlyMode(active) {
+                    toggleClass(main, active, 'translation-only-mode');
+                }
+
+                function toggleClass(targets, add, className) {
+                    const method = add ? 'add' : 'remove';
+                    targets.forEach((t) => t.classList[method](className));
+                }
+
+                function toggleCollapse(el, show) {
+                    if (show && !el.classList.contains(collapseShowClass)) {
+                        var height;
+                        if (transitionAdded) {
+                            height = el.scrollHeight + 'px';
+                        } else {
+                            height = 'auto';
+                        }
+
+                        el.style.height = height; // animate from 0 → actual height
+                        el.classList.add(collapseShowClass);
+                        requestAnimationFrame(() => {
+                            // `scrollHeight` will be changed after 'Collapse__show' because of changed line-height.
+                            el.style.height = height; // animate from 0 → actual height
+
+
+                        });
+                    } else if (!show && el.classList.contains(collapseShowClass)) {
+                        el.style.height = el.scrollHeight + 'px'; // start from current height
+                        requestAnimationFrame(() => {
+                            el.style.height = '0px'; // animate down
+                            el.classList.remove(collapseShowClass);
+                        });
+                    }
+
+                    // Clean up inline height after transition
+                    el.addEventListener('transitionend', function handler(e) {
+                        if (show) {
+                            el.style.height = 'auto'; // keep auto after expand
+                        } else {
+                            el.style.height = '0px';
+                        }
+                        el.removeEventListener('transitionend', handler);
+                    });
+                }
+
+                function performUpdate(mode) {
+                    if (mode === 1) {
+                        toggle(verses, true);
+                        toggle(wordByWord, false);
+                        toggle(translations, false);
+                        toggleTranslationOnlyMode(false);
+                    } else if (mode === 2) {
+                        toggle(verses, false);
+                        toggle(wordByWord, false);
+                        toggle(translations, true);
+                        toggleTranslationOnlyMode(true);
+                    } else {
+                        toggle(verses, true);
+                        toggle(wordByWord, true);
+                        toggle(translations, true);
+                        toggleTranslationOnlyMode(false);
+                    }
+                }
+
+                document.addEventListener(ThreeModeSwitch.EVENT_NAME, ({ detail }) => {
+                    addTransitions();
+                    performUpdate(detail.value);
+                    setSongDisplayMode(detail.value);
+                });
+
+                const initialMode = getSongDisplayMode();
+                if (initialMode !== 3) {
+                    performUpdate(initialMode);
+                }
+            })();
+        </script>
+
         
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZRQ94TXNJE"></script>
@@ -908,8 +1066,12 @@
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'G-ZRQ94TXNJE');
+  gtag('config', 'G-ZRQ94TXNJE', {
+    songbook: 'en',
+    song: 'shiuno-he-rasika-jon-krishna-guna-aganon'
+  });
 </script>
+
 
     </body>
 </html>
