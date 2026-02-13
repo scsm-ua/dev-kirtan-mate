@@ -74,7 +74,6 @@ function convertIndexToJSON(text) {
 function convertContentsToJSON(songbook_id, text) {
     var lines = text.split(/\n/);
     var categories = [];
-    var last_line_id;
 
     function getLastCategory(options) {
         if ((options && options.create_new) || !categories.length) {
@@ -109,13 +108,15 @@ function convertContentsToJSON(songbook_id, text) {
                     fileName: fileName,
                     page: getSongPage(songbook_id, filename),
                     embeds: getSongEmbedsTitles(songbook_id, filename),
+                    meta: {
+                        translation: getSongMeta(songbook_id, filename)?.translation
+                    },
                     telegraphPath: getExistingTelegraphPage(pageRelativePath)?.path
                 });
                 break;
             default:
             // Silent. Too much non used lines.
         }
-        last_line_id = line_id;
     });
 
     return categories;
@@ -182,7 +183,15 @@ function getSongPage(songbook_id, filename) {
     if (!song_json) {
         return;
     }
-    return song_json.attributes?.page;
+    return song_json.meta?.page;
+}
+
+function getSongMeta(songbook_id, filename) {
+    var song_json = getSongJSON(songbook_id, filename);
+    if (!song_json) {
+        return;
+    }
+    return song_json.meta;
 }
 
 function getSongFirstLine(songbook_id, filename) {
@@ -256,12 +265,11 @@ function getSongsContents(songbook_id) {
             if (duplicates.length > 1) {
                 item.duplicates = duplicates;
             }
-        });
-        list.forEach(item => {
-            item.page_number = getContentSongPageNumber(item);
-        });
 
-        list.forEach(item => {
+            item.no_translation = item.meta?.translation === 'no';
+
+            item.page_number = getContentSongPageNumber(item);
+
             var pageHref = `${ PATHS.RELATIVE.toPublicSongs(songbook_id) }/${ item.fileName }`;
             var page = getExistingTelegraphPage(pageHref);
             if (page) {
