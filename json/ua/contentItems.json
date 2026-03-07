@@ -35,9 +35,7 @@
         "aliasName": "ванде вайкунтха-вритті-стхам",
         "fileName": "vande-vaikuntha-vritti-stham.html",
         "page": "11/1",
-        "meta": {
-          "translation": "no"
-        },
+        "meta": {},
         "telegraphPath": "SHrīla-Bgaktі-Bіmal-Avadgӯt-Maharadzh-01-03"
       },
       {
@@ -120,7 +118,7 @@
         "fileName": "vande-bhaktivinodam-shri-gaura-shiakti-svarupakam.html",
         "page": 17,
         "meta": {
-          "translation": "no"
+          "translation": "auto"
         },
         "telegraphPath": "SHrīla-Bgaktі-Vіnod-Thakur-01-03"
       },
@@ -599,15 +597,15 @@
         "telegraphPath": "Mahaprasada-01-02"
       },
       {
-        "id": "shorira-avidya-jal-jodendriya-tahe-kal",
+        "id": "bhai-re-shorira-avidya-jal-jodendriya-tahe-kal",
         "title": "Шрī Праса̄да-сева̄я Ґīті",
         "name": "Шрī Праса̄да-сева̄я Ґīті",
         "aliasName": "бга̄і-ре!",
-        "fileName": "shorira-avidya-jal-jodendriya-tahe-kal.html",
+        "fileName": "bhai-re-shorira-avidya-jal-jodendriya-tahe-kal.html",
         "meta": {
           "translation": "no"
         },
-        "telegraphPath": "SHrī-Prasada-sevaya-Gītі-01-03"
+        "telegraphPath": "SHrī-Prasada-sevaya-Gītі-02-21"
       }
     ]
   },
@@ -729,9 +727,7 @@
           "Шрила Говинда Махарадж",
           "Шрила Авадхут Махарадж"
         ],
-        "meta": {
-          "translation": "no"
-        },
+        "meta": {},
         "telegraphPath": "SHrī-SHrī-Prabgupada-padma-Stavakah-01-03"
       }
     ]
@@ -1231,7 +1227,7 @@
         "fileName": "ohe-harinam-tava-mahima-apara.html",
         "page": 144,
         "meta": {
-          "translation": "no"
+          "translation": "auto"
         },
         "telegraphPath": "SHrī-Namashtakam-7-01-02"
       },
@@ -1537,7 +1533,7 @@
           "Шрила Говинда Махарадж"
         ],
         "meta": {
-          "translation": "no"
+          "translation": "auto"
         },
         "telegraphPath": "SHrī-Rӯpa-Mandzharī-pada-01-03"
       },
@@ -1955,9 +1951,7 @@
           "Шрила Ачарья Махарадж",
           "Каракас Дхам"
         ],
-        "meta": {
-          "translation": "no"
-        },
+        "meta": {},
         "telegraphPath": "Dzhaya-YAshoda-Nandana-Krishna-01-02"
       },
       {
@@ -2047,7 +2041,7 @@
         "fileName": "pralaya-payodhi-jale-dhritavan-asi-vedam.html",
         "page": 225,
         "meta": {
-          "translation": "no"
+          "translation": "auto"
         },
         "telegraphPath": "SHrī-Dashyavatar-stotram-01-02"
       },
@@ -2062,7 +2056,7 @@
           "Bhakti Lalita Devi"
         ],
         "meta": {
-          "translation": "no"
+          "translation": "auto"
         },
         "telegraphPath": "SHrī-Nrisіmga-Pranam-01-02"
       },
@@ -2077,7 +2071,7 @@
           "Bhakti Lalita Devi"
         ],
         "meta": {
-          "translation": "no"
+          "translation": "auto"
         },
         "telegraphPath": "SHrī-SHrī-Damodarashtakam-01-02"
       },
@@ -2364,6 +2358,17 @@
           "translation": "no"
         },
         "telegraphPath": "Maya-Duratyaya-01-02"
+      },
+      {
+        "id": "ami-guru-dasa-nahi-anya",
+        "title": "Сварӯподбодгана",
+        "name": "Сварӯподбодгана",
+        "aliasName": "а̄мі каріба бграмана чаудда-бгувана",
+        "fileName": "ami-guru-dasa-nahi-anya.html",
+        "meta": {
+          "translation": "auto"
+        },
+        "telegraphPath": "Svarӯpodbodgana-Probudzhennya-іstinnogo-YA-02-21"
       }
     ]
   }

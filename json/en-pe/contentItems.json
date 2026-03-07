@@ -1053,7 +1053,9 @@
         "embeds": [
           "Шрила Мадхусудан Махарадж"
         ],
-        "meta": {},
+        "meta": {
+          "translation": "no"
+        },
         "telegraphPath": "Śrī-Śrī-Prema-dhāma-deva-Stotram-03-14-6"
       }
     ]

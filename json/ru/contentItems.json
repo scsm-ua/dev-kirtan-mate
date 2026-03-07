@@ -2091,6 +2091,17 @@
         "page": 251,
         "meta": {},
         "telegraphPath": "SHri-Nagara-kirtana-pesn-8-02-22"
+      },
+      {
+        "id": "yadi-te-hari-pada-saroja-sudha",
+        "title": "Шри Годрума-Чандра-Бхаджана-Упадеша",
+        "name": "Шри Годрума-Чандра-Бхаджана-Упадеша",
+        "aliasName": "йади тэ хари-па̄да-сароджа судха̄-",
+        "fileName": "yadi-te-hari-pada-saroja-sudha.html",
+        "embeds": [
+          "Shrila Bhakti Ranjan Madhusudan Maharaj"
+        ],
+        "meta": {}
       }
     ]
   },

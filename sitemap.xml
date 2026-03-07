@@ -1015,6 +1015,12 @@
         <priority>0.8</priority>
     </url>
     
+    <url>
+        <loc>https://dev.kirtan.site/en/ami-guru-dasa-nahi-anya.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
 
     <url>
         <loc>https://dev.kirtan.site/ru/</loc>
@@ -1996,6 +2002,12 @@
     
     <url>
         <loc>https://dev.kirtan.site/ru/hari-bole-modera-gaura-elo.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://dev.kirtan.site/ru/yadi-te-hari-pada-saroja-sudha.html</loc>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -4471,7 +4483,7 @@
     </url>
     
     <url>
-        <loc>https://dev.kirtan.site/lv/sri-gaura-arati.html</loc>
+        <loc>https://dev.kirtan.site/lv/jaya-jaya-gaurachander-arotiko-shobha.html</loc>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -4628,6 +4640,60 @@
     
     <url>
         <loc>https://dev.kirtan.site/lv/krishnotkirtana-gana-nartana-parau.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://dev.kirtan.site/lv/ohe-harinam-tava-mahima-apara.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://dev.kirtan.site/lv/ki-rupe-paibo-seva-mui-durachara.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://dev.kirtan.site/lv/bhajahu-re-mana-shri-nanda-nandana.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://dev.kirtan.site/lv/manasa-deho-geho-jo-kichu-mora.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://dev.kirtan.site/lv/e-ghora-samsare-podiya-manava.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://dev.kirtan.site/lv/emona-durmati-samsara-bhitore.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://dev.kirtan.site/lv/ki-jani-ki-bale-tomara-dhamete.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://dev.kirtan.site/lv/atma-nivedana-tuya-pade-kori.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://dev.kirtan.site/lv/tumi-sarveshvareshvara-vrajendra-kumara.html</loc>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -4916,7 +4982,7 @@
     </url>
     
     <url>
-        <loc>https://dev.kirtan.site/ua/shorira-avidya-jal-jodendriya-tahe-kal.html</loc>
+        <loc>https://dev.kirtan.site/ua/bhai-re-shorira-avidya-jal-jodendriya-tahe-kal.html</loc>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -5643,6 +5709,12 @@
     
     <url>
         <loc>https://dev.kirtan.site/ua/maha-bhaya-shiankula-e-bhava-tarangini.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://dev.kirtan.site/ua/ami-guru-dasa-nahi-anya.html</loc>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
